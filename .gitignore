@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Data (regeneratable via scripts/ingest_amc.py; large & derived).
+# data/raw/live/*.json (the raw scraped snapshots) ARE committed --
+# they double as seed data for `scripts/ingest_amc.py --mode seed`
+# when live network access isn't available.
+data/amc10.sqlite3
+data/raw/.http_cache/
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+!frontend/.env.example
+
+# Editors / OS
+.DS_Store
+*.swp

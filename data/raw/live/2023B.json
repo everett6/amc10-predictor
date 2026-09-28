@@ -1,0 +1,678 @@
+{
+ "source_url": "https://live.poshenloh.com/past-contests/amc10/2023B",
+ "year": 2023,
+ "label": "B",
+ "problems": [
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 1,
+   "question": "Mrs. Jones is pouring orange juice into four identical glasses for her four sons. She fills the first three glasses completely but runs out of juice when the fourth glass is only \\(\\frac{1}{3}\\) full. What fraction of a glass must Mrs. Jones pour from each of the first three glasses into the fourth glass so that all four glasses will have the same amount of juice?",
+   "choices": {
+    "a": "\\(\\dfrac{1}{12}\\)",
+    "b": "\\(\\dfrac{1}{4}\\)",
+    "c": "\\(\\dfrac{1}{6}\\)",
+    "d": "\\(\\dfrac{1}{8}\\)",
+    "e": "\\(\\dfrac{2}{9}\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "fraction"
+   ],
+   "seed_elo": 860.0,
+   "solve_time_seconds": 50.0,
+   "solution_text": "There's \\(3 + \\frac{1}{3} = \\frac{10}{3}\\) glasses of juice in all. Split four ways, each glass ends up with \\(\\frac{10}{3} \\div 4 = \\frac{5}{6}.\\) So a full glass has to pour out \\(1 - \\frac{5}{6} = \\frac{1}{6}.\\) Thus, C is the correct answer.",
+   "amc10_problem_number": 1,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 7,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 2,
+   "question": "Carlos went to a sports store to buy running shoes. Running shoes were on sale, with prices reduced by \\(20\\%\\) on every pair of shoes. Carlos also knew that he had to pay a \\(7.5\\%\\) sales tax on the discounted price. He had \\(43\\) dollars. What is the original (before discount) price of the most expensive shoes he could afford to buy?",
+   "choices": {
+    "a": "\\(\\$46\\)",
+    "b": "\\(\\$50\\)",
+    "c": "\\(\\$48\\)",
+    "d": "\\(\\$47\\)",
+    "e": "\\(\\$49\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "percentage",
+    "inequality"
+   ],
+   "seed_elo": 990.0,
+   "solve_time_seconds": 50.0,
+   "solution_text": "Let \\(P\\) be the original price. After the discount and tax, Carlos pays \\(0.8P \\times 1.075 = 0.86P.\\) He can afford it when \\(0.86P \\le 43,\\) which means \\(P \\le 50.\\) So the priciest shoes he can swing start at \\(\\$50.\\) Therefore, the answer is B.",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 10,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 3,
+   "question": "A \\(3\\)-\\(4\\)-\\(5\\) right triangle is inscribed in circle \\(A,\\) and a \\(5\\)-\\(12\\)-\\(13\\) right triangle is inscribed in circle \\(B.\\) What is the ratio of the area of circle \\(A\\) to the area of circle \\(B?\\)",
+   "choices": {
+    "a": "\\(\\dfrac{9}{25}\\)",
+    "b": "\\(\\dfrac{1}{9}\\)",
+    "c": "\\(\\dfrac{1}{5}\\)",
+    "d": "\\(\\dfrac{25}{169}\\)",
+    "e": "\\(\\dfrac{4}{25}\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "circumcircle, circumcenter, and circumradius",
+    "right triangle",
+    "area ratio"
+   ],
+   "seed_elo": 1080.0,
+   "solve_time_seconds": 45.0,
+   "solution_text": "The hypotenuse of a right triangle is a diameter of the circle around it. So circle \\(A\\) has diameter \\(5\\) and circle \\(B\\) has diameter \\(13.\\) Areas scale as the square of that, giving \\(\\left(\\frac{5}{13}\\right)^2 = \\frac{25}{169}.\\) Thus, D is the correct answer.",
+   "amc10_problem_number": 3,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 11,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 4,
+   "question": "Jackson's paintbrush makes a narrow strip with a width of \\(6.5\\) millimeters. Jackson has enough paint to make a strip \\(25\\) meters long. How many square centimeters of paper could Jackson cover with paint?",
+   "choices": {
+    "a": "\\(162,500\\)",
+    "b": "\\(162.5\\)",
+    "c": "\\(1,625\\)",
+    "d": "\\(1,625,000\\)",
+    "e": "\\(16,250\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "unit conversion",
+    "rectangle",
+    "area"
+   ],
+   "seed_elo": 1200.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "Put everything in centimeters first. The strip is \\(6.5\\) mm \\(= 0.65\\) cm wide and \\(25\\) m \\(= 2500\\) cm long. Its area is \\(0.65 \\times 2500 = 1625\\) square centimeters. Therefore, the answer is C.",
+   "amc10_problem_number": 5,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 5,
+   "question": "Maddy and Lara see a list of numbers written on a blackboard. Maddy adds \\(3\\) to each number in the list and finds that the sum of her new numbers is \\(45.\\) Lara multiplies each number in the list by \\(3\\) and finds that the sum of her new numbers is also \\(45.\\) How many numbers are written on the blackboard?",
+   "choices": {
+    "a": "\\(10\\)",
+    "b": "\\(5\\)",
+    "c": "\\(6\\)",
+    "d": "\\(8\\)",
+    "e": "\\(9\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "system of equations",
+    "summation"
+   ],
+   "seed_elo": 1130.0,
+   "solve_time_seconds": 50.0,
+   "solution_text": "Let \\(S\\) be the original sum and \\(n\\) the number of entries. Maddy adds \\(3\\) to each, so her total is \\(S + 3n = 45.\\) Lara triples each, so hers is \\(3S = 45,\\) giving \\(S = 15.\\) Then \\(15 + 3n = 45,\\) so \\(n = 10.\\) Thus, A is the correct answer.",
+   "amc10_problem_number": 4,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 12,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 6,
+   "question": "Let \\(L_1 = 1,\\) \\(L_2 = 3,\\) and \\(L_{n+2} = L_{n+1} + L_n\\) for \\(n \\ge 1.\\) How many terms in the sequence \\(L_1,\\) \\(L_2,\\) \\(L_3,\\) \\(\\ldots,\\) \\(L_{2023}\\) are even?",
+   "choices": {
+    "a": "\\(673\\)",
+    "b": "\\(1011\\)",
+    "c": "\\(675\\)",
+    "d": "\\(1010\\)",
+    "e": "\\(674\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "parity",
+    "recursion",
+    "pattern recognition"
+   ],
+   "seed_elo": 1250.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "Track the parities: \\(1, 3, 4, 7, 11, 18, \\ldots\\) run odd, odd, even, then repeat with period \\(3.\\) So \\(L_n\\) is even exactly when \\(n\\) is divisible by \\(3.\\) Among \\(1 \\le n \\le 2023,\\) that's \\(\\lfloor \\frac{2023}{3} \\rfloor = 674\\) multiples of \\(3.\\) Therefore, the answer is E.",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 5,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 7,
+   "question": "Square \\(ABCD\\) is rotated \\(20^\\circ\\) clockwise about its center to obtain square \\(EFGH,\\) as shown below. What is the degree measure of \\(\\angle EAB?\\)",
+   "choices": {
+    "a": "\\(24^\\circ\\)",
+    "b": "\\(35^\\circ\\)",
+    "c": "\\(30^\\circ\\)",
+    "d": "\\(32^\\circ\\)",
+    "e": "\\(20^\\circ\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "angle chasing",
+    "isosceles triangle",
+    "transformation"
+   ],
+   "seed_elo": 1310.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "Let \\(O\\) be the shared center. The rotation carries \\(A\\) to \\(E,\\) so \\(OA = OE\\) and \\(\\angle AOE = 20^\\circ.\\) That makes triangle \\(OAE\\) isosceles, with base angles \\(\\angle OAE = \\frac{180^\\circ - 20^\\circ}{2} = 80^\\circ.\\) The diagonal \\(AC\\) splits the right angle at \\(A,\\) so \\(\\angle OAB = 45^\\circ.\\) Subtracting, \\(\\angle EAB = 80^\\circ - 45^\\circ = 35^\\circ.\\) Thus, B is the correct answer.",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 14,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 8,
+   "question": "What is the units digit of \\[2022^{2023} + 2023^{2022}?\\]",
+   "choices": {
+    "a": "\\(7\\)",
+    "b": "\\(1\\)",
+    "c": "\\(9\\)",
+    "d": "\\(5\\)",
+    "e": "\\(3\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "units digit",
+    "modular arithmetic",
+    "pattern recognition"
+   ],
+   "seed_elo": 1250.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "Only the units digits matter. Powers of \\(2\\) cycle \\(2, 4, 8, 6\\) with period \\(4,\\) and \\(2023 \\equiv 3 \\pmod 4,\\) so \\(2022^{2023}\\) ends in \\(8.\\) Powers of \\(3\\) cycle \\(3, 9, 7, 1,\\) and \\(2022 \\equiv 2 \\pmod 4,\\) so \\(2023^{2022}\\) ends in \\(9.\\) Add them: \\(8 + 9 = 17,\\) so the units digit is \\(7.\\) Therefore, the answer is A.",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 5,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 9,
+   "question": "The numbers \\(16\\) and \\(25\\) are a pair of consecutive positive perfect squares whose difference is \\(9.\\) How many pairs of consecutive positive perfect squares have a difference of less than or equal to \\(2023?\\)",
+   "choices": {
+    "a": "\\(674\\)",
+    "b": "\\(1011\\)",
+    "c": "\\(1010\\)",
+    "d": "\\(2019\\)",
+    "e": "\\(2017\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "perfect square",
+    "difference of squares",
+    "counting integers in a range"
+   ],
+   "seed_elo": 1310.0,
+   "solve_time_seconds": 50.0,
+   "solution_text": "Consecutive squares \\(k^2\\) and \\((k+1)^2\\) differ by \\((k+1)^2 - k^2 = 2k + 1.\\) We need \\(2k + 1 \\le 2023,\\) which gives \\(k \\le 1011.\\) So \\(k\\) runs \\(1, 2, \\ldots, 1011,\\) for \\(1011\\) pairs. Thus, B is the correct answer.",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 14,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 10,
+   "question": "You are playing a game. A \\(2 \\times 1\\) rectangle covers two adjacent squares (oriented either horizontally or vertically) of a \\(3 \\times 3\\) grid of squares, but you are not told which two squares are covered. Your goal is to find at least one square that is covered by the rectangle. A \"turn\" consists of you guessing a square, after which you are told whether that square is covered by the hidden rectangle. What is the minimum number of turns you need to ensure that at least one of your guessed squares is covered by the rectangle?",
+   "choices": {
+    "a": "\\(3\\)",
+    "b": "\\(5\\)",
+    "c": "\\(4\\)",
+    "d": "\\(8\\)",
+    "e": "\\(6\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "combinatorial game",
+    "extremal argument"
+   ],
+   "seed_elo": 1560.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "Suppose every guess misses. Then the domino lies entirely on unguessed squares, so those squares include two adjacent cells. To force a hit, we need the unguessed squares to have no two adjacent. Color the grid like a checkerboard. The biggest set of pairwise non-adjacent squares has \\(5\\) cells, one color's worth: the four corners and the center. So we must guess at least \\(9 - 5 = 4\\) squares. And \\(4\\) is enough: guess the four edge midpoints, since every domino covers one square of each color, hence one edge midpoint. Therefore, the answer is C.",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 10,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 11,
+   "question": "Suzanne went to the bank and withdrew \\(\\$800.\\) The teller gave her this amount using \\(\\$20\\) bills, \\(\\$50\\) bills, and \\(\\$100\\) bills, with at least one of each denomination. How many different collections of bills could Suzanne have received?",
+   "choices": {
+    "a": "\\(45\\)",
+    "b": "\\(21\\)",
+    "c": "\\(36\\)",
+    "d": "\\(28\\)",
+    "e": "\\(32\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "Diophantine Equation",
+    "parity",
+    "basic counting"
+   ],
+   "seed_elo": 1500.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "Let \\(a, b, c \\ge 1\\) count the \\(\\$20, \\$50, \\$100\\) bills. Then \\(20a + 50b + 100c = 800,\\) which divides down to \\(2a + 5b + 10c = 80.\\) Both \\(2a\\) and \\(10c\\) are even, so \\(5b\\) is too, forcing \\(b = 2t.\\) Now \\(a = 40 - 5t - 5c \\ge 1\\) means \\(t + c \\le 7.\\) With \\(t, c \\ge 1,\\) the pairs number \\(1 + 2 + \\cdots + 6 = 21.\\) Thus, B is the correct answer.",
+   "amc10_problem_number": 11,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 17,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 12,
+   "question": "When the roots of the polynomial \\[P(x) = (x-1)^1(x-2)^2(x-3)^3 \\cdots (x-10)^{10}\\] are removed from the real number line, what remains is the union of \\(11\\) disjoint open intervals. On how many of those intervals is \\(P(x)\\) positive?",
+   "choices": {
+    "a": "\\(3\\)",
+    "b": "\\(7\\)",
+    "c": "\\(6\\)",
+    "d": "\\(4\\)",
+    "e": "\\(5\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "polynomial",
+    "parity",
+    "inequality"
+   ],
+   "seed_elo": 1560.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "For \\(x \\gt 10,\\) every factor \\((x - i)^i\\) is positive, so \\(P(x) \\gt 0.\\) Now move left. Crossing \\(x = i\\) flips the sign only when \\(i\\) is odd, that is at \\(i = 9, 7, 5, 3, 1.\\) So the eleven intervals, right to left, carry signs \\(+, +, -, -, +, +, -, -, +, +, -.\\) Six are positive. Therefore, the answer is C.",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 10,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 13,
+   "question": "What is the area of the region in the coordinate plane defined by the inequality \\[\\bigl||x| - 1\\bigr| + \\bigl||y| - 1\\bigr| \\le 1?\\]",
+   "choices": {
+    "a": "\\(2\\)",
+    "b": "\\(8\\)",
+    "c": "\\(4\\)",
+    "d": "\\(15\\)",
+    "e": "\\(12\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "absolute value",
+    "coordinate geometry",
+    "area",
+    "symmetry"
+   ],
+   "seed_elo": 1600.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "Substitute \\(u = |x|,\\) \\(v = |y|.\\) Then \\(|u - 1| + |v - 1| \\le 1\\) is a diamond centered at \\((1, 1)\\) with diagonals of length \\(2,\\) so it has area \\(2,\\) and it sits entirely in \\(u, v \\ge 0.\\) The map \\((x, y) \\mapsto (|x|, |y|)\\) is four-to-one over \\(u, v \\gt 0,\\) so the full region has area \\(4 \\times 2 = 8.\\) Thus, B is the correct answer.",
+   "amc10_problem_number": 13,
+   "amc12_problem_number": 12,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 14,
+   "question": "How many ordered pairs of integers \\((m, n)\\) satisfy the equation \\[m^2 + mn + n^2 = m^2 n^2?\\]",
+   "choices": {
+    "a": "\\(7\\)",
+    "b": "\\(1\\)",
+    "c": "\\(3\\)",
+    "d": "\\(6\\)",
+    "e": "\\(5\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "Diophantine Equation",
+    "bounding to limit cases",
+    "casework"
+   ],
+   "seed_elo": 1660.0,
+   "solve_time_seconds": 100.0,
+   "solution_text": "If \\(m = 0,\\) the equation forces \\(n^2 = 0,\\) giving \\((0, 0).\\) Otherwise both are nonzero; assume \\(|m| \\le |n|.\\) Then \\(m^2 n^2 = m^2 + mn + n^2 \\le 3n^2,\\) so \\(m^2 \\le 3\\) and \\(m = \\pm 1.\\) Take \\(m = 1:\\) \\(1 + n + n^2 = n^2\\) gives \\(n = -1.\\) Take \\(m = -1:\\) \\(n = 1.\\) That leaves \\((0,0), (1,-1), (-1,1),\\) three in all. Therefore, the answer is C.",
+   "amc10_problem_number": 14,
+   "amc12_problem_number": 13,
+   "amc8_problem_number": 19,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 15,
+   "question": "What is the least positive integer \\(m\\) such that \\(m \\cdot 2! \\cdot 3! \\cdot 4! \\cdot 5! \\cdots 16!\\) is a perfect square?",
+   "choices": {
+    "a": "\\(30\\)",
+    "b": "\\(30030\\)",
+    "c": "\\(70\\)",
+    "d": "\\(1430\\)",
+    "e": "\\(1001\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "perfect square",
+    "prime factorization",
+    "factorial",
+    "pairing and grouping"
+   ],
+   "seed_elo": 1730.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Group the product as \\((2!\\,3!)(4!\\,5!)\\cdots(14!\\,15!)\\cdot 16!.\\) Since \\((2k)!(2k+1)!\\) \\(= \\bigl((2k)!\\bigr)^2(2k+1),\\) each pair is a perfect square times an odd number. Those odd numbers \\(3, 5, 7, 9, 11, 13, 15\\) multiply to \\(3^4 \\cdot 5^2 \\cdot 7 \\cdot 11 \\cdot 13,\\) with squarefree part \\(7 \\cdot 11 \\cdot 13.\\) And \\(16! = 2^{15} 3^6 5^3 7^2 \\cdot 11 \\cdot 13\\) has squarefree part \\(2 \\cdot 5 \\cdot 11 \\cdot 13.\\) Multiply the two: the squarefree part of the whole thing is \\(2 \\cdot 5 \\cdot 7.\\) That's the smallest \\(m,\\) namely \\(2 \\cdot 5 \\cdot 7 = 70.\\) Thus, C is the correct answer.",
+   "amc10_problem_number": 15,
+   "amc12_problem_number": 14,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 16,
+   "question": "Define an upno to be a positive integer of \\(2\\) or more digits where the digits are strictly increasing moving left to right. Similarly, define a downno to be a positive integer of \\(2\\) or more digits where the digits are strictly decreasing moving left to right. For instance, the number \\(258\\) is an upno and \\(8620\\) is a downno. Let \\(U\\) equal the total number of upnos and let \\(D\\) equal the total number of downnos. What is \\(|U - D|?\\)",
+   "choices": {
+    "a": "\\(512\\)",
+    "b": "\\(10\\)",
+    "c": "\\(0\\)",
+    "d": "\\(9\\)",
+    "e": "\\(511\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "subsets",
+    "digits"
+   ],
+   "seed_elo": 1800.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "An upno is just a choice of at least \\(2\\) digits, written in increasing order. A \\(0\\) can never appear: it can't lead and can't follow a smaller digit. So the digits come from \\(\\{1, \\ldots, 9\\},\\) giving \\(U = 2^9 - 1 - 9 = 502.\\) A downno can end in \\(0,\\) so its digits are any subset of \\(\\{0, \\ldots, 9\\}\\) of size \\(\\ge 2,\\) giving \\(D = 2^{10} - 1 - 10 = 1013.\\) So \\(|U - D| = |502 - 1013| = 511.\\) Therefore, the answer is E.",
+   "amc10_problem_number": 16,
+   "amc12_problem_number": 15,
+   "amc8_problem_number": 21,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 17,
+   "question": "A rectangular box \\(\\mathcal{P}\\) has distinct edge lengths \\(a,\\) \\(b,\\) and \\(c.\\) The sum of the lengths of all \\(12\\) edges of \\(\\mathcal{P}\\) is \\(13,\\) the sum of the areas of all \\(6\\) faces of \\(\\mathcal{P}\\) is \\(\\frac{11}{2},\\) and the volume of \\(\\mathcal{P}\\) is \\(\\frac{1}{2}.\\) What is the length of the longest interior diagonal connecting two vertices of \\(\\mathcal{P}?\\)",
+   "choices": {
+    "a": "\\(2\\)",
+    "b": "\\(\\dfrac{3}{8}\\)",
+    "c": "\\(\\dfrac{9}{8}\\)",
+    "d": "\\(\\dfrac{9}{4}\\)",
+    "e": "\\(\\dfrac{3}{2}\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "rectangular prism",
+    "algebraic manipulation",
+    "Pythagorean Theorem"
+   ],
+   "seed_elo": 1590.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "The \\(12\\) edges give \\(4(a + b + c) = 13,\\) so \\(a + b + c = \\frac{13}{4}.\\) The \\(6\\) faces give \\(2(ab + bc + ca) = \\frac{11}{2},\\) so \\(ab + bc + ca = \\frac{11}{4}.\\) The space diagonal is \\[ \\begin{gathered} \\sqrt{a^2 + b^2 + c^2} \\\\ = \\small \\sqrt{(a+b+c)^2 - 2(ab+bc+ca)} \\\\ = \\sqrt{\\frac{169}{16} - \\frac{11}{2}} \\\\ = \\sqrt{\\frac{81}{16}} = \\frac{9}{4}. \\end{gathered} \\] Thus, D is the correct answer.",
+   "amc10_problem_number": 13,
+   "amc12_problem_number": 11,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 18,
+   "question": "Suppose \\(a,\\) \\(b,\\) and \\(c\\) are positive integers such that \\[\\frac{a}{14} + \\frac{b}{15} = \\frac{c}{210}.\\] Which of the following statements are necessarily true?\n\nI. If \\(\\gcd(a, 14) = 1\\) or \\(\\gcd(b, 15) = 1\\) or both, then \\(\\gcd(c, 210) = 1.\\)\n\nII. If \\(\\gcd(c, 210) = 1,\\) then \\(\\gcd(a, 14) = 1\\) or \\(\\gcd(b, 15) = 1\\) or both.\n\nIII. \\(\\gcd(c, 210) = 1\\) if and only if \\(\\gcd(a, 14) = \\gcd(b, 15) = 1.\\)",
+   "choices": {
+    "a": "\\(\\mathrm{I},\\) \\(\\mathrm{II},\\) and \\(\\mathrm{III}\\)",
+    "b": "\\(\\mathrm{I}\\) only",
+    "c": "\\(\\mathrm{I}\\) and \\(\\mathrm{II}\\) only",
+    "d": "\\(\\mathrm{III}\\) only",
+    "e": "\\(\\mathrm{II}\\) and \\(\\mathrm{III}\\) only"
+   },
+   "answer": "e",
+   "concepts": [
+    "greatest common divisor",
+    "modular arithmetic",
+    "logical deduction"
+   ],
+   "seed_elo": 1910.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Clear denominators to get \\(c = 15a + 14b.\\) Reduce modulo the primes of \\(210 = 2 \\cdot 3 \\cdot 5 \\cdot 7:\\) \\(c \\equiv a \\pmod 2,\\) \\(c \\equiv 2b \\pmod 3,\\) \\(c \\equiv 4b \\pmod 5,\\) and \\(c \\equiv a \\pmod 7.\\) So \\(\\gcd(c, 210) = 1\\) iff \\(a\\) is divisible by neither \\(2\\) nor \\(7\\) and \\(b\\) is divisible by neither \\(3\\) nor \\(5,\\) which is exactly \\(\\gcd(a, 14) = 1\\) and \\(\\gcd(b, 15) = 1.\\) That settles III, and it makes II true since the \"and\" implies the \"or.\" Statement I fails, though: take \\(a = 1, b = 3.\\) Then \\(\\gcd(a, 14) = 1,\\) yet \\(c = 57\\) is divisible by \\(3.\\) So only II and III hold. Therefore, the answer is E.",
+   "amc10_problem_number": 18,
+   "amc12_problem_number": 17,
+   "amc8_problem_number": 22,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 19,
+   "question": "Sonya the frog chooses a point uniformly at random lying within the square \\([0, 6] \\times [0, 6]\\) in the coordinate plane and hops to that point. She then chooses a distance uniformly at random from \\([0, 1]\\) and a direction uniformly at random from \\(\\{\\text{north}, \\text{south}, \\text{east}, \\text{west}\\}.\\) All her choices are independent. She now hops the distance in the chosen direction. What is the probability that she lands outside the square?",
+   "choices": {
+    "a": "\\(\\dfrac{1}{6}\\)",
+    "b": "\\(\\dfrac{1}{12}\\)",
+    "c": "\\(\\dfrac{1}{4}\\)",
+    "d": "\\(\\dfrac{1}{10}\\)",
+    "e": "\\(\\dfrac{1}{9}\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "geometric probability",
+    "symmetry"
+   ],
+   "seed_elo": 1990.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "The four directions behave the same by symmetry, so say she hops east. She lands outside exactly when her \\(x\\)-coordinate plus the hop distance \\(d\\) tops \\(6.\\) Fix \\(d.\\) Her \\(x\\)-coordinate is uniform on \\([0, 6],\\) so it beats \\(6 - d\\) with probability \\(\\frac{d}{6}.\\) Now average over \\(d\\) uniform on \\([0, 1]:\\) \\(\\frac{1}{6} \\cdot \\frac{1}{2} = \\frac{1}{12}.\\) Thus, B is the correct answer.",
+   "amc10_problem_number": 19,
+   "amc12_problem_number": 18,
+   "amc8_problem_number": 23,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 20,
+   "question": "Four congruent semicircles are drawn on the surface of a sphere with radius \\(2,\\) as shown, creating a closed curve that divides the surface into two congruent regions. The length of the curve is \\(\\pi\\sqrt{n}.\\) What is \\(n?\\)",
+   "choices": {
+    "a": "\\(32\\)",
+    "b": "\\(12\\)",
+    "c": "\\(48\\)",
+    "d": "\\(36\\)",
+    "e": "\\(27\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "sphere",
+    "arc",
+    "3D geometry"
+   ],
+   "seed_elo": 2100.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "The curve is four congruent semicircular arcs, so its length is \\(4\\) times one semicircle, \\(\\pi r,\\) where \\(r\\) is the arc radius. The arcs meet at four points that form a square inscribed in a great circle of the radius-\\(2\\) sphere, and each arc's diameter is a side of that square, a chord of length \\(2\\sqrt2.\\) So \\(r = \\sqrt2.\\) (Check it another way: the small circle sits in a plane at distance \\(\\frac{2}{\\sqrt2} = \\sqrt2\\) from the center, giving radius \\(\\sqrt{2^2 - (\\sqrt2)^2} = \\sqrt2.\\)) The total length is \\(4 \\cdot \\pi\\sqrt2 = \\pi\\sqrt{32},\\) so \\(n = 32.\\) Therefore, the answer is A.",
+   "amc10_problem_number": 20,
+   "amc12_problem_number": 20,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 21,
+   "question": "Each of \\(2023\\) balls is randomly placed into one of \\(3\\) bins. Which of the following is closest to the probability that each of the bins will contain an odd number of balls?",
+   "choices": {
+    "a": "\\(\\dfrac{2}{3}\\)",
+    "b": "\\(\\dfrac{3}{10}\\)",
+    "c": "\\(\\dfrac{1}{2}\\)",
+    "d": "\\(\\dfrac{1}{3}\\)",
+    "e": "\\(\\dfrac{1}{4}\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "roots of unity",
+    "parity",
+    "basic probability"
+   ],
+   "seed_elo": 2120.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "All \\(3^{2023}\\) assignments are equally likely. A sign filter counts the ones with every bin odd: \\(\\frac{1}{8}\\sum_{s \\in \\{\\pm 1\\}^3}(s_1 s_2 s_3)\\) \\(\\cdot (s_1 + s_2 + s_3)^{2023}.\\) For \\(s = (1,1,1)\\) and \\(s = (-1,-1,-1),\\) both terms equal \\(3^{2023}.\\) For each other sign choice, the sum in parentheses is \\(1\\) or \\(-1,\\) and the full term equals \\(-1,\\) so these six terms total \\(-6.\\) Thus the count is \\(\\frac{2 \\cdot 3^{2023} - 6}{8} = \\frac{3^{2023} - 3}{4}.\\) Dividing, the probability is \\(\\frac{3^{2023} - 3}{4 \\cdot 3^{2023}} = \\frac{1}{4} - \\frac{1}{4 \\cdot 3^{2022}},\\) a hair under \\(\\frac{1}{4}.\\) Thus, E is the correct answer.",
+   "amc10_problem_number": 21,
+   "amc12_problem_number": 20,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 22,
+   "question": "How many distinct values of \\(x\\) satisfy \\[\\lfloor x \\rfloor^2 - 3x + 2 = 0,\\] where \\(\\lfloor x \\rfloor\\) denotes the largest integer less than or equal to \\(x?\\)",
+   "choices": {
+    "a": "an infinite number",
+    "b": "\\(4\\)",
+    "c": "\\(2\\)",
+    "d": "\\(3\\)",
+    "e": "\\(0\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "floor and ceiling functions",
+    "substitution",
+    "bounding to limit cases"
+   ],
+   "seed_elo": 2120.0,
+   "solve_time_seconds": 110.0,
+   "solution_text": "Set \\(n = \\lfloor x \\rfloor.\\) Then \\(n^2 - 3x + 2 = 0\\) gives \\(x = \\frac{n^2 + 2}{3}.\\) For this to be consistent we need \\(n \\le \\frac{n^2 + 2}{3} \\lt n + 1.\\) The left side, \\(n^2 - 3n + 2 \\ge 0,\\) holds for every integer \\(n.\\) The right side, \\(n^2 - 3n - 1 \\lt 0,\\) holds only for \\(n \\in \\{0, 1, 2, 3\\}.\\) Those give \\(x = \\frac{2}{3}, 1, 2, \\frac{11}{3},\\) so there are \\(4\\) distinct values. Therefore, the answer is B.",
+   "amc10_problem_number": 21,
+   "amc12_problem_number": 20,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 23,
+   "question": "An arithmetic sequence of positive integers has \\(n \\ge 3\\) terms, initial term \\(a,\\) and common difference \\(d \\gt 1.\\) Carl wrote down all the terms in this sequence correctly except for one term, which was off by \\(1.\\) The sum of the terms he wrote down was \\(222.\\) What is \\(a + d + n?\\)",
+   "choices": {
+    "a": "\\(24\\)",
+    "b": "\\(20\\)",
+    "c": "\\(22\\)",
+    "d": "\\(28\\)",
+    "e": "\\(26\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "arithmetic sequence",
+    "Diophantine Equation",
+    "prime factorization"
+   ],
+   "seed_elo": 2380.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "The true sum is \\(S = na + \\frac{n(n-1)}{2}d.\\) Since one term is off by \\(1,\\) the written total satisfies \\(222 = S \\pm 1,\\) so \\(S = 221\\) or \\(223.\\) Also \\(2S = n\\bigl(2a + (n-1)d\\bigr),\\) so \\(n\\) divides \\(2S.\\) Since \\(a \\ge 1\\) and \\(d \\ge 2,\\) we have \\(2S \\ge 2n^2,\\) hence \\(n^2 \\le S.\\) For \\(S = 223,\\) no divisor of \\(446\\) lies between \\(3\\) and \\(\\sqrt{223}.\\) For \\(S = 221 = 13 \\cdot 17,\\) the only divisor of \\(442\\) in this range is \\(n = 13.\\) Thus \\(2a + 12d = 34,\\) or \\(a + 6d = 17.\\) Since \\(a\\) and \\(d\\) are positive integers with \\(d \\gt 1,\\) we get \\(a = 5,\\) \\(d = 2.\\) Then \\(a + d + n = 5 + 2 + 13 = 20.\\) Thus, B is the correct answer.",
+   "amc10_problem_number": 23,
+   "amc12_problem_number": 23,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 3
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 24,
+   "question": "What is the perimeter of the boundary of the region consisting of all points which can be expressed as \\((2u - 3w,\\ v + 4w)\\) with \\(0 \\le u \\le 1,\\) \\(0 \\le v \\le 1,\\) and \\(0 \\le w \\le 1?\\)",
+   "choices": {
+    "a": "\\(10\\sqrt{3}\\)",
+    "b": "\\(13\\)",
+    "c": "\\(12\\)",
+    "d": "\\(18\\)",
+    "e": "\\(16\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "coordinate geometry",
+    "vector",
+    "perimeter"
+   ],
+   "seed_elo": 2470.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Fix \\(w.\\) As \\(u, v\\) sweep \\([0, 1]^2,\\) the point \\((2u - 3w,\\ v + 4w)\\) fills a \\(2 \\times 1\\) axis-aligned rectangle with lower-left corner \\((-3w, 4w).\\) As \\(w\\) runs from \\(0\\) to \\(1,\\) this rectangle slides along the vector \\((-3,4),\\) whose length is \\(5.\\) The swept region is a centrally symmetric hexagon. Its opposite pairs of sides have lengths \\(2, 1,\\) and \\(5,\\) inherited from the two sides of the rectangle and the sliding segment. Therefore its perimeter is \\(2(2+1+5)=16.\\) Therefore, the answer is E.",
+   "amc10_problem_number": 24,
+   "amc12_problem_number": 24,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 3
+  },
+  {
+   "contest": "amc10",
+   "year": 2023,
+   "label": "B",
+   "position": 25,
+   "question": "A regular pentagon with area \\(1 + \\sqrt{5}\\) is printed on paper and cut out. All five vertices are folded to the center of the pentagon, creating a smaller pentagon. What is the area of the new pentagon?",
+   "choices": {
+    "a": "\\(4 - \\sqrt{5}\\)",
+    "b": "\\(\\sqrt{5} - 1\\)",
+    "c": "\\(8 - 3\\sqrt{5}\\)",
+    "d": "\\(\\dfrac{\\sqrt{5} + 1}{2}\\)",
+    "e": "\\(\\dfrac{2 + \\sqrt{5}}{3}\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "regular polygon",
+    "paper folding",
+    "similarity",
+    "area ratio"
+   ],
+   "seed_elo": 2600.0,
+   "solve_time_seconds": 210.0,
+   "solution_text": "Let the original pentagon have circumradius \\(R.\\) Folding a vertex to the center creases along the perpendicular bisector of the center-to-vertex segment, a line at distance \\(\\tfrac{R}{2}\\) from the center. Those five creases bound the new regular pentagon, whose apothem is \\(\\tfrac{R}{2}\\) (the original apothem was \\(R\\cos 36^\\circ\\)). So the new pentagon is similar with ratio \\(\\frac{1}{2\\cos 36^\\circ},\\) and its area is the old area times \\(\\left(\\tfrac{1}{2\\cos 36^\\circ}\\right)^2.\\) Plug in \\(\\cos 36^\\circ = \\tfrac{1+\\sqrt5}{4}:\\) the factor becomes \\(\\tfrac{2}{3+\\sqrt5} = \\tfrac{3-\\sqrt5}{2}.\\) So the new area is \\((\\sqrt5+1)\\cdot\\tfrac{3-\\sqrt5}{2} = \\sqrt{5} - 1.\\) Thus, B is the correct answer.",
+   "amc10_problem_number": 25,
+   "amc12_problem_number": 24,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 5
+  }
+ ]
+}

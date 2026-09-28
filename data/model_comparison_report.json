@@ -1,0 +1,26 @@
+{
+  "baseline_global_rate": {
+    "n_evals": 98,
+    "mean_log_loss": 0.4296556120605283,
+    "mean_brier_score": 0.10108291322141826,
+    "mean_accuracy": 0.891650469711694
+  },
+  "logistic_regression": {
+    "n_evals": 98,
+    "mean_log_loss": 0.3631216505201336,
+    "mean_brier_score": 0.08367286245617286,
+    "mean_accuracy": 0.8740484288953676
+  },
+  "gradient_boosted_trees": {
+    "n_evals": 98,
+    "mean_log_loss": 0.5433010193716494,
+    "mean_brier_score": 0.10807988283791127,
+    "mean_accuracy": 0.8754089731130548
+  },
+  "irt_hierarchical": {
+    "n_evals": 98,
+    "mean_log_loss": 0.2569640942112914,
+    "mean_brier_score": 0.08081972340487203,
+    "mean_accuracy": 0.891192905733722
+  }
+}

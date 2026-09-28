@@ -1,0 +1,671 @@
+{
+ "source_url": "https://live.poshenloh.com/past-contests/amc10/2019A",
+ "year": 2019,
+ "label": "A",
+ "problems": [
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 1,
+   "question": "What is the value of \\[2^{\\left(0^{\\left(1^9\\right)}\\right)}+\\left(\\left(2^0\\right)^1\\right)^9?\\]",
+   "choices": {
+    "a": "\\(0\\)",
+    "b": "\\(1\\)",
+    "c": "\\(2\\)",
+    "d": "\\(3\\)",
+    "e": "\\(4\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "exponent",
+    "order of operations"
+   ],
+   "seed_elo": 560.0,
+   "solve_time_seconds": 25.0,
+   "solution_text": "We can evaluate from the top of each exponent tower downward: \\[ \\begin{aligned} &2^{\\left(0^{\\left(1^9\\right)}\\right)}\\\\ &\\quad+\\left(\\left(2^0\\right)^1\\right)^9\\\\ &=2^{0^1}+(1^1)^9\\\\ &=2^0+1^9\\\\ &=2. \\end{aligned} \\]\n\nThus, C is the correct answer.",
+   "amc10_problem_number": 0,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 3,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 2,
+   "question": "What is the hundreds digit of \\((20!-15!)?\\)",
+   "choices": {
+    "a": "\\(0\\)",
+    "b": "\\(1\\)",
+    "c": "\\(2\\)",
+    "d": "\\(4\\)",
+    "e": "\\(5\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "factorial",
+    "trailing zeros",
+    "divisibility"
+   ],
+   "seed_elo": 770.0,
+   "solve_time_seconds": 30.0,
+   "solution_text": "Both \\(20!\\) and \\(15!\\) contain at least three factors of \\(5\\) and three factors of \\(2\\), so both are divisible by \\(2^3\\cdot5^3=1000.\\)\n\nTheir difference is therefore also divisible by \\(1000.\\)\n\nBeing a multiple of \\(1000\\) makes the last three digits \\(0,\\) which shows that the hundreds digit is also \\(0.\\)\n\nThus, A is the correct answer.",
+   "amc10_problem_number": 1,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 5,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 3,
+   "question": "Ana and Bonita were born on the same date in different years, \\(n\\) years apart. Last year Ana was \\(5\\) times as old as Bonita. This year Ana's age is the square of Bonita's age. What is \\(n?\\)",
+   "choices": {
+    "a": "\\(3\\)",
+    "b": "\\(5\\)",
+    "c": "\\(9\\)",
+    "d": "\\(12\\)",
+    "e": "\\(15\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "ages",
+    "system of equations",
+    "quadratic"
+   ],
+   "seed_elo": 960.0,
+   "solve_time_seconds": 45.0,
+   "solution_text": "Let \\(a\\) be Ana's current age and \\(b\\) be Bonita's current age. Then \\[ \\begin{aligned} a-1&=5(b-1),\\\\ a&=b^2. \\end{aligned} \\]\n\nSubstitution gives \\[ \\begin{aligned} b^2-1&=5b-5,\\\\ b^2-5b+4&=0,\\\\ (b-4)(b-1)&=0. \\end{aligned} \\]\n\nWe can see that \\(b \\neq 1\\) since that would make Ana and Bonita the same age, so we know that \\(b = 4.\\)\n\nThis gives us that \\(a = 4^2 = 16\\) and \\(n = 16 - 4 = 12.\\)\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 3,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 8,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 4,
+   "question": "A box contains \\(28\\) red balls, \\(20\\) green balls, \\(19\\) yellow balls, \\(13\\) blue balls, \\(11\\) white balls, and \\(9\\) black balls. What is the minimum number of balls that must be drawn from the box without replacement to guarantee that at least \\(15\\) balls of a single color will be drawn?",
+   "choices": {
+    "a": "\\(75\\)",
+    "b": "\\(76\\)",
+    "c": "\\(79\\)",
+    "d": "\\(84\\)",
+    "e": "\\(91\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "pigeonhole principle",
+    "extremal argument"
+   ],
+   "seed_elo": 1070.0,
+   "solve_time_seconds": 55.0,
+   "solution_text": "Note that we can pull as many as \\(14\\) balls of each color without ensuring that \\(15\\) balls of one color are drawn.\n\nThis means that we can draw all of the black, white and blue balls, along with \\(14\\) red, green, and yellow balls.\n\nThis gives us a total of \\[ 9 + 11 + 13 + 3 \\cdot 14 \\]\\[= 33 + 42 \\]\\[= 75. \\] We need to add one at the end, however, to ensure that we get that \\(15\\)th ball of some color, \\(75 + 1 = 76.\\)\n\nThus, B is the correct answer.",
+   "amc10_problem_number": 5,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 10,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 5,
+   "question": "What is the greatest number of consecutive integers whose sum is \\(45?\\)",
+   "choices": {
+    "a": "\\(9\\)",
+    "b": "\\(25\\)",
+    "c": "\\(45\\)",
+    "d": "\\(90\\)",
+    "e": "\\(120\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "arithmetic sequence",
+    "extremal argument"
+   ],
+   "seed_elo": 1070.0,
+   "solve_time_seconds": 55.0,
+   "solution_text": "Suppose there are \\(k\\) consecutive integers with first term \\(a.\\) Their sum is \\(\\dfrac{k(2a+k-1)}{2}=45,\\) so \\(k\\) must divide \\(90.\\) Therefore the number of terms cannot exceed \\(90.\\)\n\nThis bound is attained by \\[ -44, -43, \\cdots, 44, 45 \\] which has \\(90\\) terms and sum \\(45.\\)\n\nThus the greatest possible number of consecutive integers is \\(90.\\)\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 5,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 10,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 6,
+   "question": "For how many of the following types of quadrilaterals does there exist a point in the plane of the quadrilateral that is equidistant from all four vertices of the quadrilateral?\n\n\u2022 a square\n\n\u2022 a rectangle that is not a square\n\n\u2022 a rhombus that is not a square\n\n\u2022 a parallelogram that is not a rectangle or a rhombus\n\n\u2022 an isosceles trapezoid that is not a parallelogram",
+   "choices": {
+    "a": "\\(1\\)",
+    "b": "\\(2\\)",
+    "c": "\\(3\\)",
+    "d": "\\(4\\)",
+    "e": "\\(5\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "cyclic quadrilateral",
+    "circumcircle, circumcenter, and circumradius"
+   ],
+   "seed_elo": 1020.0,
+   "solve_time_seconds": 50.0,
+   "solution_text": "Note that if a point is equidistant from all the vertices, then that point is the center of the shape's circumcircle.\n\nThe question then becomes which of these shapes is cyclic (has a circumcircle). One condition that we can use is that opposite angles are supplementary.\n\nClearly, a square and rectangle that is not a square work (opposite angles are right, adding up to \\(180^{\\circ}\\)).\n\nA rhombus that is not a square does not work, since opposite angles are equal, but they are not \\(90^{\\circ}.\\)\n\nA parallelogram that is not a rectangle or a rhombus faces the same problem as above, making it not cyclic as well.\n\nAn isosceles trapezoid that is not a parallelogram by definition has supplementary opposite angles, making it cyclic.\n\nThus, C is the correct answer.",
+   "amc10_problem_number": 4,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 9,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 7,
+   "question": "Two lines with slopes \\(\\frac{1}{2}\\) and \\(2\\) intersect at \\((2, 2).\\) What is the area of the triangle enclosed by these two lines and the line \\(x + y = 10?\\)",
+   "choices": {
+    "a": "\\(4\\)",
+    "b": "\\(4\\sqrt{2}\\)",
+    "c": "\\(6\\)",
+    "d": "\\(8\\)",
+    "e": "\\(6\\sqrt{2}\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "coordinate geometry",
+    "triangle area"
+   ],
+   "seed_elo": 1280.0,
+   "solve_time_seconds": 70.0,
+   "solution_text": "The two lines through \\((2,2)\\) have equations \\[ \\begin{aligned} y&=\\frac12x+1,\\\\ y&=2x-2. \\end{aligned} \\]\n\nTheir intersections with \\(x+y=10\\) are \\((6,4)\\) and \\((4,6)\\), respectively.\n\nThus the vertices are \\((2,2),(6,4),\\) and \\((4,6)\\). The segment joining the last two points has length \\(2\\sqrt2\\), its midpoint is \\((5,5)\\), and the distance from \\((2,2)\\) to that midpoint is \\(3\\sqrt2\\).\n\nThe area is therefore \\[\\frac12(2\\sqrt2)(3\\sqrt2)=6.\\] Thus, C is the correct answer.",
+   "amc10_problem_number": 8,
+   "amc12_problem_number": 5,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 8,
+   "question": "The figure below shows line \\(\\ell\\) with a regular, infinite, recurring pattern of squares and line segments.\n\n\n\nHow many of the following four kinds of rigid motion transformations of the plane in which this figure is drawn, other than the identity transformation, will transform this figure into itself?\n\n\u2022 some rotation around a point of line \\(\\ell\\)\n\n\u2022 some translation in the direction parallel to line \\(\\ell\\)\n\n\u2022 the reflection across line \\(\\ell\\)\n\n\u2022 some reflection across a line perpendicular to line \\(\\ell\\)",
+   "choices": {
+    "a": "\\(0\\)",
+    "b": "\\(1\\)",
+    "c": "\\(2\\)",
+    "d": "\\(3\\)",
+    "e": "\\(4\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "transformation",
+    "symmetry"
+   ],
+   "seed_elo": 1220.0,
+   "solve_time_seconds": 65.0,
+   "solution_text": "The first transformation works, as we can rotate \\(\\ell\\) \\(180^{\\circ}\\) around the midpoint between an upward-facing and downward-facing square.\n\nThe second also works, as we can just move \\(\\ell\\) to the right until the squares line up with each other again.\n\nThe third fails, as a reflection would cause the line segments to face the opposite direction.\n\nThe fourth transformation also doesn't work since the diagonal lines would again be facing in the wrong direction.\n\nThus, C is the correct answer.",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 12,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 9,
+   "question": "What is the greatest three-digit positive integer \\(n\\) for which the sum of the first \\(n\\) positive integers is not a divisor of the product of the first \\(n\\) positive integers?",
+   "choices": {
+    "a": "\\(995\\)",
+    "b": "\\(996\\)",
+    "c": "\\(997\\)",
+    "d": "\\(998\\)",
+    "e": "\\(999\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "factorial",
+    "divisibility",
+    "prime"
+   ],
+   "seed_elo": 1420.0,
+   "solve_time_seconds": 80.0,
+   "solution_text": "The sum of the first \\(n\\) numbers is \\[\\dfrac{n(n + 1)}{2}.\\] We need this to not divide \\(n!.\\)\n\nPut \\(m=n+1\\). If \\(m\\) is composite, write \\(m=ab\\) with \\(2\\le a\\le b\\). When \\(aB is the correct answer.",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 7,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 10,
+   "question": "A rectangular floor that is \\(10\\) feet wide and \\(17\\) feet long is tiled with \\(170\\) one-foot square tiles. A bug walks from one corner to the opposite corner in a straight line. Including the first and the last tile, how many tiles does the bug visit?",
+   "choices": {
+    "a": "\\(17\\)",
+    "b": "\\(25\\)",
+    "c": "\\(26\\)",
+    "d": "\\(27\\)",
+    "e": "\\(28\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "greatest common divisor",
+    "counting intersections"
+   ],
+   "seed_elo": 1240.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "Note that every time the bug crosses a vertical or horizontal line, the bug visits one new tile.\n\nThis means that the number of tiles the bug visits is \\(1\\) (the first tile) plus the number of lines it crosses.\n\nThe bug never walks over a corner since \\(10\\) and \\(17\\) are relatively prime, so we don't have to worry about that.\n\nThe bug crosses \\(16\\) horizontal lines and \\(9\\) vertical lines for a total of \\[ 1 + 16 + 9 = 26 \\] tiles.\n\nThus, C is the correct answer.",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 11,
+   "question": "How many positive integer divisors of \\(201^9\\) are perfect squares or perfect cubes (or both)?",
+   "choices": {
+    "a": "\\(32\\)",
+    "b": "\\(36\\)",
+    "c": "\\(37\\)",
+    "d": "\\(39\\)",
+    "e": "\\(41\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "prime factorization",
+    "perfect power",
+    "inclusion-exclusion"
+   ],
+   "seed_elo": 1480.0,
+   "solve_time_seconds": 85.0,
+   "solution_text": "Taking the prime factorization of \\(201^9,\\) we get \\(3^9 \\cdot 67^9.\\)\n\nNote that a perfect square has even exponents for its prime factors, and a cube's exponents are divisible by \\(3.\\)\n\nThere are \\(5\\) options for an even exponent, from \\(0\\) through \\(8,\\) and \\(4\\) options for multiples of \\(3,\\) from \\(0\\) through \\(9.\\)\n\nThis gives us \\(5^2\\) options for the squares and \\(4^2\\) options for the cubes. We have to subtract out the sixth powers, however.\n\nUsing the same logic, sixth powers have to have exponents of prime factors be divisible by \\(6.\\) There are \\(2\\) options, \\(0\\) and \\(6.\\)\n\nThis means that there are \\(2^2 = 4\\) sixth powers. This gives us a total of \\[ 25 + 16 - 4 = 37. \\] perfect squares or perfect cubes.\n\nThus, C is the correct answer.",
+   "amc10_problem_number": 11,
+   "amc12_problem_number": 8,
+   "amc8_problem_number": 17,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 12,
+   "question": "Melanie computes the mean \\(\\mu,\\) the median \\(M,\\) and the modes of the \\(365\\) values that are the dates in the months of \\(2019.\\) Thus her data consist of \\(12\\) copies of \\(1,\\) \\(12\\) copies of \\(2,\\) and so on through \\(12\\) copies of \\(28,\\) then \\(11\\) copies of \\(29,\\) \\(11\\) copies of \\(30,\\) and \\(7\\) copies of \\(31.\\) Let \\(d\\) be the median of the modes. Which of the following statements is true?",
+   "choices": {
+    "a": "\\(\\mu \\lt d \\lt M\\)",
+    "b": "\\(M \\lt d \\lt \\mu\\)",
+    "c": "\\(d = M =\\mu\\)",
+    "d": "\\(d \\lt M \\lt \\mu\\)",
+    "e": "\\(d \\lt \\mu \\lt M\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "mean",
+    "median (data)",
+    "mode"
+   ],
+   "seed_elo": 1370.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "The modes are all the integers from \\(1\\) through \\(28,\\) so their median is \\(d=\\dfrac{14+15}{2}=14.5.\\)\n\nThere are \\(365\\) entries, so \\(M\\) is the \\(183\\)rd number. The dates from \\(1\\) through \\(15\\) occupy \\(15 \\cdot 12 = 180\\) positions, so \\(M=16.\\)\n\nThe sum of all dates is \\[\\begin{aligned}12(1+\\cdots+28)&+11(29+30)\\\\&+7\\cdot31=5738.\\end{aligned}\\] Hence \\(\\mu=\\dfrac{5738}{365}\\approx15.72.\\)\n\nTherefore \\[ d \\lt \\mu \\lt M. \\] Thus, E is the correct answer.",
+   "amc10_problem_number": 9,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 13,
+   "question": "Let \\(\\triangle ABC\\) be an isosceles triangle with \\(BC = AC\\) and \\(\\angle ACB = 40^{\\circ}.\\) Construct the circle with diameter \\(\\overline{BC},\\) and let \\(D\\) and \\(E\\) be the other intersection points of the circle with the sides \\(\\overline{AC}\\) and \\(\\overline{AB},\\) respectively. Let \\(F\\) be the intersection of the diagonals of the quadrilateral \\(BCDE.\\) What is the degree measure of \\(\\angle BFC ?\\)",
+   "choices": {
+    "a": "\\(90\\)",
+    "b": "\\(100\\)",
+    "c": "\\(105\\)",
+    "d": "\\(110\\)",
+    "e": "\\(120\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "inscribed angle",
+    "angle chasing",
+    "isosceles triangle"
+   ],
+   "seed_elo": 1420.0,
+   "solve_time_seconds": 80.0,
+   "solution_text": "Since \\(\\overline{BC}\\) is the diameter of the circle, we get that \\(\\angle BDC\\) and \\(\\angle BEC\\) are right angles.\n\nWe know that \\(\\angle ABC = 70^{\\circ}\\) from the fact that \\(\\triangle ABC\\) is isosceles.\n\nIn \\(\\triangle BCE\\) and \\(\\triangle BCD\\), respectively, \\[ \\begin{aligned} \\angle ECB&=180^{\\circ}-70^{\\circ}-90^{\\circ}\\\\ &=20^{\\circ} \\end{aligned} \\] and \\[ \\begin{aligned} \\angle DBC&=180^{\\circ}-40^{\\circ}-90^{\\circ}\\\\ &=50^{\\circ}. \\end{aligned} \\]\n\nBecause \\(F\\) lies on \\(BD\\) and \\(CE\\), the other two angles of \\(\\triangle BFC\\) are \\(50^{\\circ}\\) and \\(20^{\\circ}\\). Hence \\[ \\begin{aligned} \\angle BFC&=180^{\\circ}-50^{\\circ}-20^{\\circ}\\\\ &=110^{\\circ}. \\end{aligned} \\] Thus, D is the correct answer.",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 7,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 14,
+   "question": "For a set of four distinct lines in a plane, there are exactly \\(N\\) distinct points that lie on two or more of the lines. What is the sum of all possible values of \\(N?\\)",
+   "choices": {
+    "a": "\\(14\\)",
+    "b": "\\(16\\)",
+    "c": "\\(18\\)",
+    "d": "\\(19\\)",
+    "e": "\\(21\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "counting intersections",
+    "casework"
+   ],
+   "seed_elo": 1660.0,
+   "solve_time_seconds": 100.0,
+   "solution_text": "The values \\(0,1,3,4,5,\\) and \\(6\\) are attainable. Four parallel lines give \\(0\\), four concurrent lines give \\(1\\), three parallel lines cut by a fourth give \\(3\\), three concurrent lines plus a fourth not through that point give \\(4\\), three lines forming a triangle plus a fourth parallel to one side give \\(5\\), and four lines in general position give \\(\\binom42=6\\).\n\nIt remains to rule out \\(2\\). Choose two nonparallel lines, meeting at \\(X\\). If a third line also passes through \\(X\\), then a fourth line not through \\(X\\) intersects at least two of those three concurrent lines at two different new points; otherwise all four lines pass through \\(X\\), giving only one point. If the third line does not pass through \\(X\\), then to create only one new point it must be parallel to one of the first two lines. A fourth distinct line cannot pass through either existing intersection without meeting the parallel line at a new point, and if it passes through neither, it creates a new intersection immediately. Thus exactly two intersection points are impossible.\n\nThus the possible values are \\(0,1,3,4,5,6\\), whose sum is \\(19\\). Thus, D is the correct answer.",
+   "amc10_problem_number": 14,
+   "amc12_problem_number": 11,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 15,
+   "question": "A sequence of numbers is defined recursively by \\(a_1 = 1,\\) \\(a_2 = \\frac{3}{7},\\) and \\[a_n=\\dfrac{a_{n-2} \\cdot a_{n-1}}{2a_{n-2} - a_{n-1}}\\] for all \\(n \\geq 3.\\) Then \\(a_{2019}\\) can be written as \\(\\frac{p}{q},\\) where \\(p\\) and \\(q\\) are relatively prime positive integers. What is \\(p+q ?\\)",
+   "choices": {
+    "a": "\\(2020\\)",
+    "b": "\\(4039\\)",
+    "c": "\\(6057\\)",
+    "d": "\\(6061\\)",
+    "e": "\\(8078\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "recursion",
+    "arithmetic sequence",
+    "substitution"
+   ],
+   "seed_elo": 1540.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "Taking reciprocals in the recursive formula gives \\[ \\begin{aligned} \\frac1{a_n} &=\\frac{2a_{n-2}-a_{n-1}}{a_{n-2}a_{n-1}}\\\\ &=\\frac2{a_{n-1}}-\\frac1{a_{n-2}}. \\end{aligned} \\]\n\nThis means that \\[ \\dfrac{1}{a_n} - \\dfrac{1}{a_{n - 1}} = \\dfrac{1}{a_{n - 1}} - \\dfrac{1}{a_{n - 2}}, \\] which tells us that \\(\\left\\{\\dfrac{1}{a_n}\\right\\}\\) is an arithmetic sequence.\n\nUsing \\(a_1\\) and \\(a_2,\\) we get that the common difference is \\[\\dfrac{1}{\\frac{3}{7}} - \\dfrac{1}{1} = \\dfrac{7}{3} - 1 = \\dfrac{4}{3}.\\]\n\nTherefore \\[\\frac1{a_{2019}}=1+2018\\cdot\\frac43=\\frac{8075}{3},\\] so \\(a_{2019}=\\frac3{8075}.\\)\n\n\\(p + q\\) is therefore \\[8075 + 3 = 8078.\\]\n\nThus, E is the correct answer.",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 16,
+   "question": "The figure below shows \\(13\\) circles of radius \\(1\\) within a larger circle. All the intersections occur at points of tangency. What is the area of the region, shaded in the figure, inside the larger circle but outside all the circles of radius \\(1?\\)",
+   "choices": {
+    "a": "\\(4 \\pi \\sqrt{3}\\)",
+    "b": "\\(7 \\pi\\)",
+    "c": "\\(\\pi\\left(3\\sqrt{3} +2\\right)\\)",
+    "d": "\\(10 \\pi \\left(\\sqrt{3} - 1\\right)\\)",
+    "e": "\\(\\pi\\left(\\sqrt{3} + 6\\right)\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "circle area",
+    "equilateral triangle",
+    "tangent circles"
+   ],
+   "seed_elo": 1540.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "We know \\(\\triangle ABC\\) and \\(\\triangle ABO\\) are equilateral triangles.\n\nWe get that \\(OC = 2\\sqrt{3}\\) using special right triangles to find the altitudes of the triangles.\n\nThe radius of the larger circle is therefore \\(2\\sqrt{3} + 1,\\) since there is the extra unit radius after \\(\\overline{OC}.\\)\n\nThe area of the larger circle is \\[ (2\\sqrt{3} + 1)^2\\pi = (13 + 4\\sqrt{3})\\pi. \\]\n\nThe area of all the inner circles is \\(13\\pi.\\)\n\nThe area of the shaded region is \\[ (13 + 4\\sqrt{3})\\pi - 13\\pi = 4\\pi\\sqrt{3}. \\]\n\nThus, A is the correct answer.",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 17,
+   "question": "A child builds towers using identically shaped cubes of different colors. How many different towers with a height \\(8\\) cubes can the child build with \\(2\\) red cubes, \\(3\\) blue cubes, and \\(4\\) green cubes? (One cube will be left out.)",
+   "choices": {
+    "a": "\\(24\\)",
+    "b": "\\(288\\)",
+    "c": "\\(312\\)",
+    "d": "\\(1,260\\)",
+    "e": "\\(40,320\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "multiset permutations",
+    "bijection"
+   ],
+   "seed_elo": 1480.0,
+   "solve_time_seconds": 85.0,
+   "solution_text": "Given a valid height-\\(8\\) tower, its color counts determine the one unused cube; place that cube on top. Conversely, removing the top cube from any arrangement of all \\(9\\) cubes gives a valid height-\\(8\\) tower. These operations are inverses, so the desired towers are in one-to-one correspondence with arrangements of all \\(9\\) cubes.\n\nThere are \\(9!\\) ways to make a tower of height \\(9,\\) but we are overcounting since there are multiple cubes of the same color.\n\nWe have to divide through by \\(2!\\) ways to arrange the red cubes, \\(3!\\) for the blue cubes, and \\(4!\\) for the green cubes.\n\nTherefore, the number of valid arrangements is \\[ \\dfrac{9!}{2! \\cdot 3! \\cdot 4!} = 1,260. \\]\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 11,
+   "amc12_problem_number": 8,
+   "amc8_problem_number": 17,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 18,
+   "question": "For some positive integer \\(k,\\) the repeating base-\\(k\\) representation of the (base-ten) fraction \\(\\dfrac{7}{51}\\) is \\[0.\\overline{23}_k = 0.232323..._k.\\] What is \\(k?\\)",
+   "choices": {
+    "a": "\\(13\\)",
+    "b": "\\(14\\)",
+    "c": "\\(15\\)",
+    "d": "\\(16\\)",
+    "e": "\\(17\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "number base",
+    "repeating decimal",
+    "geometric sequence"
+   ],
+   "seed_elo": 1660.0,
+   "solve_time_seconds": 100.0,
+   "solution_text": "The repeating base-\\(k\\) fraction is \\(2k^{-1}+3k^{-2}\\) \\(+2k^{-3}+3k^{-4}+\\cdots\\). Grouping odd and even powers gives \\[ \\begin{aligned} &2(k^{-1}+k^{-3}+\\cdots) \\\\ &\\quad {}+3(k^{-2}+k^{-4}+\\cdots). \\end{aligned} \\]\n\nUsing geometric series, these sums are \\(\\dfrac{2k}{k^2-1}\\) and \\(\\dfrac{3}{k^2-1}\\), so \\(0.\\overline{23}_k=\\dfrac{2k+3}{k^2-1}\\).\n\nSetting \\(\\dfrac{2k+3}{k^2-1}=\\dfrac{7}{51}\\) gives \\(51(2k+3)=7(k^2-1)\\), so \\(7k^2-102k-160=0\\). Hence \\(k=16\\). Thus, D is the correct answer.",
+   "amc10_problem_number": 14,
+   "amc12_problem_number": 11,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 19,
+   "question": "What is the least possible value of \\[ \\begin{aligned} &(x+1)(x+2)(x+3)(x+4)\\\\ &\\quad+2019, \\end{aligned} \\] where \\(x\\) is a real number?",
+   "choices": {
+    "a": "\\(2017\\)",
+    "b": "\\(2018\\)",
+    "c": "\\(2019\\)",
+    "d": "\\(2020\\)",
+    "e": "\\(2021\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "difference of squares",
+    "optimization",
+    "substitution"
+   ],
+   "seed_elo": 1540.0,
+   "solve_time_seconds": 80.0,
+   "solution_text": "Multiplying the first two terms and the last terms yields \\[ (x^2 + 5x + 4)(x^2 + 5x + 6). \\]\n\nNote that these two terms differ by \\(2.\\) We can try to express this as a difference of squares, which is \\[ (x^2 + 5x + 5)^2 - 1. \\]\n\nAdding \\(2019\\) to this gets us \\[ (x^2 + 5x + 5)^2 + 2018. \\]\n\nSquares are non-negative, so as long as we find a way to make the inner expression \\(0,\\) we can make the square \\(0.\\)\n\nThe discriminant is \\(5^2 - 4 \\cdot 5 = 5,\\) which is positive meaning that there is a value that makes the square \\(0.\\)\n\nThis means that the minimum value would be \\[ 0^2 + 2018 = 2018. \\] Thus, B is the correct answer.",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 20,
+   "question": "The numbers \\(1,\\) \\(2,\\) \\(\\dots,\\) \\(9\\) are randomly placed into the \\(9\\) squares of a \\(3 \\times 3\\) grid. Each square gets one number, and each of the numbers is used once. What is the probability that the sum of the numbers in each row and each column is odd?",
+   "choices": {
+    "a": "\\(\\dfrac{1}{21}\\)",
+    "b": "\\(\\dfrac{1}{14}\\)",
+    "c": "\\(\\dfrac{5}{63}\\)",
+    "d": "\\(\\dfrac{2}{21}\\)",
+    "e": "\\(\\dfrac{1}{7}\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "parity",
+    "basic probability"
+   ],
+   "seed_elo": 1820.0,
+   "solve_time_seconds": 110.0,
+   "solution_text": "Note that the only way to get an odd sum is if there are either \\(0\\) or \\(2\\) even numbers in the row or column.\n\nThe only way for this to happen is if the \\(4\\) even numbers form a rectangle with sides parallel to the large square.\n\nThe way to see this is we choose a spot for the first even number. Then we need to choose another square in the same row, \\(x,\\) and column, \\(y,\\) to be even.\n\nThe final even has to be in same column as \\(x\\) and the same row as \\(y.\\) This forms the aforementioned rectangle.\n\nThere are four \\(2 \\times 2\\) rectangles, two \\(3 \\times 2\\) rectangles, two \\(2 \\times 3\\) rectangles, and one \\(3 \\times 3\\) rectangle.\n\nThis gives a total of \\[4+2+2+1=9\\] possible sets of positions for the even numbers.\n\nThere are \\(4!\\) ways to arrange the even numbers and \\(5!\\) ways to arrange the odd numbers.\n\nThis means that there are a total of \\[ 9 \\cdot 4! \\cdot 5! \\] configurations of squares that satisfy the condition.\n\nThere are a total of \\(9!\\) arrangements with no restrictions. The probability is therefore \\[ \\dfrac{9 \\cdot 4! \\cdot 5!}{9!} = \\dfrac{1}{14}. \\]\n\nThus, B is the correct answer.",
+   "amc10_problem_number": 16,
+   "amc12_problem_number": 13,
+   "amc8_problem_number": 22,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 21,
+   "question": "A sphere with center \\(O\\) has radius \\(6.\\) A triangle with sides of length \\(15,\\) \\(15,\\) and \\(24\\) is situated in space so that each of its sides is tangent to the sphere. What is the distance between \\(O\\) and the plane determined by the triangle?",
+   "choices": {
+    "a": "\\(2\\sqrt{3}\\)",
+    "b": "\\(4\\)",
+    "c": "\\(3\\sqrt{2}\\)",
+    "d": "\\(2\\sqrt{5}\\)",
+    "e": "\\(5\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "sphere",
+    "incircle, incenter, and inradius",
+    "Pythagorean Theorem",
+    "kite"
+   ],
+   "seed_elo": 1970.0,
+   "solve_time_seconds": 130.0,
+   "solution_text": "The altitude to the side of length \\(24\\) is \\[\\sqrt{15^2-12^2}=9,\\] so the triangle has area \\(\\frac12\\cdot24\\cdot9=108\\) and semiperimeter \\(27\\). Its inradius is therefore \\[r=\\frac{108}{27}=4.\\]\n\n\n\nLet \\(P\\) be the perpendicular projection of \\(O\\) onto the triangle's plane, and let \\(d=OP\\). Because all three side-lines are tangent to the sphere, \\(P\\) is the incenter and its perpendicular distance to each side is \\(4\\). The distance from \\(O\\) to each side-line is the sphere's radius, \\(6\\), so the Pythagorean theorem gives \\[d^2+4^2=6^2.\\] Hence \\(d=2\\sqrt5.\\)\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 18,
+   "amc12_problem_number": 15,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 22,
+   "question": "Real numbers between \\(0\\) and \\(1,\\) inclusive, are chosen in the following manner. A fair coin is flipped. If it lands heads, then it is flipped again and the chosen number is \\(0\\) if the second flip is heads, and \\(1\\) if the second flip is tails. On the other hand, if the first coin flip is tails, then the number is chosen uniformly at random from the closed interval \\([0,1].\\) Two random numbers \\(x\\) and \\(y\\) are chosen independently in this manner. What is the probability that \\(|x-y| > \\tfrac{1}{2}?\\)",
+   "choices": {
+    "a": "\\(\\dfrac{1}{3}\\)",
+    "b": "\\(\\dfrac{7}{16}\\)",
+    "c": "\\(\\dfrac{1}{2}\\)",
+    "d": "\\(\\dfrac{9}{16}\\)",
+    "e": "\\(\\dfrac{2}{3}\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "geometric probability",
+    "casework"
+   ],
+   "seed_elo": 1880.0,
+   "solve_time_seconds": 115.0,
+   "solution_text": "We can case on whether \\(x\\) and \\(y\\) are chosen from the interval or from \\(0\\) and \\(1.\\) Each case has a \\(\\frac{1}{4}\\) chance of happening, since they depend on two coin flips.\n\nCase \\(1: x\\) and \\(y\\) are either \\(0\\) or \\(1\\)\n\n\\(x\\) and \\(y\\) need to be different, which happens with a \\(\\frac{1}{2}\\) probability.\n\nCase \\(2: x\\) is either \\(0\\) or \\(1,\\) and \\(y\\) is chosen from \\([0, 1]\\)\n\nIf \\(x = 0,\\) then \\(y\\) has to be chosen from \\(\\left(\\dfrac{1}{2}, 1\\right],\\) and if \\(x = 1,\\) then \\(y\\) has to be chosen from \\(\\left[0, \\dfrac{1}{2}\\right).\\)\n\nThis means that \\(y\\) always has a \\(\\frac{1}{2}\\) probability of being chosen from the correct interval.\n\nCase \\(3: x\\) is chosen from \\([0, 1],\\) and \\(y\\) is either \\(0\\) or \\(1\\)\n\nThis has the same probability as case \\(2\\) due to symmetry.\n\nCase \\(4: x\\) and \\(y\\) are chosen from \\([0, 1]\\)\n\nWe can use geometric probability since we are working with an infinite number of \\((x, y)\\) pairs. We graph \\(|x - y| \\gt \\frac{1}{2}.\\)\n\n\n\nThe shaded area covers \\(\\frac{1}{4}\\) of the graph, showing that there is a \\(\\frac{1}{4}\\) probability of this case working.\n\nAdding the four weighted probabilities gives \\[\\frac14\\left(\\frac12+\\frac12+\\frac12+\\frac14\\right)=\\frac7{16}.\\]\n\nThus, B is the correct answer.",
+   "amc10_problem_number": 17,
+   "amc12_problem_number": 14,
+   "amc8_problem_number": 23,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 23,
+   "question": "Travis has to babysit the terrible Thompson triplets. Knowing that they love big numbers, Travis devises a counting game for them. First Tadd will say the number \\(1,\\) then Todd must say the next two numbers (\\(2\\) and \\(3\\)), then Tucker must say the next three numbers (\\(4,\\) \\(5,\\) \\(6\\)), then Tadd must say the next four numbers (\\(7,\\) \\(8,\\) \\(9,\\) \\(10\\)), and the process continues to rotate through the three children in order, each saying one more number than the previous child did, until the number \\(10,000\\) is reached. What is the \\(2019\\)th number said by Tadd?",
+   "choices": {
+    "a": "\\(5743\\)",
+    "b": "\\(5885\\)",
+    "c": "\\(5979\\)",
+    "d": "\\(6001\\)",
+    "e": "\\(6011\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "arithmetic sequence",
+    "triangular number",
+    "summation"
+   ],
+   "seed_elo": 2080.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Tadd speaks on turns of lengths \\(1,4,7,\\ldots\\). After \\(n\\) of Tadd's turns, he has said \\[\\sum_{i=1}^n (3i-2)=\\frac{3n^2-n}{2}\\] numbers.\n\nFor \\(n=36\\), this total is \\(1926\\), while for \\(n=37\\) it is \\(2035\\). Therefore Tadd's \\(2019\\)th number is the \\((2019-1926)=93\\)rd number of his \\(37\\)th turn.\n\nBefore that turn, the children have completed turns of lengths \\(1\\) through \\(108\\), saying \\(1+2+\\cdots+108=5886\\) numbers. The \\(93\\)rd number of the next turn is \\(5886+93=5979\\). Thus, C is the correct answer.",
+   "amc10_problem_number": 21,
+   "amc12_problem_number": 17,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 24,
+   "question": "Let \\(p,\\) \\(q,\\) and \\(r\\) be the distinct roots of the polynomial \\[x^3 - 22x^2 + 80x - 67.\\] There exist real numbers \\(A,\\) \\(B,\\) and \\(C\\) such that \\[ \\begin{gathered} \\frac{1}{s^3-22s^2+80s-67}\\\\ =\\frac{A}{s-p}+\\frac{B}{s-q}\\\\ \\quad+\\frac{C}{s-r} \\end{gathered} \\] for all real numbers \\(s\\) with \\(s\\notin\\{p,q,r\\}.\\) What is \\[\\dfrac1A+\\dfrac1B+\\dfrac1C?\\]",
+   "choices": {
+    "a": "\\(243\\)",
+    "b": "\\(244\\)",
+    "c": "\\(245\\)",
+    "d": "\\(246\\)",
+    "e": "\\(247\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "partial fractions",
+    "Vieta's Formulas"
+   ],
+   "seed_elo": 2390.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Multiplying the identity by \\((s-p)(s-q)(s-r)\\) gives \\[ \\begin{aligned} 1={}&A(s-q)(s-r)\\\\ &+B(s-p)(s-r)\\\\ &+C(s-p)(s-q). \\end{aligned} \\] Setting \\(s=p,q,r\\), in turn, yields \\[ \\begin{aligned} \\frac1A&=(p-q)(p-r),\\\\ \\frac1B&=(q-p)(q-r),\\\\ \\frac1C&=(r-p)(r-q). \\end{aligned} \\]\n\nAdding and expanding gives \\[ \\begin{aligned} \\frac1A+\\frac1B+\\frac1C &=p^2+q^2+r^2\\\\ &\\quad-pq-pr-qr. \\end{aligned} \\] By Vieta's formulas, \\(p+q+r=22\\) and \\(pq+pr+qr=80\\), so \\[ \\begin{aligned} p^2+q^2+r^2&=22^2-2(80)\\\\ &=324. \\end{aligned} \\] Therefore the requested value is \\(324-80=244.\\)\n\nThus, B is the correct answer.",
+   "amc10_problem_number": 24,
+   "amc12_problem_number": 21,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 4
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "A",
+   "position": 25,
+   "question": "For how many integers \\(n\\) between \\(1\\) and \\(50,\\) inclusive, is \\[\\dfrac{(n^2-1)!}{(n!)^n}\\] an integer? (Recall that \\(0! = 1.\\))",
+   "choices": {
+    "a": "\\(31\\)",
+    "b": "\\(32\\)",
+    "c": "\\(33\\)",
+    "d": "\\(34\\)",
+    "e": "\\(35\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "factorial",
+    "divisibility",
+    "prime"
+   ],
+   "seed_elo": 2150.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "One fact that greatly helps with this problem is realizing that \\[ \\dfrac{(n^2)!}{(n!)^{n + 1}} \\] is always an integer.\n\nThis is because it is the number of ways to split up \\(n^2\\) objects into \\(n\\) unordered groups of size \\(n.\\)\n\nNow, we get that \\[ \\dfrac{(n^2 - 1)!}{(n!)^n} = \\dfrac{(n^2)!}{(n!)^{n + 1}} \\cdot \\dfrac{n!}{n^2}. \\]\n\nTherefore, whenever \\(n^2\\) divides \\(n!,\\) the original expression is an integer; this is equivalent to \\(n\\) dividing \\((n - 1)!.\\)\n\nSuppose \\(n\\) is composite. If \\(n=ab\\) with \\(2\\le aD is the correct answer.",
+   "amc10_problem_number": 21,
+   "amc12_problem_number": 18,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 2
+  }
+ ]
+}

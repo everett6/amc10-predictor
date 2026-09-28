@@ -1,0 +1,676 @@
+{
+ "source_url": "https://live.poshenloh.com/past-contests/amc10/2024B",
+ "year": 2024,
+ "label": "B",
+ "problems": [
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 1,
+   "question": "In a long line of people arranged left to right, the \\(1013\\)th person from the left is also the \\(1010\\)th person from the right. How many people are in the line?",
+   "choices": {
+    "a": "\\(2021\\)",
+    "b": "\\(2022\\)",
+    "c": "\\(2023\\)",
+    "d": "\\(2024\\)",
+    "e": "\\(2025\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "basic counting"
+   ],
+   "seed_elo": 860.0,
+   "solve_time_seconds": 25.0,
+   "solution_text": "There are \\(1012\\) people to the left of this spot and \\(1009\\) to the right. Add those two groups plus the person themselves: \\(1012 + 1009 + 1 = 2022.\\) Or, just as fast, the two positions overlap on one person, so \\(1013 + 1010 - 1 = 2022.\\) Thus, B is the correct answer.",
+   "amc10_problem_number": 1,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 7,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 2,
+   "question": "What is \\(10! - 7! \\cdot 6!?\\)",
+   "choices": {
+    "a": "\\(-120\\)",
+    "b": "\\(0\\)",
+    "c": "\\(120\\)",
+    "d": "\\(600\\)",
+    "e": "\\(720\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "factorial"
+   ],
+   "seed_elo": 980.0,
+   "solve_time_seconds": 40.0,
+   "solution_text": "Write \\(10! = 10 \\cdot 9 \\cdot 8 \\cdot 7! = 720 \\cdot 7!.\\) But \\(720 = 6!\\) too, so \\(10! = 6! \\cdot 7! = 7! \\cdot 6!.\\) The two terms are the same. That makes \\(10! - 7! \\cdot 6! = 0.\\) Therefore, the answer is B.",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 9,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 3,
+   "question": "For how many integer values of \\(x\\) is \\(|2x| \\le 7\\pi?\\)",
+   "choices": {
+    "a": "\\(16\\)",
+    "b": "\\(17\\)",
+    "c": "\\(19\\)",
+    "d": "\\(20\\)",
+    "e": "\\(21\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "absolute value",
+    "estimation",
+    "counting integers in a range"
+   ],
+   "seed_elo": 1050.0,
+   "solve_time_seconds": 45.0,
+   "solution_text": "Divide by \\(2\\) to get \\(|x| \\le 3.5\\pi \\approx 10.996.\\) The integers that fit run from \\(-10\\) up to \\(10,\\) and there are \\(21\\) of them. Thus, E is the correct answer.",
+   "amc10_problem_number": 3,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 11,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 4,
+   "question": "Balls numbered \\(1,\\) \\(2,\\) \\(3,\\) \\(\\ldots\\) are deposited in \\(5\\) bins, labeled \\(A,\\) \\(B,\\) \\(C,\\) \\(D,\\) and \\(E,\\) using the following procedure. Ball \\(1\\) is deposited in bin \\(A,\\) and balls \\(2\\) and \\(3\\) are deposited in bin \\(B.\\) The next \\(3\\) balls are deposited in bin \\(C,\\) the next \\(4\\) in bin \\(D,\\) and so on, cycling back to bin \\(A\\) after balls are deposited in bin \\(E.\\) (For example, balls numbered \\(22,\\) \\(23,\\) \\(\\ldots,\\) \\(28\\) are deposited in bin \\(B\\) at step \\(7\\) of this process.) In which bin is ball \\(2024\\) deposited?",
+   "choices": {
+    "a": "\\(A\\)",
+    "b": "\\(B\\)",
+    "c": "\\(C\\)",
+    "d": "\\(D\\)",
+    "e": "\\(E\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "triangular number",
+    "modular arithmetic"
+   ],
+   "seed_elo": 1130.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "Group \\(g\\) holds \\(g\\) balls, so the first \\(g\\) groups swallow \\(\\tfrac{g(g+1)}{2}\\) of them. Now \\(\\tfrac{63 \\cdot 64}{2} = 2016\\) and \\(\\tfrac{64 \\cdot 65}{2} = 2080,\\) which puts ball \\(2024\\) in group \\(64\\) (balls \\(2017\\) through \\(2080\\)). The bins cycle \\(A, B, C, D, E,\\) so group \\(g\\) lands in bin number \\((g - 1) \\bmod 5.\\) For \\(g = 64\\) that's \\(63 \\bmod 5 = 3,\\) bin \\(D.\\) Therefore, the answer is D.",
+   "amc10_problem_number": 4,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 12,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 5,
+   "question": "In the following expression, Melanie changed some of the plus signs to minus signs:\n\n\\[1 + 3 + 5 + 7 + \\cdots + 97 + 99\\]\n\nWhen the new expression was evaluated, it was negative. What is the least number of plus signs that Melanie could have changed to minus signs?",
+   "choices": {
+    "a": "\\(14\\)",
+    "b": "\\(15\\)",
+    "c": "\\(16\\)",
+    "d": "\\(17\\)",
+    "e": "\\(18\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "summation",
+    "optimization",
+    "bounding to limit cases"
+   ],
+   "seed_elo": 1250.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "The full sum is \\(1 + 3 + \\cdots + 99 = 50^2 = 2500.\\) Flipping a term \\(t\\) drops the total by \\(2t,\\) so to go negative the flipped terms have to add up to more than \\(1250.\\) The greedy move is to flip the biggest odd numbers: flipping the top \\(k\\) gives \\(99 + 97 + \\cdots = k(100 - k).\\) We want \\(k(100 - k) \\gt 1250.\\) At \\(k = 14\\) it's only \\(1204,\\) but at \\(k = 15\\) it jumps to \\(1275.\\) So \\(15\\) flips do it. Thus, B is the correct answer.",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 5,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 6,
+   "question": "A rectangle has integer side lengths and an area of \\(2024.\\) What is the least possible perimeter of the rectangle?",
+   "choices": {
+    "a": "\\(160\\)",
+    "b": "\\(180\\)",
+    "c": "\\(222\\)",
+    "d": "\\(228\\)",
+    "e": "\\(390\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "factor",
+    "perimeter",
+    "optimization"
+   ],
+   "seed_elo": 1200.0,
+   "solve_time_seconds": 45.0,
+   "solution_text": "The perimeter \\(2(\\ell + w)\\) with \\(\\ell w = 2024\\) is smallest when \\(\\ell\\) and \\(w\\) are as close together as possible. Factor \\(2024 = 2^3 \\cdot 11 \\cdot 23.\\) The divisor pair nearest \\(\\sqrt{2024} \\approx 45\\) is \\(44 \\times 46,\\) which gives perimeter \\(2(44 + 46) = 180.\\) Therefore, the answer is B.",
+   "amc10_problem_number": 5,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 7,
+   "question": "What is the remainder when \\(7^{2024} + 7^{2025} + 7^{2026}\\) is divided by \\(19?\\)",
+   "choices": {
+    "a": "\\(0\\)",
+    "b": "\\(1\\)",
+    "c": "\\(7\\)",
+    "d": "\\(11\\)",
+    "e": "\\(18\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "modular arithmetic",
+    "factoring",
+    "exponent"
+   ],
+   "seed_elo": 1250.0,
+   "solve_time_seconds": 50.0,
+   "solution_text": "Pull out the common power: \\(7^{2024} + 7^{2025} + 7^{2026}\\) \\(= 7^{2024}(1 + 7 + 49)\\) \\(= 7^{2024} \\cdot 57.\\) And \\(57 = 3 \\cdot 19,\\) so the product is a multiple of \\(19.\\) The remainder is \\(0.\\) Thus, A is the correct answer.",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 5,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 8,
+   "question": "Let \\(N\\) be the product of all the positive integer divisors of \\(42.\\) What is the units digit of \\(N?\\)",
+   "choices": {
+    "a": "\\(0\\)",
+    "b": "\\(2\\)",
+    "c": "\\(4\\)",
+    "d": "\\(6\\)",
+    "e": "\\(8\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "factor counting",
+    "units digit",
+    "pairing and grouping"
+   ],
+   "seed_elo": 1310.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "Since \\(42 = 2 \\cdot 3 \\cdot 7\\) has \\((1+1)^3 = 8\\) divisors, we can pair each divisor with its complement, so \\(N = 42^{\\frac{8}{2}} = 42^4.\\) Only the units digit matters, and \\(2^4 = 16\\) ends in \\(6,\\) so \\(42^4\\) does too. Therefore, the answer is D.",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 14,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 9,
+   "question": "Real numbers \\(a,\\) \\(b,\\) and \\(c\\) have arithmetic mean \\(0.\\) The arithmetic mean of \\(a^2,\\) \\(b^2,\\) and \\(c^2\\) is \\(10.\\) What is the arithmetic mean of \\(ab,\\) \\(ac,\\) and \\(bc?\\)",
+   "choices": {
+    "a": "\\(-5\\)",
+    "b": "\\(-\\dfrac{10}{3}\\)",
+    "c": "\\(-\\dfrac{10}{9}\\)",
+    "d": "\\(0\\)",
+    "e": "\\(\\dfrac{10}{9}\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "algebraic manipulation",
+    "mean"
+   ],
+   "seed_elo": 1350.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "The means tell us \\(a + b + c = 0\\) and \\(a^2 + b^2 + c^2 = 30.\\) Square the first: \\((a+b+c)^2\\) \\(= a^2 + b^2 + c^2\\) \\(+ 2(ab + bc + ca),\\) so \\(0 = 30 + 2(ab + bc + ca)\\) and \\(ab + bc + ca = -15.\\) Their mean is \\(-\\frac{15}{3} = -5.\\) Thus, A is the correct answer.",
+   "amc10_problem_number": 8,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 10,
+   "question": "Quadrilateral \\(ABCD\\) is a parallelogram, and \\(E\\) is the midpoint of the side \\(\\overline{AD}.\\) Let \\(F\\) be the intersection of lines \\(EB\\) and \\(AC.\\) What is the ratio of the area of quadrilateral \\(CDEF\\) to the area of triangle \\(CFB?\\)",
+   "choices": {
+    "a": "\\(5 : 4\\)",
+    "b": "\\(4 : 3\\)",
+    "c": "\\(3 : 2\\)",
+    "d": "\\(5 : 3\\)",
+    "e": "\\(2 : 1\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "parallelogram",
+    "area ratio",
+    "coordinate geometry",
+    "shoelace formula"
+   ],
+   "seed_elo": 1440.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "Area ratios don't change under an affine map, so drop in convenient coordinates: \\(A = (0,0),\\) \\(B = (1,0),\\) \\(C = (1,1),\\) \\(D = (0,1),\\) which makes \\(E = (0, \\tfrac12).\\) Line \\(AC\\) is \\(y = x,\\) and line \\(EB\\) runs from \\((0, \\tfrac12)\\) to \\((1, 0);\\) they cross at \\(F = (\\tfrac13, \\tfrac13).\\) The shoelace formula gives quadrilateral \\(CDEF\\) area \\(\\tfrac{5}{12}\\) and triangle \\(CFB\\) area \\(\\tfrac13.\\) So the ratio is \\(\\tfrac{5}{12} : \\tfrac13 = 5 : 4.\\) Therefore, the answer is A.",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 8,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 11,
+   "question": "In the figure below \\(WXYZ\\) is a rectangle with \\(WX = 4\\) and \\(WZ = 8.\\) Point \\(M\\) lies on \\(\\overline{XY},\\) point \\(A\\) lies on \\(\\overline{YZ},\\) and \\(\\angle WMA\\) is a right angle. The areas of \\(\\triangle WXM\\) and \\(\\triangle WAZ\\) are equal. What is the area of \\(\\triangle WMA?\\)",
+   "choices": {
+    "a": "\\(13\\)",
+    "b": "\\(14\\)",
+    "c": "\\(15\\)",
+    "d": "\\(16\\)",
+    "e": "\\(17\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "coordinate geometry",
+    "vector",
+    "area decomposition"
+   ],
+   "seed_elo": 1500.0,
+   "solve_time_seconds": 100.0,
+   "solution_text": "Set \\(X = (0,0),\\) \\(Y = (8,0),\\) \\(W = (0,4),\\) \\(Z = (8,4),\\) so \\(M = (m, 0)\\) and \\(A = (8, a).\\) The right angle means \\(\\overrightarrow{MW} \\cdot \\overrightarrow{MA} = 0,\\) which gives \\(-m(8 - m) + 4a = 0,\\) that is \\(m(8 - m) = 4a.\\) Equal areas \\([WXM] = 2m\\) and \\([WAZ] = 4(4 - a)\\) force \\(m = 8 - 2a,\\) so \\(a = \\tfrac{8 - m}{2}.\\) Substitute back and \\((8 - m)(2 - m) = 0.\\) Taking \\(M \\ne Y\\) leaves \\(m = 2\\) and \\(a = 3.\\) Then \\([WMA] = 32\\) \\(- [WXM]\\) \\(- [MYA]\\) \\(- [AZW]\\) \\(= 32 - 4 - 9 - 4\\) \\(= 15.\\) Thus, C is the correct answer.",
+   "amc10_problem_number": 11,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 17,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 12,
+   "question": "A group of \\(100\\) students from different countries meet at a mathematics competition. Each student speaks the same number of languages, and, for every pair of students \\(A\\) and \\(B,\\) student \\(A\\) speaks some language that student \\(B\\) does not speak, and student \\(B\\) speaks some language that student \\(A\\) does not speak. What is the least possible total number of languages spoken by all the students?",
+   "choices": {
+    "a": "\\(9\\)",
+    "b": "\\(10\\)",
+    "c": "\\(12\\)",
+    "d": "\\(51\\)",
+    "e": "\\(100\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "subsets",
+    "combinations",
+    "extremal argument"
+   ],
+   "seed_elo": 1500.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "Give each student the set of languages they speak. The condition says no one's set sits inside another's. Everyone speaks the same number \\(k\\) of languages, and two distinct \\(k\\)-element sets can never contain each other, so all we need is \\(100\\) different \\(k\\)-subsets of the \\(n\\) languages, i.e. \\(\\binom{n}{k} \\ge 100.\\) With \\(n = 8\\) the best we can manage is \\(\\binom{8}{4} = 70,\\) short of \\(100.\\) But \\(\\binom{9}{4} = 126 \\ge 100.\\) So \\(9\\) languages are both enough and necessary. Therefore, the answer is A.",
+   "amc10_problem_number": 11,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 17,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 13,
+   "question": "Positive integers \\(x\\) and \\(y\\) satisfy the equation \\(\\sqrt{x} + \\sqrt{y} = \\sqrt{1183}.\\) What is the minimum possible value of \\(x + y?\\)",
+   "choices": {
+    "a": "\\(585\\)",
+    "b": "\\(595\\)",
+    "c": "\\(623\\)",
+    "d": "\\(700\\)",
+    "e": "\\(791\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "radical",
+    "prime factorization",
+    "optimization"
+   ],
+   "seed_elo": 1560.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "Since \\(1183 = 7 \\cdot 13^2,\\) we have \\(\\sqrt{1183} = 13\\sqrt7.\\) Squaring the given equation shows that \\(\\sqrt{xy}\\) is rational. Thus \\(x\\) and \\(y\\) have the same squarefree part: write \\(x=da^2\\) and \\(y=db^2,\\) where \\(d\\) is squarefree and \\(a,b\\) are positive integers. Then \\((a+b)\\sqrt d=13\\sqrt7,\\) so \\(d=7\\) and \\(a+b=13.\\) Therefore \\(x+y=7(a^2+b^2),\\) which is smallest when \\(a\\) and \\(b\\) are as close as possible. Taking \\(a=6\\) and \\(b=7\\) gives \\(x+y=7(36+49)=595.\\) Thus, B is the correct answer.",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 10,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 14,
+   "question": "A dartboard is the region \\(B\\) in the coordinate plane consisting of points \\((x, y)\\) such that \\(|x| + |y| \\le 8.\\) A target \\(T\\) is the region where \\((x^2 + y^2 - 25)^2 \\le 49.\\) A dart is thrown and lands at a random point in \\(B.\\) The probability that the dart lands in \\(T\\) can be expressed as \\(\\dfrac{m}{n} \\cdot \\pi,\\) where \\(m\\) and \\(n\\) are relatively prime positive integers. What is \\(m + n?\\)",
+   "choices": {
+    "a": "\\(39\\)",
+    "b": "\\(71\\)",
+    "c": "\\(73\\)",
+    "d": "\\(75\\)",
+    "e": "\\(135\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "geometric probability",
+    "annulus",
+    "tangent line"
+   ],
+   "seed_elo": 1660.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "\\(B\\) is the square \\(|x| + |y| \\le 8,\\) with area \\(2 \\cdot 8^2 = 128.\\) The target condition \\((x^2 + y^2 - 25)^2 \\le 49\\) unpacks to \\(|x^2 + y^2 - 25| \\le 7,\\) that is \\(18 \\le x^2 + y^2 \\le 32,\\) an annulus of area \\(\\pi(32 - 18) = 14\\pi.\\) Does it fit inside \\(B?\\) The distance from the origin to an edge \\(x + y = 8\\) is \\(\\tfrac{8}{\\sqrt2} = 4\\sqrt2 = \\sqrt{32},\\) exactly the outer radius, so yes, the annulus sits inside the square. The probability is \\(\\tfrac{14\\pi}{128} = \\tfrac{7}{64}\\pi,\\) giving \\(m + n = 71.\\) Therefore, the answer is B.",
+   "amc10_problem_number": 14,
+   "amc12_problem_number": 13,
+   "amc8_problem_number": 19,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 15,
+   "question": "A list of \\(9\\) real numbers consists of \\(1,\\) \\(2.2,\\) \\(3.2,\\) \\(5.2,\\) \\(6.2,\\) \\(7,\\) as well as \\(x,\\) \\(y,\\) \\(z\\) with \\(x \\le y \\le z.\\) The range of the list is \\(7,\\) and the mean and median are both positive integers. How many ordered triples \\((x, y, z)\\) are possible?",
+   "choices": {
+    "a": "\\(1\\)",
+    "b": "\\(2\\)",
+    "c": "\\(3\\)",
+    "d": "\\(4\\)",
+    "e": "infinitely many"
+   },
+   "answer": "c",
+   "concepts": [
+    "mean",
+    "median (data)",
+    "range",
+    "casework"
+   ],
+   "seed_elo": 1730.0,
+   "solve_time_seconds": 180.0,
+   "solution_text": "The six fixed numbers total \\(24.8.\\) If the mean is the integer \\(k,\\) then \\(x+y+z=9k-24.8.\\) Because the fixed entries already run from \\(1\\) to \\(7,\\) the range condition gives three cases.\n\nIf \\(z\\le7,\\) then \\(x=0.\\) The bounds on \\(y+z\\) force \\(k=3\\) or \\(4.\\) For \\(k=3,\\) the median is \\(2.2;\\) for \\(k=4,\\) we have \\(y+z=11.2,\\) so \\(y\\ge4.2\\) and the median is integral only when \\(y=5,\\) giving \\((x,y,z)=(0,5,6.2).\\)\n\nIf \\(x\\ge1,\\) then \\(z=8.\\) Here \\(k=4\\) gives median \\(3.2.\\) For \\(k=5,\\) we have \\(x+y=12.2;\\) the median is integral only when \\(x=6,\\) giving \\((6,6.2,8).\\)\n\nThe remaining case has \\(0C is the correct answer.",
+   "amc10_problem_number": 15,
+   "amc12_problem_number": 14,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 16,
+   "question": "Jerry likes to play with numbers. One day, he wrote all the integers from \\(1\\) to \\(2024\\) on the whiteboard. Then he repeatedly chose four numbers on the whiteboard, erased them, and replaced them by either their sum or their product. (For example, Jerry's first step might have been to erase \\(1,\\) \\(2,\\) \\(3,\\) and \\(5,\\) and then write either \\(11,\\) their sum, or \\(30,\\) their product, on the whiteboard.) After repeatedly performing this operation, Jerry noticed that all the remaining numbers on the whiteboard were odd. What is the maximum possible number of integers on the whiteboard at that time?",
+   "choices": {
+    "a": "\\(1010\\)",
+    "b": "\\(1011\\)",
+    "c": "\\(1012\\)",
+    "d": "\\(1013\\)",
+    "e": "\\(1014\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "parity",
+    "invariant",
+    "optimization"
+   ],
+   "seed_elo": 1800.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Among \\(1, \\ldots, 2024\\) there are \\(1012\\) even numbers and \\(1012\\) odd numbers. Each operation replaces \\(4\\) entries by \\(1,\\) so the total count falls by \\(3.\\) If a move consumes \\(e\\) even entries, its output is either odd, reducing the even count by \\(e,\\) or even, reducing it by \\(e-1.\\) In either case the even count falls by at most \\(3.\\) Therefore eliminating all \\(1012\\) even entries takes at least \\(\\lceil\\frac{1012}{3}\\rceil=338\\) moves. This is achievable: use \\(337\\) sums containing one odd and three evens, then one sum containing three odds and the final even. Every output is odd. Thus the maximum remaining count is \\(2024-3\\cdot338=1010.\\) Therefore, the answer is A.",
+   "amc10_problem_number": 16,
+   "amc12_problem_number": 15,
+   "amc8_problem_number": 21,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 17,
+   "question": "In a race among \\(5\\) snails, there is at most one tie, but that tie can involve any number of snails. For example, the result of the race might be that Dazzler is first; Abby, Cyrus, and Elroy are tied for second; and Bruna is fifth. How many different results of the race are possible?",
+   "choices": {
+    "a": "\\(180\\)",
+    "b": "\\(361\\)",
+    "c": "\\(420\\)",
+    "d": "\\(431\\)",
+    "e": "\\(720\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "permutations",
+    "combinations",
+    "casework"
+   ],
+   "seed_elo": 1730.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "If nobody ties, the \\(5\\) snails finish in \\(5! = 120\\) orders. Now allow exactly one tied group of size \\(k\\) with \\(2 \\le k \\le 5.\\) Choose the group in \\(\\binom{5}{k}\\) ways, then treat it as one block, leaving \\(6 - k\\) blocks to arrange in \\((6 - k)!\\) ways. Summing over \\(k:\\) \\(\\binom{5}{2}4!\\) \\(+ \\binom{5}{3}3!\\) \\(+ \\binom{5}{4}2!\\) \\(+ \\binom{5}{5}1!\\) \\(= 240 + 60 + 10 + 1\\) \\(= 311.\\) Add the no-tie count: \\(120 + 311 = 431.\\) Thus, D is the correct answer.",
+   "amc10_problem_number": 15,
+   "amc12_problem_number": 14,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 18,
+   "question": "How many different remainders can result when the \\(100\\)th power of an integer is divided by \\(125?\\)",
+   "choices": {
+    "a": "\\(1\\)",
+    "b": "\\(2\\)",
+    "c": "\\(5\\)",
+    "d": "\\(25\\)",
+    "e": "\\(125\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "Euler's Totient Function",
+    "modular exponentiation",
+    "casework"
+   ],
+   "seed_elo": 1840.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "Here \\(125 = 5^3\\) and \\(\\varphi(125) = 100.\\) If \\(\\gcd(n, 5) = 1,\\) Euler's theorem gives \\(n^{100} \\equiv 1 \\pmod{125}.\\) And if \\(n\\) is divisible by \\(5,\\) then \\(n^{100}\\) carries a factor of \\(5^{100},\\) hence of \\(125,\\) so \\(n^{100} \\equiv 0 \\pmod{125}.\\) That leaves only two possible remainders, \\(0\\) and \\(1.\\) Therefore, the answer is B.",
+   "amc10_problem_number": 17,
+   "amc12_problem_number": 16,
+   "amc8_problem_number": 21,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 19,
+   "question": "In the following table, each question mark is to be replaced by \"Possible\" or \"Not Possible\" to indicate whether a nonvertical line with the given slope can contain the given number of lattice points (points both of whose coordinates are integers). How many of the \\(12\\) entries will be \"Possible\"?",
+   "choices": {
+    "a": "\\(4\\)",
+    "b": "\\(5\\)",
+    "c": "\\(6\\)",
+    "d": "\\(7\\)",
+    "e": "\\(9\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "lattice point",
+    "slope",
+    "casework"
+   ],
+   "seed_elo": 1910.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Any two lattice points give a rational slope. So a line with irrational slope holds at most one lattice point: it can have \\(0\\) (say \\(y = \\sqrt2\\,x + \\tfrac12\\)) or exactly \\(1\\) (say \\(y = \\sqrt2\\,x\\)), never two. A line with rational slope (zero included) through a lattice point \\((x_0, y_0)\\) also passes through \\((x_0 + q, y_0 + p)\\) for its reduced slope \\(\\tfrac{p}{q},\\) so it hits infinitely many; such a line has either \\(0\\) lattice points (shift it by an irrational intercept) or more than two, never exactly one or two. So each row gives exactly two \"Possible\" entries. For zero and nonzero rational slope those are the \"zero\" and \"more than two\" columns; for irrational slope, the \"zero\" and \"exactly one\" columns. That's \\(6\\) in all. Thus, C is the correct answer.",
+   "amc10_problem_number": 18,
+   "amc12_problem_number": 17,
+   "amc8_problem_number": 22,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 20,
+   "question": "Three different pairs of shoes are placed in a row so that no left shoe is next to a right shoe from a different pair. In how many ways can these six shoes be lined up?",
+   "choices": {
+    "a": "\\(60\\)",
+    "b": "\\(72\\)",
+    "c": "\\(90\\)",
+    "d": "\\(108\\)",
+    "e": "\\(120\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "arrangements with restrictions",
+    "casework"
+   ],
+   "seed_elo": 2080.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "Wherever an \\(L\\) meets an \\(R\\) in the side pattern, those two shoes must be mates. Thus an interior run cannot have length \\(1:\\) its lone shoe would have to be the mate of both neighbors. With three \\(L\\)'s and three \\(R\\)'s, the only possible patterns are \\(LLLRRR,\\) \\(RRRLLL,\\) \\(LLRRRL,\\) \\(LRRLLR,\\) \\(LRRRLL,\\) \\(RLLLRR,\\) \\(RLLRRL,\\) and \\(RRLLLR.\\) For either one-switch pattern, choose the pair at the switch and order the remaining shoes, giving \\(3\\cdot2\\cdot2=12\\) arrangements. Each of the other six patterns has \\(6\\) assignments of the three pairs to its switches. Hence the total is \\(2\\cdot12+6\\cdot6=60.\\) Therefore, the answer is A.",
+   "amc10_problem_number": 20,
+   "amc12_problem_number": 19,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 21,
+   "question": "Two straight pipes (circular cylinders), with radii \\(1\\) and \\(\\tfrac14,\\) lie parallel and in contact on a flat floor. The figure below shows a head-on view. What is the sum of the possible radii of a third parallel pipe lying on the same floor and in contact with both?",
+   "choices": {
+    "a": "\\(\\dfrac{1}{9}\\)",
+    "b": "\\(1\\)",
+    "c": "\\(\\dfrac{10}{9}\\)",
+    "d": "\\(\\dfrac{11}{9}\\)",
+    "e": "\\(\\dfrac{19}{9}\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "tangent circles",
+    "Pythagorean Theorem",
+    "casework"
+   ],
+   "seed_elo": 2120.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Two circles of radii \\(R\\) and \\(r\\) resting on the floor and touching each other have contact points a horizontal distance \\(2\\sqrt{Rr}\\) apart. So the radius-\\(1\\) and radius-\\(\\tfrac14\\) pipes touch the floor \\(2\\sqrt{1 \\cdot \\tfrac14} = 1\\) apart. A third pipe of radius \\(r\\) sits \\(2\\sqrt{r}\\) from the big pipe's contact point and \\(2\\sqrt{\\tfrac14 r} = \\sqrt{r}\\) from the small pipe's. Nestled between them, \\(2\\sqrt r + \\sqrt r = 1,\\) so \\(\\sqrt r = \\tfrac13\\) and \\(r = \\tfrac19.\\) Sitting past the small pipe, \\(2\\sqrt r - \\sqrt r = 1,\\) so \\(r = 1.\\) (Past the big pipe can't happen.) The sum is \\(\\tfrac19 + 1 = \\tfrac{10}{9}.\\) Thus, C is the correct answer.",
+   "amc10_problem_number": 21,
+   "amc12_problem_number": 20,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 22,
+   "question": "A group of \\(16\\) people will be partitioned into \\(4\\) indistinguishable \\(4\\)-person committees. Each committee will have one chairperson and one secretary. The number of different ways to make these assignments can be written as \\(3^r M,\\) where \\(r\\) and \\(M\\) are positive integers and \\(M\\) is not divisible by \\(3.\\) What is \\(r?\\)",
+   "choices": {
+    "a": "\\(5\\)",
+    "b": "\\(6\\)",
+    "c": "\\(7\\)",
+    "d": "\\(8\\)",
+    "e": "\\(9\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "combinations",
+    "Legendre's Formula",
+    "prime factorization"
+   ],
+   "seed_elo": 2120.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "Split \\(16\\) people into \\(4\\) indistinguishable groups of \\(4\\) in \\(\\dfrac{16!}{(4!)^4 \\, 4!}\\) ways, then each committee picks a chairperson and a secretary in \\(4 \\cdot 3 = 12\\) ways, a factor of \\(12^4.\\) Now count factors of \\(3.\\) In \\(16!\\) there are \\(\\lfloor \\frac{16}{3} \\rfloor + \\lfloor \\frac{16}{9} \\rfloor = 6;\\) the denominator \\((4!)^4 \\, 4!\\) contributes \\(4 \\cdot 1 + 1 = 5;\\) and \\(12^4\\) contributes \\(4.\\) The exponent is \\(6 - 5 + 4 = 5,\\) so \\(r = 5.\\) Therefore, the answer is A.",
+   "amc10_problem_number": 21,
+   "amc12_problem_number": 20,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 23,
+   "question": "The Fibonacci numbers are defined by \\(F_1 = 1,\\) \\(F_2 = 1,\\) and \\(F_n = F_{n-1} + F_{n-2}\\) for \\(n \\ge 3.\\) What is\n\n\\[\\frac{F_2}{F_1} + \\frac{F_4}{F_2} + \\frac{F_6}{F_3} + \\cdots + \\frac{F_{20}}{F_{10}}?\\]",
+   "choices": {
+    "a": "\\(318\\)",
+    "b": "\\(319\\)",
+    "c": "\\(320\\)",
+    "d": "\\(321\\)",
+    "e": "\\(322\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "Fibonacci",
+    "summation"
+   ],
+   "seed_elo": 2270.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "Use \\(F_{2k} = F_k L_k,\\) so each term \\(\\dfrac{F_{2k}}{F_k} = L_k,\\) the \\(k\\)th Lucas number. That collapses the sum to \\(\\sum_{k=1}^{10} L_k.\\) With \\(L_1 = 1,\\) \\(L_2 = 3,\\) \\(L_3 = 4,\\) \\(\\ldots,\\) \\(L_{10} = 123,\\) the identity \\(\\sum_{k=1}^{n} L_k = L_{n+2} - 3\\) gives \\(L_{12} - 3 = 322 - 3 = 319.\\) Thus, B is the correct answer.",
+   "amc10_problem_number": 22,
+   "amc12_problem_number": 22,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 2
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 24,
+   "question": "Let\n\n\\[ \\begin{aligned} P(m) &= \\frac{m}{2} + \\frac{m^2}{4} \\\\ &\\quad {}+ \\frac{m^4}{8} + \\frac{m^8}{8}. \\end{aligned} \\]\n\nHow many of the values of \\(P(2022),\\) \\(P(2023),\\) \\(P(2024),\\) and \\(P(2025)\\) are integers?",
+   "choices": {
+    "a": "\\(0\\)",
+    "b": "\\(1\\)",
+    "c": "\\(2\\)",
+    "d": "\\(3\\)",
+    "e": "\\(4\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "modular arithmetic",
+    "parity",
+    "casework"
+   ],
+   "seed_elo": 2380.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Put everything over \\(8:\\) \\(P(m) = \\dfrac{m^8 + m^4 + 2m^2 + 4m}{8}.\\) If \\(m\\) is even, every term up top is divisible by \\(8.\\) If \\(m\\) is odd, then \\(m^2 \\equiv m^4 \\equiv m^8 \\equiv 1\\) and \\(4m \\equiv 4 \\pmod 8,\\) so the numerator is \\(1 + 1 + 2 + 4 = 8 \\equiv 0 \\pmod 8.\\) Either way \\(P(m)\\) is an integer, so all \\(4\\) values are integers. Therefore, the answer is E.",
+   "amc10_problem_number": 23,
+   "amc12_problem_number": 23,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 3
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "B",
+   "position": 25,
+   "question": "Each of \\(27\\) bricks (right rectangular prisms) has dimensions \\(a \\times b \\times c,\\) where \\(a,\\) \\(b,\\) and \\(c\\) are pairwise relatively prime positive integers. These bricks are arranged to form a \\(3 \\times 3 \\times 3\\) block, as shown on the left below. A \\(28\\)th brick with the same dimensions is introduced, and these bricks are reconfigured into a \\(2 \\times 2 \\times 7\\) block, shown on the right. The new block is \\(1\\) unit taller, \\(1\\) unit wider, and \\(1\\) unit deeper than the old one. What is \\(a + b + c?\\)",
+   "choices": {
+    "a": "\\(88\\)",
+    "b": "\\(89\\)",
+    "c": "\\(90\\)",
+    "d": "\\(91\\)",
+    "e": "\\(92\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "Diophantine Equation",
+    "rectangular prism",
+    "casework"
+   ],
+   "seed_elo": 2470.0,
+   "solve_time_seconds": 240.0,
+   "solution_text": "Relabel the brick dimensions so the new block has sides \\(7a,2b,2c.\\) These must be the three old side lengths \\(3a,3b,3c,\\) each increased by \\(1.\\) A new side cannot match the old side with the same letter: \\(7a=3a+1\\) has no positive integer solution, while \\(2b=3b+1\\) and \\(2c=3c+1\\) would give negative lengths. Therefore the matching must be one of the two three-cycles. In one orientation, \\[ \\begin{aligned} 7a&=3c+1,\\\\ 2b&=3a+1,\\\\ 2c&=3b+1. \\end{aligned} \\] The last two equations give \\(b=\\frac{3a+1}{2}\\) and \\(c=\\frac{9a+5}{4}.\\) Substituting into the first gives \\(28a=27a+19,\\) so \\((a,b,c)=(19,29,44).\\) The other cycle merely exchanges \\(b\\) and \\(c.\\) These lengths are pairwise relatively prime, and \\(a+b+c=19+29+44=92.\\) Thus, E is the correct answer.",
+   "amc10_problem_number": 24,
+   "amc12_problem_number": 24,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 3
+  }
+ ]
+}

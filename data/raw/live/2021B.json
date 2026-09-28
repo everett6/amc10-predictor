@@ -1,0 +1,661 @@
+{
+ "source_url": "https://live.poshenloh.com/past-contests/amc10/2021B",
+ "year": 2021,
+ "label": "B",
+ "problems": [
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 1,
+   "question": "How many integer values of \\(x\\) satisfy \\(|x| < 3\\pi?\\)",
+   "choices": {
+    "a": "\\( 9 \\)",
+    "b": "\\( 10 \\)",
+    "c": "\\( 18 \\)",
+    "d": "\\( 19 \\)",
+    "e": "\\( 20 \\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "absolute value",
+    "counting integers in a range"
+   ],
+   "seed_elo": 560.0,
+   "solve_time_seconds": 25.0,
+   "solution_text": "Every integer from \\(-9\\) to \\(9,\\) inclusive, works. This yields \\(9-(-9)+1 = 19\\) solutions.\n\nThus, the correct answer is D .",
+   "amc10_problem_number": 0,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 3,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 2,
+   "question": "What is the value of \\[ \\begin{aligned} &\\sqrt{\\left(3-2\\sqrt{3}\\right)^2} \\\\ &{}+\\sqrt{\\left(3+2\\sqrt{3}\\right)^2}? \\end{aligned} \\]",
+   "choices": {
+    "a": "\\( 0 \\)",
+    "b": "\\( 4\\sqrt{3}-6 \\)",
+    "c": "\\( 6 \\)",
+    "d": "\\( 4\\sqrt{3} \\)",
+    "e": "\\( 4\\sqrt{3}+6 \\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "radical",
+    "absolute value"
+   ],
+   "seed_elo": 770.0,
+   "solve_time_seconds": 30.0,
+   "solution_text": "Because \\(\\sqrt{u^2}=|u|,\\) the expression equals \\[|3-2\\sqrt3|+|3+2\\sqrt3|.\\] Since \\(2\\sqrt3>3,\\) this becomes \\[(2\\sqrt3-3)+(3+2\\sqrt3)=4\\sqrt3.\\]\n\nThus, the correct answer is D .",
+   "amc10_problem_number": 1,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 5,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 3,
+   "question": "In an after-school program for juniors and seniors, there is a debate team with an equal number of students from each class on the team. Among the \\(28\\) students in the program, \\(25\\%\\) of the juniors and \\(10\\%\\) of the seniors are on the debate team. How many juniors are in the program?",
+   "choices": {
+    "a": "\\( 5 \\)",
+    "b": "\\( 6 \\)",
+    "c": "\\( 8 \\)",
+    "d": "\\( 11 \\)",
+    "e": "\\( 20 \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "percentage",
+    "system of equations"
+   ],
+   "seed_elo": 870.0,
+   "solve_time_seconds": 35.0,
+   "solution_text": "Let the number of juniors be \\(j\\) and the number of seniors be \\(s.\\) Then, \\(j+s = 28\\) and \\(0.25j = 0.1s.\\) This means \\(2.5j = s,\\) so \\(3.5j = 28.\\) This makes \\(j=8.\\)\n\nThus, the correct answer is C .",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 6,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 4,
+   "question": "At a math contest, \\(57\\) students are wearing blue shirts, and another \\(75\\) students are wearing yellow shirts. The \\(132\\) students are assigned into \\(66\\) pairs. In exactly \\(23\\) of these pairs, both students are wearing blue shirts. In how many pairs are both students wearing yellow shirts?",
+   "choices": {
+    "a": "\\( 23 \\)",
+    "b": "\\( 32 \\)",
+    "c": "\\( 37 \\)",
+    "d": "\\( 41 \\)",
+    "e": "\\( 64 \\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "counting pairs"
+   ],
+   "seed_elo": 960.0,
+   "solve_time_seconds": 45.0,
+   "solution_text": "There are \\(2\\cdot 23 = 46\\) students with blue shirts that are in a pair with just blue shirts. This means there are \\(57-46=11\\) students in blue shirts who are paired with someone wearing a yellow shirt, meaning exactly \\(11\\) people wearing yellow shirts are paired with someone wearing a blue shirt.\n\nThis leaves just \\(64\\) students wearing a yellow shirt who are paired with someone else wearing a yellow shirt. This yields \\(\\dfrac{64}2 = 32 \\) pairs.\n\nThus, the answer is B .",
+   "amc10_problem_number": 3,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 8,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 5,
+   "question": "The ages of Jonie's four cousins are distinct single-digit positive integers. Two of the cousins' ages multiplied together give \\(24,\\) while the other two multiply to \\(30.\\) What is the sum of the ages of Jonie's four cousins?",
+   "choices": {
+    "a": "\\( 21 \\)",
+    "b": "\\( 22 \\)",
+    "c": "\\( 23 \\)",
+    "d": "\\( 24 \\)",
+    "e": "\\( 25 \\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "factor",
+    "ages"
+   ],
+   "seed_elo": 900.0,
+   "solve_time_seconds": 40.0,
+   "solution_text": "The only pair of single-digit positive integers with product \\(30\\) is \\(5,6.\\) The single-digit factor pairs of \\(24\\) are \\(3,8\\) and \\(4,6.\\) Because all four ages are distinct, the pair \\(4,6\\) would repeat the age \\(6,\\) so the other pair must be \\(3,8.\\) Thus the ages are \\(3,5,6,8,\\) whose sum is \\(22.\\)\n\nThus, the answer is B .",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 7,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 6,
+   "question": "Ms. Blackwell gives an exam to two classes. The mean of the scores of the students in the morning class is \\(84,\\) and the afternoon class's mean score is \\(70.\\) The ratio of the number of students in the morning class to the number of students in the afternoon class is \\(\\frac{3}{4}.\\) What is the mean of the scores of all the students?",
+   "choices": {
+    "a": "\\( 74 \\)",
+    "b": "\\( 75 \\)",
+    "c": "\\( 76 \\)",
+    "d": "\\( 77 \\)",
+    "e": "\\( 78 \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "mean",
+    "ratio and proportion"
+   ],
+   "seed_elo": 900.0,
+   "solve_time_seconds": 40.0,
+   "solution_text": "Let the number of people in the first class be \\(3x.\\) This means the number of people in the second class is \\(4x.\\)\n\nThus, the sum of the scores of the first class is \\(84\\cdot 3x = 252x\\) and the sum of the scores for the people in the second class is \\(70\\cdot 4x = 280x.\\) This means the total sum is \\(532x,\\) with \\(7x\\) people.\n\nTherefore, the average of all the students is \\( \\dfrac{532x}{7x} = 76.\\)\n\nThus, the correct answer is C .",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 7,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 7,
+   "question": "In a plane, four circles with radii \\(1,\\) \\(3,\\) \\(5,\\) and \\(7\\) are tangent to line \\(\\ell\\) at the same point \\(A,\\) but they may be on either side of \\(\\ell.\\) Region \\(S\\) consists of all the points that lie inside exactly one of the four circles. What is the maximum possible area of region \\(S?\\)",
+   "choices": {
+    "a": "\\( 24\\pi \\)",
+    "b": "\\( 32\\pi \\)",
+    "c": "\\( 64\\pi \\)",
+    "d": "\\( 65\\pi \\)",
+    "e": "\\( 84\\pi \\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "tangent circles",
+    "circle area",
+    "optimization"
+   ],
+   "seed_elo": 1240.0,
+   "solve_time_seconds": 70.0,
+   "solution_text": "On one side of \\(\\ell,\\) circles tangent at \\(A\\) are nested. For nested circles with radii \\(r_1>r_2>\\cdots,\\) the points inside exactly one of those circles have area \\(\\pi(r_1^2-r_2^2)\\) if there are at least two circles; a third smaller nested circle does not count because its points are inside three circles, not exactly one.\n\nTo maximize the area, put the circle of radius \\(7\\) alone on one side, and put the circles of radii \\(5,3,1\\) on the other side. This gives\n\n\\[ \\begin{aligned} &7^2\\pi+(5^2-3^2)\\pi \\\\ &=49\\pi+16\\pi=65\\pi. \\end{aligned} \\]\n\nThus, the answer is D .",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 8,
+   "question": "Mr. Zhou places all the integers from \\(1\\) to \\(225\\) into a \\(15\\) by \\(15\\) grid. He places \\(1\\) in the middle square (eighth row and eighth column) and places other numbers one by one clockwise, as shown in part in the diagram below. What is the sum of the greatest number and the least number that appear in the second row from the top?",
+   "choices": {
+    "a": "\\( 367 \\)",
+    "b": "\\( 368 \\)",
+    "c": "\\( 369 \\)",
+    "d": "\\( 379 \\)",
+    "e": "\\( 380 \\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "pattern recognition",
+    "perfect square"
+   ],
+   "seed_elo": 1420.0,
+   "solve_time_seconds": 80.0,
+   "solution_text": "In the outer \\(15\\times15\\) ring, the top row contains \\(211,212,\\ldots,225,\\) so the number just below \\(211\\) in the second row is \\(210.\\) This is the greatest number in the second row.\n\nThe inner \\(13\\times13\\) spiral has \\(13^2=169\\) in its upper-right corner. In the second row of the full grid, the inner-ring entries run from \\(157\\) to \\(169.\\) Thus the least entry in that row is \\(157.\\)\n\nThe required sum is \\(210+157=367.\\)\n\nThus, the answer is A .",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 7,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 9,
+   "question": "The point \\(P(a,b)\\) in the \\(xy\\)-plane is first rotated counterclockwise by \\(90^\\circ\\) around the point \\((1,5)\\) and then reflected about the line \\(y = -x.\\) The image of \\(P\\) after these two transformations is at \\((-6,3).\\) What is \\(b - a ?\\)",
+   "choices": {
+    "a": "\\( 1 \\)",
+    "b": "\\( 3 \\)",
+    "c": "\\( 5 \\)",
+    "d": "\\( 7 \\)",
+    "e": "\\( 9 \\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "transformation",
+    "coordinate geometry",
+    "work backwards"
+   ],
+   "seed_elo": 1220.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "Work backward. Reflecting \\((-6,3)\\) across \\(y=-x\\) gives \\((-3,6).\\)\n\nNow undo the \\(90^\\circ\\) counterclockwise rotation by rotating \\((-3,6)\\) clockwise about \\((1,5).\\) Relative to \\((1,5),\\) the point is \\((-4,1).\\) A clockwise quarter-turn sends this to \\((1,4),\\) and translating back gives \\((2,9).\\)\n\nThus \\(a=2,\\) \\(b=9,\\) and \\(b-a=7.\\)\n\nThus, the answer is D .",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 12,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 10,
+   "question": "An inverted cone with base radius \\(12 \\mathrm{ cm}\\) and height \\(18 \\mathrm{ cm}\\) is full of water. The water is poured into a tall cylinder whose horizontal base has a radius of \\(24 \\mathrm{ cm}.\\) What is the height in centimeters of the water in the cylinder?",
+   "choices": {
+    "a": "\\( 1.5 \\)",
+    "b": "\\( 3 \\)",
+    "c": "\\( 4 \\)",
+    "d": "\\( 4.5 \\)",
+    "e": "\\( 6 \\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "volume",
+    "cone",
+    "cylinder"
+   ],
+   "seed_elo": 1020.0,
+   "solve_time_seconds": 45.0,
+   "solution_text": "The volumes must be the same since the water is poured from one to another. The volume of the cone is \\(\\frac{r^2h \\pi}3 = \\frac{12^2\\cdot 18 \\pi}3 = 864 \\pi.\\)\n\nThe volume of the cylinder is \\(r^2h \\pi =24^2h \\pi = 576h \\pi.\\) This makes \\(576 h \\pi = 864 \\pi,\\) so \\(h = 1.5.\\)\n\nThus, the answer is A .",
+   "amc10_problem_number": 4,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 9,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 11,
+   "question": "Grandma has just finished baking a large rectangular pan of brownies. She is planning to make rectangular pieces of equal size and shape, with straight cuts parallel to the sides of the pan. Each cut must be made entirely across the pan. Grandma wants to make the same number of interior pieces as pieces along the perimeter of the pan. What is the greatest possible number of brownies she can produce?",
+   "choices": {
+    "a": "\\( 24 \\)",
+    "b": "\\( 30 \\)",
+    "c": "\\( 48 \\)",
+    "d": "\\( 60 \\)",
+    "e": "\\( 64 \\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "Simon's Favorite Factoring Trick",
+    "optimization"
+   ],
+   "seed_elo": 1420.0,
+   "solve_time_seconds": 80.0,
+   "solution_text": "Suppose the cuts make an \\(l\\times w\\) grid of pieces. The number of interior pieces is \\((l-2)(w-2),\\) and the total number of pieces is \\(lw.\\) Since the number of interior pieces equals the number of perimeter pieces, the interior pieces make up half the total:\n\n\\[(l-2)(w-2)=\\frac{lw}{2}.\\]\n\nMultiplying out gives \\(lw-4l-4w+8=0,\\) or\n\n\\[(l-4)(w-4)=8.\\]\n\nThe positive factor pairs of \\(8\\) give \\((l,w)=(5,12)\\) or \\((6,8),\\) up to order. These produce \\(60\\) or \\(48\\) pieces, respectively, so the greatest possible number is \\(60.\\)\n\nThus, the answer is D .",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 7,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 12,
+   "question": "Let \\(N = 34 \\cdot 34 \\cdot 63 \\cdot 270.\\) What is the ratio of the sum of the odd divisors of \\(N\\) to the sum of the even divisors of \\(N?\\)",
+   "choices": {
+    "a": "\\( 1 : 16 \\)",
+    "b": "\\( 1 : 15 \\)",
+    "c": "\\( 1 : 14 \\)",
+    "d": "\\( 1 : 8 \\)",
+    "e": "\\( 1 : 3 \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "sum of factors",
+    "prime factorization",
+    "parity"
+   ],
+   "seed_elo": 1140.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "Using prime factorization, we get \\[N =2^3\\cdot 3^5\\cdot 5\\cdot 7\\cdot 17^2.\\]\n\nIf we have an odd divisor \\(x\\) of \\(N,\\) then \\(2x,4x,8x\\) are divisors of \\(N,\\) which has a combined sum of \\(14x.\\) If we take the sum of every odd divisor, then the even divisors must have a sum which is \\(14\\) times the sum of the odd divisors. Therefore, the requested ratio is \\(1:14.\\)\n\nThus, the answer is C .",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 11,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 13,
+   "question": "Let \\(n\\) be a positive integer and \\(d\\) be a digit such that the value of the numeral \\(\\underline{32d}\\) in base \\(n\\) equals \\(263,\\) and the value of the numeral \\(\\underline{324}\\) in base \\(n\\) equals the value of the numeral \\(\\underline{11d1}\\) in base six. What is \\(n + d ?\\)",
+   "choices": {
+    "a": "\\( 10 \\)",
+    "b": "\\( 11 \\)",
+    "c": "\\( 13 \\)",
+    "d": "\\( 15 \\)",
+    "e": "\\( 16 \\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "number base",
+    "system of equations"
+   ],
+   "seed_elo": 1280.0,
+   "solve_time_seconds": 70.0,
+   "solution_text": "The first statement means \\[3n^2 + 2n+d = 263.\\]\n\nSimilarly, the second statement means \\[3n^2 +2n +4 \\]\\[= 6^3 +6^2 +6d+1 \\]\\[= 253 + 6d.\\]\n\nSubtracting these shows us that \\[4-d = 6d-10\\] \\[7d = 14\\] \\[d=2.\\] Therefore, \\(3n^2 + 2n + 2 = 263,\\) so \\(n(3n+2) = 261.\\)\n\nThis implies \\(n=9.\\) Therefore, \\(n+d = 11.\\)\n\nThus, the answer is B .",
+   "amc10_problem_number": 8,
+   "amc12_problem_number": 5,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 14,
+   "question": "Three equally spaced parallel lines intersect a circle, creating three chords of lengths \\(38,\\) \\(38,\\) and \\(34.\\) What is the distance between two adjacent parallel lines?",
+   "choices": {
+    "a": "\\( 5\\frac12 \\)",
+    "b": "\\( 6 \\)",
+    "c": "\\( 6\\frac12 \\)",
+    "d": "\\( 7 \\)",
+    "e": "\\( 7\\frac12 \\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "chord",
+    "circle",
+    "Pythagorean Theorem"
+   ],
+   "seed_elo": 1540.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "The two chords of length \\(38\\) are equally far from the center of the circle. They cannot lie on the two outer lines: then the center would lie on the middle line, whose chord would be a diameter longer than \\(38,\\) not the given \\(34.\\) Therefore, the equal chords lie on adjacent lines, with the center halfway between them. Let that half-distance be \\(d.\\) Then each \\(38\\)-chord is distance \\(d\\) from the center, and the \\(34\\)-chord is distance \\(3d\\) from the center.\n\nIf the circle has radius \\(r,\\) then\n\n\\[r^2=19^2+d^2=17^2+(3d)^2.\\]\n\nThus \\(19^2-17^2=8d^2,\\) so \\(72=8d^2,\\) and \\(d=3.\\) The distance between adjacent parallel lines is \\(2d=6.\\)\n\nThus, the answer is B .",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 15,
+   "question": "The real number \\(x\\) satisfies the equation \\[x+\\frac{1}{x} = \\sqrt{5}.\\] What is the value of \\(x^{11}-7x^{7}+x^3?\\)",
+   "choices": {
+    "a": "\\( -1 \\)",
+    "b": "\\( 0 \\)",
+    "c": "\\( 1 \\)",
+    "d": "\\( 2 \\)",
+    "e": "\\( \\sqrt{5} \\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "algebraic manipulation",
+    "symmetry (algebra)"
+   ],
+   "seed_elo": 1340.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "Since \\(x+\\frac{1}{x} = \\sqrt{5},\\) squaring yields \\[x^2 + 2 + \\frac 1{x^2} = 5\\] \\[x^2 + \\frac 1{x^2} = 3.\\] Squaring again yields \\[x^4 + 2 + \\frac 1{x^4} = 9 \\]\\[x^4 -7 + \\frac 1{x^4} = 0.\\] Multiplying by \\(x^7\\) yields \\[x^{11}-7x^{7}+x^3=0.\\]\n\nThus, the answer is B .",
+   "amc10_problem_number": 9,
+   "amc12_problem_number": 5,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 16,
+   "question": "Call a positive integer an uphill integer if every digit is strictly greater than the previous digit. For example, \\(1357,\\) \\(89,\\) and \\(5\\) are all uphill integers, but \\(32,\\) \\(1240,\\) and \\(466\\) are not. How many uphill integers are divisible by \\(15?\\)",
+   "choices": {
+    "a": "\\( 4 \\)",
+    "b": "\\( 5 \\)",
+    "c": "\\( 6 \\)",
+    "d": "\\( 7 \\)",
+    "e": "\\( 8 \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "subsets",
+    "divisibility"
+   ],
+   "seed_elo": 1480.0,
+   "solve_time_seconds": 85.0,
+   "solution_text": "If a number is divisible by \\(15,\\) it has a units digit of \\(0\\) or \\(5.\\) If the units digit is \\(0\\) and the digits are strictly increasing, then the number is \\(0,\\) which isn't positive. Therefore, we can just look at numbers with a units digit of \\(5.\\)\n\nNext, we need to find uphill integers that are a multiple of \\(3.\\) This means the other digits are a subset of \\(\\{1,2,3,4\\}.\\) Taking the sum of the set must have a remainder of \\(1\\) when divided by \\(3.\\) Also, having or taking out \\(3\\) wouldn't affect the remainder, so we can take the number of subsets without a \\(3\\) and multiply it by \\(2.\\) There are only \\(3\\) such subsets, namely \\(\\{1\\}, \\{4\\}, \\) and \\(\\{1,2,4\\}.\\) Thus, there are \\(6\\) total subsets.\n\nThus, the correct answer is C .",
+   "amc10_problem_number": 11,
+   "amc12_problem_number": 8,
+   "amc8_problem_number": 17,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 17,
+   "question": "Ravon, Oscar, Aditi, Tyrone, and Kim play a card game. Each person is given \\(2\\) cards out of a set of \\(10\\) cards numbered \\(1,\\) \\(2,\\) \\(3,\\) \\(\\dots,\\) \\(10.\\) The score of a player is the sum of the numbers of their cards. The scores of the players are as follows: Ravon--\\(11,\\) Oscar--\\(4,\\) Aditi--\\(7,\\) Tyrone--\\(16,\\) Kim--\\(17.\\) Which of the following statements is true?",
+   "choices": {
+    "a": "Ravon was given card \\(3.\\)",
+    "b": "Aditi was given card \\(3.\\)",
+    "c": "Ravon was given card \\(4.\\)",
+    "d": "Aditi was given card \\(4.\\)",
+    "e": "Tyrone was given card \\(7.\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "logical deduction"
+   ],
+   "seed_elo": 1420.0,
+   "solve_time_seconds": 80.0,
+   "solution_text": "Oscar's score of \\(4\\) forces his cards to be \\(1\\) and \\(3.\\) From the remaining cards, the only pair with sum \\(7\\) is \\(2\\) and \\(5,\\) so those are Aditi's cards.\n\nThe unused cards are now \\(4,6,7,8,9,10.\\) Tyrone's score of \\(16\\) can come only from \\(6+10\\) or \\(7+9.\\) If Tyrone had \\(7\\) and \\(9,\\) then the remaining cards \\(4,6,8,10\\) could not be paired to give Ravon's score \\(11.\\) Thus Tyrone has \\(6\\) and \\(10.\\)\n\nThe remaining cards are \\(4,7,8,9.\\) Ravon must have \\(4\\) and \\(7\\) to score \\(11,\\) leaving \\(8\\) and \\(9\\) for Kim's score of \\(17.\\) Therefore, Ravon was given card \\(4.\\)\n\nThus, the answer is C .",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 7,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 18,
+   "question": "A fair \\(6\\)-sided die is repeatedly rolled until an odd number appears. What is the probability that every even number appears at least once before the first occurrence of an odd number?",
+   "choices": {
+    "a": "\\( \\dfrac{1}{120} \\)",
+    "b": "\\( \\dfrac{1}{32} \\)",
+    "c": "\\( \\dfrac{1}{20} \\)",
+    "d": "\\( \\dfrac{3}{20} \\)",
+    "e": "\\( \\dfrac{1}{6} \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "dice (probability)",
+    "basic probability"
+   ],
+   "seed_elo": 1220.0,
+   "solve_time_seconds": 65.0,
+   "solution_text": "The probability that the first number is even is \\(\\frac 36.\\)\n\nThe probability that the second distinct number is even is \\(\\frac 25.\\)\n\nThe probability that the third distinct number is even is \\(\\frac 14.\\)\n\nThe combined probability is \\[\\dfrac{3\\cdot 2\\cdot 1}{6\\cdot 5\\cdot 4} = \\dfrac 1{20}.\\]\n\nThus, the answer is C .",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 12,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 19,
+   "question": "Suppose that \\(S\\) is a finite set of positive integers.\n\nIf the greatest integer in \\(S\\) is removed from \\(S,\\) then the average value (arithmetic mean) of the integers remaining is \\(32.\\) If the least integer in \\(S\\) is also removed, then the average value of the integers remaining is \\(35.\\) If the greatest integer is then returned to the set, the average value of the integers rises to \\(40.\\) The greatest integer in the original set \\(S\\) is \\(72\\) greater than the least integer in \\(S.\\)\n\nWhat is the average value of all the integers in the set \\(S?\\)",
+   "choices": {
+    "a": "\\( 36.2 \\)",
+    "b": "\\( 36.4 \\)",
+    "c": "\\( 36.6 \\)",
+    "d": "\\( 36.8 \\)",
+    "e": "\\( 37 \\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "mean",
+    "system of equations"
+   ],
+   "seed_elo": 1540.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "Let the sum of all the integers be \\(s,\\) the greatest number be \\(g,\\) the least number be \\(l,\\) and the size of \\(S\\) be \\(n.\\)\n\nThe two averages of sets with \\(n-1\\) elements give \\[ \\begin{aligned} s-l&=40(n-1),\\\\ s-g&=32(n-1). \\end{aligned} \\] Subtracting and using \\(g-l=72\\) gives \\(72=8(n-1),\\) so \\(n=10.\\)\n\nRemoving both extremes leaves \\(8\\) numbers with sum \\(8\\cdot35=280.\\) On the other hand, removing only the least number leaves a sum of \\(9\\cdot40=360,\\) so \\(g=360-280=80.\\) Hence \\(l=80-72=8,\\) and the original sum is \\(s=280+80+8=368.\\)\n\nThe required average is \\(\\frac{s}{n}=\\frac{368}{10}=36.8.\\)\n\nThus, the answer is D .",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 20,
+   "question": "The figure below is constructed from \\(11\\) line segments, each of which has length \\(2.\\) The area of pentagon \\(ABCDE\\) can be written as \\(\\sqrt{m} + \\sqrt{n},\\) where \\(m\\) and \\(n\\) are positive integers. What is \\(m + n ?\\)",
+   "choices": {
+    "a": "\\( 20 \\)",
+    "b": "\\( 21 \\)",
+    "c": "\\( 22 \\)",
+    "d": "\\( 23 \\)",
+    "e": "\\( 24 \\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "area decomposition",
+    "equilateral triangle",
+    "special right triangle"
+   ],
+   "seed_elo": 1950.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Let \\(F\\) be the unlabeled point joined to \\(A,B,\\) and \\(C.\\) Because all the drawn segments have length \\(2,\\) triangles \\(ABF\\) and \\(CBF\\) are equilateral and lie on opposite sides of \\(BF.\\) Hence \\(\\angle ABC=120^\\circ,\\) so\n\n\\[[ABC]=\\frac12\\cdot2\\cdot2\\sin120^\\circ=\\sqrt3.\\]\n\nThe same reasoning on the other side gives \\([ADE]=\\sqrt3.\\) Also, the Law of Cosines in \\(\\triangle ABC\\) gives \\(AC^2=12,\\) and similarly \\(AD^2=12.\\) Thus the altitude of isosceles triangle \\(ACD\\) to its base \\(CD=2\\) is\n\n\\[\\sqrt{(\\sqrt{12})^2-1^2}=\\sqrt{11}.\\]\n\nTherefore \\([ACD]=\\frac12\\cdot2\\cdot\\sqrt{11}=\\sqrt{11}.\\) The pentagon's total area is\n\n\\[\\sqrt{12}+\\sqrt{11},\\]\n\nso \\(m+n=12+11=23.\\)\n\nThus, the answer is D .",
+   "amc10_problem_number": 18,
+   "amc12_problem_number": 14,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 21,
+   "question": "A square piece of paper has side length \\(1\\) and vertices \\(A,\\) \\(B,\\) \\(C,\\) and \\(D\\) in that order. As shown in the figure, the paper is folded so that vertex \\(C\\) meets edge \\(\\overline{AD}\\) at point \\(C',\\) and edge \\(\\overline{BC}\\) intersects edge \\(\\overline{AB}\\) at point \\(E.\\) Suppose that \\(C'D = \\frac{1}{3}.\\) What is the perimeter of \\(\\triangle AEC'?\\)",
+   "choices": {
+    "a": "\\( 2 \\)",
+    "b": "\\( 1+\\dfrac{2}{3}\\sqrt{3} \\)",
+    "c": "\\( \\dfrac{13}{6} \\)",
+    "d": "\\( 1 + \\dfrac{3}{4}\\sqrt{3} \\)",
+    "e": "\\( \\dfrac{7}{3} \\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "paper folding",
+    "coordinate geometry"
+   ],
+   "seed_elo": 2230.0,
+   "solve_time_seconds": 140.0,
+   "solution_text": "Use coordinates with \\(A=(0,1),\\) \\(B=(0,0),\\) \\(C=(1,0),\\) and \\(D=(1,1).\\) Since \\(C'D=\\frac13,\\) we have \\(C'=(\\frac23,1),\\) so \\(AC'=\\frac23.\\)\n\nThe fold reflects \\(C\\) to \\(C',\\) so the image of side \\(BC\\) is the line through \\(C'\\) and \\(E.\\) Reflecting \\(B=(0,0)\\) across the perpendicular bisector of \\(CC'\\) gives \\((-\\frac{2}{15},\\frac25).\\) The line through this point and \\(C'\\) meets \\(AB\\) at \\(E=(0,\\frac12).\\)\n\nThus \\(AE=\\frac12,\\) and\n\n\\[EC'=\\sqrt{\\left(\\frac23\\right)^2+\\left(\\frac12\\right)^2}=\\frac56.\\]\n\nThe perimeter of \\(\\triangle AEC'\\) is\n\n\\[\\frac12+\\frac23+\\frac56=2.\\]\n\nThus, the answer is A .",
+   "amc10_problem_number": 22,
+   "amc12_problem_number": 19,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 3
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 22,
+   "question": "Ang, Ben, and Jasmin each have \\(5\\) blocks, colored red, blue, yellow, white, and green; and there are \\(5\\) empty boxes. Each of the people randomly and independently of the other two people places one of their blocks into each box. The probability that at least one box receives \\(3\\) blocks all of the same color is \\(\\frac{m}{n},\\) where \\(m\\) and \\(n\\) are relatively prime positive integers. What is \\(m + n ?\\)",
+   "choices": {
+    "a": "\\( 47 \\)",
+    "b": "\\( 94 \\)",
+    "c": "\\( 227 \\)",
+    "d": "\\( 471 \\)",
+    "e": "\\( 542 \\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "inclusion-exclusion",
+    "permutations",
+    "basic probability"
+   ],
+   "seed_elo": 2150.0,
+   "solve_time_seconds": 160.0,
+   "solution_text": "Fix Ang's placement and label each box by the color Ang put in it. Ben and Jasmin each choose a permutation of the five colors, so there are \\((5!)^2\\) equally likely pairs of placements.\n\nFor a specified set of \\(k\\) boxes to receive three blocks of the same color, both Ben and Jasmin must match Ang in those \\(k\\) boxes. This can happen in \\(((5-k)!)^2\\) ways. By inclusion-exclusion, the number of successful placement pairs is\n\n\\[ \\begin{aligned} &\\binom51(4!)^2-\\binom52(3!)^2 \\\\ &\\quad {}+\\binom53(2!)^2-\\binom54(1!)^2 \\\\ &\\quad {}+\\binom55(0!)^2. \\end{aligned} \\]\n\nThis equals\n\n\\[2880-360+40-5+1=2556.\\]\n\nTherefore the probability is\n\n\\[\\frac{2556}{(5!)^2}=\\frac{2556}{14400}=\\frac{71}{400}.\\]\n\nThus \\(m+n=71+400=471.\\)\n\nThus, the answer is D .",
+   "amc10_problem_number": 21,
+   "amc12_problem_number": 18,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 2
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 23,
+   "question": "A square with side length \\(8\\) is colored white except for \\(4\\) black isosceles right triangular regions with legs of length \\(2\\) in each corner of the square and a black diamond with side length \\(2\\sqrt{2}\\) in the center of the square, as shown in the diagram.\n\nA circular coin with diameter \\(1\\) is dropped onto the square and lands in a random location where the coin is completely contained within the square. The probability that the coin will cover part of the black region of the square can be written as \\(\\frac{1}{196}\\left(a+b\\sqrt{2}+\\pi\\right),\\) where \\(a\\) and \\(b\\) are positive integers. What is \\(a+b?\\)",
+   "choices": {
+    "a": "\\( 64 \\)",
+    "b": "\\( 66 \\)",
+    "c": "\\( 68 \\)",
+    "d": "\\( 70 \\)",
+    "e": "\\( 72 \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "geometric probability",
+    "area decomposition"
+   ],
+   "seed_elo": 2390.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "The coin has radius \\(\\frac12,\\) so its center is uniformly distributed over a \\(7\\times7\\) square of area \\(49.\\)\n\nA shaded corner triangle contributes the set of center positions within distance \\(\\frac12\\) of that triangle, inside the allowed center square. For each corner this is a right isosceles triangle whose altitude is \\(\\frac{1+\\sqrt2}{2},\\) so its area is\n\n\\[\\left(\\frac{1+\\sqrt2}{2}\\right)^2=\\frac{3+2\\sqrt2}{4}.\\]\n\nAll four corners contribute \\(3+2\\sqrt2.\\)\n\nThe center shaded diamond is a square of side \\(2\\sqrt2.\\) Expanding it by distance \\(\\frac12\\) adds four rectangles of total area \\(4\\sqrt2\\) and four quarter-circles of total area \\(\\frac\\pi4,\\) in addition to the diamond's area \\(8.\\) Thus the center contribution is\n\n\\[8+4\\sqrt2+\\frac\\pi4.\\]\n\nThe favorable area is\n\n\\[ \\begin{aligned} &3+2\\sqrt2+8+4\\sqrt2+\\frac\\pi4 \\\\ &=11+6\\sqrt2+\\frac\\pi4. \\end{aligned} \\]\n\nThe probability is\n\n\\[ \\begin{aligned} &\\frac{11+6\\sqrt2+\\frac\\pi4}{49} \\\\ &=\\frac{44+24\\sqrt2+\\pi}{196}. \\end{aligned} \\]\n\nSo \\(a+b=44+24=68.\\)\n\nThus, the answer is C .",
+   "amc10_problem_number": 24,
+   "amc12_problem_number": 21,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 4
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 24,
+   "question": "Arjun and Beth play a game in which they take turns removing one brick or two adjacent bricks from one \"wall\" among a set of several walls of bricks, with gaps possibly creating new walls. The walls are one brick tall. For example, a set of walls of sizes \\(4\\) and \\(2\\) can be changed into any of the following by one move: \\((3,2),\\) \\((2,1,2),\\) \\((4),\\) \\((4,1),\\) \\((2,2),\\) or \\((1,1,2).\\)\n\n\n\nArjun plays first, and the player who removes the last brick wins. For which starting configuration is there a strategy that guarantees a win for Beth?",
+   "choices": {
+    "a": "\\( (6,1,1) \\)",
+    "b": "\\( (6,2,1) \\)",
+    "c": "\\( (6,2,2) \\)",
+    "d": "\\( (6,3,1) \\)",
+    "e": "\\( (6,3,2) \\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "combinatorial game"
+   ],
+   "seed_elo": 2390.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "For a single wall of length \\(n,\\) compute its Sprague-Grundy value from the possible moves. For the wall lengths needed here, the values are\n\n\\[ \\begin{aligned} &g(1)=1,\\quad g(2)=2, \\\\ &g(3)=3,\\quad g(4)=1, \\\\ &g(5)=4,\\quad g(6)=3. \\end{aligned} \\]\n\nFor several walls, the position is losing for the player to move exactly when the xor of the wall values is \\(0.\\) Evaluating the choices gives\n\n\\[(6,1,1): 3\\oplus1\\oplus1=3,\\]\n\n\\[(6,2,1): 3\\oplus2\\oplus1=0,\\]\n\n\\[(6,2,2): 3\\oplus2\\oplus2=3,\\]\n\n\\[(6,3,1): 3\\oplus3\\oplus1=1,\\]\n\n\\[(6,3,2): 3\\oplus3\\oplus2=2.\\]\n\nOnly \\((6,2,1)\\) is losing for the player to move, so Beth has a guaranteed win exactly for that starting configuration.\n\nThus, the answer is B .",
+   "amc10_problem_number": 24,
+   "amc12_problem_number": 21,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 4
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "B",
+   "position": 25,
+   "question": "Let \\(S\\) be the set of lattice points in the coordinate plane, both of whose coordinates are integers between \\(1\\) and \\(30,\\) inclusive. Exactly \\(300\\) points in \\(S\\) lie on or below a line with equation \\(y=mx.\\) The possible values of \\(m\\) lie in an interval of length \\(\\frac ab,\\) where \\(a\\) and \\(b\\) are relatively prime positive integers. What is \\(a+b?\\)",
+   "choices": {
+    "a": "\\( 31 \\)",
+    "b": "\\( 47 \\)",
+    "c": "\\( 62 \\)",
+    "d": "\\( 72 \\)",
+    "e": "\\( 85 \\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "lattice point",
+    "floor and ceiling functions"
+   ],
+   "seed_elo": 2390.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "For a fixed slope \\(m,\\) the number of points in \\(S\\) on or below \\(y=mx\\) is\n\n\\[\\sum_{x=1}^{30}\\lfloor mx\\rfloor,\\]\n\nfor the slopes near the answer.\n\nAt \\(m=\\frac23,\\) grouping \\(x=3k+1,3k+2,3k+3\\) for \\(k=0,1,\\ldots,9\\) gives\n\n\\[\\lfloor \\frac{2x}{3}\\rfloor=2k,\\ 2k+1, \\ 2k+2,\\]\n\nwhose sum over each block is \\(6k+3.\\) Thus the total is\n\n\\[\\sum_{k=0}^9(6k+3)=270+30=300.\\]\n\nIf \\(mE .",
+   "amc10_problem_number": 24,
+   "amc12_problem_number": 21,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 4
+  }
+ ]
+}

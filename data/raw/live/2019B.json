@@ -1,0 +1,672 @@
+{
+ "source_url": "https://live.poshenloh.com/past-contests/amc10/2019B",
+ "year": 2019,
+ "label": "B",
+ "problems": [
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 1,
+   "question": "Alicia had two containers. The first was \\(\\frac{5}{6}\\) full of water and the second was empty. She poured all the water from the first container into the second container, at which point the second container was \\(\\frac{3}{4}\\) full of water. What is the ratio of the volume of the smaller container to the volume of the larger container?",
+   "choices": {
+    "a": "\\( \\dfrac{5}{8} \\)",
+    "b": "\\( \\dfrac{4}{5} \\)",
+    "c": "\\( \\dfrac{7}{8} \\)",
+    "d": "\\( \\dfrac{9}{10} \\)",
+    "e": "\\( \\dfrac{11}{12} \\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "fraction",
+    "ratio and proportion"
+   ],
+   "seed_elo": 770.0,
+   "solve_time_seconds": 30.0,
+   "solution_text": "Let the volumes of the first and second containers be \\(F\\) and \\(S\\). The amount of water is both \\(\\dfrac56F\\) and \\(\\dfrac34S\\), so \\(\\dfrac56F=\\dfrac34S\\).\n\nThus \\(\\dfrac{F}{S}=\\dfrac{\\frac{3}{4}}{\\frac{5}{6}}=\\dfrac9{10}\\). Since the first container is smaller, the ratio of the smaller container to the larger container is \\(\\dfrac9{10}\\). Thus, D is the correct answer.",
+   "amc10_problem_number": 1,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 5,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 2,
+   "question": "Consider the statement, \"If \\(n\\) is not prime, then \\(n-2\\) is prime.\" Which of the following values of \\(n\\) is a counterexample to this statement?",
+   "choices": {
+    "a": "\\( 11 \\)",
+    "b": "\\( 15 \\)",
+    "c": "\\( 19 \\)",
+    "d": "\\( 21 \\)",
+    "e": "\\( 27 \\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "counterexample",
+    "prime"
+   ],
+   "seed_elo": 870.0,
+   "solve_time_seconds": 35.0,
+   "solution_text": "We need \\(n\\) to not be prime, so \\(n\\) can only be \\(15,21,27.\\) Then, \\(n-2\\) must be not prime, leaving just \\(27.\\)\n\nThus, the answer is E .",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 6,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 3,
+   "question": "In a high school with \\(500\\) students, \\(40\\%\\) of the seniors play a musical instrument, while \\(30\\%\\) of the non-seniors do not play a musical instrument. In all, \\(46.8\\%\\) of the students do not play a musical instrument. How many non-seniors play a musical instrument?",
+   "choices": {
+    "a": "\\( 66 \\)",
+    "b": "\\( 154 \\)",
+    "c": "\\( 186 \\)",
+    "d": "\\( 220 \\)",
+    "e": "\\( 266 \\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "percentage",
+    "linear equation"
+   ],
+   "seed_elo": 1120.0,
+   "solve_time_seconds": 70.0,
+   "solution_text": "Let the number of seniors be \\(s.\\) Then, \\(500-s\\) people aren't seniors. We know \\(60\\%\\) of seniors don't play an instrument. Then, the number of students who don't play an instrument can be represented as \\[ \\begin{aligned} &0.3(500-s)+0.6(s) \\\\ &= 0.3s+150 \\end{aligned} \\] and \\[0.468\\cdot 500=234.\\] Thus, \\[0.3s+150=234\\] \\[s=280.\\] This makes the number of non-seniors equal to \\(220.\\) Since \\(70\\%\\) of non-seniors play instruments, we have the total number as \\[220\\cdot 0.7=154.\\]\n\nThus, the answer is B .",
+   "amc10_problem_number": 5,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 12,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 4,
+   "question": "All lines with equation \\(ax+by=c\\) such that \\(a,\\) \\(b,\\) \\(c\\) form an arithmetic progression pass through a common point. What are the coordinates of that point?",
+   "choices": {
+    "a": "\\( (-1,2) \\)",
+    "b": "\\( (0,1) \\)",
+    "c": "\\( (1,-2) \\)",
+    "d": "\\( (1,0) \\)",
+    "e": "\\( (1,2) \\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "linear equation",
+    "arithmetic sequence",
+    "coordinate geometry"
+   ],
+   "seed_elo": 1220.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "Let \\(d=b-a.\\)\n\nThen, we have \\[(a,b,c)= (a,a+d,a+2d).\\] Thus, \\[ax+(a+d)y=a+2d.\\] If we match the parts of \\(a\\) and \\(d,\\) we get \\[ax+ay=a\\] and \\[dy=2d\\] for all \\(a,d.\\) Therefore, we have \\[y=2,x+y=1\\] implying that \\[x=-1.\\] This makes the pair \\((-1,2).\\)\n\nThus, the answer is A .",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 14,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 5,
+   "question": "Triangle \\(ABC\\) lies in the first quadrant. Points \\(A,\\) \\(B,\\) and \\(C\\) are reflected across the line \\(y=x\\) to points \\(A',\\) \\(B',\\) and \\(C',\\) respectively. Assume that none of the vertices of the triangle lie on the line \\(y=x.\\) Which of the following statements is not always true?",
+   "choices": {
+    "a": "Triangle \\(A'B'C'\\) lies in the first quadrant.",
+    "b": "Triangles \\(ABC\\) and \\(A'B'C'\\) have the same area.",
+    "c": "The slope of line \\(AA'\\) is \\(-1.\\)",
+    "d": "The slopes of lines \\(AA'\\) and \\(CC'\\) are the same.",
+    "e": "Lines \\(AB\\) and \\(A'B'\\) are perpendicular to\neach other."
+   },
+   "answer": "e",
+   "concepts": [
+    "transformation",
+    "coordinate geometry",
+    "slope"
+   ],
+   "seed_elo": 1020.0,
+   "solve_time_seconds": 50.0,
+   "solution_text": "Reflection across \\(y=x\\) sends \\((x,y)\\) to \\((y,x)\\). It therefore preserves the first quadrant and preserves area, so A and B are always true.\n\nThe direction from \\((x,y)\\) to its image \\((y,x)\\) is \\((y-x,x-y)\\), whose slope is \\(-1\\) because \\(x\\ne y\\). Thus C and D are always true as well.\n\nFor E, take \\(A=(2,1)\\), \\(B=(3,2)\\), and \\(C=(4,1)\\). These points satisfy all the conditions, but \\(AB\\) and \\(A'B'\\) both have slope \\(1\\), so the two lines are parallel rather than perpendicular.\n\nThus, the answer is E .",
+   "amc10_problem_number": 4,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 9,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 6,
+   "question": "A positive integer \\(n\\) satisfies the equation \\[(n+1)! + (n+2)! = n! \\cdot 440.\\] What is the sum of the digits of \\(n?\\)",
+   "choices": {
+    "a": "\\( 2 \\)",
+    "b": "\\( 5 \\)",
+    "c": "\\( 10 \\)",
+    "d": "\\( 12 \\)",
+    "e": "\\( 15 \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "factorial",
+    "algebraic manipulation",
+    "digits"
+   ],
+   "seed_elo": 1190.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "We can rewrite the left side as \\[(n+1)n!+(n+2)(n+1)n!\\]\\[=((n+2)^2-1)n!,\\] so \\[((n+2)^2-1) n! = 440 n!\\] Therefore, \\[(n+2)^2=441,\\] so \\(n=19.\\) The sum of its digits is \\(10.\\)\n\nThus, the answer is C .",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 7,
+   "question": "Each piece of candy in a shop costs a whole number of cents. Casper has exactly enough money to buy either \\(12\\) pieces of red candy, \\(14\\) pieces of green candy, \\(15\\) pieces of blue candy, or \\(n\\) pieces of purple candy. A piece of purple candy costs \\(20\\) cents. What is the least possible value of \\(n?\\)",
+   "choices": {
+    "a": "\\( 18 \\)",
+    "b": "\\( 21 \\)",
+    "c": "\\( 24 \\)",
+    "d": "\\( 25 \\)",
+    "e": "\\( 28 \\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "least common multiple",
+    "divisibility"
+   ],
+   "seed_elo": 1140.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "Let the number of cents he has \\(c.\\) Then, \\(c\\) is a multiple of \\(12,14,\\) and \\(15.\\) Thus, it must be a multiple of \\(420.\\)\n\nLet \\(c=420k\\) for some \\(k.\\) Also, \\(c=20n,\\) so \\(420k=20n,\\) making \\(n=21k.\\) Since \\(k\\) is a whole number, the minimum possible value of \\(n\\) is \\(21.\\)\n\nThus, the answer is B .",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 11,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 8,
+   "question": "The figure below shows a square and four equilateral triangles, with each triangle having a side lying on a side of the square, such that each triangle has side length \\(2\\) and the third vertices of the triangles meet at the center of the square. The region inside the square but outside the triangles is shaded. What is the area of the shaded region?",
+   "choices": {
+    "a": "\\( 4 \\)",
+    "b": "\\( 12 - 4\\sqrt{3} \\)",
+    "c": "\\( 3\\sqrt{3} \\)",
+    "d": "\\( 4\\sqrt{3} \\)",
+    "e": "\\( 16 - 4\\sqrt{3} \\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "area decomposition",
+    "equilateral triangle",
+    "special right triangle"
+   ],
+   "seed_elo": 1330.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "Each equilateral triangle has side length \\(2\\), so its altitude is \\(\\sqrt3\\). Because that altitude runs from a side of the square to its center, the square has side length \\(2\\sqrt3\\) and area \\(12\\).\n\nEach of the four equilateral triangles has area \\(\\frac{\\sqrt3}{4}(2^2)=\\sqrt3\\). Therefore the shaded area is \\[12-4\\sqrt3.\\]\n\nThus, the answer is B .",
+   "amc10_problem_number": 8,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 9,
+   "question": "The function \\(f\\) is defined by \\[f(x) = \\lfloor|x|\\rfloor - |\\lfloor x \\rfloor|\\] for all real numbers \\(x,\\) where \\(\\lfloor r \\rfloor\\) denotes the greatest integer less than or equal to the real number \\(r.\\) What is the range of \\(f?\\)",
+   "choices": {
+    "a": "\\( \\{-1, 0\\} \\)",
+    "b": "The set of nonpositive integers",
+    "c": "\\(\\{-1, 0, 1\\} \\)",
+    "d": "\\( \\{0\\}\\)",
+    "e": "The set of nonnegative integers"
+   },
+   "answer": "a",
+   "concepts": [
+    "floor and ceiling functions",
+    "absolute value",
+    "casework"
+   ],
+   "seed_elo": 1370.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "If \\(x\\ge0\\), then \\(\\lfloor|x|\\rfloor=\\lfloor x\\rfloor=|\\lfloor x\\rfloor|\\), so \\(f(x)=0\\).\n\nIf \\(x\\) is a negative integer, both terms equal \\(|x|\\), so again \\(f(x)=0\\).\n\nIf \\(x\\) is negative and not an integer, write \\(x=-k-t\\), where \\(k\\) is a nonnegative integer and \\(0A .",
+   "amc10_problem_number": 9,
+   "amc12_problem_number": 5,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 10,
+   "question": "In a given plane, points \\(A\\) and \\(B\\) are \\(10\\) units apart. How many points \\(C\\) are there in the plane such that the perimeter of \\(\\triangle ABC\\) is \\(50\\) units and the area of \\(\\triangle ABC\\) is \\(100\\) square units?",
+   "choices": {
+    "a": "\\( 0 \\)",
+    "b": "\\( 2 \\)",
+    "c": "\\( 4 \\)",
+    "d": "\\( 8 \\)",
+    "e": "\\( \\text{infinitely many} \\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "triangle area",
+    "triangle inequality"
+   ],
+   "seed_elo": 1460.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "The area condition fixes the distance from \\(C\\) to line \\(AB.\\) If that distance is \\(h,\\) then \\[\\frac{10h}{2}=100,\\] so \\(h=20.\\) Thus \\(C\\) must lie on a line parallel to \\(AB\\) at distance \\(20.\\)\n\nSince the perpendicular distance from \\(C\\) to line \\(AB\\) is \\(20\\), both \\(AC\\) and \\(BC\\) are at least \\(20\\). They cannot both equal \\(20\\), because that would require the perpendicular from \\(C\\) to meet line \\(AB\\) at both distinct points \\(A\\) and \\(B\\). Hence \\(AC+BC>40\\), contradicting the perimeter requirement \\(AC+BC=40\\). Therefore no point \\(C\\) works.\n\nThus, the answer is A .",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 11,
+   "question": "Two jars each contain the same number of marbles, and every marble is either blue or green. In Jar \\(1\\) the ratio of blue to green marbles is \\(9:1,\\) and the ratio of blue to green marbles in Jar \\(2\\) is \\(8:1.\\) There are \\(95\\) green marbles in all. How many more blue marbles are in Jar \\(1\\) than in Jar \\(2?\\)",
+   "choices": {
+    "a": "\\( 5 \\)",
+    "b": "\\( 10 \\)",
+    "c": "\\( 25 \\)",
+    "d": "\\( 45 \\)",
+    "e": "\\( 50 \\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "ratio and proportion",
+    "system of equations"
+   ],
+   "seed_elo": 1140.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "Let \\(x\\) and \\(y\\) be the numbers of green marbles in Jars \\(1\\) and \\(2\\), respectively. Then the total numbers of marbles in the jars are \\(10x\\) and \\(9y\\).\n\nThe jars contain the same number of marbles, so \\(10x=9y\\). Also \\(x+y=95\\). Solving gives \\(x=45\\) and \\(y=50\\).\n\nJar \\(1\\) has \\(9x=405\\) blue marbles, and Jar \\(2\\) has \\(8y=400\\) blue marbles. The difference is \\(5\\). Thus, A is the correct answer.",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 11,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 12,
+   "question": "What is the greatest possible sum of the digits in the base-seven representation of a positive integer less than \\(2019?\\)",
+   "choices": {
+    "a": "\\( 11 \\)",
+    "b": "\\( 14 \\)",
+    "c": "\\( 22 \\)",
+    "d": "\\( 23 \\)",
+    "e": "\\( 27 \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "number base",
+    "digits",
+    "optimization"
+   ],
+   "seed_elo": 1430.0,
+   "solve_time_seconds": 85.0,
+   "solution_text": "First, \\(2019=5613_7\\). Any number with leading digit at most \\(4\\) has digit sum at most \\(4+6+6+6=22\\), and \\(4666_7C .",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 17,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 13,
+   "question": "What is the sum of all real numbers \\(x\\) for which the median of the numbers \\(4,\\) \\(6,\\) \\(8,\\) \\(17,\\) and \\(x\\) is equal to the mean of those five numbers?",
+   "choices": {
+    "a": "\\( -5 \\)",
+    "b": "\\( 0 \\)",
+    "c": "\\( 5 \\)",
+    "d": "\\( \\dfrac{15}{4} \\)",
+    "e": "\\( \\dfrac{35}{4} \\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "mean",
+    "median (data)",
+    "casework"
+   ],
+   "seed_elo": 1490.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "The mean is \\(7+\\frac{x}{5}\\). If \\(x8\\), the median is \\(8\\), but \\(7+\\frac{x}{5}=8\\) gives \\(x=5\\), again outside the required range.\n\nTherefore, the only possible \\(x\\) is \\(-5,\\) making the sum \\(-5.\\)\n\nThus, the answer is A .",
+   "amc10_problem_number": 11,
+   "amc12_problem_number": 7,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 14,
+   "question": "The base-ten representation for \\(19!\\) is \\(121,\\) \\(6T5,\\) \\(100,\\) \\(40M,\\) \\(832,\\) \\(H00,\\) where \\(T,\\) \\(M,\\) and \\(H\\) denote digits that are not given. What is \\(T+M+H?\\)",
+   "choices": {
+    "a": "\\( 3 \\)",
+    "b": "\\( 8 \\)",
+    "c": "\\( 12 \\)",
+    "d": "\\( 14 \\)",
+    "e": "\\( 17 \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "divisibility",
+    "digits",
+    "factorial"
+   ],
+   "seed_elo": 1610.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "Because \\(19!\\) is divisible by \\(1000\\), its last three digits are zero, so \\(H=0\\).\n\nSince \\(19!\\) is divisible by \\(9\\), its digit sum \\(33+T+M\\) is divisible by \\(9\\). Hence \\(T+M\\equiv3\\pmod9\\), so \\(T+M\\) is either \\(3\\) or \\(12\\).\n\nDivisibility by \\(11\\) says the alternating digit sum \\(T-M-7\\) is divisible by \\(11\\), so \\(T-M\\equiv7\\pmod{11}\\). Checking the digit possibilities from these two congruences gives \\(T=4\\) and \\(M=8\\). Therefore \\(T+M+H=4+8+0=12\\).\n\nThus, the answer is C .",
+   "amc10_problem_number": 13,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 15,
+   "question": "Right triangles \\(T_1\\) and \\(T_2\\) have areas \\(1\\) and \\(2\\), respectively. A side of \\(T_1\\) is congruent to a side of \\(T_2,\\) and a different side of \\(T_1\\) is congruent to a different side of \\(T_2.\\) What is the square of the product of the lengths of the other (third) sides of \\(T_1\\) and \\(T_2?\\)",
+   "choices": {
+    "a": "\\( \\dfrac{28}{3} \\)",
+    "b": "\\( 10 \\)",
+    "c": "\\( \\dfrac{21}{2} \\)",
+    "d": "\\( \\dfrac{32}{3} \\)",
+    "e": "\\( 12 \\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "right triangle",
+    "Pythagorean Theorem",
+    "system of equations"
+   ],
+   "seed_elo": 1820.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Let the two shared side lengths be \\(a\\le b\\). Because the triangles have different areas, the shared sides cannot play the same roles in both triangles. Thus the area-\\(2\\) triangle has legs \\(a\\) and \\(b\\), while the area-\\(1\\) triangle has leg \\(a\\), other leg \\(\\sqrt{b^2-a^2}\\), and hypotenuse \\(b\\).\n\nThe product of the two non-shared third sides is \\(\\sqrt{a^2+b^2}\\sqrt{b^2-a^2}\\), whose square is \\(b^4-a^4\\).\n\nUsing the areas, \\(\\dfrac{ab}{2}=2\\) and \\(\\dfrac{a\\sqrt{b^2-a^2}}{2}=1\\). Hence \\(a^2b^2=16\\) and \\(a^2(b^2-a^2)=4\\), so \\(a^4=12\\). Then \\(b^4=\\dfrac{256}{12}=\\dfrac{64}{3}\\), and \\(b^4-a^4=\\dfrac{28}{3}\\). Thus, A is the correct answer.",
+   "amc10_problem_number": 16,
+   "amc12_problem_number": 12,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 16,
+   "question": "In \\(\\triangle ABC\\) with a right angle at \\(C,\\) point \\(D\\) lies in the interior of \\(\\overline{AB}\\) and point \\(E\\) lies in the interior of \\(\\overline{BC}\\) so that \\(AC=CD,\\) \\(DE=EB,\\) and the ratio \\(AC:DE=4:3.\\) What is the ratio \\(AD:DB?\\)",
+   "choices": {
+    "a": "\\( 2:3 \\)",
+    "b": "\\( 2:\\sqrt{5} \\)",
+    "c": "\\( 1:1 \\)",
+    "d": "\\( 3:\\sqrt{5} \\)",
+    "e": "\\( 3:2 \\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "angle chasing",
+    "isosceles triangle",
+    "trigonometry"
+   ],
+   "seed_elo": 1890.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Scale the figure so that \\(AC=CD=4\\) and \\(DE=EB=3\\). Let \\(A=\\angle BAC\\) and \\(B=\\angle ABC\\), so \\(A+B=90^\\circ\\).\n\nThe isosceles triangles \\(ACD\\) and \\(DEB\\) give \\(\\angle CDA=A\\) and \\(\\angle EDB=B\\). Because \\(DA\\) and \\(DB\\) are opposite rays, \\[\\angle CDE=180^\\circ-A-B=90^\\circ.\\] Therefore \\(CE=\\sqrt{4^2+3^2}=5\\), so \\(BC=CE+EB=8\\) and \\(\\tan A=\\frac{BC}{AC}=2\\).\n\nThe bases of the two isosceles triangles have lengths \\(AD=8\\cos A\\) and \\(BD=6\\cos B=6\\sin A\\). Hence \\[\\frac{AD}{BD}=\\frac{8\\cos A}{6\\sin A}=\\frac{4}{3\\tan A}=\\frac23.\\]\n\nThus, the answer is A .",
+   "amc10_problem_number": 17,
+   "amc12_problem_number": 13,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 17,
+   "question": "A red ball and a green ball are randomly and independently tossed into bins numbered with the positive integers so that for each ball, the probability that it is tossed into bin \\(k\\) is \\(2^{-k}\\) for \\(k = 1,\\) \\(2,\\) \\(3,\\) \\(\\ldots.\\) What is the probability that the red ball is tossed into a higher-numbered bin than the green ball?",
+   "choices": {
+    "a": "\\( \\dfrac{1}{4} \\)",
+    "b": "\\( \\dfrac{2}{7} \\)",
+    "c": "\\( \\dfrac{1}{3} \\)",
+    "d": "\\( \\dfrac{3}{8} \\)",
+    "e": "\\( \\dfrac{3}{7} \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "geometric distribution",
+    "complementary probability",
+    "symmetry"
+   ],
+   "seed_elo": 1460.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "Given that the two balls were tossed into separate bins, the probability that the ball in the higher-numbered bin is red is \\(\\frac 12.\\) Thus we must find \\[\\frac{P(\\text{Balls in different bins})}2 \\]\\[= \\frac{1-P(\\text{Balls in same bins})}2\\] by complementary counting.\n\nThe probability that both balls are in bin \\(k\\) is \\[2^{-k} \\cdot 2^{-k} = 4^{-k}. \\]\n\nThe probability that they are both in the same bin is therefore \\[\\sum_{k=1}^\\infty 4^{-k}.\\] Using the geometric sequence formula, we get this to be \\[\\frac 14 \\cdot \\dfrac{1}{1-\\frac 14} = \\frac 13.\\]\n\nTherefore, our answer is \\[\\frac{1-\\frac 13}2 = \\frac 13 .\\]\n\nThus, the answer is C .",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 18,
+   "question": "Henry decides one morning to do a workout, and he walks \\(\\tfrac{3}{4}\\) of the way from his home to his gym. The gym is \\(2\\) kilometers away from Henry's home. At that point, he changes his mind and walks \\(\\tfrac{3}{4}\\) of the way from where he is back toward home. When he reaches that point, he changes his mind again and walks \\(\\tfrac{3}{4}\\) of the distance from there back toward the gym. If Henry keeps changing his mind when he has walked \\(\\tfrac{3}{4}\\) of the distance toward either the gym or home from the point where he last changed his mind, he will get very close to walking back and forth between a point \\(A\\) kilometers from home and a point \\(B\\) kilometers from home. What is \\(|A-B|?\\)",
+   "choices": {
+    "a": "\\( \\frac{2}{3} \\)",
+    "b": "\\( 1 \\)",
+    "c": "\\( 1 \\frac{1}{5} \\)",
+    "d": "\\( 1 \\frac{1}{4} \\)",
+    "e": "\\( 1 \\frac{1}{2} \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "recursion",
+    "linear equation"
+   ],
+   "seed_elo": 1540.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "Suppose a limiting homeward turnaround point is \\(x\\) kilometers from home. After Henry walks toward the gym, his position is \\[2-\\frac{2-x}{4}=\\frac32+\\frac{x}{4}.\\]\n\nAfter he turns back toward home, one quarter of that distance remains, so his next homeward turnaround point is \\[\\frac14\\left(\\frac32+\\frac{x}{4}\\right)=\\frac38+\\frac{x}{16}.\\]\n\nAt the limiting point this two-step map leaves the position unchanged, so \\[x=\\frac38+\\frac{x}{16},\\] which gives \\(x=\\frac25\\).\n\nThe other limiting point is the position reached after walking toward the gym: \\[2-\\frac{2-\\frac25}{4}=\\frac85.\\] Therefore \\[|A-B|=\\frac85-\\frac25=\\frac65=1\\frac15.\\]\n\nThus, the correct answer is C .",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 19,
+   "question": "Let \\(S\\) be the set of all positive integer divisors of \\(100,000.\\) How many numbers are the product of two distinct elements of \\(S?\\)",
+   "choices": {
+    "a": "\\( 98 \\)",
+    "b": "\\( 100 \\)",
+    "c": "\\( 117 \\)",
+    "d": "\\( 119 \\)",
+    "e": "\\( 121 \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "prime factorization",
+    "factor counting"
+   ],
+   "seed_elo": 2010.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "First, note that \\(100,000=2^5\\cdot5^5.\\)\n\nTherefore, any element of \\(S\\) must be of the form \\(2^a5^b\\) with \\(0 \\leq a,b \\leq 5.\\)\n\nSuppose I have distinct \\(x,y \\in S\\) with \\[x = 2^a5^b,\\]\\[y=2^c5^d.\\] Then, \\[xy = 2^{a+c}5^{b+d}.\\] Thus, \\[0 \\leq a+c,b+d \\leq 10.\\] This means that there are \\[(10+1)(10+1)=121\\] possible exponent pairs for a product. However, some products can arise only when \\(x=y\\), namely when \\((a,b)=(c,d)\\).\n\nIf \\(a+c=0,\\) then \\(a=0,c=0\\) must be true.\n\nIf \\(a+c=10,\\) then \\(a=5,c=5\\) must be true.\n\nWith any other value of \\(a+c,\\) we can have \\(a \\neq c.\\)\n\nSimilar structure holds for \\(b+d.\\) Thus, if \\[a+c,b+d \\in \\{0,10\\},\\] then \\[(a,b)=(c,d),\\] thus making \\(x=y.\\)\n\nThis means we have to eliminate \\(4\\) choices, leaving \\[121-4=117.\\]\n\nThus, the answer is C .",
+   "amc10_problem_number": 19,
+   "amc12_problem_number": 16,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 20,
+   "question": "As shown in the figure, line segment \\(\\overline{AD}\\) is trisected by points \\(B\\) and \\(C\\) so that \\(AB=BC=CD=2.\\) Three semicircles of radius \\(1,\\) \\(\\widehat{AEB},\\) \\(\\widehat{BFC},\\) and \\(\\widehat{CGD},\\) have their diameters on \\(\\overline{AD}\\), lie in the same halfplane determined by line \\(AD\\), and are tangent to line \\(EG\\) at \\(E,\\) \\(F,\\) and \\(G,\\) respectively. A circle of radius \\(2\\) has its center at \\(F.\\) The area of the region inside the circle but outside the three semicircles, shaded in the figure, can be expressed in the form \\[\\frac{a}{b}\\cdot\\pi-\\sqrt{c}+d,\\] where \\(a,\\) \\(b,\\) \\(c,\\) and \\(d\\) are positive integers and \\(a\\) and \\(b\\) are relatively prime. What is \\(a+b+c+d?\\)",
+   "choices": {
+    "a": "\\( 13 \\)",
+    "b": "\\( 14 \\)",
+    "c": "\\( 15 \\)",
+    "d": "\\( 16 \\)",
+    "e": "\\( 17 \\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "sector",
+    "area decomposition",
+    "tangent circles"
+   ],
+   "seed_elo": 2380.0,
+   "solve_time_seconds": 240.0,
+   "solution_text": "Line \\(EG\\) passes through the center \\(F\\) of the radius-\\(2\\) circle, so the shaded upper semicircle has area \\(2\\pi\\).\n\nThe chord \\(XZ\\) lies on \\(AD\\), one unit from \\(F\\). Thus \\[\\angle XFZ=2\\arccos\\left(\\frac12\\right)=\\frac{2\\pi}{3}.\\] The shaded circular segment below \\(AD\\) has area \\[ \\begin{aligned} &\\frac12(2^2)\\left(\\frac{2\\pi}{3}\\right)\\\\ &\\quad-\\frac12(2)(2)\\sin\\left(\\frac{2\\pi}{3}\\right)\\\\ &=\\frac{4\\pi}{3}-\\sqrt3. \\end{aligned} \\]\n\nThe portion between \\(EG\\) and \\(AD\\) consists of four congruent pieces of the following form.\n\n\n\nEach piece is a unit square with a quarter of a unit circle removed, so the four pieces have total area \\[4\\left(1-\\frac\\pi4\\right)=4-\\pi.\\]\n\nThe total shaded area is therefore \\[ \\begin{aligned} &2\\pi+\\left(\\frac{4\\pi}{3}-\\sqrt3\\right)\\\\ &\\quad+(4-\\pi)\\\\ &=\\frac{7\\pi}{3}-\\sqrt3+4. \\end{aligned} \\] Hence \\(a=7\\), \\(b=3\\), \\(c=3\\), and \\(d=4\\), giving \\(a+b+c+d=17\\).\n\nThus, the answer is E .",
+   "amc10_problem_number": 24,
+   "amc12_problem_number": 21,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 4
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 21,
+   "question": "Debra flips a fair coin repeatedly, keeping track of how many heads and how many tails she has seen in total, until she gets either two heads in a row or two tails in a row, at which point she stops flipping. What is the probability that she gets two heads in a row but she sees a second tail before she sees a second head?",
+   "choices": {
+    "a": "\\( \\dfrac{1}{36} \\)",
+    "b": "\\( \\dfrac{1}{24} \\)",
+    "c": "\\( \\dfrac{1}{18} \\)",
+    "d": "\\( \\dfrac{1}{12} \\)",
+    "e": "\\( \\dfrac{1}{6} \\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "basic probability",
+    "geometric sequence"
+   ],
+   "seed_elo": 1660.0,
+   "solve_time_seconds": 100.0,
+   "solution_text": "Before the final repeated flip, the sequence must alternate. If it starts with \\(H\\), the second head necessarily occurs before the second tail, so a successful sequence must start with \\(T\\). To see a second tail before ending with \\(HH\\), it must begin \\(THT\\).\n\nThus the successful sequences are \\(THTHH,THTHTHH,\\ldots\\): exactly one sequence of each odd length at least \\(5\\). Their total probability is \\[ \\begin{gathered} \\frac1{2^5}+\\frac1{2^7}+\\cdots\\\\ =\\frac1{32}\\cdot\\frac1{1-\\frac14}\\\\ =\\frac1{24}. \\end{gathered} \\]\n\nThus, the answer is B .",
+   "amc10_problem_number": 14,
+   "amc12_problem_number": 11,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 22,
+   "question": "Raashan, Sylvia, and Ted play the following game. Each starts with \\( \\$1.\\) A bell rings every \\(15\\) seconds, at which time each of the players who currently has money simultaneously chooses one of the other two players independently and at random and gives \\(\\$1\\) to that player. What is the probability that after the bell has rung \\(2019\\) times, each player will have \\(\\$1?\\)\n\n(For example, Raashan and Ted may each decide to give \\(\\$1\\) to Sylvia, and Sylvia may decide to give her dollar to Ted, at which point Raashan will have \\(\\$0,\\) Sylvia will have \\(\\$2,\\) and Ted will have \\(\\$1,\\) and that is the end of the first round of play. In the second round Raashan has no money to give, but Sylvia and Ted might choose each other to give their \\( \\$1\\) to, and the holdings will be the same at the end of the second round.)",
+   "choices": {
+    "a": "\\( \\dfrac{1}{7} \\)",
+    "b": "\\( \\dfrac{1}{4} \\)",
+    "c": "\\( \\dfrac{1}{3} \\)",
+    "d": "\\( \\dfrac{1}{2} \\)",
+    "e": "\\( \\dfrac{2}{3} \\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "recursive probability",
+    "symmetry"
+   ],
+   "seed_elo": 1950.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "The only reachable money configurations up to order are \\((1,1,1)\\) and \\((2,1,0)\\). A player cannot finish a round with all \\(3\\) dollars: anyone who begins with money must give a dollar to someone else, and no one can give to themselves. From \\((1,1,1)\\), the next state is again \\((1,1,1)\\) exactly when all three players pass dollars in the same cyclic direction, which has probability \\(2\\left(\\dfrac12\\right)^3=\\dfrac14\\).\n\nFrom \\((2,1,0)\\), label the players' holdings \\(A=2,B=1,C=0\\). The next state is \\((1,1,1)\\) exactly when \\(A\\) gives to \\(B\\) and \\(B\\) gives to \\(C\\), one of the four equally likely pairs of choices. This also has probability \\(\\dfrac14\\).\n\nTherefore, regardless of the state after \\(2018\\) rings, the probability that the state after the next ring is \\((1,1,1)\\) is \\(\\dfrac14\\). Thus, B is the correct answer.",
+   "amc10_problem_number": 18,
+   "amc12_problem_number": 15,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 23,
+   "question": "Points \\(A=(6,13)\\) and \\(B=(12,11)\\) lie on a circle \\(\\omega\\) in the plane. Suppose that the tangent lines to \\(\\omega\\) at \\(A\\) and \\(B\\) intersect at a point on the \\(x\\)-axis. What is the area of \\(\\omega?\\)",
+   "choices": {
+    "a": "\\( \\dfrac{83\\pi}{8} \\)",
+    "b": "\\( \\dfrac{21\\pi}{2} \\)",
+    "c": "\\( \\dfrac{85\\pi}{8} \\)",
+    "d": "\\( \\dfrac{43\\pi}{4} \\)",
+    "e": "\\( \\dfrac{87\\pi}{8} \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "coordinate geometry",
+    "tangent line",
+    "perpendicular bisector"
+   ],
+   "seed_elo": 2150.0,
+   "solve_time_seconds": 180.0,
+   "solution_text": "Let \\(P\\) be the intersection point of the two tangents. Since tangent lengths from the same point are equal, \\(PA=PB\\), so \\(P\\) lies on the perpendicular bisector of \\(\\overline{AB}\\).\n\nThe midpoint of \\(A(6,13)\\) and \\(B(12,11)\\) is \\((9,12)\\), and the slope of \\(AB\\) is \\(-\\dfrac13\\), so the perpendicular bisector is \\(y=3x-15\\). Its intersection with the \\(x\\)-axis is \\(P=(5,0)\\).\n\nThe tangent line through \\(P\\) and \\(A\\) has slope \\(13\\), so the radius to \\(A\\) has slope \\(-\\dfrac1{13}\\). Intersecting \\(y-13=-\\dfrac1{13}(x-6)\\) with \\(y=3x-15\\) gives center \\(\\left(\\dfrac{37}{4},\\dfrac{51}{4}\\right)\\).\n\nThus \\(r^2=\\left(\\dfrac{37}{4}-6\\right)^2\\) \\(+\\left(\\dfrac{51}{4}-13\\right)^2\\) \\(=\\dfrac{85}{8}\\), so the area is \\(\\dfrac{85\\pi}{8}\\). Thus, C is the correct answer.",
+   "amc10_problem_number": 21,
+   "amc12_problem_number": 18,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 2
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 24,
+   "question": "Define a sequence recursively by \\(x_0=5\\) and \\[x_{n+1}=\\frac{x_n^2+5x_n+4}{x_n+6}\\] for all nonnegative integers \\(n.\\) Let \\(m\\) be the least positive integer such that \\[x_m\\leq 4+\\frac{1}{2^{20}}.\\] In which of the following intervals does \\(m\\) lie?",
+   "choices": {
+    "a": "\\( [9,26] \\)",
+    "b": "\\( [27,80] \\)",
+    "c": "\\( [81,242] \\)",
+    "d": "\\( [243,728] \\)",
+    "e": "\\( [729,\\infty) \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "recursion",
+    "inequality",
+    "bounding to limit cases"
+   ],
+   "seed_elo": 2380.0,
+   "solve_time_seconds": 240.0,
+   "solution_text": "Let \\(a_n=x_n-4\\). Then \\(a_0=1\\), and simplifying the recurrence gives \\[a_{n+1}=\\frac{a_n(a_n+9)}{a_n+10}.\\] As long as \\(02^{-20}\\), and therefore \\(m>80\\).\n\nAlso \\(\\left(\\dfrac{11}{10}\\right)^8>2\\), so \\(\\left(\\dfrac{10}{11}\\right)^{160}C is the correct answer.",
+   "amc10_problem_number": 24,
+   "amc12_problem_number": 21,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 4
+  },
+  {
+   "contest": "amc10",
+   "year": 2019,
+   "label": "B",
+   "position": 25,
+   "question": "How many sequences of \\(0\\)s and \\(1\\)s of length \\(19\\) are there that begin with a \\(0,\\) end with a \\(0,\\) contain no two consecutive \\(0\\)s, and contain no three consecutive \\(1\\)s?",
+   "choices": {
+    "a": "\\( 55 \\)",
+    "b": "\\( 60 \\)",
+    "c": "\\( 65 \\)",
+    "d": "\\( 70 \\)",
+    "e": "\\( 75 \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "arrangements with restrictions",
+    "partitions and compositions",
+    "combinations"
+   ],
+   "seed_elo": 1770.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "Our sequence starts with a \\(0\\) then has sequences of \\(110\\) and \\(10\\) in some order, where they each come after a \\(0.\\)\n\nLet the number of \\(110\\) be \\(x\\) and let the number of \\(10\\) be \\(y.\\) Then the number of terms in the sequence is \\[3x+2y+1=19,\\] making \\[3x+2y=18.\\] The possible ordered pairs are \\[ \\begin{aligned} (x,y)&=(6,0),(4,3),\\\\ &\\quad(2,6),(0,9). \\end{aligned} \\] Then, the number of ways to order the \\(x+y\\) blocks is \\[\\binom{x+y}x,\\] since we choose which \\(x\\) of the \\(x+y\\) positions hold a \\(110\\) block.\n\nTherefore, the total number of ways is \\[\\binom 66 + \\binom 74 + \\binom 82 + \\binom 90\\]\\[=1+35+28+1\\]\\[=65.\\]\n\nThus, the answer is C .",
+   "amc10_problem_number": 15,
+   "amc12_problem_number": 11,
+   "amc8_problem_number": 23,
+   "aime_problem_number": 0
+  }
+ ]
+}

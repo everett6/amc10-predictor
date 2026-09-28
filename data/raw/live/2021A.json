@@ -1,0 +1,661 @@
+{
+ "source_url": "https://live.poshenloh.com/past-contests/amc10/2021A",
+ "year": 2021,
+ "label": "A",
+ "problems": [
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 1,
+   "question": "What is the value of \\[(2^2-2)-(3^2-3)+(4^2-4)?\\]",
+   "choices": {
+    "a": "\\(1\\)",
+    "b": "\\(2\\)",
+    "c": "\\(5\\)",
+    "d": "\\(8\\)",
+    "e": "\\(12\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "order of operations"
+   ],
+   "seed_elo": 450.0,
+   "solve_time_seconds": 20.0,
+   "solution_text": "\\[ \\begin{aligned} (2^2 - 2) - &(3^2 - 3) + (4^2 - 4) \\\\ &= 2 - 6 + 12 \\\\ &= 8. \\end{aligned} \\]\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 0,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 2,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 2,
+   "question": "Portia's high school has \\(3\\) times as many students as Lara's high school. The two high schools have a total of \\(2600\\) students. How many students does Portia's high school have?",
+   "choices": {
+    "a": "\\(600\\)",
+    "b": "\\(650\\)",
+    "c": "\\(1950\\)",
+    "d": "\\(2000\\)",
+    "e": "\\(2050\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "ratio and proportion",
+    "linear equation"
+   ],
+   "seed_elo": 560.0,
+   "solve_time_seconds": 25.0,
+   "solution_text": "Let \\(x\\) be the number of students in Lara's high school. Then Portia's high school has \\(3x\\) students.\n\nTherefore, \\[ \\begin{aligned} 3x + x &= 2600 \\\\ x &= 650. \\end{aligned} \\] Then \\(3x = 1950.\\)\n\nThus, C is the correct answer.",
+   "amc10_problem_number": 0,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 3,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 3,
+   "question": "The sum of two natural numbers is \\(17,402.\\) One of the two numbers is divisible by \\(10.\\) If the units digit of that number is erased, the other number is obtained. What is the difference of these two numbers?",
+   "choices": {
+    "a": "\\(10,272\\)",
+    "b": "\\(11,700\\)",
+    "c": "\\(13,362\\)",
+    "d": "\\(14,238\\)",
+    "e": "\\(15,426\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "place value",
+    "linear equation"
+   ],
+   "seed_elo": 900.0,
+   "solve_time_seconds": 40.0,
+   "solution_text": "Let \\(x\\) and \\(y\\) be the two numbers. WLOG, let \\(x\\) be divisible by \\(10.\\) Then the units digit of \\(x\\) is \\(0.\\)\n\nIf we erase the units digit, then we are essentially dividing \\(x\\) by \\(10.\\) The problem statement also gives us that \\(\\dfrac{x}{10} = y.\\)\n\nTherefore, \\[ \\begin{aligned} \\dfrac{x}{10} + x &= 17,402 \\\\ \\dfrac{11x}{10} &= 17,402 \\\\ x &= 15,820. \\end{aligned} \\] Then \\[ x - \\dfrac{x}{10} = 14,238. \\]\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 7,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 4,
+   "question": "A cart rolls down a hill, traveling \\(5\\) inches the first second and accelerating so that during each successive \\(1\\)-second time interval, it travels \\(7\\) inches more than during the previous \\(1\\)-second interval. The cart takes \\(30\\) seconds to reach the bottom of the hill. How far, in inches, does it travel?",
+   "choices": {
+    "a": "\\(215\\)",
+    "b": "\\(360\\)",
+    "c": "\\(2992\\)",
+    "d": "\\(3195\\)",
+    "e": "\\(3242\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "arithmetic sequence",
+    "summation"
+   ],
+   "seed_elo": 870.0,
+   "solve_time_seconds": 35.0,
+   "solution_text": "The distance travelled every second forms an arithmetic sequence: \\[ 5, 5 + 7, 5 + 2 \\cdot 7, \\ldots \\]\n\nThe standard arithmetic-sequence sum formula is \\[ n\\cdot\\dfrac{a_1+a_n}{2}. \\] We know the number of terms is \\(30\\) and the first term is \\(5.\\) The last term is \\[5 + 29 \\cdot 7 = 208.\\]\n\nPlugging these values into the expression yields \\[ 30 \\cdot \\dfrac{5 + 208}{2} = 15 \\cdot 213 = 3195. \\]\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 6,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 5,
+   "question": "The quiz scores of a class with \\(k > 12\\) students have a mean of \\(8.\\) The mean of a collection of \\(12\\) of these quiz scores is \\(14.\\) What is the mean of the remaining quiz scores in terms of \\(k?\\)",
+   "choices": {
+    "a": "\\(\\dfrac{14-8}{k-12}\\)",
+    "b": "\\(\\dfrac{8k-168}{k-12}\\)",
+    "c": "\\(\\dfrac{14}{12} - \\dfrac{8}{k}\\)",
+    "d": "\\(\\dfrac{14(k-12)}{k^2}\\)",
+    "e": "\\(\\dfrac{14(k-12)}{8k}\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "mean",
+    "algebraic manipulation"
+   ],
+   "seed_elo": 900.0,
+   "solve_time_seconds": 40.0,
+   "solution_text": "The sum of the scores of everyone in the class is \\(8k.\\) The sum of the scores in the collection of \\(12\\) is \\(12 \\cdot 14 = 168.\\)\n\nThis means that the sum of the scores of everyone not in the collection is \\(8k - 168.\\) There are also \\(k - 12\\) people not in the collection. Therefore, the average is \\[ \\dfrac{8k - 168}{k - 12}. \\]\n\nThus, B is the correct answer.",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 7,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 6,
+   "question": "Chantal and Jean start hiking from a trailhead toward a fire tower. Jean is wearing a heavy backpack and walks slower. Chantal starts walking at \\(4\\) miles per hour. Halfway to the tower, the trail becomes really steep, and Chantal slows down to \\(2\\) miles per hour. After reaching the tower, she immediately turns around and descends the steep part of the trail at \\(3\\) miles per hour. She meets Jean at the halfway point. What was Jean's average speed, in miles per hour, until they meet?",
+   "choices": {
+    "a": "\\(\\dfrac{12}{13}\\)",
+    "b": "\\(1\\)",
+    "c": "\\(\\dfrac{13}{12}\\)",
+    "d": "\\(\\dfrac{24}{13}\\)",
+    "e": "\\(2\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "distance rate and time"
+   ],
+   "seed_elo": 1140.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "Let \\(2d\\) be the distance from the trailhead to the fire tower, where \\(d > 0.\\)\n\nThen Chantal hiked for \\[ \\dfrac{d}{4} + \\dfrac{d}{2} + \\dfrac{d}{3} = \\dfrac{13d}{12} \\] hours.\n\nIf Jean travelled \\(d\\) miles in \\(\\dfrac{13d}{12}\\) hours, then his speed was \\[ d \\div \\dfrac{13d}{12} = \\dfrac{12}{13} \\] miles per hour.\n\nThus, A is the correct answer.",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 11,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 7,
+   "question": "Tom has a collection of \\(13\\) snakes, \\(4\\) of which are purple and \\(5\\) of which are happy. He observes that\n\n\u2022 all of his happy snakes can add,\n\n\u2022 none of his purple snakes can subtract, and\n\n\u2022 all of his snakes that can't subtract also can't add.\n\nWhich of these conclusions can be drawn about Tom's snakes?",
+   "choices": {
+    "a": "Purple snakes can add.",
+    "b": "Purple snakes are happy.",
+    "c": "Snakes that can add are purple.",
+    "d": "Happy snakes are not purple.",
+    "e": "Happy snakes can't subtract."
+   },
+   "answer": "d",
+   "concepts": [
+    "logical deduction"
+   ],
+   "seed_elo": 960.0,
+   "solve_time_seconds": 45.0,
+   "solution_text": "Note that the third condition ensures that purple snakes can't add.\n\nWe also know that all happy snakes can add, which means that happy snakes can't be purple as well.\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 3,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 8,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 8,
+   "question": "When a student multiplied the number \\(66\\) by the repeating decimal, \\[\\underline{1}.\\underline{a} \\ \\underline{b} \\ \\underline{a} \\ \\underline{b}\\ldots=\\underline{1}.\\overline{\\underline{a} \\ \\underline{b}},\\] where \\(a\\) and \\(b\\) are digits, he did not notice the notation and just multiplied \\(66\\) times \\(\\underline{1}.\\underline{a} \\ \\underline{b}.\\) Later he found that his answer is \\(0.5\\) less than the correct answer. What is the \\(2\\)-digit integer \\(\\underline{a} \\ \\underline{b}?\\)",
+   "choices": {
+    "a": "\\(15\\)",
+    "b": "\\(30\\)",
+    "c": "\\(45\\)",
+    "d": "\\(60\\)",
+    "e": "\\(75\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "repeating decimal",
+    "geometric sequence"
+   ],
+   "seed_elo": 1370.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "Let \\(N=10a+b,\\) the two-digit integer formed by the digits \\(a\\) and \\(b.\\) Then \\[1.\\overline{ab}=1+\\frac{N}{99}\\] while the terminating decimal the student used is \\[1.ab=1+\\frac{N}{100}.\\]\n\nThe correct product exceeds the student's product by \\(0.5,\\) so \\[ 66\\left(\\frac{N}{99}-\\frac{N}{100}\\right) =\\frac{N}{150}=0.5. \\] Hence \\(N=75.\\)\n\nThus, E is the correct answer.",
+   "amc10_problem_number": 9,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 9,
+   "question": "What is the least possible value of \\((xy-1)^2+(x+y)^2\\) for real numbers \\(x\\) and \\(y?\\)",
+   "choices": {
+    "a": "\\(0\\)",
+    "b": "\\(\\dfrac{1}{4}\\)",
+    "c": "\\(\\dfrac{1}{2}\\)",
+    "d": "\\(1\\)",
+    "e": "\\(2\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "optimization",
+    "algebraic manipulation"
+   ],
+   "seed_elo": 770.0,
+   "solve_time_seconds": 30.0,
+   "solution_text": "Expanding, we get \\[ \\begin{gathered} x^2y^2 - 2xy + 1 + x^2 + 2xy + y^2 \\\\ = x^2y^2 + x^2 + y^2 + 1. \\end{gathered} \\] Note that every square must be non-negative. Therefore, the minimum value is when all the terms except \\(1\\) are \\(0,\\) making the sum \\(1.\\)\n\nThis is attainable when \\(x = y = 0.\\)\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 1,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 5,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 10,
+   "question": "Which of the following is equivalent to \\[ \\begin{aligned} &(2+3)(2^2+3^2)\\\\ &\\quad\\cdot(2^4+3^4)(2^8+3^8)\\\\ &\\quad\\cdot(2^{16}+3^{16})(2^{32}+3^{32})\\\\ &\\quad\\cdot(2^{64}+3^{64})? \\end{aligned} \\]",
+   "choices": {
+    "a": "\\(3^{127} + 2^{127}\\)",
+    "b": "\\(3^{127} + 2^{127} + 2 \\cdot 3^{63}\\)\\( + 3 \\cdot\n2^{63}\\)",
+    "c": "\\(3^{128} - 2^{128}\\)",
+    "d": "\\(3^{128} + 2^{128}\\)",
+    "e": "\\(5^{127}\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "difference of squares",
+    "telescoping"
+   ],
+   "seed_elo": 1070.0,
+   "solve_time_seconds": 55.0,
+   "solution_text": "Multiply the product by \\(3-2=1.\\) Repeatedly applying the difference-of-squares identity gives \\[ \\begin{aligned} (3-2)(3+2)&=3^2-2^2,\\\\ (3^2-2^2)(3^2+2^2)&=3^4-2^4, \\end{aligned} \\] and the same cancellation continues through the final factor. Therefore the product is \\(3^{128}-2^{128}.\\)\n\nThus, C is the correct answer.",
+   "amc10_problem_number": 5,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 10,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 11,
+   "question": "For which of the following integers \\(b\\) is the base-\\(b\\) number \\(2021_b - 221_b\\) not divisible by \\(3?\\)",
+   "choices": {
+    "a": "\\(3\\)",
+    "b": "\\(4\\)",
+    "c": "\\(6\\)",
+    "d": "\\(7\\)",
+    "e": "\\(8\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "number base",
+    "divisibility"
+   ],
+   "seed_elo": 1020.0,
+   "solve_time_seconds": 50.0,
+   "solution_text": "We can express this expression in base \\(10\\) using the definition of bases: \\[ 2b^3 + 2b + 1 - 2b^2 - 2b - 1 \\]\\[= 2b^3 - 2b^2 = 2b^2(b - 1). \\]\n\nFor this to be divisible by \\(3,\\) either \\(b\\) or \\(b - 1\\) must be divisible by \\(3.\\)\n\nThe only answer choice that satisfies neither of these conditions is \\(8.\\)\n\nThus, E is the correct answer.",
+   "amc10_problem_number": 4,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 9,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 12,
+   "question": "Two right circular cones with vertices facing down as shown in the figure below contain the same amount of liquid. The radii of the tops of the liquid surfaces are \\(3\\) cm and \\(6\\) cm. Into each cone is dropped a spherical marble of radius \\(1\\) cm, which sinks to the bottom and is completely submerged without spilling any liquid. What is the ratio of the rise of the liquid level in the narrow cone to the rise of the liquid level in the wide cone?",
+   "choices": {
+    "a": "\\(1:1\\)",
+    "b": "\\(47:43\\)",
+    "c": "\\(2:1\\)",
+    "d": "\\(40:13\\)",
+    "e": "\\(4:1\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "cone",
+    "similarity",
+    "volume"
+   ],
+   "seed_elo": 1660.0,
+   "solve_time_seconds": 100.0,
+   "solution_text": "Let the initial liquid heights in the narrow and wide cones be \\(h_1\\) and \\(h_2.\\) Since the liquid volumes are equal,\n\n\\[\\frac13\\pi(3)^2h_1=\\frac13\\pi(6)^2h_2,\\]\n\nso \\(h_1=4h_2.\\)\n\nAfter the identical marbles are dropped in, each cone must contain the same final volume below the liquid surface: the original liquid volume plus the volume of one marble. If the new liquid-surface radii are \\(3x\\) and \\(6y,\\) similarity gives new heights \\(h_1x\\) and \\(h_2y.\\) Thus\n\n\\[\\frac13\\pi(3x)^2h_1x=\\frac13\\pi(6y)^2h_2y.\\]\n\nUsing \\(h_1=4h_2,\\) this simplifies to \\(x^3=y^3,\\) so \\(x=y.\\) The rise ratio is therefore\n\n\\[ \\begin{aligned} h_1(x-1):h_2(y-1) &= h_1:h_2 \\\\ &= 4:1. \\end{aligned} \\]\n\nThus, E is the correct answer.",
+   "amc10_problem_number": 14,
+   "amc12_problem_number": 11,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 13,
+   "question": "What is the volume of tetrahedron \\(ABCD\\) with edge lengths \\(AB = 2,\\) \\(AC = 3,\\) \\(AD = 4,\\) \\(BC = \\sqrt{13},\\) \\(BD = 2\\sqrt{5},\\) and \\(CD = 5?\\)",
+   "choices": {
+    "a": "\\(3\\)",
+    "b": "\\(2\\sqrt{3}\\)",
+    "c": "\\(4\\)",
+    "d": "\\(3\\sqrt{3}\\)",
+    "e": "\\(6\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "volume",
+    "3D geometry",
+    "Pythagorean Theorem"
+   ],
+   "seed_elo": 1370.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "Place \\(A=(0,0,0),\\) \\(B=(2,0,0),\\) \\(C=(0,3,0),\\) and \\(D=(0,0,4).\\) Then\n\n\\[ \\begin{aligned} BC &= \\sqrt{2^2+3^2}=\\sqrt{13}, \\\\ BD &= \\sqrt{2^2+4^2}=2\\sqrt5, \\\\ CD &= \\sqrt{3^2+4^2}=5, \\end{aligned} \\]\n\nso this coordinate model matches all the given edge lengths. The tetrahedron is a rectangular-corner tetrahedron with perpendicular edge lengths \\(2,3,4\\) from \\(A,\\) so its volume is\n\n\\[\\frac16(2)(3)(4)=4.\\]\n\nThus, C is the correct answer.",
+   "amc10_problem_number": 9,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 14,
+   "question": "All the roots of the polynomial \\[ \\begin{aligned} &z^6-10z^5+Az^4+Bz^3\\\\ &\\quad+Cz^2+Dz+16 \\end{aligned} \\] are positive integers, possibly repeated. What is the value of \\(B?\\)",
+   "choices": {
+    "a": "\\(-88\\)",
+    "b": "\\(-80\\)",
+    "c": "\\(-64\\)",
+    "d": "\\(-41\\)",
+    "e": "\\(-40\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "Vieta's Formulas",
+    "polynomial"
+   ],
+   "seed_elo": 1540.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "By Vieta's formulas, the six roots have sum \\(10\\) and product \\(16.\\) Because the product is a power of \\(2,\\) every positive integer root is a power of \\(2.\\) Distributing the four factors of \\(2\\) among six roots gives the least possible sum when four roots are \\(2\\) and two roots are \\(1\\); that sum is already \\(10.\\) Hence the roots are \\[1,1,2,2,2,2.\\]\n\nThe coefficient \\(B\\) is the negative of the sum of all products of three roots. Choosing zero, one, or two of the two roots equal to \\(1\\) gives \\[ \\begin{aligned} B&=-\\left(\\binom43 2^3+2\\binom42 2^2\\right.\\\\ &\\qquad\\left.+\\binom41 2\\right)\\\\ &=-88. \\end{aligned} \\]\n\nThus, A is the correct answer.",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 15,
+   "question": "Values for \\(A,\\) \\(B,\\) \\(C,\\) and \\(D\\) are to be selected from \\(\\{1, 2, 3, 4, 5, 6\\}\\) without replacement (i.e., no two letters have the same value). How many ways are there to make such choices so that the two curves \\(y=Ax^2+B\\) and \\(y=Cx^2+D\\) intersect?\n\n(The order in which the curves are listed does not matter; for example, the choices \\(A=3,\\)\\(B=2,\\)\\(C=4, \\)\\(D=1\\) is considered the same as the choices \\(A=4,\\)\\( B=1,\\) \\(C=3,\\) \\(D=2.\\))",
+   "choices": {
+    "a": "\\(30\\)",
+    "b": "\\(60\\)",
+    "c": "\\(90\\)",
+    "d": "\\(180\\)",
+    "e": "\\(360\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "parabola",
+    "combinations"
+   ],
+   "seed_elo": 1540.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "Setting the equations equal to each other, we get \\[ Ax^2 + B = Cx^2 + D \\] \\[ x^2(A - C) = D - B \\] \\[ x^2 = \\dfrac{D - B}{A - C} \\geq 0 \\] since squares are non-negative.\n\nThis means \\(D - B\\) and \\(A - C\\) must both have the same sign.\n\nIf we choose two distinct values for \\((A, C)\\) and \\((B, D),\\) there are \\(2\\) ways to arrange them such that the numerator and denominator both have the same sign.\n\nWe have to divide by \\(2,\\) however, since the two curves are not considered distinct.\n\nTherefore, the total number of tuples is \\[ \\dfrac{1}{2} \\binom{6}{2} \\binom{4}{2} \\cdot 2 = 90. \\]\n\nThus, C is the correct answer.",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 16,
+   "question": "In the following list of numbers, the integer \\(n\\) appears \\(n\\) times in the list for \\(1\\leq n\\leq200.\\) \\[ \\begin{aligned} &1,2,2,3,3,3,4,4,4,4,\\ldots,\\\\ &200,200,\\ldots,200 \\end{aligned} \\] What is the median of the numbers in this list?",
+   "choices": {
+    "a": "\\(100.5\\)",
+    "b": "\\(134\\)",
+    "c": "\\(142\\)",
+    "d": "\\(150.5\\)",
+    "e": "\\(167\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "median (data)",
+    "triangular number"
+   ],
+   "seed_elo": 1420.0,
+   "solve_time_seconds": 80.0,
+   "solution_text": "The list contains \\[ \\begin{aligned} 1+2+\\cdots+200&=\\frac{200\\cdot201}{2}\\\\ &=20100 \\end{aligned} \\] entries, so its two middle positions are \\(10050\\) and \\(10051.\\)\n\nThere are \\[\\frac{141\\cdot142}{2}=10011\\] entries through the last \\(141,\\) and \\[\\frac{142\\cdot143}{2}=10153\\] entries through the last \\(142.\\) Thus both middle entries are \\(142,\\) so the median is \\(142.\\)\n\nThus, C is the correct answer.",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 7,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 17,
+   "question": "Trapezoid \\(ABCD\\) has \\(\\overline{AB}\\parallel\\overline{CD},\\) \\(BC=CD=43,\\) and \\(\\overline{AD}\\perp\\overline{BD}.\\) Let \\(O\\) be the intersection of the diagonals \\(\\overline{AC}\\) and \\(\\overline{BD},\\) and let \\(P\\) be the midpoint of \\(\\overline{BD}.\\)\n\nGiven that \\(OP=11,\\) the length of \\(AD\\) can be written in the form \\(m\\sqrt{n},\\) where \\(m\\) and \\(n\\) are positive integers and \\(n\\) is not divisible by the square of any prime. What is \\(m+n?\\)",
+   "choices": {
+    "a": "\\(65\\)",
+    "b": "\\(132\\)",
+    "c": "\\(157\\)",
+    "d": "\\(194\\)",
+    "e": "\\(215\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "trapezoid",
+    "similarity",
+    "Pythagorean Theorem"
+   ],
+   "seed_elo": 1950.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Because \\(BC=CD,\\) the median from \\(C\\) to \\(BD\\) is perpendicular to \\(BD.\\) Thus \\(\\triangle BPC\\) is a right triangle. Let \\(\\angle DBC=\\alpha.\\) Since \\(AB\\parallel CD,\\) we also have \\(\\angle ABD=\\alpha,\\) so \\(\\triangle BPC\\sim\\triangle BDA.\\)\n\nSince \\(P\\) is the midpoint of \\(BD,\\) we have \\(\\frac{BD}{BP}=2.\\) In the similarity, \\(BC\\) corresponds to \\(AB,\\) so\n\n\\[ \\begin{aligned} \\frac{AB}{BC} &=2, \\\\ AB &=2\\cdot43=86. \\end{aligned} \\]\n\nAlso, \\(\\triangle ABO\\sim\\triangle CDO,\\) so\n\n\\[\\frac{BO}{OD}=\\frac{AB}{CD}=2.\\]\n\nSince \\(OP=11\\) and \\(P\\) is the midpoint of \\(BD,\\) write \\(BP=PD=t.\\) Then \\(BO=t+11\\) and \\(OD=t-11,\\) so\n\n\\[\\frac{t+11}{t-11}=2.\\]\n\nThis gives \\(t=33,\\) hence \\(BD=66.\\) Finally, \\(\\triangle ABD\\) is right, so\n\n\\[ \\begin{aligned} AD &= \\sqrt{AB^2-BD^2} \\\\ &= \\sqrt{86^2-66^2} \\\\ &= 4\\sqrt{190}. \\end{aligned} \\]\n\nThus \\(m+n=4+190=194.\\)\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 18,
+   "amc12_problem_number": 15,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 18,
+   "question": "Let \\(f\\) be a function defined on the set of positive rational numbers with the property that \\(f(a\\cdot b)=f(a)+f(b)\\) for all positive rational numbers \\(a\\) and \\(b.\\) Suppose that \\(f\\) also has the property that \\(f(p)=p\\) for every prime number \\(p.\\) For which of the following numbers \\(x\\) is \\(f(x) < 0?\\)",
+   "choices": {
+    "a": "\\(\\dfrac{17}{32}\\)",
+    "b": "\\(\\dfrac{11}{16}\\)",
+    "c": "\\(\\dfrac{7}{9}\\)",
+    "d": "\\(\\dfrac{7}{6}\\)",
+    "e": "\\(\\dfrac{25}{11}\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "functional equation",
+    "prime factorization"
+   ],
+   "seed_elo": 1280.0,
+   "solve_time_seconds": 70.0,
+   "solution_text": "Repeated use of the functional equation gives \\(f(p^e)=ef(p)=ep\\) for every prime \\(p\\) and positive integer \\(e.\\) Also, \\[f(a)=f\\left(\\frac ab\\right)+f(b),\\] so \\(f(\\frac{a}{b})=f(a)-f(b).\\)\n\nEvaluating the choices by prime factorization, \\[ \\begin{aligned} f(\\frac{17}{32})&=17-5\\cdot2=7,\\\\ f(\\frac{11}{16})&=11-4\\cdot2=3,\\\\ f(\\frac{7}{9})&=7-2\\cdot3=1,\\\\ f(\\frac{7}{6})&=7-2-3=2,\\\\ f(\\frac{25}{11})&=2\\cdot5-11=-1. \\end{aligned} \\] Only the final value is negative.\n\nThus, E is the correct answer.",
+   "amc10_problem_number": 8,
+   "amc12_problem_number": 5,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 19,
+   "question": "The area of the region bounded by the graph of \\[x^2+y^2 = 3|x-y| + 3|x+y|\\] is \\(m+n\\pi,\\) where \\(m\\) and \\(n\\) are integers. What is \\(m + n?\\)",
+   "choices": {
+    "a": "\\(18\\)",
+    "b": "\\(27\\)",
+    "c": "\\(36\\)",
+    "d": "\\(45\\)",
+    "e": "\\(54\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "absolute value",
+    "circle",
+    "area decomposition"
+   ],
+   "seed_elo": 2150.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Consider the four sign cases for \\(x-y\\) and \\(x+y.\\) In one case, for example, \\(|x-y|=x-y\\) and \\(|x+y|=x+y,\\) so\n\n\\[ \\begin{gathered} x^2+y^2=6x \\\\ \\quad\\Longrightarrow\\quad (x-3)^2+y^2=9. \\end{gathered} \\]\n\nThe other three cases similarly give circles of radius \\(3\\) centered at \\((0,3),\\) \\((-3,0),\\) and \\((0,-3).\\) The relevant arcs form the boundary shown by these four congruent circle pieces.\n\nThe region consists of a central square of side length \\(6,\\) together with four semicircles of radius \\(3.\\) The square contributes area \\(36,\\) and the four semicircles have the area of two full radius-\\(3\\) circles, namely \\(18\\pi.\\)\n\nTherefore the area is \\(36+18\\pi,\\) so \\(m+n=36+18=54.\\)\n\nThus, E is the correct answer.",
+   "amc10_problem_number": 21,
+   "amc12_problem_number": 18,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 2
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 20,
+   "question": "In how many ways can the sequence \\(1,\\) \\(2,\\) \\(3,\\) \\(4,\\) \\(5\\) be rearranged so that no three consecutive terms are increasing and no three consecutive terms are decreasing?",
+   "choices": {
+    "a": "\\(10\\)",
+    "b": "\\(18\\)",
+    "c": "\\(24\\)",
+    "d": "\\(32\\)",
+    "e": "\\(44\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "arrangements with restrictions",
+    "bijection"
+   ],
+   "seed_elo": 1950.0,
+   "solve_time_seconds": 140.0,
+   "solution_text": "A permutation is valid exactly when the four comparison signs between consecutive terms alternate. Thus the signs must be either up-down-up-down or down-up-down-up.\n\nFor the up-down-up-down pattern, the largest entry \\(5\\) must be in position \\(2\\) or position \\(4.\\) If it is in position \\(2,\\) let the entry in position \\(4\\) be \\(r.\\) Its two neighbors must be distinct numbers less than \\(r,\\) which can be ordered in \\((r-1)(r-2)\\) ways. Summing over \\(r=1,2,3,4\\) gives \\[0+0+2+6=8\\] permutations. By symmetry there are another \\(8\\) when \\(5\\) is in position \\(4,\\) for a total of \\(16\\) with this comparison pattern.\n\nReplacing every entry \\(x\\) by \\(6-x\\) gives a bijection to the down-up-down-up permutations, so there are another \\(16.\\)\n\nThe total number of valid rearrangements is \\(16+16=32.\\)\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 18,
+   "amc12_problem_number": 15,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 21,
+   "question": "Let \\(ABCDEF\\) be an equiangular hexagon. The lines \\(AB,\\) \\(CD,\\) and \\(EF\\) determine a triangle with area \\(192\\sqrt{3},\\) and the lines \\(BC,\\) \\(DE,\\) and \\(FA\\) determine a triangle with area \\(324\\sqrt{3}.\\) The perimeter of hexagon \\(ABCDEF\\) can be expressed as \\(m +n\\sqrt{p},\\) where \\(m,\\) \\(n,\\) and \\(p\\) are positive integers and \\(p\\) is not divisible by the square of any prime. What is \\(m + n + p?\\)",
+   "choices": {
+    "a": "\\(47\\)",
+    "b": "\\(52\\)",
+    "c": "\\(55\\)",
+    "d": "\\(58\\)",
+    "e": "\\(63\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "equiangular polygon",
+    "equilateral triangle",
+    "triangle area"
+   ],
+   "seed_elo": 2150.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Let the intersections of lines \\(AB,CD,EF\\) form triangle \\(PQR,\\) and let the intersections of lines \\(BC,DE,FA\\) form triangle \\(XYZ.\\) Because the hexagon is equiangular, all these outer triangles are equilateral.\n\nFor an equilateral triangle with side length \\(s,\\) the area is \\(\\frac{\\sqrt3}{4}s^2.\\) Hence\n\n\\[ \\begin{aligned} \\frac{\\sqrt3}{4}PQ^2 &=192\\sqrt3, \\\\ \\frac{\\sqrt3}{4}YZ^2 &=324\\sqrt3. \\end{aligned} \\]\n\nSo \\(PQ=16\\sqrt3\\) and \\(YZ=36.\\) To justify the perimeter relation, write the consecutive hexagon side lengths as \\(a,b,c,d,e,f.\\) The two alternating-line triangles have side lengths \\(b+c+d\\) and \\(c+d+e,\\) while closure of the hexagon gives \\(a+f=c+d.\\) Hence their side-length sum is \\[ \\begin{aligned} &(b+c+d)\\\\ &\\quad+(c+d+e)\\\\ &=b+e+2(c+d)\\\\ &=(a+b+c)+(d+e+f), \\end{aligned} \\] the hexagon's perimeter. Therefore the perimeter is\n\n\\[PQ+YZ=16\\sqrt3+36.\\]\n\nThus \\(m+n+p=36+16+3=55.\\)\n\nThus, C is the correct answer.",
+   "amc10_problem_number": 21,
+   "amc12_problem_number": 18,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 2
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 22,
+   "question": "Hiram's algebra notes are \\(50\\) pages long and are printed on \\(25\\) sheets of paper; the first sheet contains pages \\(1\\) and \\(2,\\) the second sheet contains pages \\(3\\) and \\(4,\\) and so on. One day he leaves his notes on the table before leaving for lunch, and his roommate decides to borrow some pages from the middle of the notes. When Hiram comes back, he discovers that his roommate has taken a consecutive set of sheets from the notes and that the average (mean) of the page numbers on all remaining sheets is exactly \\(19.\\) How many sheets were borrowed?",
+   "choices": {
+    "a": "\\(10\\)",
+    "b": "\\(13\\)",
+    "c": "\\(15\\)",
+    "d": "\\(17\\)",
+    "e": "\\(20\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "mean",
+    "Diophantine Equation",
+    "factoring"
+   ],
+   "seed_elo": 1820.0,
+   "solve_time_seconds": 110.0,
+   "solution_text": "Suppose the borrowed sheets are sheets \\(a\\) through \\(b,\\) and let \\(s=b-a+1.\\) The borrowed pages run from \\(2a-1\\) through \\(2b,\\) so there are \\(2s\\) borrowed pages and their sum is \\(s(2a+2b-1).\\)\n\nThe total sum of all page numbers is \\(\\frac{50\\cdot51}{2}=1275.\\) If the remaining pages have mean \\(19,\\) then \\[ \\begin{aligned} 1275&-s(2a+2b-1)\\\\ &=19(50-2s),\\\\ s(2a+2b-39)&=325. \\end{aligned} \\]\n\nBecause \\(b-a+1\\) is a positive divisor of \\(325\\) and is at most \\(25,\\) its only possibilities are \\(1,5,13,25.\\) The first two would force \\(b>25,\\) and \\(25\\) would remove every sheet. Thus the only valid possibility is\n\n\\[ \\begin{aligned} 2a+2b-39 &=25, \\\\ b-a+1 &=13. \\end{aligned} \\]\n\nThus \\(a+b=32\\) and \\(b-a=12,\\) so \\(a=10\\) and \\(b=22.\\) Therefore \\(13\\) sheets were borrowed.\n\nThus, B is the correct answer.",
+   "amc10_problem_number": 16,
+   "amc12_problem_number": 13,
+   "amc8_problem_number": 22,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 23,
+   "question": "Frieda the frog begins a sequence of hops on a \\(3 \\times 3\\) grid of squares, moving one square on each hop and choosing at random the direction of each hop--up, down, left, or right. She does not hop diagonally. When the direction of a hop would take Frieda off the grid, she \"wraps around\" and jumps to the opposite edge. For example if Frieda begins in the center square and makes two hops \"up\", the first hop would place her in the top row middle square, and the second hop would cause Frieda to jump to the opposite edge, landing in the bottom row middle square.\n\nSuppose Frieda starts from the center square, makes at most four hops at random, and stops hopping if she lands on a corner square. What is the probability that she reaches a corner square on one of the four hops?",
+   "choices": {
+    "a": "\\(\\dfrac{9}{16}\\)",
+    "b": "\\(\\dfrac{5}{8}\\)",
+    "c": "\\(\\dfrac{3}{4}\\)",
+    "d": "\\(\\dfrac{25}{32}\\)",
+    "e": "\\(\\dfrac{13}{16}\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "random walk",
+    "casework"
+   ],
+   "seed_elo": 1720.0,
+   "solve_time_seconds": 105.0,
+   "solution_text": "Classify a square as \\(M\\) for the center, \\(E\\) for a non-corner edge square, and \\(C\\) for a corner. Frieda starts at \\(M,\\) and the first hop always takes her to an \\(E.\\)\n\nFrom an edge square, the probabilities of moving to \\(C,E,M\\) are \\(\\frac12,\\frac14,\\frac14,\\) respectively. From \\(M,\\) the next hop always goes to an \\(E.\\)\n\nNow count the possible first-hit patterns within four hops:\n\n\\[EC:\\quad 1\\cdot\\frac12=\\frac12,\\]\n\n\\[EEC:\\quad 1\\cdot\\frac14\\cdot\\frac12=\\frac18,\\]\n\n\\[EEEC:\\quad 1\\cdot\\frac14\\cdot\\frac14\\cdot\\frac12=\\frac1{32},\\]\n\n\\[EMEC:\\quad 1\\cdot\\frac14\\cdot1\\cdot\\frac12=\\frac18.\\]\n\nAdding gives\n\n\\[\\frac12+\\frac18+\\frac1{32}+\\frac18=\\frac{25}{32}.\\]\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 15,
+   "amc12_problem_number": 12,
+   "amc8_problem_number": 21,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 24,
+   "question": "The interior of a quadrilateral is bounded by the graphs of \\((x+ay)^2=4a^2\\) and \\((ax-y)^2=a^2,\\) where \\(a\\) is a positive real number. What is the area of this region in terms of \\(a,\\) valid for all \\(a > 0?\\)",
+   "choices": {
+    "a": "\\(\\dfrac{8a^2}{(a+1)^2}\\)",
+    "b": "\\(\\dfrac{4a}{a+1}\\)",
+    "c": "\\(\\dfrac{8a}{a+1}\\)",
+    "d": "\\(\\dfrac{8a^2}{a^2+1}\\)",
+    "e": "\\(\\dfrac{8a}{a^2+1}\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "parallel lines",
+    "distance formula",
+    "rectangle"
+   ],
+   "seed_elo": 1720.0,
+   "solve_time_seconds": 110.0,
+   "solution_text": "Note that each of the equations yields two parallel lines.\n\n\\[ (x + ay)^2 = 4a^2 \\] results in the two lines \\[ x + ay - 2a = 0 \\] and \\[ x + ay + 2a = 0. \\] Both of these lines have a slope of \\(-\\dfrac{1}{a}.\\)\n\nSimilarly, \\[ (ax-y)^2 = a^2 \\] results in the lines \\[ ax - y - a = 0 \\] and \\[ ax - y + a = 0. \\] These lines have slope \\(a.\\)\n\nNote that each pair of lines is perpendicular to the other pair of lines. This shows that the equations form a rectangle.\n\nRecall that the formula for the distance \\(d\\) between two parallel lines \\[ \\begin{cases} Ax+By+C_1=0 \\\\ Ax+By+C_2=0 \\end{cases} \\] is \\[ d = \\dfrac{\\mid C_2 - C_1 \\mid}{\\sqrt{A^2 + B^2}}. \\]\n\nUsing this formula, we get that the distance between the first pair of lines is \\[ \\dfrac{4a}{\\sqrt{a^2 + 1}}. \\] Similarly, the distance between the second pair of lines is \\[ \\dfrac{2a}{\\sqrt{a^2 + 1}}. \\]\n\nThese are the side lengths of the rectangle. Multiplying yields the area \\[ \\dfrac{8a^2}{a^2 + 1}. \\]\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 15,
+   "amc12_problem_number": 12,
+   "amc8_problem_number": 21,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "A",
+   "position": 25,
+   "question": "How many ways are there to place \\(3\\) indistinguishable red chips, \\(3\\) indistinguishable blue chips, and \\(3\\) indistinguishable green chips in the squares of a \\(3 \\times 3\\) grid so that no two chips of the same color are directly adjacent to each other, either vertically or horizontally?",
+   "choices": {
+    "a": "\\(12\\)",
+    "b": "\\(18\\)",
+    "c": "\\(24\\)",
+    "d": "\\(30\\)",
+    "e": "\\(36\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "arrangements with restrictions",
+    "casework"
+   ],
+   "seed_elo": 1820.0,
+   "solve_time_seconds": 110.0,
+   "solution_text": "Choose the center color in \\(3\\) ways. Its other two chips cannot occupy any edge-middle square, because those squares are adjacent to the center. Thus they must occupy two of the four corners, which can be chosen in \\(\\binom42=6\\) ways.\n\nFor either possible corner pattern--two opposite corners or two corners on the same side--the adjacency conditions force the remaining two colors up to interchanging them. Hence there are \\(2\\) completions for each choice of the center color and its two corners. The total is \\[3\\binom42\\cdot2=36.\\]\n\nThus, E is the correct answer.",
+   "amc10_problem_number": 16,
+   "amc12_problem_number": 13,
+   "amc8_problem_number": 22,
+   "aime_problem_number": 1
+  }
+ ]
+}

@@ -1,0 +1,679 @@
+{
+ "source_url": "https://live.poshenloh.com/past-contests/amc10/2024A",
+ "year": 2024,
+ "label": "A",
+ "problems": [
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 1,
+   "question": "What is the value of \\(9901 \\cdot 101 - 99 \\cdot 10101?\\)",
+   "choices": {
+    "a": "\\(2\\)",
+    "b": "\\(20\\)",
+    "c": "\\(21\\)",
+    "d": "\\(200\\)",
+    "e": "\\(2020\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "whole number operations"
+   ],
+   "seed_elo": 860.0,
+   "solve_time_seconds": 45.0,
+   "solution_text": "Just compute each piece. We have \\(9901 \\cdot 101 = 990100 + 9901\\) \\(= 1000001,\\) and \\(99 \\cdot 10101 = 999999.\\) Subtracting, \\(1000001 - 999999 = 2.\\) Thus, A is the correct answer.",
+   "amc10_problem_number": 1,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 7,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 2,
+   "question": "A model used to estimate the time it will take to hike to the top of the mountain on a trail is of the form \\(T = aL + bG,\\) where \\(a\\) and \\(b\\) are constants, \\(T\\) is the time in minutes, \\(L\\) is the length of the trail in miles, and \\(G\\) is the altitude gain in feet. The model estimates that it will take \\(69\\) minutes to hike to the top if a trail is \\(1.5\\) miles long and ascends \\(800\\) feet, as well as if a trail is \\(1.2\\) miles long and ascends \\(1100\\) feet. How many minutes does the model estimate it will take to hike to the top if the trail is \\(4.2\\) miles long and ascends \\(4000\\) feet?",
+   "choices": {
+    "a": "\\(240\\)",
+    "b": "\\(246\\)",
+    "c": "\\(252\\)",
+    "d": "\\(258\\)",
+    "e": "\\(264\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "system of equations",
+    "linear equation"
+   ],
+   "seed_elo": 990.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "Subtract the two equations \\(1.5a + 800b = 69\\) and \\(1.2a + 1100b = 69\\) to kill the \\(69.\\) That leaves \\(0.3a - 300b = 0,\\) so \\(a = 1000b.\\) Now substitute: \\(1500b + 800b = 2300b = 69,\\) so \\(b = 0.03\\) and \\(a = 30.\\) Then \\(T = 30(4.2) + 0.03(4000)\\) \\(= 126 + 120\\) \\(= 246.\\) Therefore, the answer is B.",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 10,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 3,
+   "question": "What is the sum of the digits of the smallest prime that can be written as a sum of \\(5\\) distinct primes?",
+   "choices": {
+    "a": "\\(5\\)",
+    "b": "\\(7\\)",
+    "c": "\\(9\\)",
+    "d": "\\(10\\)",
+    "e": "\\(11\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "prime",
+    "parity",
+    "optimization"
+   ],
+   "seed_elo": 1050.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "Suppose \\(2\\) is one of the five primes. Then the total is even and bigger than \\(2,\\) so it is composite. Thus all five primes must be odd. The five smallest odd primes give \\(3 + 5 + 7 + 11 + 13 = 39\\) \\(= 3 \\cdot 13,\\) which is not prime. The next possible sum is obtained by replacing \\(13\\) with the next prime, \\(17;\\) changing any earlier term forces at least as large an increase to keep the primes distinct. This gives \\(3 + 5 + 7 + 11 + 17 = 43,\\) which is prime. Its digit sum is \\(4 + 3 = 7.\\) Thus, B is the correct answer.",
+   "amc10_problem_number": 3,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 11,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 4,
+   "question": "The number \\(2024\\) is written as the sum of not necessarily distinct two-digit numbers. What is the least number of two-digit numbers needed to write this sum?",
+   "choices": {
+    "a": "\\(20\\)",
+    "b": "\\(21\\)",
+    "c": "\\(22\\)",
+    "d": "\\(23\\)",
+    "e": "\\(24\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "inequality",
+    "bounding to limit cases",
+    "optimization"
+   ],
+   "seed_elo": 1130.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "Each two-digit number is at most \\(99,\\) so \\(k\\) of them sum to at most \\(99k.\\) We need \\(99k \\ge 2024,\\) which forces \\(k \\ge 20.4,\\) so \\(k \\ge 21.\\) And \\(21\\) really works: twenty \\(99\\)s plus one \\(44\\) give \\(1980 + 44 = 2024.\\) Therefore, the answer is B.",
+   "amc10_problem_number": 4,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 12,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 5,
+   "question": "What is the least value of \\(n\\) such that \\(n!\\) is a multiple of \\(2024?\\)",
+   "choices": {
+    "a": "\\(11\\)",
+    "b": "\\(21\\)",
+    "c": "\\(22\\)",
+    "d": "\\(23\\)",
+    "e": "\\(253\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "factorial",
+    "divisibility",
+    "prime factorization"
+   ],
+   "seed_elo": 1130.0,
+   "solve_time_seconds": 55.0,
+   "solution_text": "Factor \\(2024 = 2^3 \\cdot 11 \\cdot 23.\\) The prime \\(23\\) is the bottleneck: for \\(23\\) to divide \\(n!,\\) we need \\(n \\ge 23.\\) At \\(n = 23,\\) the product \\(23!\\) already has \\(23,\\) \\(11,\\) and plenty of factors of \\(2,\\) so \\(23!\\) is divisible by \\(2024.\\) The least value is \\(23.\\) Thus, D is the correct answer.",
+   "amc10_problem_number": 4,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 12,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 6,
+   "question": "What is the minimum number of successive swaps of adjacent letters in the string ABCDEF that are needed to change the string to FEDCBA?\n\n(For example, \\(3\\) swaps are required to change ABC to CBA; one such sequence of swaps is ABC \\(\\to\\) BAC \\(\\to\\) BCA \\(\\to\\) CBA.)",
+   "choices": {
+    "a": "\\(6\\)",
+    "b": "\\(10\\)",
+    "c": "\\(12\\)",
+    "d": "\\(15\\)",
+    "e": "\\(24\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "permutations",
+    "counting pairs",
+    "invariant"
+   ],
+   "seed_elo": 1200.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "Reversing all six letters flips the relative order of every pair, so all \\(\\binom{6}{2} = 15\\) pairs end up inverted. Each adjacent swap fixes exactly one inversion. So we need at least \\(15\\) swaps, and bubbling each letter into place hits \\(15\\) exactly. Therefore, the answer is D.",
+   "amc10_problem_number": 5,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 7,
+   "question": "The product of three integers is \\(60.\\) What is the least possible positive sum of the three integers?",
+   "choices": {
+    "a": "\\(2\\)",
+    "b": "\\(3\\)",
+    "c": "\\(5\\)",
+    "d": "\\(6\\)",
+    "e": "\\(13\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "factor",
+    "optimization",
+    "casework"
+   ],
+   "seed_elo": 1200.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "A positive product comes from three positive integers or one positive and two negative integers. Three positive integers have sum at least \\(3.\\) In the second case write the numbers as \\(-x,-y,z,\\) where \\(x,y,z\\) are positive and \\(xyz=60.\\) A positive sum requires \\(z \\gt x+y \\ge 2\\sqrt{xy},\\) so \\(\\frac{60}{xy} \\gt 2\\sqrt{xy}\\) and hence \\(xy \\lt 10.\\) The possible products \\(xy\\) that divide \\(60\\) are \\(1,2,3,4,5,6.\\) Checking their factor pairs, the smallest positive value of \\(\\frac{60}{xy}-x-y\\) is \\(10-1-6=3.\\) Thus \\((-1)(-6)(10)=60,\\) and no positive sum below \\(3\\) is possible. Therefore, the answer is B.",
+   "amc10_problem_number": 5,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 8,
+   "question": "Amy, Bomani, Charlie, and Daria work in a chocolate factory. On Monday Amy, Bomani, and Charlie started working at \\(1{:}00\\) PM and were able to pack \\(4,\\) \\(3,\\) and \\(3\\) packages, respectively, every \\(3\\) minutes. At some later time, Daria joined the group, and Daria was able to pack \\(5\\) packages every \\(4\\) minutes. Together, they finished packing \\(450\\) packages at exactly \\(2{:}45\\) PM. At what time did Daria join the group?",
+   "choices": {
+    "a": "\\(1{:}25\\) PM",
+    "b": "\\(1{:}35\\) PM",
+    "c": "\\(1{:}45\\) PM",
+    "d": "\\(1{:}55\\) PM",
+    "e": "\\(2{:}05\\) PM"
+   },
+   "answer": "a",
+   "concepts": [
+    "rate",
+    "date and time"
+   ],
+   "seed_elo": 1290.0,
+   "solve_time_seconds": 100.0,
+   "solution_text": "From \\(1{:}00\\) to \\(2{:}45\\) is \\(105\\) minutes. Amy, Bomani, and Charlie pack \\(4 + 3 + 3 = 10\\) packages every \\(3\\) minutes, so \\(\\tfrac{10}{3}\\) per minute, which is \\(\\tfrac{10}{3} \\cdot 105 = 350\\) packages. That leaves \\(450 - 350 = 100\\) for Daria, who packs \\(\\tfrac54\\) per minute and so needs \\(\\frac{100}{\\tfrac54} = 80\\) minutes. She worked the last \\(80\\) minutes, joining \\(105 - 80 = 25\\) minutes after \\(1{:}00.\\) That's \\(1{:}25\\) PM. Therefore, the answer is A.",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 5,
+   "amc8_problem_number": 14,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 9,
+   "question": "In how many ways can \\(6\\) juniors and \\(6\\) seniors form \\(3\\) disjoint teams of \\(4\\) people so that each team has \\(2\\) juniors and \\(2\\) seniors?",
+   "choices": {
+    "a": "\\(720\\)",
+    "b": "\\(1350\\)",
+    "c": "\\(2700\\)",
+    "d": "\\(3280\\)",
+    "e": "\\(8100\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "combinations",
+    "multiplication principle"
+   ],
+   "seed_elo": 1350.0,
+   "solve_time_seconds": 110.0,
+   "solution_text": "Split the \\(6\\) juniors into three unordered pairs. There are \\(\\frac{6!}{2!^3 3!} = 15\\) ways, and the same \\(15\\) for the seniors. Each team is one junior-pair paired with one senior-pair, so we match the three junior-pairs to the three senior-pairs in \\(3! = 6\\) ways. That's \\(15 \\cdot 15 \\cdot 6 = 1350\\) sets of teams. Thus, B is the correct answer.",
+   "amc10_problem_number": 8,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 10,
+   "question": "Consider the following operation. Given a positive integer \\(n,\\) if \\(n\\) is a multiple of \\(3,\\) then you replace \\(n\\) by \\(\\tfrac{n}{3}.\\) If \\(n\\) is not a multiple of \\(3,\\) then you replace \\(n\\) by \\(n + 10.\\) Then continue this process. For example, beginning with \\(n = 4,\\) this procedure gives \\(4 \\to 14 \\to 24 \\to 8\\) \\(\\to 18 \\to 6 \\to 2 \\to 12 \\to \\cdots.\\)\n\nSuppose you start with \\(n = 100.\\) What value results if you perform this operation exactly \\(100\\) times?",
+   "choices": {
+    "a": "\\(10\\)",
+    "b": "\\(20\\)",
+    "c": "\\(30\\)",
+    "d": "\\(40\\)",
+    "e": "\\(50\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "recursion",
+    "modular arithmetic",
+    "process simulation",
+    "pattern recognition"
+   ],
+   "seed_elo": 1350.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "Just run it from \\(100:\\) \\(100 \\to 110 \\to 120 \\to 40\\) \\(\\to 50 \\to 60 \\to 20\\) \\(\\to 30 \\to 10 \\to 20\\) \\(\\to 30 \\to 10 \\to \\cdots.\\) After the \\(8\\)th step we're at \\(10,\\) and from there it cycles \\(10, 20, 30\\) with period \\(3.\\) So step \\(8 + k\\) is the \\(k\\)th entry of the cycle. For step \\(100,\\) \\(k = 92,\\) and \\(92 \\equiv 2 \\pmod 3,\\) which lands on \\(30.\\) Therefore, the answer is C.",
+   "amc10_problem_number": 8,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 11,
+   "question": "How many ordered pairs of integers \\((m, n)\\) satisfy\n\n\\[\\sqrt{n^2 - 49} = m?\\]",
+   "choices": {
+    "a": "\\(1\\)",
+    "b": "\\(2\\)",
+    "c": "\\(3\\)",
+    "d": "\\(4\\)",
+    "e": "Infinitely many"
+   },
+   "answer": "d",
+   "concepts": [
+    "Diophantine Equation",
+    "difference of squares",
+    "radical"
+   ],
+   "seed_elo": 1440.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "Note \\(m = \\sqrt{n^2 - 49} \\ge 0\\) has to be an integer, so \\(n^2 - 49 = m^2,\\) which means \\((n - m)(n + m) = 49.\\) The factorizations of \\(49\\) give \\(|n| = 25, m = 24\\) or \\(|n| = 7, m = 0.\\) So the ordered pairs \\((m, n)\\) are \\((24, 25),\\) \\((24, -25),\\) \\((0, 7),\\) \\((0, -7).\\) That's \\(4\\) of them. Thus, D is the correct answer.",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 8,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 12,
+   "question": "Zelda played the Adventures of Math game on August \\(1\\) and scored \\(1700\\) points. She continued to play daily over the next \\(5\\) days. The bar chart below shows the daily change in her score compared to the day before. (For example, Zelda's score on August \\(2\\) was \\(1700 + 80 = 1780\\) points.) What was Zelda's average score in points over the \\(6\\) days?",
+   "choices": {
+    "a": "\\(1700\\)",
+    "b": "\\(1702\\)",
+    "c": "\\(1703\\)",
+    "d": "\\(1713\\)",
+    "e": "\\(1715\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "data and graph interpretation",
+    "mean"
+   ],
+   "seed_elo": 1290.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "Apply the daily changes \\(+80, -90, -10, +60, -40\\) to the starting \\(1700.\\) The six scores are \\(1700, 1780, 1690,\\) \\(1680, 1740, 1700.\\) They add to \\(10290,\\) so the average is \\(\\frac{10290}{6} = 1715.\\) Therefore, the answer is E.",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 5,
+   "amc8_problem_number": 14,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 13,
+   "question": "Two transformations are said to commute if applying the first followed by the second gives the same result as applying the second followed by the first. Consider these four transformations of the coordinate plane:\n\n\u2022 a translation \\(2\\) units to the right,\n\n\u2022 a \\(90^\\circ\\) rotation counterclockwise about the origin,\n\n\u2022 a reflection across the \\(x\\)-axis, and\n\n\u2022 a dilation centered at the origin with scale factor \\(2.\\)\n\nOf the \\(6\\) pairs of distinct transformations from this list, how many commute?",
+   "choices": {
+    "a": "\\(1\\)",
+    "b": "\\(2\\)",
+    "c": "\\(3\\)",
+    "d": "\\(4\\)",
+    "e": "\\(5\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "transformation",
+    "function",
+    "casework"
+   ],
+   "seed_elo": 1500.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "The dilation just scales about the origin, so it commutes with both the rotation and the reflection. That's \\(2\\) pairs. The translation commutes with the reflection across the \\(x\\)-axis too, since either order sends \\((x, y) \\to (x + 2, -y).\\) The other three pairs fail: the translation clashes with the rotation and with the dilation, and the rotation clashes with the reflection. So \\(3\\) pairs commute. Thus, C is the correct answer.",
+   "amc10_problem_number": 11,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 17,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 14,
+   "question": "One side of an equilateral triangle of height \\(24\\) lies on line \\(\\ell.\\) A circle of radius \\(12\\) is tangent to \\(\\ell\\) and is externally tangent to the triangle. The area of the region exterior to the triangle and the circle and bounded by the triangle, the circle, and line \\(\\ell\\) can be written as \\(a\\sqrt{b} - c\\pi,\\) where \\(a,\\) \\(b,\\) and \\(c\\) are positive integers and \\(b\\) is not divisible by the square of any prime. What is \\(a + b + c?\\)",
+   "choices": {
+    "a": "\\(72\\)",
+    "b": "\\(73\\)",
+    "c": "\\(74\\)",
+    "d": "\\(75\\)",
+    "e": "\\(76\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "tangent line",
+    "special right triangle",
+    "sector",
+    "kite"
+   ],
+   "seed_elo": 1660.0,
+   "solve_time_seconds": 180.0,
+   "solution_text": "The equilateral triangle has side \\(16\\sqrt3.\\) Put \\(\\ell\\) on the \\(x\\)-axis with base vertex \\(V = (16\\sqrt3, 0)\\); the slanted side lies on \\(\\sqrt3\\,x + y = 48.\\) The circle sits on \\(\\ell,\\) has radius \\(12,\\) and touches that side externally, so its center is \\(O = (20\\sqrt3, 12).\\) Let \\(T = (20\\sqrt3, 0)\\) be its tangency point on \\(\\ell,\\) and let \\(P\\) be the tangency point on the slanted side. The two tangent lengths from \\(V\\) satisfy \\(VT = VP = 4\\sqrt3,\\) so kite \\(VTOP\\) has area \\(4\\sqrt3 \\cdot 12 = 48\\sqrt3.\\) The angle at \\(V\\) is \\(120^\\circ,\\) so the removed sector has angle \\(60^\\circ\\) and area \\(\\tfrac16 \\pi (12)^2 = 24\\pi.\\) The region has area \\(48\\sqrt3 - 24\\pi,\\) giving \\(a + b + c = 48 + 3 + 24 = 75.\\) Therefore, the answer is D.",
+   "amc10_problem_number": 14,
+   "amc12_problem_number": 13,
+   "amc8_problem_number": 19,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 15,
+   "question": "Let \\(M\\) be the greatest integer such that both \\(M + 1213\\) and \\(M + 3773\\) are perfect squares. What is the units digit of \\(M?\\)",
+   "choices": {
+    "a": "\\(1\\)",
+    "b": "\\(2\\)",
+    "c": "\\(3\\)",
+    "d": "\\(6\\)",
+    "e": "\\(8\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "perfect square",
+    "difference of squares",
+    "parity",
+    "optimization"
+   ],
+   "seed_elo": 1600.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "Set \\(M + 1213 = y^2\\) and \\(M + 3773 = x^2.\\) Subtracting, \\(x^2 - y^2 = 2560,\\) so \\((x - y)(x + y) = 2560.\\) The two factors share a parity, and their product is even, so both are even: write \\(x - y = 2s,\\) \\(x + y = 2t,\\) with \\(st = 640.\\) To make \\(M\\) as large as possible we want \\(y = t - s\\) as large as possible, so \\(s\\) as small as possible. Take \\(s = 1, t = 640,\\) giving \\(y = 639.\\) Then \\(M = 639^2 - 1213 = 407108,\\) whose units digit is \\(8.\\) Thus, E is the correct answer.",
+   "amc10_problem_number": 13,
+   "amc12_problem_number": 12,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 16,
+   "question": "All of the rectangles in the figure below, which is drawn to scale, are similar to the enclosing rectangle. Each number represents the area of the rectangle. What is length \\(AB?\\)",
+   "choices": {
+    "a": "\\(4 + 4\\sqrt5\\)",
+    "b": "\\(10\\sqrt2\\)",
+    "c": "\\(5 + 5\\sqrt5\\)",
+    "d": "\\(10\\sqrt[4]{8}\\)",
+    "e": "\\(20\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "similarity",
+    "area ratio",
+    "rectangle"
+   ],
+   "seed_elo": 1730.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "The areas of the eleven pieces sum to \\(200.\\) Let the enclosing rectangle have height \\(h\\) and width \\(w=AB.\\) Similar figures have corresponding side lengths in the square-root ratio of their areas. From the diagram, the area-\\(32\\) piece contributes its short side to the left edge, of length \\(h\\sqrt{\\frac{32}{200}}=\\tfrac25h.\\) Above it, the area-\\(36\\) piece contributes its long side, of length \\(w\\sqrt{\\frac{36}{200}}=\\tfrac{3\\sqrt2}{10}w.\\) These two segments make the full height, so \\(h=\\tfrac25h+\\tfrac{3\\sqrt2}{10}w,\\) which simplifies to \\(h=\\frac{w}{\\sqrt2}.\\) Since \\(wh=200,\\) we get \\(\\frac{w^2}{\\sqrt2}=200\\) and \\(w=\\sqrt{200\\sqrt2}=10\\sqrt[4]{8}.\\) Therefore, the answer is D.",
+   "amc10_problem_number": 15,
+   "amc12_problem_number": 14,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 17,
+   "question": "Two teams are in a best-two-out-of-three playoff: the teams will play at most \\(3\\) games, and the winner of the playoff is the first team to win \\(2\\) games. The first game is played on Team A's home field, and the remaining games are played on Team B's home field. Team A has a \\(\\tfrac23\\) chance of winning at home, and its probability of winning when playing away from home is \\(p.\\) Outcomes of the games are independent. The probability that Team A wins the playoff is \\(\\tfrac12.\\) Then \\(p\\) can be written in the form \\(\\tfrac12\\!\\left(m - \\sqrt{n}\\right),\\) where \\(m\\) and \\(n\\) are positive integers. What is \\(m + n?\\)",
+   "choices": {
+    "a": "\\(10\\)",
+    "b": "\\(11\\)",
+    "c": "\\(12\\)",
+    "d": "\\(13\\)",
+    "e": "\\(14\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "independent events",
+    "quadratic",
+    "casework"
+   ],
+   "seed_elo": 1800.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Team A takes game \\(1\\) at home with probability \\(\\tfrac23,\\) and each away game with probability \\(p.\\) It can win the playoff three disjoint ways: win games \\(1, 2;\\) win \\(1,\\) lose \\(2,\\) win \\(3;\\) lose \\(1,\\) win \\(2, 3.\\) Adding those, \\(\\tfrac23 p + \\tfrac23(1 - p)p + \\tfrac13 p^2 = \\tfrac12.\\) This cleans up to \\(2p^2 - 8p + 3 = 0,\\) so \\(p = \\tfrac{4 - \\sqrt{10}}{2} = \\tfrac12\\!\\left(4 - \\sqrt{10}\\right).\\) Then \\(m = 4,\\) \\(n = 10,\\) and \\(m + n = 14.\\) Thus, E is the correct answer.",
+   "amc10_problem_number": 16,
+   "amc12_problem_number": 15,
+   "amc8_problem_number": 21,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 18,
+   "question": "There are exactly \\(K\\) positive integers \\(b\\) with \\(5 \\le b \\le 2024\\) such that the base-\\(b\\) integer \\(2024_b\\) is divisible by \\(16\\) (where \\(16\\) is in base ten). What is the sum of the digits of \\(K?\\)",
+   "choices": {
+    "a": "\\(16\\)",
+    "b": "\\(17\\)",
+    "c": "\\(18\\)",
+    "d": "\\(20\\)",
+    "e": "\\(21\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "number base",
+    "modular arithmetic",
+    "counting integers in a range"
+   ],
+   "seed_elo": 1840.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "In base \\(b,\\) \\(2024_b = 2b^3 + 2b + 4\\) \\(= 2(b^3 + b + 2),\\) so \\(2024_b\\) is divisible by \\(16\\) exactly when \\(b^3 + b + 2\\) is divisible by \\(8.\\) Test the residues modulo \\(8:\\) this holds precisely for \\(b \\equiv 3, 6, 7 \\pmod 8.\\) Counting the \\(b\\) with \\(5 \\le b \\le 2024\\) in those three classes gives \\(K = 758,\\) whose digit sum is \\(7 + 5 + 8 = 20.\\) Therefore, the answer is D.",
+   "amc10_problem_number": 17,
+   "amc12_problem_number": 16,
+   "amc8_problem_number": 21,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 19,
+   "question": "The first three terms of a geometric sequence are the integers \\(a,\\) \\(720,\\) and \\(b,\\) where \\(a \\lt 720 \\lt b.\\) What is the sum of the digits of the least possible value of \\(b?\\)",
+   "choices": {
+    "a": "\\(9\\)",
+    "b": "\\(12\\)",
+    "c": "\\(16\\)",
+    "d": "\\(18\\)",
+    "e": "\\(21\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "geometric sequence",
+    "divisibility",
+    "optimization"
+   ],
+   "seed_elo": 1910.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Since \\(720^2 = ab,\\) the common ratio \\(r = \\tfrac{720}{a} = \\tfrac{b}{720}\\) is rational. Write \\(r = \\tfrac{p}{q}\\) in lowest terms with \\(p \\gt q.\\) Then \\(a = \\tfrac{720q}{p}\\) and \\(b = \\tfrac{720p}{q}\\) are integers, which forces \\(720\\) to be divisible by \\(p\\) and by \\(q.\\) To make \\(b\\) smallest, we want the smallest ratio \\(\\tfrac{p}{q} \\gt 1\\) with \\(720\\) divisible by both \\(p\\) and \\(q,\\) which is \\(\\tfrac{16}{15}.\\) That gives \\(b = 720 \\cdot \\tfrac{16}{15} = 768\\) (and \\(a = 675\\)). The digit sum is \\(7 + 6 + 8 = 21.\\) Thus, E is the correct answer.",
+   "amc10_problem_number": 18,
+   "amc12_problem_number": 17,
+   "amc8_problem_number": 22,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 20,
+   "question": "Let \\(S\\) be a subset of \\(\\{1, 2, 3, \\ldots, 2024\\}\\) such that the following two conditions hold:\n\n\u2022 If \\(x\\) and \\(y\\) are distinct elements of \\(S,\\) then \\(|x - y| \\gt 2.\\)\n\n\u2022 If \\(x\\) and \\(y\\) are distinct odd elements of \\(S,\\) then \\(|x - y| \\gt 6.\\)\n\nWhat is the maximum possible number of elements in \\(S?\\)",
+   "choices": {
+    "a": "\\(436\\)",
+    "b": "\\(506\\)",
+    "c": "\\(608\\)",
+    "d": "\\(654\\)",
+    "e": "\\(675\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "arrangements with restrictions",
+    "extremal argument",
+    "optimization"
+   ],
+   "seed_elo": 2080.0,
+   "solve_time_seconds": 180.0,
+   "solution_text": "The two conditions say chosen numbers are at least \\(3\\) apart, and chosen odd numbers at least \\(7\\) apart. Any four numbers in a block of \\(10\\) would need three gaps of at least \\(3,\\) so they would have to occupy positions \\(r,r+3,r+6,r+9.\\) Two of the odd entries would then differ by \\(6,\\) which is forbidden. Thus each full block of \\(10\\) contains at most \\(3\\) choices, and the last four positions contain at most \\(2.\\) This gives the upper bound \\(202\\cdot3+2=608.\\) It is attained by the pattern \\(1,4,8,11,14,18,\\ldots\\) (residues \\(1,4,8\\pmod{10}\\)), together with \\(2021,2024.\\) Adjacent selected values differ by at least \\(3,\\) and the selected odd values are \\(10\\) apart. Therefore, the answer is C.",
+   "amc10_problem_number": 20,
+   "amc12_problem_number": 19,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 21,
+   "question": "The numbers, in order, of each row and the numbers, in order, of each column of a \\(5 \\times 5\\) array of integers form an arithmetic progression of length \\(5.\\) The numbers in positions \\((5, 5),\\) \\((2, 4),\\) \\((4, 3),\\) and \\((3, 1)\\) are \\(0,\\) \\(48,\\) \\(16,\\) and \\(12,\\) respectively. What number is in position \\((1, 2)?\\)\n\n\\[\\begin{bmatrix} \\cdot & ? & \\cdot & \\cdot & \\cdot \\\\ \\cdot & \\cdot & \\cdot & 48 & \\cdot \\\\ 12 & \\cdot & \\cdot & \\cdot & \\cdot \\\\ \\cdot & \\cdot & 16 & \\cdot & \\cdot \\\\ \\cdot & \\cdot & \\cdot & \\cdot & 0 \\end{bmatrix}\\]",
+   "choices": {
+    "a": "\\(19\\)",
+    "b": "\\(24\\)",
+    "c": "\\(29\\)",
+    "d": "\\(34\\)",
+    "e": "\\(39\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "arithmetic sequence",
+    "system of equations"
+   ],
+   "seed_elo": 1990.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "If every row and every column is an arithmetic progression, the entry at row \\(i,\\) column \\(j\\) must take the bilinear form \\(f(i, j) = A + Bi + Cj + Dij.\\) Plug in \\(f(5, 5) = 0,\\) \\(f(2, 4) = 48,\\) \\(f(4, 3) = 16,\\) \\(f(3, 1) = 12\\) and solve: \\(A = -10,\\) \\(B = 5,\\) \\(C = 22,\\) \\(D = -5.\\) So position \\((1, 2)\\) is \\(-10 + 5 + 2 \\cdot 22 - 2 \\cdot 5 = 29.\\) Thus, C is the correct answer.",
+   "amc10_problem_number": 19,
+   "amc12_problem_number": 18,
+   "amc8_problem_number": 23,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 22,
+   "question": "Let \\(\\mathcal{K}\\) be the kite formed by joining two right triangles with legs \\(1\\) and \\(\\sqrt3\\) along a common hypotenuse. Eight copies of \\(\\mathcal{K}\\) are used to form the polygon shown below. What is the area of \\(\\triangle ABC?\\)",
+   "choices": {
+    "a": "\\(2 + 3\\sqrt3\\)",
+    "b": "\\(\\dfrac{9}{2}\\sqrt3\\)",
+    "c": "\\(\\dfrac{10 + 8\\sqrt3}{3}\\)",
+    "d": "\\(8\\)",
+    "e": "\\(5\\sqrt3\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "kite",
+    "special right triangle",
+    "coordinate geometry",
+    "triangle area"
+   ],
+   "seed_elo": 2120.0,
+   "solve_time_seconds": 200.0,
+   "solution_text": "Each half of a kite is a \\(30\\)-\\(60\\)-\\(90\\) triangle, so its edges have the shown lengths and directions. Take \\(A=(0,0)\\) and \\(AB\\) horizontal. The horizontal span in the figure is six unit lengths, so \\(B=(6,0).\\) Along the outer boundary from \\(A\\) to \\(C,\\) the three edges have vectors \\(\\sqrt3(\\cos30^\\circ,\\sin30^\\circ),\\) \\(\\sqrt3(\\cos90^\\circ,\\sin90^\\circ),\\) and \\((1,0).\\) Their sum is \\((\\tfrac52,\\tfrac{3\\sqrt3}{2}),\\) so \\(C=(\\tfrac52,\\tfrac{3\\sqrt3}{2}).\\) Thus \\(AB=6\\) and the altitude from \\(C\\) is \\(\\tfrac{3\\sqrt3}{2},\\) giving area \\(\\tfrac12\\cdot6\\cdot\\tfrac{3\\sqrt3}{2}=\\tfrac{9\\sqrt3}{2}.\\) Therefore, the answer is B.",
+   "amc10_problem_number": 21,
+   "amc12_problem_number": 20,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 23,
+   "question": "Integers \\(a,\\) \\(b,\\) and \\(c\\) satisfy\n\n\\[ \\begin{aligned} ab + c &= 100, \\\\ bc + a &= 87, \\\\ ca + b &= 60. \\end{aligned} \\]\n\nWhat is \\(ab + bc + ca?\\)",
+   "choices": {
+    "a": "\\(212\\)",
+    "b": "\\(247\\)",
+    "c": "\\(258\\)",
+    "d": "\\(276\\)",
+    "e": "\\(284\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "system of equations",
+    "factoring",
+    "Diophantine Equation"
+   ],
+   "seed_elo": 2270.0,
+   "solve_time_seconds": 180.0,
+   "solution_text": "Subtract the second equation from the first: \\((a-c)(b-1)=13.\\) Put \\(u=a-c\\) and \\(v=b-1.\\) The four possibilities \\((u,v)=(1,13),\\) \\((13,1),\\) \\((-1,-13),\\) and \\((-13,-1)\\) give, after substitution into \\(bc+a=87,\\) respectively \\(c=\\frac{86}{15},\\) \\(c=\\frac{74}{3},\\) \\(c=-8,\\) and \\(c=100.\\) Only the third is an integer solution of all three original equations: \\((a,b,c)=(-9,-12,-8).\\) (The last candidate is \\((87,0,100),\\) which fails \\(ca+b=60.\\)) Adding the original equations gives \\(ab+bc+ca\\) \\({}+(a+b+c)=247.\\) Since \\(a+b+c=-29,\\) we obtain \\(ab+bc+ca\\) \\(=247-(-29)=276.\\) Thus, D is the correct answer.",
+   "amc10_problem_number": 22,
+   "amc12_problem_number": 22,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 2
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 24,
+   "question": "A bee is moving in three-dimensional space. A fair six-sided die with faces labeled \\(A^+,\\) \\(A^-,\\) \\(B^+,\\) \\(B^-,\\) \\(C^+,\\) and \\(C^-\\) is rolled. Suppose the bee occupies the point \\((a, b, c).\\) If the die shows \\(A^+,\\) then the bee moves to the point \\((a + 1, b, c),\\) and if the die shows \\(A^-,\\) then the bee moves to the point \\((a - 1, b, c).\\) Analogous moves are made with the other four outcomes.\n\nSuppose the bee starts at the point \\((0, 0, 0)\\) and the die is rolled four times. What is the probability that the bee traverses four distinct edges of some unit cube?",
+   "choices": {
+    "a": "\\(\\dfrac{1}{54}\\)",
+    "b": "\\(\\dfrac{7}{54}\\)",
+    "c": "\\(\\dfrac{1}{6}\\)",
+    "d": "\\(\\dfrac{5}{18}\\)",
+    "e": "\\(\\dfrac{2}{5}\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "basic probability",
+    "cube geometry",
+    "casework"
+   ],
+   "seed_elo": 2380.0,
+   "solve_time_seconds": 200.0,
+   "solution_text": "Every roll moves the bee one unit along \\(\\pm x,\\pm y,\\) or \\(\\pm z,\\) so there are \\(6^4=1296\\) equally likely sequences. There are two types of valid paths. A path around one square face has \\(3\\) choices of coordinate plane, \\(4\\) choices for the signs of its two axes, and \\(2\\) choices for which axis is used first, giving \\(24.\\) Otherwise all three coordinate directions are used, with one repeated: choose that axis in \\(3\\) ways, choose its two nonadjacent positions in \\(3\\) ways, order the other two axes in \\(2\\) ways, and choose their three initial signs in \\(2^3=8\\) ways. (The second step on the repeated axis must have the opposite sign.) This gives \\(3\\cdot3\\cdot2\\cdot8=144.\\) Hence there are \\(24+144=168\\) favorable sequences, and the probability is \\(\\frac{168}{1296}=\\frac{7}{54}.\\) Therefore, the answer is B.",
+   "amc10_problem_number": 23,
+   "amc12_problem_number": 23,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 3
+  },
+  {
+   "contest": "amc10",
+   "year": 2024,
+   "label": "A",
+   "position": 25,
+   "question": "The figure below shows a dotted grid \\(8\\) cells wide and \\(3\\) cells tall consisting of \\(1'' \\times 1''\\) squares. Carl places \\(1\\)-inch toothpicks along some of the sides of the squares to create a closed loop that does not intersect itself. The numbers in the cells indicate the number of sides of that square that are to be covered by toothpicks, and any number of toothpicks are allowed if no number is written. In how many ways can Carl place the toothpicks?",
+   "choices": {
+    "a": "\\(130\\)",
+    "b": "\\(144\\)",
+    "c": "\\(146\\)",
+    "d": "\\(162\\)",
+    "e": "\\(196\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "bijection",
+    "casework",
+    "systematic listing"
+   ],
+   "seed_elo": 2600.0,
+   "solve_time_seconds": 300.0,
+   "solution_text": "Each middle-row cell must touch exactly one toothpick. First consider loops that pass from one side of the middle strip to the other. The loop can span all \\(8\\) columns, the first \\(7,\\) the last \\(7,\\) or the middle \\(6;\\) a narrower span would leave an outer middle cell untouched. Once the two ends are fixed, each interior middle cell independently has its one toothpick on its top or bottom side, and the rest of the non-self-intersecting loop is forced. The four cases therefore contribute \\(2^6,2^5,2^5,\\) and \\(2^4\\) loops. There are also exactly two loops that do not cross the middle strip: the horizontal rectangle running entirely along the top or entirely along the bottom. Hence the total is \\(2^6+2^5+2^5+2^4+2\\) \\(=64+32+32+16+2\\) \\(=146.\\) Thus, C is the correct answer.",
+   "amc10_problem_number": 25,
+   "amc12_problem_number": 24,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 5
+  }
+ ]
+}

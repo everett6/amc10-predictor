@@ -1,0 +1,675 @@
+{
+ "source_url": "https://live.poshenloh.com/past-contests/amc10/2021D",
+ "year": 2021,
+ "label": "D",
+ "problems": [
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 1,
+   "question": "What is the value of \\[1234 + 2341 + 3412 + 4123?\\]",
+   "choices": {
+    "a": "\\(10,000\\)",
+    "b": "\\(10,010\\)",
+    "c": "\\(10,110\\)",
+    "d": "\\(11,000\\)",
+    "e": "\\(11,110\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "place value",
+    "pairing and grouping"
+   ],
+   "seed_elo": 450.0,
+   "solve_time_seconds": 20.0,
+   "solution_text": "We can add each individual digit, yielding \\(11,110.\\)\n\nWe can also get the sum by noticing that each digit has a sum of \\(10,\\) so the sum is equal to \\(10\\cdot 1111 = 11,110.\\)\n\nThus, the answer is E .",
+   "amc10_problem_number": 0,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 2,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 2,
+   "question": "What is the area of the shaded figure shown below?",
+   "choices": {
+    "a": "\\( 4 \\)",
+    "b": "\\( 6 \\)",
+    "c": "\\( 8 \\)",
+    "d": "\\( 10 \\)",
+    "e": "\\( 12 \\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "area decomposition",
+    "triangle area"
+   ],
+   "seed_elo": 560.0,
+   "solve_time_seconds": 25.0,
+   "solution_text": "The area is a triangle of area \\[\\dfrac {4\\cdot 5}2 - \\dfrac{2\\cdot 4}2 = 10-4 \\]\\[= 6\\] since we subtract the area of a smaller triangle from a larger triangle.\n\nThus, the answer is B .",
+   "amc10_problem_number": 0,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 3,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 3,
+   "question": "The expression \\[\\dfrac{2021}{2020} - \\dfrac{2020}{2021}\\] is equal to the fraction \\(\\frac{p}{q}\\) in which \\(p\\) and \\(q\\) are positive integers whose greatest common divisor is \\(1.\\) What is \\(p?\\)",
+   "choices": {
+    "a": "\\( 1 \\)",
+    "b": "\\( 9 \\)",
+    "c": "\\( 2020 \\)",
+    "d": "\\( 2021 \\)",
+    "e": "\\( 4041 \\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "fraction",
+    "difference of squares"
+   ],
+   "seed_elo": 770.0,
+   "solve_time_seconds": 30.0,
+   "solution_text": "We can rewrite this as \\[\\dfrac{2021\\cdot 2021}{2020\\cdot 2021} -\\dfrac{2020\\cdot 2020}{2020\\cdot 2021}\\] \\[= \\dfrac{2021^2-2020^2}{2020\\cdot 2021}.\\]\n\nThis can be simplified to \\[\\dfrac{(2021-2020)(2021+2020)}{2020\\cdot 2021} \\] \\[=\\dfrac{4041}{2020\\cdot 2021}.\\]\n\nSince \\(4041\\) is coprime with both \\(2020\\) and \\(2021,\\) we know \\(4041\\) is the numerator.\n\nThus, the answer is E .",
+   "amc10_problem_number": 1,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 5,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 4,
+   "question": "At noon on a certain day, Minneapolis is \\(N\\) degrees warmer than St. Louis. At \\(4{:}00\\) the temperature in Minneapolis has fallen by \\(5\\) degrees while the temperature in St. Louis has risen by \\(3\\) degrees, at which time the temperatures in the two cities differ by \\(2\\) degrees. What is the product of all possible values of \\(N?\\)",
+   "choices": {
+    "a": "\\( 10 \\)",
+    "b": "\\( 30 \\)",
+    "c": "\\( 60 \\)",
+    "d": "\\( 100 \\)",
+    "e": "\\( 120 \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "absolute value",
+    "linear equation"
+   ],
+   "seed_elo": 870.0,
+   "solve_time_seconds": 35.0,
+   "solution_text": "Let \\(N=m-s\\) be the noon temperature difference. At \\(4{:}00,\\) the new difference is \\((m-5)-(s+3)=N-8.\\)\n\nThe temperatures then differ by \\(2\\) degrees, so \\(|N-8|=2.\\) Hence \\(N=6\\) or \\(N=10,\\) and the product of all possible values is \\(6\\cdot10=60.\\)\n\nThus, the answer is C .",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 6,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 5,
+   "question": "Let \\(n=8^{2022}.\\) Which of the following is equal to \\(\\frac{n}{4}?\\)",
+   "choices": {
+    "a": "\\( 4^{1010} \\)",
+    "b": "\\( 2^{2022} \\)",
+    "c": "\\( 8^{2018} \\)",
+    "d": "\\( 4^{3031} \\)",
+    "e": "\\( 4^{3032} \\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "exponent",
+    "power of 2"
+   ],
+   "seed_elo": 560.0,
+   "solve_time_seconds": 25.0,
+   "solution_text": "Since \\(8=2^3,\\) we have \\[n=8^{2022}=2^{6066}=4^{3033}.\\]\n\nTherefore \\[\\frac n4=\\frac{4^{3033}}4=4^{3032}.\\]\n\nThus, the answer is E .",
+   "amc10_problem_number": 0,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 3,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 6,
+   "question": "The least positive integer with exactly \\(2021\\) distinct positive divisors can be written in the form \\(m \\cdot 6^k,\\) where \\(m\\) and \\(k\\) are integers and \\(6\\) is not a divisor of \\(m.\\) What is \\(m+k?\\)",
+   "choices": {
+    "a": "\\( 47 \\)",
+    "b": "\\( 58 \\)",
+    "c": "\\( 59 \\)",
+    "d": "\\( 88 \\)",
+    "e": "\\( 90 \\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "factor counting",
+    "prime factorization",
+    "optimization"
+   ],
+   "seed_elo": 1420.0,
+   "solve_time_seconds": 80.0,
+   "solution_text": "Before starting, note that if we can represent the prime factorization of an integer \\(z\\) as \\[z=p_1^{e_1} p_2^{e_2} \\cdots,\\] then there are \\((e_1+1)(e_2+1) \\cdots\\) distinct positive factors.\n\nIf the number in question has \\(2021\\) factors, by the previous logic, \\[2021=(e_1+1)(e_2+1) \\cdots,\\] and as the prime factorization of \\(2021 = 43\\cdot 47,\\) then our number must be \\(p_1^{46}p_2^{42} \\) or \\(p^{2020}.\\)\n\nThe smallest number we can make in either of these is making \\(p_1 = 2,p_2=3\\) in the first configuration, yielding \\[2^{46}3^{42} = 16\\cdot 6^{42} .\\]\n\nTherefore, \\[m=16\\]\\[k=42,\\] so \\[m+k = 42+16 = 58.\\]\n\nThus, the answer is B .",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 7,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 7,
+   "question": "Call a fraction \\(\\frac{a}{b},\\) not necessarily in simplest form, special if \\(a\\) and \\(b\\) are positive integers whose sum is \\(15.\\) How many distinct integers can be written as the sum of two, not necessarily different, special fractions?",
+   "choices": {
+    "a": "\\( \\ 9 \\)",
+    "b": "\\( \\ 10 \\)",
+    "c": "\\( \\ 11 \\)",
+    "d": "\\( \\ 12 \\)",
+    "e": "\\( \\ 13 \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "fraction",
+    "divisibility",
+    "systematic listing"
+   ],
+   "seed_elo": 1660.0,
+   "solve_time_seconds": 100.0,
+   "solution_text": "A special fraction with denominator \\(b\\) equals \\(\\frac{15-b}{b}=\\frac{15}{b}-1,\\) where \\(1\\le b\\le14.\\) We need integer values of \\(\\frac{15}{x}+\\frac{15}{y}-2.\\)\n\nTaking \\(x\\le y,\\) a check of the fourteen possible denominators gives the following pairs that produce integers: \\[ \\begin{gathered} (1,1),(1,3),(1,5),(2,2),(2,6),\\\\ (2,10),(3,3),(3,5),(4,12),\\\\ (5,5),(6,6),(6,10),(10,10). \\end{gathered} \\] Their distinct sums are \\(1,2,3,4,6,7,8,13,16,18,28.\\)\n\nThere are \\(11\\) such integers.\n\nThus, the answer is C .",
+   "amc10_problem_number": 14,
+   "amc12_problem_number": 11,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 8,
+   "question": "The greatest prime number that is a divisor of \\(16,384\\) is \\(2\\) because \\(16,384 = 2^{14}.\\) What is the sum of the digits of the greatest prime number that is a divisor of \\(16,383?\\)",
+   "choices": {
+    "a": "\\( 3 \\)",
+    "b": "\\( 7 \\)",
+    "c": "\\( 10 \\)",
+    "d": "\\( 16 \\)",
+    "e": "\\( 22 \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "prime factorization",
+    "difference of squares"
+   ],
+   "seed_elo": 1030.0,
+   "solve_time_seconds": 45.0,
+   "solution_text": "We know \\[\\begin{aligned}16,383 &= 16384-1 \\\\&= 2^{14}-1 \\\\&= (2^7-1)(2^7+1) \\\\&= 127\\cdot 129.\\end{aligned}\\] Since \\(129=3\\cdot 43,\\) we get \\[16383 = 3\\cdot 43\\cdot 127.\\] Therefore, \\(127\\) is the largest prime factor, and the sum of its digits is \\(10.\\)\n\nThus, the answer is C .",
+   "amc10_problem_number": 4,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 10,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 9,
+   "question": "The knights in a certain kingdom come in two colors. \\(\\frac{2}{7}\\) of them are red, and the rest are blue. Furthermore, \\(\\frac{1}{6}\\) of the knights are magical, and the fraction of red knights who are magical is \\(2\\) times the fraction of blue knights who are magical. What fraction of red knights are magical?",
+   "choices": {
+    "a": "\\( \\dfrac{2}{9} \\)",
+    "b": "\\( \\dfrac{3}{13} \\)",
+    "c": "\\( \\dfrac{7}{27} \\)",
+    "d": "\\( \\dfrac{2}{7} \\)",
+    "e": "\\( \\dfrac{1}{3} \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "weighted mean",
+    "ratio and proportion",
+    "fraction",
+    "linear equation"
+   ],
+   "seed_elo": 1280.0,
+   "solve_time_seconds": 70.0,
+   "solution_text": "Let \\(x\\) be the fraction of blue knights who are magical. Then the fraction of red knights who are magical is \\(2x.\\)\n\nThe total magical fraction is a weighted average over the red and blue groups: \\[\\frac27(2x)+\\frac57(x)=\\frac16.\\]\n\nThus \\(\\frac97x=\\frac16,\\) so \\(x=\\frac7{54}.\\) The red magical fraction is \\(2x=\\frac7{27}.\\)\n\nThus, the answer is C .",
+   "amc10_problem_number": 8,
+   "amc12_problem_number": 5,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 10,
+   "question": "Forty slips of paper numbered \\(1\\) to \\(40\\) are placed in a hat. Alice and Bob each draw one number from the hat without replacement, keeping their numbers hidden from each other. Alice says, \"I can't tell who has the larger number.\" Then Bob says, \"I know who has the larger number.\" Alice says, \"You do? Is your number prime?\" Bob replies, \"Yes.\" Alice says, \"In that case, if I multiply your number by \\(100\\) and add my number, the result is a perfect square.\" What is the sum of the two numbers drawn from the hat?",
+   "choices": {
+    "a": "\\( 27 \\)",
+    "b": "\\( 37 \\)",
+    "c": "\\( 47 \\)",
+    "d": "\\( 57 \\)",
+    "e": "\\( 67 \\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "logical deduction",
+    "prime",
+    "perfect square"
+   ],
+   "seed_elo": 1950.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "If Alice had drawn \\(1\\) or \\(40,\\) she would know who had the larger number. Her first statement tells Bob that Alice has neither \\(1\\) nor \\(40.\\)\n\nBob can then know who has the larger number only if his number is \\(1,2,39,\\) or \\(40.\\) Since Bob says his number is prime, his number must be \\(2.\\)\n\nNow \\(100\\cdot2\\) plus Alice's number is a square between \\(201\\) and \\(240.\\) The only square in that interval is \\(225,\\) so Alice's number is \\(25.\\) The sum is \\(2+25=27.\\)\n\nThus, the answer is A .",
+   "amc10_problem_number": 18,
+   "amc12_problem_number": 15,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 11,
+   "question": "A regular hexagon of side length \\(1\\) is inscribed in a circle. Each minor arc of the circle determined by a side of the hexagon is reflected over that side. What is the area of the region bounded by these \\(6\\) reflected arcs?",
+   "choices": {
+    "a": "\\( \\frac{5\\sqrt{3}}{2} - \\pi \\)",
+    "b": "\\( 3\\sqrt{3}-\\pi \\)",
+    "c": "\\( 4\\sqrt{3}-\\frac{3\\pi}{2} \\)",
+    "d": "\\( \\pi - \\frac{\\sqrt{3}}{2} \\)",
+    "e": "\\( \\frac{\\pi + \\sqrt{3}}{2} \\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "area decomposition",
+    "regular polygon",
+    "circle area"
+   ],
+   "seed_elo": 1630.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "The original circle is made from the regular hexagon plus \\(6\\) equal circular segments. Reflecting each minor arc over its side puts those same \\(6\\) segments inside the hexagon instead.\n\nTherefore the average of the circle's area and the reflected-arc region's area is the area of the regular hexagon. The hexagon has area \\(6\\cdot\\frac{\\sqrt3}{4}=\\frac{3\\sqrt3}{2},\\) and the circle has radius \\(1,\\) so its area is \\(\\pi.\\)\n\nIf the desired area is \\(A,\\) then \\(\\frac{A+\\pi}{2}=\\frac{3\\sqrt3}{2},\\) so \\(A=3\\sqrt3-\\pi.\\)\n\nThus, the answer is B .",
+   "amc10_problem_number": 13,
+   "amc12_problem_number": 10,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 12,
+   "question": "Which of the following conditions is sufficient to guarantee that integers \\(x,\\) \\(y,\\) and \\(z\\) satisfy the equation \\[x(x-y)+y(y-z)+z(z-x) \\]\\[= 1?\\]",
+   "choices": {
+    "a": "\\( x > y\\) and \\(y=z\\)",
+    "b": "\\( x=y-1\\) and \\(y=z-1\\)",
+    "c": "\\( x=z+1\\) and \\(y=x+1\\)",
+    "d": "\\( x=z\\) and \\(y-1=x\\)",
+    "e": "\\( x+y+z=1 \\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "algebraic manipulation",
+    "Diophantine Equation"
+   ],
+   "seed_elo": 1370.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "Let \\(E=x(x-y)+y(y-z)\\) \\(+z(z-x).\\) Expanding gives \\[ \\begin{aligned} 2E={}&(x-y)^2+(y-z)^2\\\\ &+(z-x)^2. \\end{aligned} \\]\n\nFor the value to be \\(1,\\) the three nonnegative square terms must sum to \\(2.\\) Since \\(x,y,z\\) are integers, this means the squared differences are \\(1,1,0.\\)\n\nThus two of the variables must be equal, and the third must differ from them by \\(1.\\) The condition \\(x=z\\) and \\(y-1=x\\) guarantees exactly that.\n\nThus, the answer is D .",
+   "amc10_problem_number": 9,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 13,
+   "question": "A square with side length \\(3\\) is inscribed in an isosceles triangle with one side of the square along the base of the triangle. A square with side length \\(2\\) has two vertices on the other square and the other two on sides of the triangle, as shown. What is the area of the triangle?",
+   "choices": {
+    "a": "\\( 19\\frac14 \\)",
+    "b": "\\( 20\\frac14 \\)",
+    "c": "\\( 21 \\frac34 \\)",
+    "d": "\\( 22\\frac12 \\)",
+    "e": "\\( 23\\frac34 \\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "similarity",
+    "triangle area",
+    "square (geometry)"
+   ],
+   "seed_elo": 1660.0,
+   "solve_time_seconds": 100.0,
+   "solution_text": "Let the isosceles triangle have height \\(H\\) and base \\(B.\\) By similarity, horizontal widths in the triangle are proportional to distance from the top vertex.\n\nThe top side of the larger square has width \\(3\\) and is \\(H-3\\) units from the top. The top side of the smaller square has width \\(2\\) and is \\(H-5\\) units from the top. Hence \\[\\frac{3}{H-3}=\\frac{2}{H-5}.\\]\n\nSolving gives \\(H=9.\\) Also \\(\\frac{B}{H}=\\frac{3}{H-3},\\) so \\(B=\\frac{9}{2}.\\) The area is \\(\\frac12\\cdot\\frac92\\cdot9=\\frac{81}{4}=20\\frac14.\\)\n\nThus, the answer is B .",
+   "amc10_problem_number": 14,
+   "amc12_problem_number": 11,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 14,
+   "question": "Una rolls \\(6\\) standard \\(6\\)-sided dice simultaneously and calculates the product of the \\(6\\) numbers obtained. What is the probability that the product is divisible by \\(4?\\)",
+   "choices": {
+    "a": "\\( \\dfrac34 \\)",
+    "b": "\\( \\dfrac{57}{64} \\)",
+    "c": "\\( \\dfrac{59}{64} \\)",
+    "d": "\\( \\dfrac{187}{192} \\)",
+    "e": "\\( \\dfrac{63}{64} \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "dice (probability)",
+    "complementary probability",
+    "casework"
+   ],
+   "seed_elo": 1140.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "Count the complement, where the product is not divisible by \\(4.\\) This happens if the product has no factor of \\(2,\\) or exactly one factor of \\(2.\\)\n\nAll dice odd has probability \\((\\frac12)^6=\\frac1{64}.\\) Exactly one factor of \\(2\\) means exactly one die is \\(2\\) or \\(6,\\) and the other five dice are odd. This has probability \\[6\\cdot\\frac26\\cdot\\left(\\frac12\\right)^5=\\frac4{64}.\\]\n\nThe complement has probability \\(\\frac5{64},\\) so the desired probability is \\(1-\\frac5{64}=\\frac{59}{64}.\\)\n\nThus, the answer is C .",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 12,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 15,
+   "question": "In square \\(ABCD,\\) points \\(P\\) and \\(Q\\) lie on \\(\\overline{AD}\\) and \\(\\overline{AB},\\) respectively. Segments \\(\\overline{BP}\\) and \\(\\overline{CQ}\\) intersect at right angles at \\(R,\\) with \\(BR = 6\\) and \\(PR = 7.\\) What is the area of the square?",
+   "choices": {
+    "a": "\\( 85 \\)",
+    "b": "\\( 93 \\)",
+    "c": "\\( 100 \\)",
+    "d": "\\( 117 \\)",
+    "e": "\\( 125 \\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "square (geometry)",
+    "congruence (geometry)",
+    "similarity",
+    "Pythagorean Theorem"
+   ],
+   "seed_elo": 1950.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "Since \\(BR=6\\) and \\(PR=7,\\) we have \\(BP=13.\\) The right-angle and square-angle chasing gives \\(\\triangle PAB\\cong\\triangle QBC,\\) so \\(CQ=BP=13.\\)\n\nBecause \\(BP\\perp CQ,\\) point \\(R\\) is the foot of the altitude from \\(B\\) to the hypotenuse \\(CQ\\) of right triangle \\(BQC.\\) Thus \\[QR\\cdot RC=BR^2=36\\] and \\[QR+RC=CQ=13.\\]\n\nSo \\(QR\\) and \\(RC\\) are \\(4\\) and \\(9.\\) Because \\(P\\) lies on \\(\\overline{AD},\\) we have \\(AP\\le AB.\\) Congruence gives \\(BQ=AP,\\) while the right-triangle projection formulas give \\(BQ^2=CQ\\cdot QR\\) and \\(BC^2=CQ\\cdot RC.\\) Hence \\(QR\\le RC,\\) so \\(QR=4\\) and \\(RC=9.\\) Therefore, \\[ \\begin{aligned} BC^2&=BR^2+RC^2\\\\ &=6^2+9^2\\\\ &=117. \\end{aligned} \\]\n\nThe area of the square is \\(117.\\)\n\nThus, the answer is D .",
+   "amc10_problem_number": 18,
+   "amc12_problem_number": 15,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 16,
+   "question": "Five balls are arranged around a circle. Chris chooses two adjacent balls at random and interchanges them. Then Silva does the same, with her choice of adjacent balls to interchange being independent of Chris's. What is the expected number of balls that occupy their original positions after these two successive transpositions?",
+   "choices": {
+    "a": "\\( 1.6 \\)",
+    "b": "\\( 1.8 \\)",
+    "c": "\\( 2.0 \\)",
+    "d": "\\( 2.2 \\)",
+    "e": "\\( 2.4 \\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "expected value",
+    "casework"
+   ],
+   "seed_elo": 1420.0,
+   "solve_time_seconds": 80.0,
+   "solution_text": "After Chris chooses an adjacent pair, Silva has \\(5\\) equally likely adjacent pairs to choose.\n\nIf Silva chooses the same pair, all \\(5\\) balls return to their original positions. This has probability \\(\\frac15.\\)\n\nIf Silva chooses a pair sharing exactly one ball with Chris's pair, then \\(2\\) balls are in their original positions. There are \\(2\\) such pairs, so this has probability \\(\\frac25.\\)\n\nIf Silva chooses a disjoint adjacent pair, then \\(1\\) ball is in its original position. This also has probability \\(\\frac25.\\)\n\nThe expected number is \\[ \\begin{aligned} 5\\cdot\\frac15+2\\cdot\\frac25+1\\cdot\\frac25&=\\frac{11}{5}\\\\ &=2.2. \\end{aligned} \\]\n\nThus, the answer is D .",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 7,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 17,
+   "question": "Distinct lines \\(\\ell\\) and \\(m\\) lie in the \\(xy\\)-plane. They intersect at the origin. Point \\(P(-1, 4)\\) is reflected about line \\(\\ell\\) to point \\(P',\\) and then \\(P'\\) is reflected about line \\(m\\) to point \\(P''.\\) The equation of line \\(\\ell\\) is \\(5x - y = 0,\\) and the coordinates of \\(P''\\) are \\((4,1).\\) What is the equation of line \\(m?\\)",
+   "choices": {
+    "a": "\\( 5x+2y=0 \\)",
+    "b": "\\( 3x+2y=0 \\)",
+    "c": "\\( x-3y=0 \\)",
+    "d": "\\( 2x-3y=0 \\)",
+    "e": "\\( 5x-3y=0 \\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "transformation",
+    "slope",
+    "trigonometric identity"
+   ],
+   "seed_elo": 2150.0,
+   "solve_time_seconds": 130.0,
+   "solution_text": "Two reflections across lines through the origin are equivalent to a rotation by twice the angle from the first reflecting line to the second.\n\nThe point \\((-1,4)\\) is sent to \\((4,1),\\) which is a \\(90^\\circ\\) clockwise rotation. Therefore line \\(m\\) is \\(45^\\circ\\) clockwise from line \\(\\ell.\\)\n\nThe slope of \\(\\ell\\) is \\(5.\\) If \\(\\theta_m=\\theta_\\ell-45^\\circ,\\) then \\[\\tan\\theta_m=\\frac{5-1}{1+5}=\\frac23.\\]\n\nThus line \\(m\\) is \\(y=\\frac23x,\\) or \\(2x-3y=0.\\)\n\nThus, the answer is D .",
+   "amc10_problem_number": 21,
+   "amc12_problem_number": 18,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 2
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 18,
+   "question": "Three identical square sheets of paper each with side length \\(6\\) are stacked on top of each other. The middle sheet is rotated clockwise \\(30^\\circ\\) about its center and the top sheet is rotated clockwise \\(60^\\circ\\) about its center, resulting in the \\(24\\)-sided polygon shown in the figure below.\n\nThe area of this polygon can be expressed in the form \\(a-b\\sqrt{c},\\) where \\(a,\\) \\(b,\\) and \\(c\\) are positive integers, and \\(c\\) is not divisible by the square of any prime. What is \\(a+b+c?\\)",
+   "choices": {
+    "a": "\\( 75 \\)",
+    "b": "\\( 93 \\)",
+    "c": "\\( 96 \\)",
+    "d": "\\( 129 \\)",
+    "e": "\\( 147 \\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "area decomposition",
+    "transformation",
+    "trigonometry"
+   ],
+   "seed_elo": 2090.0,
+   "solve_time_seconds": 140.0,
+   "solution_text": "The boundary can be split into \\(24\\) congruent triangles. Each has angles \\(15^\\circ,\\) \\(45^\\circ,\\) and \\(120^\\circ.\\)\n\nFor one such triangle, draw the altitude from the center-side direction. The altitude is \\(3,\\) half the side length of a square. The adjacent right triangle has a \\(30^\\circ\\) angle, so the part cut off from a length \\(3\\) base is \\(3\\tan30^\\circ=\\sqrt3.\\)\n\nThus each small triangle has base \\(3-\\sqrt3\\) and height \\(3,\\) giving area \\(\\frac{3(3-\\sqrt3)}{2}=\\frac{9-3\\sqrt3}{2}.\\)\n\nThe total area is \\[24\\cdot\\frac{9-3\\sqrt3}{2}=108-36\\sqrt3.\\] Hence \\(a+b+c=108+36+3=147.\\)\n\nThus, the answer is E .",
+   "amc10_problem_number": 20,
+   "amc12_problem_number": 16,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 2
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 19,
+   "question": "Let \\(N\\) be the positive integer \\(7777\\ldots777,\\) a \\(313\\)-digit number where each digit is a \\(7.\\) Let \\(f(r)\\) be the leading digit of the \\(r\\)th root of \\(N.\\) What is \\[ \\begin{aligned} &f(2)+f(3)+f(4)\\\\ &\\quad{}+f(5)+f(6)? \\end{aligned} \\]",
+   "choices": {
+    "a": "\\( 8 \\)",
+    "b": "\\( 9 \\)",
+    "c": "\\( 11 \\)",
+    "d": "\\( 22 \\)",
+    "e": "\\( 29 \\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "digits",
+    "exponent",
+    "bounding to limit cases"
+   ],
+   "seed_elo": 1990.0,
+   "solve_time_seconds": 130.0,
+   "solution_text": "The number \\(N\\) satisfies \\[7\\cdot10^{312}\\lt N\\lt 8\\cdot10^{312}.\\] Multiplying or dividing by a power of \\(10\\) only shifts the decimal point, so we only need the leading factor left after taking out the largest convenient power of \\(10.\\)\n\nFor \\(r=2,\\) \\(\\sqrt N\\) has leading factor between \\(\\sqrt7\\) and \\(\\sqrt8,\\) so \\(f(2)=2.\\)\n\nFor \\(r=3,\\) the leading factor is between \\(\\sqrt[3]{7}\\) and \\(\\sqrt[3]{8},\\) so \\(f(3)=1.\\) For \\(r=4,\\) the leading factor is between \\(\\sqrt[4]{7}\\) and \\(\\sqrt[4]{8},\\) so \\(f(4)=1.\\)\n\nFor \\(r=5,\\) since \\(312=5\\cdot62+2,\\) the leading factor is between \\(\\sqrt[5]{700}\\) and \\(\\sqrt[5]{800}.\\) Since \\(3^5\\lt700\\lt800\\lt4^5,\\) \\(f(5)=3.\\)\n\nFor \\(r=6,\\) the leading factor is between \\(\\sqrt[6]{7}\\) and \\(\\sqrt[6]{8},\\) so \\(f(6)=1.\\) The sum is \\(2+1+1+3+1=8.\\)\n\nThus, the answer is A .",
+   "amc10_problem_number": 19,
+   "amc12_problem_number": 16,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 20,
+   "question": "In a particular game, each of \\(4\\) players rolls a standard \\(6\\)-sided die. The winner is the player who rolls the highest number. If there is a tie for the highest roll, those involved in the tie will roll again and this process will continue until one player wins. Hugo is one of the players in this game. What is the probability that Hugo's first roll was a \\(5,\\) given that he won the game?",
+   "choices": {
+    "a": "\\( \\dfrac{61}{216} \\)",
+    "b": "\\( \\dfrac{367}{1296} \\)",
+    "c": "\\( \\dfrac{41}{144} \\)",
+    "d": "\\( \\dfrac{185}{648} \\)",
+    "e": "\\( \\dfrac{11}{36} \\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "conditional probability",
+    "dice (probability)",
+    "casework",
+    "symmetry"
+   ],
+   "seed_elo": 2150.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "By symmetry, \\(P(\\text{Hugo wins})=\\frac14.\\) Therefore, the requested conditional probability is four times the probability that Hugo first rolls \\(5\\) and eventually wins.\n\nIf Hugo rolls \\(5,\\) then no other player can roll \\(6.\\) Case on how many of the other three players also roll \\(5.\\) If \\(t\\) other players tie Hugo, then Hugo wins the eventual tiebreaker with probability \\(\\frac1{t+1}.\\)\n\nThus \\[ \\begin{gathered} P(\\text{Hugo rolls }5\\text{ and wins})\\\\ {}=\\frac{1}{6^4}\\sum_{t=0}^3 \\binom3t\\frac{4^{3-t}}{t+1}\\\\ {}=\\frac{64+24+4+\\frac14}{6^4}\\\\ {}=\\frac{369}{4\\cdot1296}. \\end{gathered} \\]\n\nMultiplying by \\(4\\) gives \\(\\frac{369}{1296}=\\frac{41}{144}.\\)\n\nThus, the answer is C .",
+   "amc10_problem_number": 21,
+   "amc12_problem_number": 18,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 2
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 21,
+   "question": "Regular polygons with \\(5,\\) \\(6,\\) \\(7,\\) and \\(8\\) sides are inscribed in the same circle. No two of the polygons share a vertex, and no three of their sides intersect at a common point. At how many points inside the circle do two of their sides intersect?",
+   "choices": {
+    "a": "\\( 52 \\)",
+    "b": "\\( 56 \\)",
+    "c": "\\( 60 \\)",
+    "d": "\\( 64 \\)",
+    "e": "\\( 68 \\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "counting intersections",
+    "regular polygon",
+    "counting pairs"
+   ],
+   "seed_elo": 2110.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "For a regular \\(k\\)-gon and a regular \\(n\\)-gon inscribed in the same circle with \\(k\\lt n\\) and no shared vertices, their boundaries intersect in \\(2k\\) points. Each side of the smaller polygon is crossed twice by the boundary of the larger polygon.\n\nTherefore, sum over all pairs of polygons. The \\(5\\)-gon contributes \\(2\\cdot5\\) intersections with each of the \\(6\\)-, \\(7\\)-, and \\(8\\)-gons. The \\(6\\)-gon contributes \\(2\\cdot6\\) intersections with each of the \\(7\\)- and \\(8\\)-gons. The \\(7\\)-gon contributes \\(2\\cdot7\\) with the \\(8\\)-gon.\n\nThe total is \\[3(10)+2(12)+14=68.\\]\n\nThus, the answer is E .",
+   "amc10_problem_number": 20,
+   "amc12_problem_number": 17,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 2
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 22,
+   "question": "For each integer \\(n\\ge2,\\) let \\(S_n\\) be the sum of all products \\(jk,\\) where \\(j\\) and \\(k\\) are integers and \\(1\\le j<k\\le n.\\) What is the sum of the \\(10\\) least values of \\(n\\) such that \\(S_n\\) is divisible by \\(3?\\)",
+   "choices": {
+    "a": "\\( \\ 196 \\)",
+    "b": "\\( \\ 197 \\)",
+    "c": "\\( \\ 198 \\)",
+    "d": "\\( \\ 199 \\)",
+    "e": "\\( \\ 200 \\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "modular arithmetic",
+    "summation",
+    "pattern recognition"
+   ],
+   "seed_elo": 1950.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "When passing from \\(S_{n-1}\\) to \\(S_n,\\) the new terms are \\(jn\\) for \\(1\\le j\\lt n.\\) Their sum is \\[ \\begin{gathered} n(1+2+\\cdots+(n-1))\\\\ =\\frac{n^2(n-1)}2. \\end{gathered} \\]\n\nModulo \\(3,\\) this increment is \\(0\\) when \\(n\\equiv0\\) or \\(1\\pmod3,\\) and is \\(2\\) when \\(n\\equiv2\\pmod3.\\)\n\nSince \\(S_2=2,\\) the sequence becomes divisible by \\(3\\) after the third occurrence of a number congruent to \\(2\\pmod3,\\) namely at \\(n=8.\\) Then \\(S_n\\) stays divisible by \\(3\\) for \\(n=8,9,10,\\) and the same pattern repeats every \\(9\\) in \\(n.\\)\n\nThe ten least values are \\(8,9,10,17,18,19,26,27,28,35.\\) Their sum is \\(197.\\)\n\nThus, the answer is B .",
+   "amc10_problem_number": 18,
+   "amc12_problem_number": 15,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 23,
+   "question": "Each of the \\(5\\) sides and the \\(5\\) diagonals of a regular pentagon are randomly and independently colored red or blue with equal probability. What is the probability that there will be a triangle whose vertices are among the vertices of the pentagon such that all of its sides have the same color?",
+   "choices": {
+    "a": "\\( \\dfrac 23 \\)",
+    "b": "\\( \\dfrac{105}{128} \\)",
+    "c": "\\( \\dfrac{125}{128} \\)",
+    "d": "\\( \\dfrac{253}{256} \\)",
+    "e": "\\( 1 \\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "graph theory",
+    "complementary probability"
+   ],
+   "seed_elo": 2300.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Count the complement: colorings of the \\(10\\) edges of \\(K_5\\) with no monochromatic triangle.\n\nAt any vertex, if \\(3\\) incident edges had the same color, then the edges among their other endpoints would all have to be the other color, making a monochromatic triangle. Thus each vertex has exactly \\(2\\) red and \\(2\\) blue incident edges.\n\nSo the red edges form a \\(2\\)-regular graph on \\(5\\) vertices, which must be a \\(5\\)-cycle. The number of labeled \\(5\\)-cycles is \\(\\frac{(5-1)!}{2}=12.\\)\n\nThere are \\(2^{10}=1024\\) total colorings, so the desired probability is \\[1-\\frac{12}{1024}=\\frac{253}{256}.\\]\n\nThus, the answer is D .",
+   "amc10_problem_number": 23,
+   "amc12_problem_number": 20,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 3
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 24,
+   "question": "A cube is constructed from \\(4\\) white unit cubes and \\(4\\) blue unit cubes. How many different ways are there to construct the \\(2 \\times 2 \\times 2\\) cube using these smaller cubes? (Two constructions are considered the same if one can be rotated to match the other.)",
+   "choices": {
+    "a": "\\( 7 \\)",
+    "b": "\\( 8 \\)",
+    "c": "\\( 9 \\)",
+    "d": "\\( 10 \\)",
+    "e": "\\( 11 \\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "Burnside's Lemma",
+    "cube geometry"
+   ],
+   "seed_elo": 1860.0,
+   "solve_time_seconds": 130.0,
+   "solution_text": "This is the number of ways to choose which \\(4\\) of the \\(8\\) cube vertices are blue, up to cube rotation. Use Burnside's lemma on the \\(24\\) rotations of the cube.\n\nThe identity fixes \\(\\binom84=70\\) colorings. The \\(6\\) quarter-turn face rotations each fix \\(2.\\) The \\(3\\) half-turn face rotations each fix \\(6.\\) The \\(8\\) rotations about opposite vertices each fix \\(4.\\) The \\(6\\) half-turn rotations about opposite edges each fix \\(6.\\)\n\nThus the number of inequivalent constructions is \\[ \\begin{gathered} \\frac{70+6\\cdot2+3\\cdot6+8\\cdot4+6\\cdot6}{24}\\\\ =7. \\end{gathered} \\]\n\nThus, the answer is A .",
+   "amc10_problem_number": 17,
+   "amc12_problem_number": 14,
+   "amc8_problem_number": 22,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "D",
+   "position": 25,
+   "question": "A rectangle with side lengths \\(1\\) and \\(3,\\) a square with side length \\(1,\\) and a rectangle \\(R\\) are inscribed inside a larger square as shown. The sum of all possible values for the area of \\(R\\) can be written in the form \\(\\tfrac mn,\\) where \\(m\\) and \\(n\\) are relatively prime positive integers. What is \\(m+n?\\)",
+   "choices": {
+    "a": "\\( 14 \\)",
+    "b": "\\( 23 \\)",
+    "c": "\\( 46 \\)",
+    "d": "\\( 59 \\)",
+    "e": "\\( 67 \\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "similarity",
+    "square (geometry)",
+    "quadratic"
+   ],
+   "seed_elo": 2480.0,
+   "solve_time_seconds": 240.0,
+   "solution_text": "Use similar triangles as shown in the diagram. The left side of the large square has length \\(4x+2y,\\) and the bottom side has length \\(3y+x.\\) Since these are equal, \\(3y+x=4x+2y,\\) so \\(y=3x.\\) The side length of the large square is therefore \\(10x.\\)\n\nIn the upper part of the figure, let the marked horizontal segment be \\(m.\\) The two right triangles formed by the sides of rectangle \\(R\\) have parallel corresponding sides and equal hypotenuses, so they are congruent. This gives the lengths shown below.\n\n\n\nSimilar triangles give \\[\\frac{m}{3x}=\\frac{4x-\\frac m3}{6x-m}.\\] Hence \\(6xm-m^2=12x^2-xm,\\) so \\[ \\begin{gathered} m^2-7xm+12x^2=0\\\\ =(m-3x)(m-4x). \\end{gathered} \\]\n\nIf \\(m=3x,\\) rectangle \\(R\\) has side length \\(3\\sqrt2x\\) in both directions, so its area is \\(18x^2.\\) If \\(m=4x,\\) its side lengths are \\(5x\\) and \\(\\frac{10}{3}x,\\) so its area is \\(\\frac{50}{3}x^2.\\)\n\nThe two possible areas sum to \\(\\frac{104}{3}x^2.\\) Since the \\(1\\times3\\) rectangle gives \\(x^2+(3x)^2=1,\\) we have \\(x^2=\\frac1{10}.\\) The sum of the possible areas is \\[\\frac{104}{3}\\cdot\\frac1{10}=\\frac{52}{15}.\\]\n\nThus \\(m+n=52+15=67,\\) and the answer is E .",
+   "amc10_problem_number": 25,
+   "amc12_problem_number": 22,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 5
+  }
+ ]
+}

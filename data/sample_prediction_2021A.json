@@ -1,0 +1,68 @@
+{
+  "input_scores": {
+    "2021A": 93.0
+  },
+  "ability_global": 1534.2202802785343,
+  "ability_by_category": {
+    "Algebra: Equations & Polynomials": 1937.1101401392673,
+    "Algebra: Inequalities & Advanced Techniques": 1639.7283240198637,
+    "Algebra: Sequences, Series & Functions": 1474.5470269140167,
+    "Arithmetic & Number Sense": 1823.2110619701098,
+    "Combinatorics: Basic Counting": 1420.7602402387438,
+    "Geometry: Circles & Curves": 1335.6652102089008,
+    "Geometry: Solid (3D) Geometry": 1904.5321681671207,
+    "Geometry: Triangles & Polygons": 1610.008476170653,
+    "Logic & Problem-Solving Strategies": 1590.6652102089008,
+    "Number Theory: Divisibility, Modular & Bases": 1575.045954524458,
+    "Number Theory: Primes & Number Properties": 1270.6652102089008,
+    "Statistics & Data": 1440.6652109565978
+  },
+  "simulation_summary": {
+    "n_simulations": 50000,
+    "mean_score": 90.15987,
+    "median_score": 90.0,
+    "std_score": 9.95946467352036,
+    "percentiles": {
+      "p5": 73.5,
+      "p10": 78.0,
+      "p25": 84.0,
+      "p50": 90.0,
+      "p75": 97.5,
+      "p90": 103.5,
+      "p95": 106.5
+    },
+    "expected_correct": 13.30088,
+    "expected_wrong": 4.79606,
+    "expected_blank": 6.90306
+  },
+  "counterfactuals": [
+    {
+      "category": "Number Theory: Primes & Number Properties",
+      "current_ability": 1270.6652102089008,
+      "improved_ability": 1420.6652102089008,
+      "delta_elo": 150,
+      "baseline_mean_score": 90.15987,
+      "improved_mean_score": 91.08477,
+      "score_gain": 0.924900000000008
+    },
+    {
+      "category": "Geometry: Circles & Curves",
+      "current_ability": 1335.6652102089008,
+      "improved_ability": 1485.6652102089008,
+      "delta_elo": 150,
+      "baseline_mean_score": 90.15987,
+      "improved_mean_score": 90.75564,
+      "score_gain": 0.5957700000000017
+    },
+    {
+      "category": "Combinatorics: Basic Counting",
+      "current_ability": 1420.7602402387438,
+      "improved_ability": 1570.7602402387438,
+      "delta_elo": 150,
+      "baseline_mean_score": 90.15987,
+      "improved_mean_score": 90.99321,
+      "score_gain": 0.8333400000000069
+    }
+  ],
+  "explanation": "This prediction is built from 1 historical contest attempt(s) (2021A), covering 19 attempted (non-blank) problems with 14 correct. We fit a per-topic ability rating for each of the 15 broad concept categories using an Elo-style item-response model (LIVE by Po-Shen Loh's own crowd-calibrated difficulty rating for each historical problem vs. your correct/incorrect outcome), with more recent contests weighted more heavily and small-sample categories smoothed toward your overall ability via hierarchical Bayesian shrinkage so a single lucky/unlucky problem in a rarely-tested topic doesn't swing that topic's estimate too far. Your strongest topics so far: Algebra: Equations & Polynomials, Geometry: Solid (3D) Geometry, Arithmetic & Number Sense. Your weakest topics so far: Number Theory: Primes & Number Properties, Geometry: Circles & Curves, Statistics & Data. To project a 2026 score, we ran 50,000 Monte Carlo simulations of a synthetic 2026 AMC 10: for each of the 25 problem slots, we bootstrap-sampled a difficulty rating and topic mix from the corresponding slot across all 18 historical contests we ingested (2018-2025 A/B, including the Fall 2021 makeup contests), applied your topic ability to get a probability of answering correctly, and used a model of your own blank-vs-guess tendency (fit from your history) to split misses into blanks (+1.5 pts) vs. wrong answers (+0 pts). Result: a median projected score of 90.0 (mean 90.2), with a 90% interval of [73.5, 106.5], averaging 13.3 correct, 4.8 wrong, and 6.9 blank."
+}

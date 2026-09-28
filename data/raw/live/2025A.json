@@ -1,0 +1,669 @@
+{
+ "source_url": "https://live.poshenloh.com/past-contests/amc10/2025A",
+ "year": 2025,
+ "label": "A",
+ "problems": [
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 1,
+   "question": "Andy and Betsy both live in Mathville. Andy leaves Mathville on his bicycle at \\(1{:}30,\\) traveling due north at a steady \\(8\\) miles per hour. Betsy leaves on her bicycle from the same point at \\(2{:}30,\\) traveling due east at a steady \\(12\\) miles per hour. At what time will they be exactly the same distance from their common starting point?",
+   "choices": {
+    "a": "\\(3{:}30\\)",
+    "b": "\\(3{:}45\\)",
+    "c": "\\(4{:}00\\)",
+    "d": "\\(4{:}15\\)",
+    "e": "\\(4{:}30\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "distance rate and time",
+    "linear equation"
+   ],
+   "seed_elo": 860.0,
+   "solve_time_seconds": 45.0,
+   "solution_text": "Let \\(t\\) be the hours since \\(1{:}30.\\) Andy has gone \\(8t\\) miles north. Betsy starts an hour later, so she's gone \\(12(t-1)\\) miles east. We want these equal: \\(8t = 12(t-1).\\) That gives \\(4t = 12,\\) so \\(t = 3.\\) Three hours past \\(1{:}30\\) is \\(4{:}30.\\) Thus, E is the correct answer.",
+   "amc10_problem_number": 1,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 7,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 2,
+   "question": "A box contains \\(10\\) pounds of a nut mix that is \\(50\\) percent peanuts, \\(20\\) percent cashews, and \\(30\\) percent almonds. A second nut mix containing \\(20\\) percent peanuts, \\(40\\) percent cashews, and \\(40\\) percent almonds is added to the box resulting in a new nut mix that is \\(40\\) percent peanuts. How many pounds of cashews are now in the box?",
+   "choices": {
+    "a": "\\(3.5\\)",
+    "b": "\\(4\\)",
+    "c": "\\(4.5\\)",
+    "d": "\\(5\\)",
+    "e": "\\(6\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "mixture",
+    "percentage",
+    "linear equation"
+   ],
+   "seed_elo": 980.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "The starting \\(10\\)-pound mix holds \\(5\\) pounds of peanuts and \\(2\\) pounds of cashews. Add \\(x\\) pounds of the second mix, which is \\(20\\%\\) peanuts. We want the new peanut fraction to be \\(40\\%,\\) so \\(\\frac{5 + 0.2x}{10 + x} = 0.4.\\) This means \\(5 + 0.2x = 4 + 0.4x,\\) giving \\(x = 5.\\) Those \\(5\\) pounds bring \\(0.4 \\cdot 5 = 2\\) more pounds of cashews, so the box now has \\(2 + 2 = 4.\\) Therefore, the answer is B.",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 9,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 3,
+   "question": "How many isosceles triangles are there with positive area whose side lengths are all positive integers and whose longest side has length \\(2025?\\)",
+   "choices": {
+    "a": "\\(2025\\)",
+    "b": "\\(2026\\)",
+    "c": "\\(3012\\)",
+    "d": "\\(3037\\)",
+    "e": "\\(4050\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "isosceles triangle",
+    "triangle inequality",
+    "casework"
+   ],
+   "seed_elo": 1130.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "Split into two cases. Say two sides both equal \\(2025.\\) Then the third side can be any integer from \\(1\\) to \\(2025,\\) which is \\(2025\\) triangles. Now suppose \\(2025\\) is the unique longest side. The two equal legs \\(s\\) must satisfy \\(2s \\gt 2025\\) by the triangle inequality, and \\(s \\le 2024.\\) So \\(s\\) runs from \\(1013\\) to \\(2024,\\) giving \\(1012\\) triangles. Adding up, \\(2025 + 1012 = 3037.\\) Thus, D is the correct answer.",
+   "amc10_problem_number": 4,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 12,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 4,
+   "question": "A team of students is going to compete against a team of teachers in a trivia contest. The total number of students and teachers is \\(15.\\) Ash, a cousin of one of the students, wants to join the contest. If Ash plays with the students, the average age on that team will increase from \\(12\\) to \\(14.\\) If Ash plays with the teachers, the average age on that team will decrease from \\(55\\) to \\(52.\\) How old is Ash?",
+   "choices": {
+    "a": "\\(28\\)",
+    "b": "\\(29\\)",
+    "c": "\\(30\\)",
+    "d": "\\(32\\)",
+    "e": "\\(33\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "mean",
+    "system of equations",
+    "ages"
+   ],
+   "seed_elo": 1160.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "Let \\(s\\) be the number of students. If Ash joins them, his age is \\(14(s+1) - 12s = 2s + 14.\\) If he joins the teachers instead (there are \\(15 - s\\) of them), his age is \\(52(16 - s)\\) \\(- 55(15 - s) = 3s + 7.\\) Both describe the same Ash, so \\(2s + 14 = 3s + 7.\\) That gives \\(s = 7,\\) and Ash is \\(2 \\cdot 7 + 14 = 28.\\) Therefore, the answer is A.",
+   "amc10_problem_number": 4,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 12,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 5,
+   "question": "Consider the sequence of positive integers\n\n\\[ \\begin{gathered} 1, 2, 1, 2, 3, 2, 1, 2, 3, 4, \\\\ 3, 2, 1, 2, 3, 4, 5, 4, 3, 2, \\\\ 1, 2, 3, 4, 5, 6, 5, 4, 3, 2, \\\\ 1, 2, \\ldots \\end{gathered} \\]\n\nWhat is the \\(2025\\)th term in this sequence?",
+   "choices": {
+    "a": "\\(5\\)",
+    "b": "\\(15\\)",
+    "c": "\\(16\\)",
+    "d": "\\(44\\)",
+    "e": "\\(45\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "pattern recognition",
+    "perfect square"
+   ],
+   "seed_elo": 1200.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "Group the sequence into blocks. Block \\(k\\) reads \\(k, k-1, \\ldots, 2, 1, 2, \\ldots, k-1, k,\\) which is \\(2k - 1\\) terms and ends on \\(k.\\) So after block \\(k\\) we've used \\(1 + 3 + \\cdots + (2k-1) = k^2\\) terms. Notice \\(2025 = 45^2.\\) That's exactly the end of block \\(45,\\) whose last term is \\(45.\\) Thus, E is the correct answer.",
+   "amc10_problem_number": 5,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 6,
+   "question": "In an equilateral triangle each interior angle is trisected by a pair of rays. The intersection of the interiors of the middle \\(20^\\circ\\)-angle at each vertex is the interior of a convex hexagon. What is the degree measure of the smallest angle of this hexagon?",
+   "choices": {
+    "a": "\\(80\\)",
+    "b": "\\(90\\)",
+    "c": "\\(100\\)",
+    "d": "\\(110\\)",
+    "e": "\\(120\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "equilateral triangle",
+    "angle chasing",
+    "angle sum"
+   ],
+   "seed_elo": 1310.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "Label the equilateral triangle \\(ABC.\\) Each \\(60^\\circ\\) angle splits into three \\(20^\\circ\\) pieces. Take the outermost trisectors from \\(A\\) and \\(B\\): they meet at base angles \\(\\tfrac23 \\cdot 60^\\circ = 40^\\circ,\\) so the hexagon vertex there has angle \\(180^\\circ - 2\\cdot 40^\\circ = 100^\\circ.\\) The innermost trisectors from \\(A\\) and \\(B\\) meet at base angles \\(20^\\circ,\\) giving apex \\(180^\\circ - 2\\cdot 20^\\circ = 140^\\circ,\\) and by vertical angles that's the opposite hexagon angle. So the six angles alternate \\(100^\\circ\\) and \\(140^\\circ.\\) The smallest is \\(100^\\circ.\\) Therefore, the answer is C.",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 14,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 7,
+   "question": "Suppose \\(a\\) and \\(b\\) are real numbers. When the polynomial \\(x^3 + x^2 + ax + b\\) is divided by \\(x - 1,\\) the remainder is \\(4.\\) When the polynomial is divided by \\(x - 2,\\) the remainder is \\(6.\\) What is \\(b - a?\\)",
+   "choices": {
+    "a": "\\(14\\)",
+    "b": "\\(15\\)",
+    "c": "\\(16\\)",
+    "d": "\\(17\\)",
+    "e": "\\(18\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "polynomial",
+    "system of equations"
+   ],
+   "seed_elo": 1250.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "By the Remainder Theorem, just plug in. We get \\(p(1) = 1 + 1 + a + b = 4,\\) so \\(a + b = 2.\\) And \\(p(2) = 8 + 4 + 2a + b = 6,\\) so \\(2a + b = -6.\\) Subtract the first from the second: \\(a = -8,\\) hence \\(b = 10.\\) Then \\(b - a = 10 - (-8) = 18.\\) Thus, E is the correct answer.",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 5,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 8,
+   "question": "Agnes writes the following four statements on a blank piece of paper.\n\n\u2022 At least one of these statements is true.\n\n\u2022 At least two of these statements are true.\n\n\u2022 At least two of these statements are false.\n\n\u2022 At least one of these statements is false.\n\nEach statement is either true or false. How many false statements did Agnes write on the paper?",
+   "choices": {
+    "a": "\\(0\\)",
+    "b": "\\(1\\)",
+    "c": "\\(2\\)",
+    "d": "\\(3\\)",
+    "e": "\\(4\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "logical deduction",
+    "casework"
+   ],
+   "seed_elo": 1350.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "Number them: \\((1)\\) at least one true, \\((2)\\) at least two true, \\((3)\\) at least two false, \\((4)\\) at least one false. Suppose \\((3)\\) is true. Then at least two statements are false. But then \\((1),\\) \\((2),\\) and \\((4)\\) all read as true, which leaves at most one false statement. That's a contradiction, so \\((3)\\) must be false. Now \\((1),\\) \\((2),\\) and \\((4)\\) are all true, and each matches reality with just one false statement. So exactly \\(1\\) statement is false. Therefore, the answer is B.",
+   "amc10_problem_number": 8,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 9,
+   "question": "Let \\(f(x) = 100x^3 - 300x^2 + 200x.\\) For how many real numbers \\(a\\) does the graph of \\(y = f(x - a)\\) pass through the point \\((1, 25)?\\)",
+   "choices": {
+    "a": "\\(1\\)",
+    "b": "\\(2\\)",
+    "c": "\\(3\\)",
+    "d": "\\(4\\)",
+    "e": "more than \\(4\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "function",
+    "polynomial"
+   ],
+   "seed_elo": 1440.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "The graph passes through \\((1,25)\\) exactly when \\(f(1 - a) = 25.\\) Let \\(t = 1 - a,\\) so we count solutions of \\(f(t) = 25.\\) Factor \\(f(x) = 100x(x-1)(x-2),\\) with roots \\(0, 1, 2.\\) On \\((0,1),\\) the function is positive and \\(f(0.5) = 37.5 \\gt 25,\\) so continuity gives one root on each side of \\(0.5.\\) On \\((1,2)\\) the function is negative, while for \\(x \\gt 2\\) it increases from \\(0\\) to infinity, giving one more root. A cubic equation has at most \\(3\\) real roots, so these are all the solutions. Each gives one \\(a,\\) so there are \\(3\\) values. Thus, C is the correct answer.",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 8,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 10,
+   "question": "A semicircle has diameter \\(AB\\) and chord \\(CD\\) of length \\(16\\) parallel to \\(AB.\\) A smaller semicircle with diameter on \\(AB\\) and tangent to \\(CD\\) is cut from the larger semicircle, as shown below.\n\n\n\nWhat is the area of the resulting figure, shown shaded?",
+   "choices": {
+    "a": "\\(16\\pi\\)",
+    "b": "\\(24\\pi\\)",
+    "c": "\\(32\\pi\\)",
+    "d": "\\(48\\pi\\)",
+    "e": "\\(64\\pi\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "circle area",
+    "Pythagorean Theorem"
+   ],
+   "seed_elo": 1440.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "Let \\(O\\) be the center on \\(AB\\) and \\(P\\) the midpoint of chord \\(CD.\\) Set \\(r = OP\\) for the small radius and \\(R = OD\\) for the large one. Since \\(PD = 8,\\) the Pythagorean theorem in triangle \\(OPD\\) gives \\(R^2 - r^2 = 64.\\) The shaded area is the big semicircle minus the small one: \\(\\tfrac12\\pi R^2 - \\tfrac12\\pi r^2\\) \\(= \\tfrac12\\pi(R^2 - r^2)\\) \\(= 32\\pi.\\) Therefore, the answer is C.",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 8,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 11,
+   "question": "The sequence \\(1,\\) \\(x,\\) \\(y,\\) \\(z\\) is arithmetic. The sequence \\(1,\\) \\(p,\\) \\(q,\\) \\(z\\) is geometric. Both sequences are strictly increasing and contain only integers, and \\(z\\) is as small as possible. What is the value of \\(x + y + z + p + q?\\)",
+   "choices": {
+    "a": "\\(66\\)",
+    "b": "\\(91\\)",
+    "c": "\\(103\\)",
+    "d": "\\(132\\)",
+    "e": "\\(149\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "arithmetic sequence",
+    "geometric sequence",
+    "modular arithmetic"
+   ],
+   "seed_elo": 1500.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "From the arithmetic sequence, \\(z = 1 + 3d,\\) so \\(z \\equiv 1 \\pmod 3.\\) From the geometric one, \\(z = p^3\\) for some integer ratio \\(p \\ge 2.\\) We want the smallest such \\(z,\\) so test \\(p = 2, 3, 4.\\) Only \\(p = 4\\) works, since \\(p^3 = 64 \\equiv 1 \\pmod 3.\\) That forces \\(d = 21,\\) and the sequences are \\(1, 22, 43, 64\\) and \\(1, 4, 16, 64.\\) So \\(x + y + z + p + q\\) \\(= 22 + 43 + 64 + 4 + 16\\) \\(= 149.\\) Thus, E is the correct answer.",
+   "amc10_problem_number": 11,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 17,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 12,
+   "question": "Carlos uses a \\(4\\)-digit passcode to unlock his computer. In his passcode, exactly one digit is even, exactly one (possibly different) digit is prime, and no digit is \\(0.\\) How many \\(4\\)-digit passcodes satisfy these conditions?",
+   "choices": {
+    "a": "\\(176\\)",
+    "b": "\\(192\\)",
+    "c": "\\(432\\)",
+    "d": "\\(464\\)",
+    "e": "\\(608\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "casework",
+    "multiplication principle"
+   ],
+   "seed_elo": 1560.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "No digit is \\(0,\\) so digits run from \\(1\\) to \\(9.\\) Put the single even digit in the first slot for now and multiply by \\(4\\) at the end to place it. Split on that even digit. If it's the prime \\(2,\\) then the three odd digits all have to be non-prime, so each is \\(1\\) or \\(9,\\) giving \\(2^3 = 8\\) ways. Otherwise the even digit is \\(4, 6,\\) or \\(8\\) (\\(3\\) choices), and exactly one of the odd digits is prime, worth \\(3, 5,\\) or \\(7\\) (\\(3\\) choices) in one of the \\(3\\) odd positions, while the other two odds come from \\(\\{1, 9\\}\\) (\\(2^2\\) ways). That's \\(3 \\cdot 3 \\cdot 3 \\cdot 4 = 108.\\) Altogether, \\(4(8 + 108) = 464.\\) Therefore, the answer is D.",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 10,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 13,
+   "question": "In the figure below, the outside square contains infinitely many squares, each of them with the same center and sides parallel to the outside square. The ratio of the side length of a square to the side length of the next inner square is \\(k,\\) where \\(0 \\lt k \\lt 1.\\) The spaces between squares are alternately shaded, as shown in the figure (which is not necessarily drawn to scale).\n\n\n\nThe area of the shaded portion of the figure is \\(64\\%\\) of the area of the original square. What is \\(k?\\)",
+   "choices": {
+    "a": "\\(\\dfrac{3}{5}\\)",
+    "b": "\\(\\dfrac{16}{25}\\)",
+    "c": "\\(\\dfrac{2}{3}\\)",
+    "d": "\\(\\dfrac{3}{4}\\)",
+    "e": "\\(\\dfrac{4}{5}\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "geometric sequence",
+    "area ratio"
+   ],
+   "seed_elo": 1560.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "Let the outer side be \\(1.\\) The squares have sides \\(1, k, k^2, \\ldots,\\) and the shaded rings alternate, so the shaded area is \\(1 - k^2 + k^4 - k^6 + \\cdots = \\frac{1}{1 + k^2}.\\) We're told this equals \\(64\\% = \\frac{16}{25},\\) so \\(1 + k^2 = \\frac{25}{16}.\\) Then \\(k^2 = \\frac{9}{16},\\) giving \\(k = \\frac{3}{4}.\\) Thus, D is the correct answer.",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 10,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 14,
+   "question": "Six chairs are arranged around a round table. Two students and two teachers randomly select four of the chairs to sit in. What is the probability that the two students will sit in two adjacent chairs and the two teachers will also sit in two adjacent chairs?",
+   "choices": {
+    "a": "\\(\\dfrac{1}{6}\\)",
+    "b": "\\(\\dfrac{1}{5}\\)",
+    "c": "\\(\\dfrac{2}{9}\\)",
+    "d": "\\(\\dfrac{3}{13}\\)",
+    "e": "\\(\\dfrac{1}{4}\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "circular arrangements",
+    "basic probability"
+   ],
+   "seed_elo": 1600.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "Seat the first student anywhere. The second student lands next to them with probability \\(\\tfrac{2}{5},\\) since two of the remaining five chairs are adjacent. Now the teachers fill two of the four leftover chairs. Of the \\(\\binom{4}{2} = 6\\) ways to do that, exactly \\(3\\) are adjacent pairs. So the probability is \\(\\tfrac{2}{5} \\cdot \\tfrac{3}{6} = \\tfrac{1}{5}.\\) Therefore, the answer is B.",
+   "amc10_problem_number": 13,
+   "amc12_problem_number": 12,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 15,
+   "question": "In the figure below, \\(ABEF\\) is a rectangle, \\(AD \\perp DE,\\) \\(AF = 7,\\) \\(AB = 1,\\) and \\(AD = 5.\\) What is the area of \\(\\triangle ABC?\\)",
+   "choices": {
+    "a": "\\(\\dfrac{3}{8}\\)",
+    "b": "\\(\\dfrac{4}{9}\\)",
+    "c": "\\(\\dfrac{1}{8}\\sqrt{13}\\)",
+    "d": "\\(\\dfrac{7}{15}\\)",
+    "e": "\\(\\dfrac{1}{8}\\sqrt{15}\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "similarity",
+    "Pythagorean Theorem",
+    "quadratic"
+   ],
+   "seed_elo": 1730.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Let \\(x = BC.\\) Since \\(ABEF\\) is a rectangle with \\(AB = 1\\) and \\(AF = 7,\\) and \\(AD = 5,\\) we get \\(AC = \\sqrt{1 + x^2},\\) \\(CE = 7 - x,\\) and \\(CD = 5 - \\sqrt{1 + x^2}.\\) The triangles \\(\\triangle ABC\\) and \\(\\triangle EDC\\) are similar, so \\(\\frac{7 - x}{\\sqrt{1 + x^2}} = \\frac{5 - \\sqrt{1 + x^2}}{x}.\\) Clear denominators and square to get \\(24x^2 + 14x - 24 = 0,\\) which factors as \\((4x - 3)(3x + 4) = 0.\\) The positive root is \\(x = \\tfrac{3}{4}.\\) So the area is \\(\\tfrac12 \\cdot \\tfrac34 \\cdot 1 = \\tfrac{3}{8}.\\) Thus, A is the correct answer.",
+   "amc10_problem_number": 15,
+   "amc12_problem_number": 14,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 16,
+   "question": "There are three jars. Each of three coins is placed in one of the three jars, chosen at random and independently of the placements of the other coins. What is the expected number of coins in a jar with the most coins?",
+   "choices": {
+    "a": "\\(\\dfrac{4}{3}\\)",
+    "b": "\\(\\dfrac{39}{27}\\)",
+    "c": "\\(\\dfrac{5}{3}\\)",
+    "d": "\\(\\dfrac{17}{9}\\)",
+    "e": "\\(2\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "expected value",
+    "casework"
+   ],
+   "seed_elo": 1630.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "There are \\(3^3 = 27\\) equally likely placements. Of these, \\(3\\) pile all coins into one jar (max \\(3\\)), and \\(6\\) put one coin in each jar (max \\(1\\)). The other \\(18\\) split \\(2\\)-\\(1\\) (max \\(2\\)). So the expected maximum is \\(\\frac{3 \\cdot 3 + 2 \\cdot 18 + 1 \\cdot 6}{27} = \\frac{51}{27} = \\frac{17}{9}.\\) Therefore, the answer is D.",
+   "amc10_problem_number": 13,
+   "amc12_problem_number": 12,
+   "amc8_problem_number": 19,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 17,
+   "question": "Let \\(N\\) be the unique positive integer such that dividing \\(273436\\) by \\(N\\) leaves a remainder of \\(16,\\) and dividing \\(272760\\) by \\(N\\) leaves a remainder of \\(15.\\) What is the tens digit of \\(N?\\)",
+   "choices": {
+    "a": "\\(0\\)",
+    "b": "\\(1\\)",
+    "c": "\\(2\\)",
+    "d": "\\(3\\)",
+    "e": "\\(4\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "greatest common divisor",
+    "divisibility"
+   ],
+   "seed_elo": 1730.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "Subtract off the remainders. Both \\(273420 = 273436 - 16\\) and \\(272745 = 272760 - 15\\) are multiples of \\(N,\\) so their difference \\(675\\) is too. Now \\(272745 = 404 \\cdot 675 + 45,\\) which makes \\(45\\) a multiple of \\(N\\) as well. The remainder \\(16\\) means \\(N \\gt 16,\\) and the only divisor of \\(45\\) bigger than \\(16\\) is \\(45\\) itself. So \\(N = 45,\\) and its tens digit is \\(4.\\) Thus, E is the correct answer.",
+   "amc10_problem_number": 15,
+   "amc12_problem_number": 14,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 18,
+   "question": "The harmonic mean of a collection of numbers is the reciprocal of the arithmetic mean of the reciprocals of the numbers in the collection. For example, the harmonic mean of \\(4,\\) \\(4,\\) and \\(5\\) is\n\n\\[\\frac{1}{\\frac{1}{3}\\left(\\frac{1}{4} + \\frac{1}{4} + \\frac{1}{5}\\right)} = \\frac{30}{7}.\\]\n\nWhat is the harmonic mean of all the real roots of the \\(4050\\)th degree polynomial\n\n\\[ \\begin{gathered} \\prod_{k=1}^{2025}(kx^2 - 4x - 3) \\\\ {}= (x^2 - 4x - 3) \\\\ \\quad {}\\cdot (2x^2 - 4x - 3) \\\\ \\quad {}\\cdot (3x^2 - 4x - 3)\\cdots \\\\ \\quad {}\\cdot (2025x^2 - 4x - 3)? \\end{gathered} \\]",
+   "choices": {
+    "a": "\\(-\\dfrac{5}{3}\\)",
+    "b": "\\(-\\dfrac{3}{2}\\)",
+    "c": "\\(-\\dfrac{6}{5}\\)",
+    "d": "\\(-\\dfrac{5}{6}\\)",
+    "e": "\\(-\\dfrac{2}{3}\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "Vieta's Formulas",
+    "quadratic",
+    "harmonic mean"
+   ],
+   "seed_elo": 1840.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "Look at one factor \\(kx^2 - 4x - 3.\\) Its discriminant \\(16 + 12k\\) is positive, so it has two distinct real roots. Roots from different factors are also distinct: a common root \\(x\\) for indices \\(k_1\\) and \\(k_2\\) would satisfy \\((k_1-k_2)x^2=0,\\) but \\(x\\ne0.\\) By Vieta, the two reciprocals from one factor sum to \\(\\frac{x_1 + x_2}{x_1 x_2} = \\frac{\\frac{4}{k}}{-\\frac{3}{k}} = -\\tfrac{4}{3}.\\) Summing over all \\(2025\\) factors, the reciprocals total \\(2025 \\cdot \\left(-\\tfrac{4}{3}\\right) = -2700.\\) There are \\(4050\\) real roots in all, so the harmonic mean is \\(\\frac{4050}{-2700} = -\\tfrac{3}{2}.\\) Therefore, the answer is B.",
+   "amc10_problem_number": 17,
+   "amc12_problem_number": 16,
+   "amc8_problem_number": 21,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 19,
+   "question": "An array of numbers is constructed beginning with the numbers \\(-1,\\) \\(3,\\) \\(1\\) in the top row. Each adjacent pair of numbers is summed to produce a number in the next row. Each row will begin and end with the numbers \\(-1\\) and \\(1,\\) respectively. The first three rows are shown below.\n\n\n\nIf the process continues, one of the rows will sum to \\(12,288.\\) In that row, what is the third number from the left?",
+   "choices": {
+    "a": "\\(-29\\)",
+    "b": "\\(-21\\)",
+    "c": "\\(-14\\)",
+    "d": "\\(-8\\)",
+    "e": "\\(-3\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "recursion",
+    "triangular number",
+    "pattern recognition"
+   ],
+   "seed_elo": 1910.0,
+   "solve_time_seconds": 180.0,
+   "solution_text": "Each interior entry feeds two entries below, and the end values \\(-1\\) and \\(1\\) cancel in the sum. So every row's total doubles the one above. The top row sums to \\(3,\\) and \\(12,288 = 3 \\cdot 2^{12},\\) so this is the \\(12\\)th row (counting the top as row \\(0\\)). Track the diagonals from the left. The second diagonal is \\(3, 2, 1, 0, -1, \\ldots,\\) dropping by \\(1\\) each row. The third diagonal adds these up: for \\(n \\ge 4\\) it equals \\(7 - (0 + 1 + \\cdots + (n-4))\\) \\(= 7 - \\frac{(n-4)(n-3)}{2}.\\) Plug in \\(n = 12\\): \\(7 - \\frac{8 \\cdot 9}{2} = -29.\\) Thus, A is the correct answer.",
+   "amc10_problem_number": 18,
+   "amc12_problem_number": 17,
+   "amc8_problem_number": 22,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 20,
+   "question": "A silo (right circular cylinder) with diameter \\(20\\) meters stands in a field. MacDonald is located \\(20\\) meters west and \\(15\\) meters south of the center of the silo. McGregor is located \\(20\\) meters east and \\(g \\gt 0\\) meters south of the center of the silo. The line of sight between MacDonald and McGregor is tangent to the silo. The value of \\(g\\) can be written as \\(\\dfrac{a\\sqrt{b} - c}{d},\\) where \\(a,\\) \\(b,\\) \\(c,\\) and \\(d\\) are positive integers, \\(b\\) is not divisible by the square of any prime, and \\(d\\) is relatively prime to the greatest common divisor of \\(a\\) and \\(c.\\) What is \\(a + b + c + d?\\)",
+   "choices": {
+    "a": "\\(119\\)",
+    "b": "\\(120\\)",
+    "c": "\\(121\\)",
+    "d": "\\(122\\)",
+    "e": "\\(123\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "tangent line",
+    "coordinate geometry",
+    "quadratic"
+   ],
+   "seed_elo": 2080.0,
+   "solve_time_seconds": 240.0,
+   "solution_text": "Put the silo's center at the origin with radius \\(10.\\) Then MacDonald is at \\(D = (-20, -15)\\) and McGregor at \\(G = (20, -g).\\) The tangent length from \\(D\\) is \\(DT = \\sqrt{DS^2 - 10^2}\\) \\(= \\sqrt{25^2 - 100}\\) \\(= \\sqrt{525},\\) and from \\(G\\) it is \\(TG = \\sqrt{g^2 + 20^2 - 10^2}.\\) The tangent point \\(T\\) sits between the two men, so \\(DG = DT + TG.\\) But also \\(DG = \\sqrt{40^2 + (15 - g)^2}.\\) Squaring twice and simplifying gives \\(3g^2 + 150g - 925 = 0.\\) Its positive root, which satisfies the original tangent-length equation, is \\(g = \\frac{20\\sqrt{21} - 75}{3}.\\) Therefore \\(a + b + c + d\\) \\(= 20 + 21 + 75 + 3\\) \\(= 119.\\) Thus, A is the correct answer.",
+   "amc10_problem_number": 20,
+   "amc12_problem_number": 19,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 21,
+   "question": "A set of numbers is called sum-free if whenever \\(x\\) and \\(y\\) are (not necessarily distinct) elements of the set, \\(x + y\\) is not an element of the set. For example, \\(\\{1, 4, 6\\}\\) and the empty set are sum-free, but \\(\\{2, 4, 5\\}\\) is not. What is the greatest possible number of elements in a sum-free subset of \\(\\{1, 2, 3, \\ldots, 20\\}?\\)",
+   "choices": {
+    "a": "\\(8\\)",
+    "b": "\\(9\\)",
+    "c": "\\(10\\)",
+    "d": "\\(11\\)",
+    "e": "\\(12\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "subsets",
+    "extremal argument",
+    "pairing and grouping"
+   ],
+   "seed_elo": 2120.0,
+   "solve_time_seconds": 210.0,
+   "solution_text": "We can reach \\(10.\\) The odds \\(\\{1, 3, 5, \\ldots, 19\\}\\) are sum-free, since two odds sum to an even. So is \\(\\{11, 12, \\ldots, 20\\},\\) since any two of those sum past \\(20.\\) Each has \\(10\\) elements. Now let \\(m\\) be the largest element of any sum-free subset. For \\(1\\le iC is the correct answer.",
+   "amc10_problem_number": 21,
+   "amc12_problem_number": 20,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 22,
+   "question": "A circle of radius \\(r\\) is surrounded by three circles, whose radii are \\(1,\\) \\(2,\\) and \\(3,\\) all externally tangent to the inner circle and externally tangent to each other, as shown in the diagram below.\n\n\n\nWhat is \\(r?\\)",
+   "choices": {
+    "a": "\\(\\dfrac{1}{4}\\)",
+    "b": "\\(\\dfrac{6}{23}\\)",
+    "c": "\\(\\dfrac{3}{11}\\)",
+    "d": "\\(\\dfrac{5}{17}\\)",
+    "e": "\\(\\dfrac{3}{10}\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "tangent circles",
+    "coordinate geometry"
+   ],
+   "seed_elo": 2120.0,
+   "solve_time_seconds": 210.0,
+   "solution_text": "The three outer centers \\(A, B, C\\) are pairwise \\(AB = 1 + 2 = 3,\\) \\(AC = 1 + 3 = 4,\\) and \\(BC = 2 + 3 = 5\\) apart, a \\(3\\)-\\(4\\)-\\(5\\) right triangle. Now apply Descartes' Circle Theorem with curvatures \\(1, \\tfrac12, \\tfrac13,\\) and \\(\\tfrac1r,\\) all mutually tangent: \\(\\frac1r = 1 + \\tfrac12 + \\tfrac13\\) \\(+ 2\\sqrt{\\tfrac12 + \\tfrac16 + \\tfrac13}\\) \\(= \\tfrac{11}{6} + 2\\sqrt{1}\\) \\(= \\tfrac{23}{6}.\\) Inverting, \\(r = \\tfrac{6}{23}.\\) Therefore, the answer is B.",
+   "amc10_problem_number": 21,
+   "amc12_problem_number": 20,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 23,
+   "question": "Triangle \\(\\triangle ABC\\) has side lengths \\(AB = 80,\\) \\(BC = 45,\\) and \\(AC = 75.\\) The bisector of \\(\\angle B\\) and the altitude to side \\(AB\\) intersect at point \\(P.\\) What is \\(BP?\\)",
+   "choices": {
+    "a": "\\(18\\)",
+    "b": "\\(19\\)",
+    "c": "\\(20\\)",
+    "d": "\\(21\\)",
+    "e": "\\(22\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "angle bisector theorem",
+    "similarity",
+    "angle chasing"
+   ],
+   "seed_elo": 2270.0,
+   "solve_time_seconds": 240.0,
+   "solution_text": "Let the bisector of \\(\\angle B\\) hit \\(AC\\) at \\(D.\\) By the Angle Bisector Theorem, \\(\\frac{AD}{DC} = \\frac{AB}{BC} = \\frac{80}{45},\\) and since \\(AC = 75,\\) we get \\(AD = 48\\) and \\(CD = 27.\\) Triangles \\(BCD\\) and \\(ACB\\) share \\(\\angle C,\\) with adjacent sides in the common ratio \\(\\tfrac{45}{75}=\\tfrac{27}{45}=\\tfrac35,\\) so they are similar by SAS. Hence \\(BD=\\tfrac35\\cdot80=48=AD,\\) making \\(\\triangle ADB\\) isosceles. Put \\(\\angle DAB=\\angle DBA=\\theta.\\) Because the altitude through \\(C\\) is perpendicular to \\(AB,\\) both \\(\\angle DPC\\) and \\(\\angle DCP\\) equal \\(90^\\circ-\\theta.\\) Thus \\(\\triangle CDP\\) is isosceles, so \\(PD=CD=27.\\) Since \\(P\\) lies on \\(BD,\\) we get \\(BP=BD-PD\\) \\(=48-27=21.\\) Thus, D is the correct answer.",
+   "amc10_problem_number": 22,
+   "amc12_problem_number": 22,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 2
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 24,
+   "question": "Call a positive integer fair if no digit is used more than once, it has no \\(0\\)s, and no digit is adjacent to two greater digits. For example, \\(23,\\) \\(196,\\) and \\(12463\\) are fair, but \\(1546,\\) \\(320,\\) and \\(34321\\) are not fair. How many fair positive integers are there?",
+   "choices": {
+    "a": "\\(511\\)",
+    "b": "\\(2,584\\)",
+    "c": "\\(9,841\\)",
+    "d": "\\(17,711\\)",
+    "e": "\\(19,682\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "combinations",
+    "binomial theorem"
+   ],
+   "seed_elo": 2380.0,
+   "solve_time_seconds": 240.0,
+   "solution_text": "A fair number's digits must increase up to its largest digit \\(m\\) and then decrease. Indeed, the first ascent after any descent would begin at a digit smaller than both of its neighbors. For \\(k\\) digits, choose the digit set from \\(1\\) to \\(9\\) in \\(\\binom{9}{k}\\) ways. Each of the \\(k-1\\) digits below \\(m\\) independently goes on the increasing left side or the decreasing right side, after which its position is forced. Hence the total is \\(\\sum_{k=1}^{9}\\binom{9}{k}2^{k-1}\\) \\(= \\tfrac12\\big((1+2)^9-1\\big)\\) \\(= \\tfrac{3^9-1}{2}\\) \\(=9841.\\) Therefore, the answer is C.",
+   "amc10_problem_number": 23,
+   "amc12_problem_number": 23,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 3
+  },
+  {
+   "contest": "amc10",
+   "year": 2025,
+   "label": "A",
+   "position": 25,
+   "question": "A point \\(P\\) is chosen at random inside square \\(ABCD.\\) The probability that \\(AP\\) is neither the shortest nor the longest side of \\(\\triangle APB\\) can be written as \\(\\dfrac{a + b\\pi - c\\sqrt{d}}{e},\\) where \\(a,\\) \\(b,\\) \\(c,\\) \\(d,\\) and \\(e\\) are positive integers, \\(\\gcd(a, b, c, e) = 1,\\) and \\(d\\) is not divisible by the square of a prime. What is \\(a + b + c + d + e?\\)",
+   "choices": {
+    "a": "\\(25\\)",
+    "b": "\\(26\\)",
+    "c": "\\(27\\)",
+    "d": "\\(28\\)",
+    "e": "\\(29\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "geometric probability",
+    "sector",
+    "equilateral triangle"
+   ],
+   "seed_elo": 2600.0,
+   "solve_time_seconds": 300.0,
+   "solution_text": "Place \\(A = (0,0)\\) and \\(B = (1,0)\\) on the unit square. \\(AP\\) is the middle length when \\(BP \\lt AP \\lt AB\\) or \\(AB \\lt AP \\lt BP.\\) These regions are bounded by the circle centered at \\(A\\) with radius \\(1\\) (where \\(AP = AB\\)) and the line \\(x = \\tfrac12\\) (where \\(AP = BP\\)). Let \\(S\\) be where the circle meets \\(x = \\tfrac12.\\) Then \\(\\triangle ABS\\) is equilateral, so \\(\\angle BAS = 60^\\circ.\\) The larger region has area \\(\\frac{4\\pi - 3\\sqrt3}{24}\\) and the smaller has area \\(\\frac{12 - 2\\pi - 3\\sqrt3}{24}.\\) They add to \\(\\frac{6 + \\pi - 3\\sqrt3}{12}.\\) Thus \\(a + b + c + d + e\\) \\(= 6 + 1 + 3 + 3 + 12\\) \\(= 25.\\) Thus, A is the correct answer.",
+   "amc10_problem_number": 25,
+   "amc12_problem_number": 24,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 5
+  }
+ ]
+}

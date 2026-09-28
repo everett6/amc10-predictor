@@ -1,0 +1,675 @@
+{
+ "source_url": "https://live.poshenloh.com/past-contests/amc10/2021C",
+ "year": 2021,
+ "label": "C",
+ "problems": [
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 1,
+   "question": "What is the value of the following expression?\n\n\\[\\dfrac{(2112-2021)^2}{169}\\]",
+   "choices": {
+    "a": "\\(7\\)",
+    "b": "\\(21\\)",
+    "c": "\\(49\\)",
+    "d": "\\(64\\)",
+    "e": "\\(91\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "fraction",
+    "exponent"
+   ],
+   "seed_elo": 450.0,
+   "solve_time_seconds": 20.0,
+   "solution_text": "Since \\(2112-2021=91=7\\cdot13,\\) \\[ \\begin{aligned} \\frac{(2112-2021)^2}{169} &=\\frac{(7\\cdot13)^2}{13^2}\\\\ &=7^2=49. \\end{aligned} \\]\n\nThus, C is the correct answer.",
+   "amc10_problem_number": 0,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 2,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 2,
+   "question": "Menkara has a \\(4 \\times 6\\) index card. If she shortens the length of one side of this card by \\(1\\) inch, the card would have area \\(18\\) square inches. What would the area of the card be in square inches if instead she shortens the length of the other side by \\(1\\) inch?",
+   "choices": {
+    "a": "\\(16\\)",
+    "b": "\\(17\\)",
+    "c": "\\(18\\)",
+    "d": "\\(19\\)",
+    "e": "\\(20\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "rectangle",
+    "area",
+    "work backwards"
+   ],
+   "seed_elo": 560.0,
+   "solve_time_seconds": 25.0,
+   "solution_text": "If she shortens the \\(4\\)-inch side by \\(1,\\) she has a \\(3\\times 6\\) card, whose area is \\(18\\) square inches.\n\nTherefore the given shortening was on the \\(4\\)-inch side. Shortening the other side instead gives a \\(4\\times 5\\) card, with area \\(20\\) square inches.\n\nThus, E is the correct answer.",
+   "amc10_problem_number": 0,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 3,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 3,
+   "question": "What is the maximum number of balls of clay with radius \\(2\\) that can completely fit inside a cube of side length \\(6\\) assuming that the balls can be reshaped but not compressed before they are packed in the cube?",
+   "choices": {
+    "a": "\\(3\\)",
+    "b": "\\(4\\)",
+    "c": "\\(5\\)",
+    "d": "\\(6\\)",
+    "e": "\\(7\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "volume",
+    "sphere",
+    "estimation"
+   ],
+   "seed_elo": 870.0,
+   "solve_time_seconds": 35.0,
+   "solution_text": "The cube has volume \\(6^3=216.\\) One ball of clay has volume \\(\\frac{4}{3}\\pi\\cdot 2^3=\\frac{32\\pi}{3}.\\)\n\nBecause the clay may be reshaped but not compressed, the maximum number of balls is \\[\\left\\lfloor \\frac{216}{\\frac{32\\pi}{3}}\\right\\rfloor=\\left\\lfloor\\frac{81}{4\\pi}\\right\\rfloor.\\]\n\nSince \\(12\\lt 4\\pi\\lt 13,\\) we have \\(6\\lt \\frac{81}{4\\pi}\\lt \\frac{81}{12}\\lt 7.\\) Therefore the floor is \\(6.\\)\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 6,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 4,
+   "question": "Mr. Lopez has a choice of two routes to get to work. Route A is \\(6\\) miles long, and his average speed along this route is \\(30\\) miles per hour. Route B is \\(5\\) miles long, and his average speed along this route is \\(40\\) miles per hour, except for a \\(\\dfrac{1}{2}\\)-mile stretch in a school zone where his average speed is \\(20\\) miles per hour. By how many minutes is Route B quicker than Route A?",
+   "choices": {
+    "a": "\\(2 \\dfrac{3}{4}\\)",
+    "b": "\\(3 \\dfrac{3}{4}\\)",
+    "c": "\\(4 \\dfrac{1}{2}\\)",
+    "d": "\\(5 \\dfrac{1}{2}\\)",
+    "e": "\\(6 \\dfrac{3}{4}\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "distance rate and time",
+    "unit conversion"
+   ],
+   "seed_elo": 900.0,
+   "solve_time_seconds": 40.0,
+   "solution_text": "Mr. Lopez would take \\[ \\dfrac{6}{30} \\cdot 60 = 12 \\] minutes to travel on Route A.\n\nOn Route B, he would take \\[ \\left(\\dfrac{5 - 0.5}{40} + \\dfrac{0.5}{20}\\right) \\cdot 60 = 8.25 \\] minutes.\n\nThe difference in times along these routes is \\(12 - 8.25 = 3.75\\) minutes.\n\nThus, B is the correct answer.",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 7,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 5,
+   "question": "The six-digit number \\(\\underline{2}\\,\\underline{0}\\,\\underline{2}\\,\\underline{1}\\,\\underline{0}\\,\\underline{A}\\) is prime for only one digit \\(A.\\) What is \\(A?\\)",
+   "choices": {
+    "a": "\\(1\\)",
+    "b": "\\(3\\)",
+    "c": "\\(5\\)",
+    "d": "\\(7\\)",
+    "e": "\\(9\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "divisibility",
+    "digits",
+    "prime"
+   ],
+   "seed_elo": 1140.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "Note that \\(A\\) cannot be even, as then the number would be divisible by \\(2.\\)\n\n\\(A\\) also cannot be \\(5,\\) as that would make the number divisible by \\(5.\\)\n\nIf \\(A\\) equaled \\(1\\) or \\(7,\\) then the sum of the digits of the number would be \\(6\\) and \\(12\\) respectively.\n\nThis would make the number divisible by \\(3,\\) so that rules out \\(A\\) equaling either of these numbers.\n\nFinally, if \\(A\\) equals \\(3,\\) then the whole number becomes \\(202103.\\) If we look at the difference of the sums of alternating digits, we get \\[ 2 + 2 - 1 - 3 = 0, \\] which means the number is divisible by \\(11.\\)\n\nEvery choice except \\(9\\) makes the number composite. Because the problem states that exactly one digit works, that digit must be \\(A=9.\\) (Indeed, trial division by the primes at most \\(\\sqrt{202109}E is the correct answer.",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 11,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 6,
+   "question": "Elmer the emu takes \\(44\\) equal strides to walk between consecutive telephone poles on a rural road. Oscar the ostrich can cover the same distance in \\(12\\) equal leaps. The telephone poles are evenly spaced, and the \\(41\\)st pole along this road is exactly one mile (\\(5280\\) feet) from the first pole. How much longer, in feet, is Oscar's leap than Elmer's stride?",
+   "choices": {
+    "a": "\\(6\\)",
+    "b": "\\(8\\)",
+    "c": "\\(10\\)",
+    "d": "\\(11\\)",
+    "e": "\\(15\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "ratio and proportion",
+    "unit conversion",
+    "fencepost counting"
+   ],
+   "seed_elo": 870.0,
+   "solve_time_seconds": 35.0,
+   "solution_text": "There are \\(40\\) gaps between the \\(1\\)st and \\(41\\)st pole, which means that the distance between consecutive poles is \\[ 5280 \\div 40 = 132 \\] feet.\n\nThis means that each of Elmer's strides is \\[ 132 \\div 44 = 3 \\] feet. Similarly, each of Oscar's leaps is \\[ 132 \\div 12 = 11 \\] feet. This makes Oscar's leap \\(11 - 3 = 8\\) feet longer.\n\nThus, B is the correct answer.",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 6,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 7,
+   "question": "As shown in the figure below, point \\(E\\) lies in the opposite half-plane determined by line \\(CD\\) from point \\(A\\) so that \\(\\angle CDE = 110^\\circ.\\) Point \\(F\\) lies on \\(\\overline{AD}\\) so that \\(DE=DF,\\) and \\(ABCD\\) is a square. What is the degree measure of \\(\\angle AFE?\\)",
+   "choices": {
+    "a": "\\(160\\)",
+    "b": "\\(164\\)",
+    "c": "\\(166\\)",
+    "d": "\\(170\\)",
+    "e": "\\(174\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "angle chasing",
+    "isosceles triangle",
+    "square (geometry)"
+   ],
+   "seed_elo": 960.0,
+   "solve_time_seconds": 45.0,
+   "solution_text": "Since \\(\\angle ADC = 90^{\\circ},\\) we get that \\[ \\angle FDE = 360^{\\circ} - 90^{\\circ} - 110^{\\circ} \\]\\[= 160^{\\circ}. \\] Also since \\(\\triangle FDE\\) is isosceles, we get that \\[ \\angle EFD = \\dfrac{180^{\\circ} - 160^{\\circ}}{2} = 10^{\\circ}. \\] Finally, we get that \\[ \\angle AFE = 180^{\\circ} - 10^{\\circ} = 170^{\\circ}. \\]\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 3,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 8,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 8,
+   "question": "A two-digit positive integer is said to be cuddly if it is equal to the sum of its nonzero tens digit and the square of its units digit. How many two-digit positive integers are cuddly?",
+   "choices": {
+    "a": "\\(0\\)",
+    "b": "\\(1\\)",
+    "c": "\\(2\\)",
+    "d": "\\(3\\)",
+    "e": "\\(4\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "digits",
+    "Diophantine Equation",
+    "divisibility"
+   ],
+   "seed_elo": 1210.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "Let \\(\\underline{a} \\ \\underline{b}\\) be a \\(2\\)-digit cuddly number.\n\nThen \\[ 10a + b = a + b^2. \\] Rearranging, we get \\[ 9a = b(b - 1). \\] Because consecutive integers cannot both be divisible by \\(3,\\) one of \\(b\\) and \\(b-1\\) must contain both factors of \\(3.\\)\n\nFor a digit \\(b,\\) this leaves \\(b=0,1,\\) or \\(9.\\) The first two choices give \\(a=0,\\) which does not make a two-digit number. If \\(b=9,\\) then \\(a=8.\\) Checking, we get that \\(89\\) is a cuddly number. This shows that there is only \\(1\\) two-digit cuddly number.\n\nThus, B is the correct answer.",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 9,
+   "question": "When a certain unfair die is rolled, an even number is \\(3\\) times as likely to appear as an odd number. The die is rolled twice. What is the probability that the sum of the numbers rolled is even?",
+   "choices": {
+    "a": "\\(\\dfrac{3}{8}\\)",
+    "b": "\\(\\dfrac{4}{9}\\)",
+    "c": "\\(\\dfrac{5}{9}\\)",
+    "d": "\\(\\dfrac{9}{16}\\)",
+    "e": "\\(\\dfrac{5}{8}\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "dice (probability)",
+    "parity",
+    "independent events"
+   ],
+   "seed_elo": 900.0,
+   "solve_time_seconds": 40.0,
+   "solution_text": "Let \\(p\\) be the probability that an odd number is rolled. Then \\(3p\\) is the probability an even number is rolled. We know that \\[ p + 3p = 1 \\Rightarrow p = \\dfrac{1}{4}. \\]\n\nThe only way for the sum to be even is if both rolls have the same parity. This happens with a probability of \\[ \\dfrac{1}{4}^2 + \\dfrac{3}{4}^2 = \\dfrac{10}{16} = \\dfrac{5}{8}. \\]\n\nThus, E is the correct answer.",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 7,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 10,
+   "question": "A school has \\(100\\) students and \\(5\\) teachers. In the first period, each student is taking one class, and each teacher is teaching one class. The enrollments in the classes are \\(50,\\) \\(20,\\) \\(20,\\) \\(5,\\) and \\(5.\\) Let \\(t\\) be the average value obtained if a teacher is picked at random and the number of students in their class is noted. Let \\(s\\) be the average value obtained if a student was picked at random and the number of students in their class, including the student, is noted. What is \\(t-s?\\)",
+   "choices": {
+    "a": "\\(-18.5\\)",
+    "b": "\\(-13.5\\)",
+    "c": "\\(0\\)",
+    "d": "\\(13.5\\)",
+    "e": "\\(18.5\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "expected value",
+    "mean"
+   ],
+   "seed_elo": 1140.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "Recall the expected-value formula \\[ \\mathbb E[X]=\\sum_x x\\,\\Pr(X=x). \\]\n\nTherefore, \\[ t = \\dfrac{1}{5} (50 + 20 + 20 + 5 + 5) \\] \\[ = \\dfrac{1}{5} \\cdot 100 = 20 \\] and \\[ s = 50 \\cdot \\dfrac{50}{100} + 20 \\cdot \\dfrac{20}{100} \\]\\[ + 20 \\cdot \\dfrac{20}{100} + 5 \\cdot \\dfrac{5}{100} + 5 \\cdot \\dfrac{5}{100} \\] \\[ \\begin{aligned} &= 25 + 4 + 4 + 0.25 + 0.25 \\\\ &= 33.5 \\end{aligned} \\]\n\n\\(t - s = -13.5.\\)\n\nThus, B is the correct answer.",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 11,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 11,
+   "question": "Emily sees a ship traveling at a constant speed along a straight section of a river. She walks parallel to the riverbank at a uniform rate faster than the ship. She counts \\(210\\) equal steps walking from the back of the ship to the front. Walking in the opposite direction, she counts \\(42\\) steps of the same size from the front of the ship to the back. In terms of Emily's equal steps, what is the length of the ship?",
+   "choices": {
+    "a": "\\(70\\)",
+    "b": "\\(84\\)",
+    "c": "\\(98\\)",
+    "d": "\\(105\\)",
+    "e": "\\(126\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "relative speed",
+    "distance rate and time",
+    "ratio and proportion"
+   ],
+   "seed_elo": 1370.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "Let \\(x\\) be the length of the ship. Then in the time that Emily moves \\(210\\) steps, the ship moves \\(210 - x\\) steps.\n\nIn the time that Emily moves \\(42\\) steps, the ship moves \\(x - 42\\) steps. Since the ship and Emily move at a constant rate \\[ \\dfrac{210}{210 - x} = \\dfrac{42}{x - 42}. \\] Cross-multiplying yields \\[ 210x - 210 \\cdot 42 = 210 \\cdot 42 - 42x \\] \\[ 42 \\cdot 6 x = 2 \\cdot 42 \\cdot 210 \\] \\[ x = 70. \\]\n\nThus, A is the correct answer.",
+   "amc10_problem_number": 9,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 12,
+   "question": "The base-nine representation of the number \\(N\\) is \\(27,006,000,052_9.\\) What is the remainder when \\(N\\) is divided by \\(5?\\)",
+   "choices": {
+    "a": "\\(0\\)",
+    "b": "\\(1\\)",
+    "c": "\\(2\\)",
+    "d": "\\(3\\)",
+    "e": "\\(4\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "number base",
+    "modular arithmetic"
+   ],
+   "seed_elo": 1070.0,
+   "solve_time_seconds": 55.0,
+   "solution_text": "Note that \\[ 9 \\equiv -1 \\pmod{5}. \\] Then if expand \\(N\\) using the definition of bases, we get \\[ N = 2 \\cdot 9^{10} + 7 \\cdot 9^9 + 6 \\cdot 9^6 +\\]\\[ 5 \\cdot 9 + 2 \\] \\[ \\equiv 2 (-1)^{10} + 7 (-1)^9 + 6 (-1)^6 +\\]\\[ 5 (-1) + 2 \\pmod{5} \\] \\[ \\equiv 2 - 7 + 6 - 5 + 2 \\pmod{5} \\] \\[ \\equiv 3 \\pmod{5}. \\]\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 5,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 10,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 13,
+   "question": "Each of \\(6\\) balls is randomly and independently painted either black or white with equal probability. What is the probability that every ball is different in color from more than half of the other \\(5\\) balls?",
+   "choices": {
+    "a": "\\(\\dfrac{1}{64}\\)",
+    "b": "\\(\\dfrac{1}{6}\\)",
+    "c": "\\(\\dfrac{1}{4}\\)",
+    "d": "\\(\\dfrac{5}{16}\\)",
+    "e": "\\(\\dfrac{1}{2}\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "basic probability",
+    "combinations"
+   ],
+   "seed_elo": 900.0,
+   "solve_time_seconds": 40.0,
+   "solution_text": "Note that for this restriction to hold, there must be \\(3\\) balls of each color.\n\nThere are \\(2^6 = 64\\) ways to color the balls and \\(\\binom{6}{3} = 20\\) to choose which balls are white.\n\nThe desired probability is therefore \\(\\dfrac{20}{64} = \\dfrac{5}{16}.\\)\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 7,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 14,
+   "question": "How many ordered pairs \\((x,y)\\) of real numbers satisfy the following system of equations? \\[\\begin{aligned} x^2+3y&=9, \\\\ (|x|+|y|-4)^2&=1. \\end{aligned}\\]",
+   "choices": {
+    "a": "\\(1\\)",
+    "b": "\\(2\\)",
+    "c": "\\(3\\)",
+    "d": "\\(5\\)",
+    "e": "\\(7\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "absolute value",
+    "system of equations",
+    "casework"
+   ],
+   "seed_elo": 1540.0,
+   "solve_time_seconds": 105.0,
+   "solution_text": "Put \\(t=|x|.\\) The second equation gives \\(t+|y|=3\\) or \\(5,\\) while the first gives \\(y=3-\\frac{t^2}{3}.\\)\n\nIf \\(y\\ge0,\\) then \\(0\\le t\\le3.\\) For \\(t+y=3,\\) substitution gives \\(t-\\frac{t^2}{3}=0,\\) so \\(t=0\\) or \\(3.\\) These yield \\(x=0,3,-3,\\) for three points. For \\(t+y=5,\\) substitution gives \\(t^2-3t+6=0,\\) which has no real root.\n\nIf \\(y3.\\) The equation \\(t-y=3\\) gives \\(t^2+3t-18=0,\\) whose only nonnegative root is the excluded boundary value \\(t=3.\\) The equation \\(t-y=5\\) gives \\(t^2+3t-24=0,\\) with exactly one positive root \\(t=\\frac{-3+\\sqrt{105}}2>3.\\) It yields two points, one for each sign of \\(x.\\)\n\nThe total number of ordered pairs is \\(3+2=5.\\)\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 15,
+   "question": "Isosceles triangle \\(ABC\\) has \\(AB = AC = 3\\sqrt6,\\) and a circle with radius \\(5\\sqrt2\\) is tangent to line \\(AB\\) at \\(B\\) and to line \\(AC\\) at \\(C.\\) What is the area of the circle that passes through vertices \\(A,\\) \\(B,\\) and \\(C?\\)",
+   "choices": {
+    "a": "\\(24\\pi\\)",
+    "b": "\\(25\\pi\\)",
+    "c": "\\(26\\pi\\)",
+    "d": "\\(27\\pi\\)",
+    "e": "\\(28\\pi\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "circumcircle, circumcenter, and circumradius",
+    "cyclic quadrilateral",
+    "tangent line",
+    "Pythagorean Theorem"
+   ],
+   "seed_elo": 1820.0,
+   "solve_time_seconds": 110.0,
+   "solution_text": "Let \\(O_1\\) be the center of the circle tangent to \\(AB\\) and \\(AC.\\) Then \\(\\angle ABO_1=\\angle ACO_1=90^\\circ,\\) so \\(A,B,O_1,C\\) are concyclic.\n\nBecause the right angles at \\(B\\) and \\(C\\) subtend \\(AO_1,\\) the segment \\(AO_1\\) is a diameter of this circle. Let \\(O_2\\) be its center. The same circle passes through \\(A,B,\\) and \\(C,\\) so it is the desired circumcircle.\n\n\n\nBy the Pythagorean Theorem in \\(\\triangle ABO_1,\\) \\[ \\begin{aligned} AO_1&=\\sqrt{AB^2+BO_1^2}\\\\ &=\\sqrt{54+50}=2\\sqrt{26}. \\end{aligned} \\] Therefore, the circumradius is \\(\\sqrt{26},\\) and the requested area is \\(26\\pi.\\)\n\nThus, C is the correct answer.",
+   "amc10_problem_number": 16,
+   "amc12_problem_number": 13,
+   "amc8_problem_number": 22,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 16,
+   "question": "Consider the function\n\n\\[f(x) = |\\lfloor x \\rfloor| - |\\lfloor 1 - x \\rfloor|\\]\n\nIts graph is symmetric about which of the following? (Here \\(\\lfloor x \\rfloor\\) is the greatest integer not exceeding \\(x.\\))",
+   "choices": {
+    "a": "the \\(y\\)-axis",
+    "b": "the line \\(x=1\\)",
+    "c": "the origin",
+    "d": "the point \\(\\left(\\dfrac{1}{2},0\\right)\\)",
+    "e": "the point \\((1,0)\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "floor and ceiling functions",
+    "symmetry (algebra)"
+   ],
+   "seed_elo": 1540.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "For every real \\(x,\\) \\[ \\begin{aligned} &f(1-x)=|\\lfloor 1-x\\rfloor| \\\\ &\\quad {}-|\\lfloor x\\rfloor|=-f(x). \\end{aligned} \\]\n\nEquivalently, replacing \\(x\\) by \\(\\frac{1}{2}+t\\) gives \\(f\\!\\left(\\frac{1}{2}-t\\right)=-f\\!\\left(\\frac{1}{2}+t\\right).\\) This is point symmetry about \\(\\left(\\frac{1}{2},0\\right).\\)\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 17,
+   "question": "An architect is building a structure that will place vertical pillars at the vertices of regular hexagon \\(ABCDEF,\\) which is lying horizontally on the ground. The six pillars will hold up a flat solar panel that will not be parallel to the ground. The heights of pillars at \\(A,\\) \\(B,\\) and \\(C\\) are \\(12,\\) \\(9,\\) and \\(10\\) meters, respectively. What is the height, in meters, of the pillar at \\(E?\\)",
+   "choices": {
+    "a": "\\(9\\)",
+    "b": "\\(6\\sqrt{3}\\)",
+    "c": "\\(8\\sqrt{3}\\)",
+    "d": "\\(17\\)",
+    "e": "\\(12\\sqrt{3}\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "coordinate geometry",
+    "regular polygon",
+    "system of equations"
+   ],
+   "seed_elo": 1660.0,
+   "solve_time_seconds": 100.0,
+   "solution_text": "Put a regular hexagon in coordinates with \\(A=(-1,0),\\) \\(B=(-\\frac{1}{2},\\frac{\\sqrt3}{2}),\\) \\(C=(\\frac{1}{2},\\frac{\\sqrt3}{2}),\\) and \\(E=(\\frac{1}{2},-\\frac{\\sqrt3}{2}).\\) Because the solar panel is flat, the height is an affine function \\(h(x,y)=ux+vy+w.\\)\n\nFrom \\(h(A)=12,\\) \\(h(B)=9,\\) and \\(h(C)=10,\\) subtracting the last two equations gives \\(u=1.\\) Then \\(-u+w=12,\\) so \\(w=13.\\) Using \\(h(B)=9\\) gives \\(-\\frac{1}{2}+\\frac{\\sqrt3}{2}v+13=9,\\) so \\(\\sqrt3v=-7.\\)\n\nTherefore \\[ \\begin{aligned} h(E) &=\\frac{1}{2}-\\frac{\\sqrt3}{2}v+13 \\\\ &=\\frac{1}{2}+\\frac{7}{2}+13 \\\\ &=17. \\end{aligned} \\]\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 14,
+   "amc12_problem_number": 11,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 18,
+   "question": "A farmer's rectangular field is partitioned into a \\(2\\) by \\(2\\) grid of \\(4\\) rectangular sections as shown in the figure. In each section the farmer will plant one crop: corn, wheat, soybeans, or potatoes. The farmer does not want to grow corn and wheat in any two sections that share a border, and the farmer does not want to grow soybeans and potatoes in any two sections that share a border. Given these restrictions, in how many ways can the farmer choose crops to plant in each of the four sections of the field?",
+   "choices": {
+    "a": "\\(12\\)",
+    "b": "\\(64\\)",
+    "c": "\\(84\\)",
+    "d": "\\(90\\)",
+    "e": "\\(144\\)"
+   },
+   "answer": "c",
+   "concepts": [
+    "arrangements with restrictions",
+    "casework"
+   ],
+   "seed_elo": 1540.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "There are \\(2\\) cases.\n\nCase \\(1:\\) the top-right and bottom-left sections have the same crop\n\nThere are \\(4\\) options for which crop is in those sections. The other two sections have \\(3\\) options for the crop since each crop has one restriction for crops next to it. This gives us \\[ 4 \\cdot 3 \\cdot 3 = 36 \\] combinations.\n\nCase \\(2:\\) the top-right and bottom-left sections have different crops\n\nThere are \\(4\\) options for the top-right crop and \\(3\\) different options for the bottom-left crop. Each of the other two sections borders both of these crops, leaving \\(2\\) choices for each. This gives us another \\[ 4 \\cdot 3 \\cdot 2 \\cdot 2 = 48 \\] configurations.\n\nIn total, there are \\(36 + 48 = 84\\) combinations.\n\nThus, C is the correct answer.",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 19,
+   "question": "A disk of radius \\(1\\) rolls all the way around the inside of a square of side length \\(s > 4\\) and sweeps out a region of area \\(A.\\) A second disk of radius \\(1\\) rolls all the way around the outside of the same square and sweeps out a region of area \\(2A.\\) The value of \\(s\\) can be written as \\(a+\\dfrac{b\\pi}{c},\\) where \\(a,\\) \\(b,\\) and \\(c\\) are positive integers and \\(b\\) and \\(c\\) are relatively prime. What is \\(a+b+c?\\)",
+   "choices": {
+    "a": "\\(10\\)",
+    "b": "\\(11\\)",
+    "c": "\\(12\\)",
+    "d": "\\(13\\)",
+    "e": "\\(14\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "area decomposition",
+    "circle area"
+   ],
+   "seed_elo": 2090.0,
+   "solve_time_seconds": 160.0,
+   "solution_text": "The side length of the inner square traced out by the inner circle is \\(s - 4.\\)\n\nThere are also the small pieces remaining in the corner. These form a total area of \\[ (1 + 1)^2 - \\pi 1^2 = 4 - \\pi. \\]\n\nTherefore, \\[ A = s^2 - (s - 4)^2 - (4 - \\pi) \\]\\[= 8s - 20 + \\pi. \\]\n\nThe outer disk traces out an area that is comprised of \\(4\\) rectangles and \\(4\\) quarter-circles. The rectangles have area \\( s \\cdot 2 = 2s \\) and the quarter-circles form a circle with radius \\(2\\) and area \\(4 \\pi.\\)\n\nThis gives us \\[ 2A = 8s + 4 \\pi. \\]\n\nEquating the two equations we get \\[ 8s + 4 \\pi = 2(8s - 20 + \\pi). \\] Solving yields \\[ 8s = 40 + 2 \\pi \\]\\[ s = 5 + \\dfrac{\\pi}{4}. \\]\n\nThus, A is the correct answer.",
+   "amc10_problem_number": 20,
+   "amc12_problem_number": 16,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 2
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 20,
+   "question": "For how many ordered pairs \\((b,c)\\) of positive integers does neither \\(x^2+bx+c=0\\) nor \\(x^2+cx+b=0\\) have two distinct real solutions?",
+   "choices": {
+    "a": "\\(4\\)",
+    "b": "\\(6\\)",
+    "c": "\\(8\\)",
+    "d": "\\(12\\)",
+    "e": "\\(16\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "quadratic",
+    "inequality",
+    "bounding to limit cases"
+   ],
+   "seed_elo": 1820.0,
+   "solve_time_seconds": 110.0,
+   "solution_text": "A quadratic fails to have two distinct real solutions exactly when its discriminant is nonpositive. Thus we need \\[b^2-4c\\le0\\qquad c^2-4b\\le0,\\] or \\(b^2\\le4c\\) and \\(c^2\\le4b.\\)\n\nFrom \\(b^2\\le4c,\\) we get \\(b^4\\le16c^2.\\) Combining this with \\(c^2\\le4b\\) gives \\(b^4\\le64b,\\) so \\(b\\le4.\\)\n\nNow check \\(b=1,2,3,4.\\) The inequalities give respectively \\[ \\begin{gathered} (c=1,2),\\quad (c=1,2), \\\\ \\quad (c=3),\\quad (c=4). \\end{gathered} \\]\n\nThere are \\(2+2+1+1=6\\) ordered pairs.\n\nThus, B is the correct answer.",
+   "amc10_problem_number": 16,
+   "amc12_problem_number": 13,
+   "amc8_problem_number": 22,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 21,
+   "question": "Each of \\(20\\) balls is tossed independently and at random into one of the \\(5\\) bins. Let \\(p\\) be the probability that some bin ends up with \\(3\\) balls, another with \\(5\\) balls, and the other three with \\(4\\) balls each. Let \\(q\\) be the probability that every bin ends up with \\(4\\) balls. What is \\(\\dfrac{p}{q}?\\)",
+   "choices": {
+    "a": "\\(1\\)",
+    "b": "\\(4\\)",
+    "c": "\\(8\\)",
+    "d": "\\(12\\)",
+    "e": "\\(16\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "combinations",
+    "basic probability"
+   ],
+   "seed_elo": 1540.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "All \\(5^{20}\\) assignments of the distinguishable balls to the labeled bins are equally likely. For \\(q,\\) the number of assignments is \\[\\frac{20!}{(4!)^5}.\\]\n\nFor \\(p,\\) choose the bin with \\(3\\) balls and the bin with \\(5\\) balls in \\(5\\cdot4\\) ways. The number of assignments is then \\[5\\cdot4\\cdot\\frac{20!}{3!5!(4!)^3}.\\]\n\nThe common probability denominator cancels, so \\[\\frac pq=20\\cdot\\frac{(4!)^2}{3!5!}=20\\cdot\\frac45=16.\\]\n\nThus, E is the correct answer.",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 22,
+   "question": "Inside a right circular cone with base radius \\(5\\) and height \\(12\\) are three congruent spheres each with radius \\(r.\\) Each sphere is tangent to the other two spheres and also tangent to the base and side of the cone. What is \\(r?\\)",
+   "choices": {
+    "a": "\\(\\dfrac{3}{2}\\)",
+    "b": "\\(\\dfrac{90-40\\sqrt{3}}{11}\\)",
+    "c": "\\(2\\)",
+    "d": "\\(\\dfrac{144-25\\sqrt{3}}{44}\\)",
+    "e": "\\(\\dfrac{5}{2}\\)"
+   },
+   "answer": "b",
+   "concepts": [
+    "3D geometry",
+    "cone",
+    "sphere",
+    "coordinate geometry"
+   ],
+   "seed_elo": 2300.0,
+   "solve_time_seconds": 180.0,
+   "solution_text": "Let the cone have base in the plane \\(z=0,\\) center at the origin, and vertex on the \\(z\\)-axis. The centers of the three spheres form an equilateral triangle of side \\(2r,\\) so one sphere center may be taken at horizontal distance \\(\\frac{2r}{\\sqrt3}\\) from the cone axis and height \\(r\\) above the base.\n\nIn the axial cross-section through that center and the cone axis, the side of the cone is the line \\(12\\rho+5z=60,\\) where \\(\\rho\\) is horizontal distance from the axis. The distance from \\(\\left(\\frac{2r}{\\sqrt3},r\\right)\\) to this line must be \\(r\\): \\[r=\\frac{60-12\\cdot\\frac{2r}{\\sqrt3}-5r}{13}.\\]\n\nThus \\((18+8\\sqrt3)r=60,\\) so \\[r=\\frac{60}{18+8\\sqrt3}=\\frac{90-40\\sqrt3}{11}.\\]\n\nThus, B is the correct answer.",
+   "amc10_problem_number": 23,
+   "amc12_problem_number": 20,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 3
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 23,
+   "question": "For each positive integer \\(n,\\) let \\(f_1(n)\\) be twice the number of positive integer divisors of \\(n,\\) and for \\(j \\ge 2,\\) let \\(f_j(n) = f_1(f_{j-1}(n)).\\) For how many values of \\(n \\le 50\\) is \\(f_{50}(n) = 12?\\)",
+   "choices": {
+    "a": "\\(7\\)",
+    "b": "\\(8\\)",
+    "c": "\\(9\\)",
+    "d": "\\(10\\)",
+    "e": "\\(11\\)"
+   },
+   "answer": "d",
+   "concepts": [
+    "factor counting",
+    "recursion",
+    "work backwards"
+   ],
+   "seed_elo": 2130.0,
+   "solve_time_seconds": 170.0,
+   "solution_text": "The value \\(12\\) is fixed by the function, since \\(12\\) has \\(6\\) positive divisors and therefore \\(f_1(12)=12.\\)\n\nFirst find all \\(n\\le50\\) with \\(f_1(n)=12,\\) meaning \\(n\\) has \\(6\\) divisors. These are \\[12,18,20,28,32,44,45,50.\\]\n\nNow check whether \\(f_1(n)\\) can be one of these values before reaching \\(12.\\) Since \\(f_1(n)\\) is twice a divisor count, the only useful possibilities in that list are \\(18\\) and \\(20,\\) meaning \\(n\\) has \\(9\\) or \\(10\\) divisors.\n\nFor \\(n\\le50,\\) the additional possibilities are \\(36,\\) which has \\(9\\) divisors, and \\(48,\\) which has \\(10\\) divisors. Therefore there are \\(8+2=10\\) values of \\(n.\\)\n\nThus, D is the correct answer.",
+   "amc10_problem_number": 21,
+   "amc12_problem_number": 17,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 2
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 24,
+   "question": "Each of the \\(12\\) edges of a cube is labeled \\(0\\) or \\(1.\\) Two labelings are considered different even if one can be obtained from the other by a sequence of one or more rotations and/or reflections. For how many such labelings is the sum of the labels on the edges of each of the \\(6\\) faces of the cube equal to \\(2?\\)",
+   "choices": {
+    "a": "\\(8\\)",
+    "b": "\\(10\\)",
+    "c": "\\(12\\)",
+    "d": "\\(16\\)",
+    "e": "\\(20\\)"
+   },
+   "answer": "e",
+   "concepts": [
+    "arrangements with restrictions",
+    "cube geometry",
+    "casework"
+   ],
+   "seed_elo": 2390.0,
+   "solve_time_seconds": 240.0,
+   "solution_text": "Label one face \\(ABCD.\\) Each face must contain two \\(0\\)s and two \\(1\\)s, so first split by the pattern on the four edges of \\(ABCD.\\)\n\nCase \\(1:\\) opposite edges of \\(ABCD\\) have the same label. There are \\(2\\) such patterns on \\(ABCD.\\) For either pattern, once the label of one vertical edge, say \\(AE,\\) is chosen, the face-sum conditions force all remaining labels. This gives \\(2\\cdot2=4\\) labelings.\n\nCase \\(2:\\) opposite edges of \\(ABCD\\) have different labels. There are \\(4\\) such patterns on \\(ABCD.\\) For each, the labels of two adjacent vertical edges may be chosen in \\(4\\) ways, and then the remaining labels are forced by the face-sum conditions. This gives \\(4\\cdot4=16\\) labelings.\n\nThe total is \\(4+16=20.\\)\n\nThus, E is the correct answer.",
+   "amc10_problem_number": 24,
+   "amc12_problem_number": 21,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 4
+  },
+  {
+   "contest": "amc10",
+   "year": 2021,
+   "label": "C",
+   "position": 25,
+   "question": "A quadratic polynomial \\(p(x)\\) with real coefficients and leading coefficient \\(1\\) is called disrespectful if the equation \\(p(p(x))=0\\) is satisfied by exactly three real numbers. Among all the disrespectful quadratic polynomials, there is a unique such polynomial \\(\\tilde{p}(x)\\) for which the sum of the roots is maximized. What is \\(\\tilde{p}(1)?\\)",
+   "choices": {
+    "a": "\\(\\dfrac{5}{16}\\)",
+    "b": "\\(\\dfrac{1}{2}\\)",
+    "c": "\\(\\dfrac{5}{8}\\)",
+    "d": "\\(1\\)",
+    "e": "\\(\\dfrac{9}{8}\\)"
+   },
+   "answer": "a",
+   "concepts": [
+    "quadratic",
+    "function",
+    "optimization"
+   ],
+   "seed_elo": 2480.0,
+   "solve_time_seconds": 240.0,
+   "solution_text": "The polynomial must have two distinct real roots: a repeated real root produces at most two real solutions of \\(p(p(x))=0,\\) while nonreal roots produce none. Let its roots be \\(r\\) and \\(s,\\) so \\[ \\begin{aligned} p(x) &=(x-r)(x-s) \\\\ &=x^2-(r+s)x+rs. \\end{aligned} \\] The equation \\(p(p(x))=0\\) is equivalent to \\(p(x)=r\\) or \\(p(x)=s.\\)\n\nFor exactly three real solutions, one of these two quadratic equations must have a double root and the other must have two distinct real roots. Suppose \\(p(x)=r\\) has the double root. Its discriminant is \\[ \\begin{aligned} &(r+s)^2-4(rs-r) \\\\ &=(r-s)^2+4r, \\end{aligned} \\] so \\((r-s)^2=-4r,\\) forcing \\(r\\le0.\\)\n\nThe other equation, \\(p(x)=s,\\) has discriminant \\((r-s)^2+4s\\) \\(=-4r+4s\\) \\(=4(s-r),\\) which must be positive. Hence \\(s\\gt r,\\) so \\(r-s=-2\\sqrt{-r}\\) and \\(s=r+2\\sqrt{-r}.\\)\n\nThe sum of the roots is \\(r+s=2r+2\\sqrt{-r}.\\) Let \\(u=\\sqrt{-r},\\) so this is \\(-2u^2+2u,\\) maximized at \\(u=\\frac{1}{2}.\\) Thus \\(r=-\\frac{1}{4}\\) and \\(s=\\frac{3}{4}.\\)\n\nTherefore \\(p(x)=x^2-\\frac{1}{2}x-\\frac{3}{16},\\) and \\[p(1)=1-\\frac{1}{2}-\\frac{3}{16}=\\frac{5}{16}.\\]\n\nThus, A is the correct answer.",
+   "amc10_problem_number": 25,
+   "amc12_problem_number": 22,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 5
+  }
+ ]
+}
