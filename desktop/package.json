@@ -1,0 +1,64 @@
+{
+  "name": "amc10-predictor",
+  "productName": "AMC 10 Predictor",
+  "version": "0.2.0",
+  "description": "Forecast your AMC 10 score from the papers you have sat",
+  "author": "Lily",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.everett6.amc10predictor",
+    "files": [
+      "main.js"
+    ],
+    "extraResources": [
+      {
+        "from": "../dist-backend/amc10-backend",
+        "to": "backend"
+      },
+      {
+        "from": "../frontend/dist",
+        "to": "frontend-dist"
+      },
+      {
+        "from": "../data/raw/live",
+        "to": "seed",
+        "filter": [
+          "*.json"
+        ]
+      }
+    ],
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Education",
+      "icon": "build/icon.png"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "category": "public.app-category.education"
+    },
+    "directories": {
+      "buildResources": "build"
+    }
+  },
+  "devDependencies": {
+    "electron": "^44.5.1",
+    "electron-builder": "^26.15.3"
+  },
+  "desktopName": "amc10-predictor.desktop"
+}

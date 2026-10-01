@@ -3,6 +3,7 @@ join it with a user's historical responses into one flat DataFrame that
 every analytics/model module builds on."""
 from __future__ import annotations
 
+import datetime
 import sqlite3
 from dataclasses import dataclass
 
@@ -10,7 +11,7 @@ import pandas as pd
 
 # Recency rank: label ordering within a year for contests that share a
 # year (Fall 2021's C/D come after the Feb A/B of the same year).
-_LABEL_ORDER = {"A": 0, "B": 1, "C": 2, "D": 3}
+_LABEL_ORDER = {"": 0, "A": 0, "B": 1, "C": 2, "D": 3}
 
 
 @dataclass
@@ -23,6 +24,9 @@ class ContestResponses:
 
     contest_id: str
     responses: list[str | None]
+    # When the student actually sat this paper (a 2019 contest done as
+    # practice last week should count as last week, not 2019). Optional.
+    taken_on: datetime.date | None = None
 
     def __post_init__(self) -> None:
         if len(self.responses) != 25:
@@ -62,7 +66,7 @@ def build_response_frame(
     historical contests into one row-per-attempted-problem DataFrame with
     an `outcome` column in {"correct", "wrong", "blank"}."""
     rows = []
-    for cr in contest_responses:
+    for attempt_idx, cr in enumerate(contest_responses):
         subset = problems[problems["contest_id"] == cr.contest_id]
         if subset.empty:
             raise ValueError(f"no problem data found for contest {cr.contest_id!r}")
@@ -81,6 +85,8 @@ def build_response_frame(
             rows.append(
                 {
                     "contest_id": cr.contest_id,
+                    "attempt_idx": attempt_idx,
+                    "taken_on": cr.taken_on,
                     "position": position,
                     "problem_id": prob["problem_id"],
                     "seed_elo": prob["seed_elo"],

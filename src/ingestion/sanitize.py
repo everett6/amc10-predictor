@@ -15,6 +15,10 @@ import re
 _SCRIPT_TAG_RE = re.compile(r"<script.*?</script>", re.IGNORECASE | re.DOTALL)
 _STYLE_TAG_RE = re.compile(r"<style.*?</style>", re.IGNORECASE | re.DOTALL)
 _ANY_TAG_RE = re.compile(r"<[^>]+>")
+# Figures (and, for a few problems, the answer choices themselves) are
+# <img> tags pointing at site-relative SVGs. Keep a text placeholder with
+# the path so an image-only choice doesn't sanitize down to "".
+_IMG_TAG_RE = re.compile(r"<img\b[^>]*?\bsrc=[\"']([^\"']+)[\"'][^>]*>", re.IGNORECASE)
 _MULTI_WS_RE = re.compile(r"[ \t\f\v]+")
 _LATEX_THIN_COMMA_RE = re.compile(r"\{,\}")
 
@@ -35,6 +39,7 @@ def strip_unsafe_markup(text: str) -> str:
         return ""
     text = _SCRIPT_TAG_RE.sub("", text)
     text = _STYLE_TAG_RE.sub("", text)
+    text = _IMG_TAG_RE.sub(lambda m: f"[image: {m.group(1)}]", text)
     text = _ANY_TAG_RE.sub("", text)
     return text
 

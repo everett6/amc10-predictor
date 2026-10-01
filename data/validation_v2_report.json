@@ -1,0 +1,154 @@
+{
+  "note": "Simulated students from a process different from every model tested. Not a measurement of accuracy on real students.",
+  "settings": {
+    "students_per_target": 12,
+    "n_sims": 3000,
+    "first_year": 2019
+  },
+  "summary": [
+    {
+      "k": 1,
+      "system": "v1",
+      "n": 192,
+      "bias": 26.1445,
+      "mae": 28.6758,
+      "rmse": 35.6158,
+      "crps": 24.4408,
+      "cover90": 0.3229,
+      "cover50": 0.1458,
+      "width90": 28.2051
+    },
+    {
+      "k": 1,
+      "system": "v2_full",
+      "n": 192,
+      "bias": -4.1523,
+      "mae": 12.3242,
+      "rmse": 15.5332,
+      "crps": 8.7437,
+      "cover90": 0.8958,
+      "cover50": 0.4479,
+      "width90": 45.7723
+    },
+    {
+      "k": 1,
+      "system": "v2_irt_only",
+      "n": 192,
+      "bias": -4.5742,
+      "mae": 12.5664,
+      "rmse": 15.851,
+      "crps": 8.9012,
+      "cover90": 0.8802,
+      "cover50": 0.4375,
+      "width90": 45.1586
+    },
+    {
+      "k": 1,
+      "system": "v2_old_contest_model",
+      "n": 192,
+      "bias": 1.3086,
+      "mae": 11.8945,
+      "rmse": 15.0959,
+      "crps": 8.38,
+      "cover90": 0.8854,
+      "cover50": 0.5208,
+      "width90": 45.668
+    },
+    {
+      "k": 3,
+      "system": "v1",
+      "n": 192,
+      "bias": 27.9219,
+      "mae": 28.1719,
+      "rmse": 32.0992,
+      "crps": 23.704,
+      "cover90": 0.2188,
+      "cover50": 0.0781,
+      "width90": 27.9727
+    },
+    {
+      "k": 3,
+      "system": "v2_full",
+      "n": 192,
+      "bias": -2.2266,
+      "mae": 10.2422,
+      "rmse": 12.9212,
+      "crps": 7.2604,
+      "cover90": 0.8802,
+      "cover50": 0.5156,
+      "width90": 39.0898
+    },
+    {
+      "k": 3,
+      "system": "v2_irt_only",
+      "n": 192,
+      "bias": -2.6562,
+      "mae": 10.2891,
+      "rmse": 13.0161,
+      "crps": 7.2983,
+      "cover90": 0.8854,
+      "cover50": 0.5104,
+      "width90": 39.4332
+    },
+    {
+      "k": 3,
+      "system": "v2_old_contest_model",
+      "n": 192,
+      "bias": 3.1445,
+      "mae": 10.3867,
+      "rmse": 13.0562,
+      "crps": 7.2868,
+      "cover90": 0.8698,
+      "cover50": 0.4948,
+      "width90": 37.9879
+    },
+    {
+      "k": 6,
+      "system": "v1",
+      "n": 192,
+      "bias": 27.4492,
+      "mae": 27.7617,
+      "rmse": 31.4926,
+      "crps": 23.349,
+      "cover90": 0.2188,
+      "cover50": 0.0677,
+      "width90": 27.6109
+    },
+    {
+      "k": 6,
+      "system": "v2_full",
+      "n": 192,
+      "bias": -1.957,
+      "mae": 9.6523,
+      "rmse": 12.4,
+      "crps": 6.9526,
+      "cover90": 0.8542,
+      "cover50": 0.5521,
+      "width90": 36.582
+    },
+    {
+      "k": 6,
+      "system": "v2_irt_only",
+      "n": 192,
+      "bias": -2.4883,
+      "mae": 9.8008,
+      "rmse": 12.6245,
+      "crps": 7.0623,
+      "cover90": 0.8542,
+      "cover50": 0.5208,
+      "width90": 36.9965
+    },
+    {
+      "k": 6,
+      "system": "v2_old_contest_model",
+      "n": 192,
+      "bias": 3.2305,
+      "mae": 9.8242,
+      "rmse": 12.8243,
+      "crps": 7.12,
+      "cover90": 0.8385,
+      "cover50": 0.5312,
+      "width90": 35.0957
+    }
+  ]
+}

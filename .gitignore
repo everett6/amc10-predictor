@@ -20,3 +20,9 @@ frontend/.env
 # Editors / OS
 .DS_Store
 *.swp
+
+# Desktop build outputs
+desktop/node_modules/
+desktop/dist/
+/dist-backend/
+/build/
