@@ -1,0 +1,675 @@
+{
+ "source_url": "https://live.poshenloh.com/past-contests/amc10/2004B",
+ "year": 2004,
+ "label": "B",
+ "problems": [
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 1,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "counting integers in a range",
+    "basic counting"
+   ],
+   "seed_elo": 770.0,
+   "solve_time_seconds": 30.0,
+   "solution_text": "",
+   "amc10_problem_number": 1,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 5,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 2,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "digits",
+    "inclusion-exclusion"
+   ],
+   "seed_elo": 920.0,
+   "solve_time_seconds": 40.0,
+   "solution_text": "",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 8,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 3,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "a",
+   "concepts": [
+    "geometric sequence",
+    "work backwards"
+   ],
+   "seed_elo": 820.0,
+   "solve_time_seconds": 30.0,
+   "solution_text": "",
+   "amc10_problem_number": 1,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 6,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 4,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "prime factorization",
+    "divisibility",
+    "bounding to limit cases"
+   ],
+   "seed_elo": 1190.0,
+   "solve_time_seconds": 70.0,
+   "solution_text": "",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 5,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "exponent",
+    "optimization",
+    "casework"
+   ],
+   "seed_elo": 1120.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "",
+   "amc10_problem_number": 5,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 12,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 6,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "factorial",
+    "perfect square"
+   ],
+   "seed_elo": 1290.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 7,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "a",
+   "concepts": [
+    "linear equation",
+    "ratio and proportion"
+   ],
+   "seed_elo": 1100.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "",
+   "amc10_problem_number": 5,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 11,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 8,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "a",
+   "concepts": [
+    "Pythagorean Theorem",
+    "estimation"
+   ],
+   "seed_elo": 1030.0,
+   "solve_time_seconds": 55.0,
+   "solution_text": "",
+   "amc10_problem_number": 4,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 10,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 9,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "circle area",
+    "sector",
+    "inclusion-exclusion"
+   ],
+   "seed_elo": 1270.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 14,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 10,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "sum of first n odd numbers"
+   ],
+   "seed_elo": 1170.0,
+   "solve_time_seconds": 50.0,
+   "solution_text": "",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 12,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 11,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "dice (probability)",
+    "Simon's Favorite Factoring Trick",
+    "complementary counting"
+   ],
+   "seed_elo": 1430.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 17,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 12,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "a",
+   "concepts": [
+    "annulus",
+    "circle area",
+    "tangent line",
+    "Pythagorean Theorem"
+   ],
+   "seed_elo": 1390.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "",
+   "amc10_problem_number": 9,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 13,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "place value",
+    "decimal",
+    "bounding to limit cases"
+   ],
+   "seed_elo": 1530.0,
+   "solve_time_seconds": 110.0,
+   "solution_text": "",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 8,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 14,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "fraction",
+    "ratio and proportion"
+   ],
+   "seed_elo": 1240.0,
+   "solve_time_seconds": 70.0,
+   "solution_text": "",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 15,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "a",
+   "concepts": [
+    "system of equations",
+    "money"
+   ],
+   "seed_elo": 1240.0,
+   "solve_time_seconds": 70.0,
+   "solution_text": "",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 16,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "tangent circles",
+    "equilateral triangle",
+    "special right triangle"
+   ],
+   "seed_elo": 1640.0,
+   "solve_time_seconds": 95.0,
+   "solution_text": "",
+   "amc10_problem_number": 13,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 21,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 17,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "ages",
+    "digits",
+    "Diophantine Equation"
+   ],
+   "seed_elo": 1410.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 18,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "e",
+   "concepts": [
+    "area ratio",
+    "area decomposition",
+    "triangle area"
+   ],
+   "seed_elo": 1630.0,
+   "solve_time_seconds": 100.0,
+   "solution_text": "",
+   "amc10_problem_number": 13,
+   "amc12_problem_number": 10,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 19,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "recursion",
+    "arithmetic sequence",
+    "pattern recognition"
+   ],
+   "seed_elo": 1460.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "",
+   "amc10_problem_number": 11,
+   "amc12_problem_number": 7,
+   "amc8_problem_number": 17,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 20,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "similarity",
+    "parallel lines",
+    "ratio and proportion"
+   ],
+   "seed_elo": 1840.0,
+   "solve_time_seconds": 130.0,
+   "solution_text": "",
+   "amc10_problem_number": 17,
+   "amc12_problem_number": 13,
+   "amc8_problem_number": 23,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 21,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "a",
+   "concepts": [
+    "arithmetic sequence",
+    "least common multiple",
+    "inclusion-exclusion"
+   ],
+   "seed_elo": 1740.0,
+   "solve_time_seconds": 130.0,
+   "solution_text": "",
+   "amc10_problem_number": 15,
+   "amc12_problem_number": 11,
+   "amc8_problem_number": 22,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 22,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "incircle, incenter, and inradius",
+    "circumcircle, circumcenter, and circumradius",
+    "right triangle",
+    "coordinate geometry"
+   ],
+   "seed_elo": 1770.0,
+   "solve_time_seconds": 110.0,
+   "solution_text": "",
+   "amc10_problem_number": 16,
+   "amc12_problem_number": 12,
+   "amc8_problem_number": 22,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 23,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "basic probability",
+    "casework",
+    "cube geometry"
+   ],
+   "seed_elo": 1990.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "",
+   "amc10_problem_number": 19,
+   "amc12_problem_number": 15,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 24,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "inscribed angle",
+    "similarity",
+    "angle bisector theorem"
+   ],
+   "seed_elo": 2030.0,
+   "solve_time_seconds": 170.0,
+   "solution_text": "",
+   "amc10_problem_number": 21,
+   "amc12_problem_number": 17,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2004,
+   "label": "B",
+   "position": 25,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "sector",
+    "area decomposition",
+    "special right triangle",
+    "symmetry"
+   ],
+   "seed_elo": 2270.0,
+   "solve_time_seconds": 180.0,
+   "solution_text": "",
+   "amc10_problem_number": 24,
+   "amc12_problem_number": 20,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 2
+  }
+ ]
+}

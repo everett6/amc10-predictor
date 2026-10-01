@@ -1,17 +1,19 @@
 """AMC 10 scoring rules.
 
-Since 2001 (which covers our entire 2018-2025 target window), AMC 10/12
-scoring has been:
-    +6 points for each correct answer
-    +1.5 points for each blank (unanswered) question
-    +0 points for each incorrect answer
-across 25 multiple-choice questions, giving a maximum of 150 and a
-"all blank" floor of 37.5.
+Current rules (2007 onward), which are what a 2026 prediction uses:
+    +6 per correct answer, +1.5 per blank, +0 per wrong answer,
+25 questions, maximum 150, all-blank score 37.5.
 
-This has been true continuously since 2001 (it replaced the older
-30-point-correct/0-blank/varied-wrong scale used through 1999, and the
-brief -0-for-wrong-with-2.5-per-blank AMC scale used in 2000), so no
-year-dependent branching is needed for our 2018-2025 target contests.
+The blank value has changed over the contest's history. Per Wikipedia's
+"American Mathematics Competitions" article (checked 2026-09-30): the
+AMC format of 25 questions at 6 points began in 2000 with 2 points per
+blank; the blank value was raised to 2.5 in 2001 and cut to 1.5 starting
+with the 2007 contests. (The AoPS wiki dates the 2 -> 2.5 change to 2002
+instead; the two sources disagree about 2001 only. We follow Wikipedia.)
+
+`blank_points_for_year` gives the value in force for a given contest
+year, so a score on an old paper can be shown both as it was officially
+scored then and under today's rules.
 """
 from __future__ import annotations
 
@@ -43,13 +45,24 @@ class ScoreBreakdown:
             raise ValueError("correct/wrong/blank counts must be non-negative")
 
 
-def score_from_counts(correct: int, wrong: int, blank: int) -> ScoreBreakdown:
-    """Compute the official AMC 10 score from raw counts."""
-    score = correct * POINTS_CORRECT + blank * POINTS_BLANK + wrong * POINTS_WRONG
+def blank_points_for_year(year: int) -> float:
+    """Points per blank answer under the rules in force that year."""
+    if year >= 2007:
+        return 1.5
+    if year >= 2001:
+        return 2.5
+    return 2.0
+
+
+def score_from_counts(correct: int, wrong: int, blank: int, blank_points: float = POINTS_BLANK) -> ScoreBreakdown:
+    """Compute the AMC 10 score from raw counts (current rules by default)."""
+    score = correct * POINTS_CORRECT + blank * blank_points + wrong * POINTS_WRONG
     return ScoreBreakdown(correct=correct, wrong=wrong, blank=blank, score=score)
 
 
-def score_from_responses(responses: list[str | None], answer_key: list[str]) -> ScoreBreakdown:
+def score_from_responses(
+    responses: list[str | None], answer_key: list[str], blank_points: float = POINTS_BLANK
+) -> ScoreBreakdown:
     """Compute score from a per-problem response vector.
 
     responses[i] is the student's chosen answer letter ('a'..'e', case
@@ -70,7 +83,7 @@ def score_from_responses(responses: list[str | None], answer_key: list[str]) -> 
             correct += 1
         else:
             wrong += 1
-    return score_from_counts(correct, wrong, blank)
+    return score_from_counts(correct, wrong, blank, blank_points)
 
 
 def is_valid_score(score: float) -> bool:

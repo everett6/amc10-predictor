@@ -16,10 +16,10 @@ def _perfect_responses(conn, contest_id):
     return [r["answer"] for r in rows]
 
 
-def test_load_problems_has_18_contests_450_problems(conn):
+def test_load_problems_has_every_contest(conn):
     problems = load_problems(conn)
-    assert problems["contest_id"].nunique() == 18
-    assert len(problems) == 450
+    assert problems["contest_id"].nunique() == 51
+    assert len(problems) == 51 * 25
     assert problems["categories"].apply(len).min() >= 1
 
 

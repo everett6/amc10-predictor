@@ -1,0 +1,674 @@
+{
+ "source_url": "https://live.poshenloh.com/past-contests/amc10/2005B",
+ "year": 2005,
+ "label": "B",
+ "problems": [
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 1,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "a",
+   "concepts": [
+    "money",
+    "ratio and proportion"
+   ],
+   "seed_elo": 880.0,
+   "solve_time_seconds": 45.0,
+   "solution_text": "",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 6,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 2,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "percentage",
+    "quadratic"
+   ],
+   "seed_elo": 880.0,
+   "solve_time_seconds": 40.0,
+   "solution_text": "",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 6,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 3,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "fraction",
+    "ratio and proportion"
+   ],
+   "seed_elo": 870.0,
+   "solve_time_seconds": 40.0,
+   "solution_text": "",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 6,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 4,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "custom operation",
+    "radical"
+   ],
+   "seed_elo": 1020.0,
+   "solve_time_seconds": 50.0,
+   "solution_text": "",
+   "amc10_problem_number": 4,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 9,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 5,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "fraction",
+    "ratio and proportion",
+    "money"
+   ],
+   "seed_elo": 960.0,
+   "solve_time_seconds": 45.0,
+   "solution_text": "",
+   "amc10_problem_number": 3,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 8,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 6,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "percentage",
+    "inequality"
+   ],
+   "seed_elo": 960.0,
+   "solve_time_seconds": 55.0,
+   "solution_text": "",
+   "amc10_problem_number": 3,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 8,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 7,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "circle area",
+    "square (geometry)",
+    "area ratio"
+   ],
+   "seed_elo": 1240.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 8,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "a",
+   "concepts": [
+    "circle area",
+    "area decomposition"
+   ],
+   "seed_elo": 1170.0,
+   "solve_time_seconds": 70.0,
+   "solution_text": "",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 12,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 9,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "dice (probability)",
+    "parity",
+    "independent events"
+   ],
+   "seed_elo": 1240.0,
+   "solve_time_seconds": 70.0,
+   "solution_text": "",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 10,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "a",
+   "concepts": [
+    "isosceles triangle",
+    "altitude",
+    "Pythagorean Theorem"
+   ],
+   "seed_elo": 1370.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "",
+   "amc10_problem_number": 9,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 11,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "e",
+   "concepts": [
+    "recursion",
+    "digits",
+    "pattern recognition"
+   ],
+   "seed_elo": 1370.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "",
+   "amc10_problem_number": 9,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 12,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "e",
+   "concepts": [
+    "dice (probability)",
+    "prime",
+    "multiplication principle"
+   ],
+   "seed_elo": 1480.0,
+   "solve_time_seconds": 85.0,
+   "solution_text": "",
+   "amc10_problem_number": 11,
+   "amc12_problem_number": 8,
+   "amc8_problem_number": 17,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 13,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "multiple",
+    "inclusion-exclusion",
+    "counting integers in a range"
+   ],
+   "seed_elo": 1370.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "",
+   "amc10_problem_number": 9,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 14,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "equilateral triangle",
+    "triangle area",
+    "midpoint"
+   ],
+   "seed_elo": 1370.0,
+   "solve_time_seconds": 85.0,
+   "solution_text": "",
+   "amc10_problem_number": 9,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 15,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "basic probability",
+    "combinations",
+    "casework"
+   ],
+   "seed_elo": 1370.0,
+   "solve_time_seconds": 85.0,
+   "solution_text": "",
+   "amc10_problem_number": 9,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 16,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "Vieta's Formulas",
+    "quadratic"
+   ],
+   "seed_elo": 1480.0,
+   "solve_time_seconds": 95.0,
+   "solution_text": "",
+   "amc10_problem_number": 11,
+   "amc12_problem_number": 8,
+   "amc8_problem_number": 17,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 17,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "exponent",
+    "telescoping"
+   ],
+   "seed_elo": 1480.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "",
+   "amc10_problem_number": 11,
+   "amc12_problem_number": 8,
+   "amc8_problem_number": 17,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 18,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "combinations",
+    "bijection"
+   ],
+   "seed_elo": 1510.0,
+   "solve_time_seconds": 80.0,
+   "solution_text": "",
+   "amc10_problem_number": 11,
+   "amc12_problem_number": 8,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 19,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "mean",
+    "median (data)",
+    "percentage"
+   ],
+   "seed_elo": 1420.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 7,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 20,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "permutations",
+    "place value",
+    "symmetry"
+   ],
+   "seed_elo": 1540.0,
+   "solve_time_seconds": 95.0,
+   "solution_text": "",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 21,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "a",
+   "concepts": [
+    "basic probability",
+    "combinations",
+    "sampling without replacement"
+   ],
+   "seed_elo": 1660.0,
+   "solve_time_seconds": 110.0,
+   "solution_text": "",
+   "amc10_problem_number": 14,
+   "amc12_problem_number": 11,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 22,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "triangular number",
+    "factorial",
+    "divisibility",
+    "prime"
+   ],
+   "seed_elo": 1990.0,
+   "solve_time_seconds": 140.0,
+   "solution_text": "",
+   "amc10_problem_number": 19,
+   "amc12_problem_number": 16,
+   "amc8_problem_number": 24,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 23,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "trapezoid",
+    "area ratio",
+    "midpoint"
+   ],
+   "seed_elo": 1630.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "",
+   "amc10_problem_number": 13,
+   "amc12_problem_number": 10,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 24,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "e",
+   "concepts": [
+    "digits",
+    "difference of squares",
+    "perfect square"
+   ],
+   "seed_elo": 1880.0,
+   "solve_time_seconds": 135.0,
+   "solution_text": "",
+   "amc10_problem_number": 17,
+   "amc12_problem_number": 14,
+   "amc8_problem_number": 23,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2005,
+   "label": "B",
+   "position": 25,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "subsets",
+    "pairing and grouping",
+    "extremal argument"
+   ],
+   "seed_elo": 1720.0,
+   "solve_time_seconds": 120.0,
+   "solution_text": "",
+   "amc10_problem_number": 15,
+   "amc12_problem_number": 12,
+   "amc8_problem_number": 21,
+   "aime_problem_number": 0
+  }
+ ]
+}

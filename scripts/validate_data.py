@@ -2,9 +2,10 @@
 """Validate the ingested AMC 10 dataset for completeness and consistency.
 
 Checks:
-  * All 18 target contests are present, each with exactly 25 problems.
-  * Every problem has a non-empty question, 5 non-empty choices, a valid
-    answer letter, a positive seed_elo and solve_time_seconds.
+  * All target contests are present, each with exactly 25 problems.
+  * Every problem has a valid answer letter, a positive seed_elo and
+    solve_time_seconds. (That each page had a statement and five choices
+    is checked at fetch time; that text is deliberately not stored.)
   * Every problem has at least one concept tag, and every concept tag
     maps to one of the 15 broad categories (flags any that don't, so
     src/ingestion/concepts.py can be extended).
@@ -62,11 +63,6 @@ def validate(db_path: Path) -> list[str]:
         """
     ):
         pid = row["problem_id"]
-        if not row["question"].strip():
-            errors.append(f"{pid}: empty question text")
-        for letter in "abcde":
-            if not row[f"choice_{letter}"].strip():
-                errors.append(f"{pid}: empty choice {letter}")
         if row["answer"] not in "abcde":
             errors.append(f"{pid}: invalid answer letter {row['answer']!r}")
         if row["seed_elo"] <= 0:
@@ -95,7 +91,7 @@ def main() -> int:
 
     errors = validate(db_path)
     if not errors:
-        print("Validation passed: all 18 target contests present with 25 valid, fully-tagged problems each.")
+        print(f"Validation passed: all {len(TARGET_CONTESTS)} target contests present with 25 valid, fully-tagged problems each.")
         return 0
 
     print(f"Validation found {len(errors)} error(s):\n")

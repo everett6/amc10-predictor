@@ -1,0 +1,669 @@
+{
+ "source_url": "https://live.poshenloh.com/past-contests/amc10/2001",
+ "year": 2001,
+ "label": "",
+ "problems": [
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 1,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "e",
+   "concepts": [
+    "median (data)",
+    "mean"
+   ],
+   "seed_elo": 790.0,
+   "solve_time_seconds": 40.0,
+   "solution_text": "",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 4,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 2,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "fraction",
+    "algebraic manipulation"
+   ],
+   "seed_elo": 960.0,
+   "solve_time_seconds": 45.0,
+   "solution_text": "",
+   "amc10_problem_number": 3,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 8,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 3,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "e",
+   "concepts": [
+    "algebraic manipulation",
+    "distributive property"
+   ],
+   "seed_elo": 870.0,
+   "solve_time_seconds": 35.0,
+   "solution_text": "",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 6,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 4,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "e",
+   "concepts": [
+    "circle",
+    "counting intersections"
+   ],
+   "seed_elo": 1040.0,
+   "solve_time_seconds": 30.0,
+   "solution_text": "",
+   "amc10_problem_number": 4,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 9,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 5,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "symmetry",
+    "systematic listing"
+   ],
+   "seed_elo": 1120.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "",
+   "amc10_problem_number": 5,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 11,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 6,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "e",
+   "concepts": [
+    "digits",
+    "algebraic manipulation"
+   ],
+   "seed_elo": 1100.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "",
+   "amc10_problem_number": 5,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 11,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 7,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "place value",
+    "decimal",
+    "algebraic manipulation"
+   ],
+   "seed_elo": 1170.0,
+   "solve_time_seconds": 55.0,
+   "solution_text": "",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 12,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 8,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "least common multiple",
+    "prime factorization"
+   ],
+   "seed_elo": 960.0,
+   "solve_time_seconds": 45.0,
+   "solution_text": "",
+   "amc10_problem_number": 3,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 8,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 9,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "percentage",
+    "linear equation"
+   ],
+   "seed_elo": 1370.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "",
+   "amc10_problem_number": 9,
+   "amc12_problem_number": 5,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 10,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "system of equations",
+    "algebraic manipulation"
+   ],
+   "seed_elo": 1240.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 11,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "difference of squares",
+    "pattern recognition"
+   ],
+   "seed_elo": 1070.0,
+   "solve_time_seconds": 55.0,
+   "solution_text": "",
+   "amc10_problem_number": 5,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 10,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 12,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "divisibility",
+    "prime factorization",
+    "counterexample"
+   ],
+   "seed_elo": 1370.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "",
+   "amc10_problem_number": 9,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 13,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "e",
+   "concepts": [
+    "digits",
+    "logical deduction",
+    "casework"
+   ],
+   "seed_elo": 1550.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 8,
+   "amc8_problem_number": 19,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 14,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "a",
+   "concepts": [
+    "Diophantine Equation",
+    "prime factorization",
+    "bounding to limit cases"
+   ],
+   "seed_elo": 1490.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "",
+   "amc10_problem_number": 11,
+   "amc12_problem_number": 7,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 15,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "parallelogram",
+    "area"
+   ],
+   "seed_elo": 1410.0,
+   "solve_time_seconds": 70.0,
+   "solution_text": "",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 16,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "mean",
+    "median (data)",
+    "linear equation"
+   ],
+   "seed_elo": 1280.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "",
+   "amc10_problem_number": 8,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 14,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 17,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "cone",
+    "sector",
+    "circumference"
+   ],
+   "seed_elo": 1490.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "",
+   "amc10_problem_number": 11,
+   "amc12_problem_number": 7,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 18,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "area ratio",
+    "tiling",
+    "percentage"
+   ],
+   "seed_elo": 1530.0,
+   "solve_time_seconds": 80.0,
+   "solution_text": "",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 8,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 19,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "stars and bars",
+    "combinations"
+   ],
+   "seed_elo": 1340.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "",
+   "amc10_problem_number": 9,
+   "amc12_problem_number": 5,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 20,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "regular polygon",
+    "special right triangle",
+    "rationalizing denominator"
+   ],
+   "seed_elo": 1580.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "",
+   "amc10_problem_number": 13,
+   "amc12_problem_number": 9,
+   "amc8_problem_number": 19,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 21,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "similarity",
+    "cone",
+    "cylinder"
+   ],
+   "seed_elo": 1680.0,
+   "solve_time_seconds": 85.0,
+   "solution_text": "",
+   "amc10_problem_number": 14,
+   "amc12_problem_number": 10,
+   "amc8_problem_number": 21,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 22,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "magic square",
+    "linear equation"
+   ],
+   "seed_elo": 1530.0,
+   "solve_time_seconds": 80.0,
+   "solution_text": "",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 8,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 23,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "sampling without replacement",
+    "basic probability",
+    "symmetry"
+   ],
+   "seed_elo": 1690.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "",
+   "amc10_problem_number": 14,
+   "amc12_problem_number": 11,
+   "amc8_problem_number": 21,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 24,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "trapezoid",
+    "Pythagorean Theorem",
+    "difference of squares"
+   ],
+   "seed_elo": 1810.0,
+   "solve_time_seconds": 90.0,
+   "solution_text": "",
+   "amc10_problem_number": 17,
+   "amc12_problem_number": 13,
+   "amc8_problem_number": 22,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2001,
+   "label": "",
+   "position": 25,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "inclusion-exclusion",
+    "counting integers in a range",
+    "multiple"
+   ],
+   "seed_elo": 1530.0,
+   "solve_time_seconds": 85.0,
+   "solution_text": "",
+   "amc10_problem_number": 12,
+   "amc12_problem_number": 8,
+   "amc8_problem_number": 18,
+   "aime_problem_number": 0
+  }
+ ]
+}

@@ -1,68 +1,303 @@
 {
-  "input_scores": {
-    "2021A": 93.0
-  },
-  "ability_global": 1534.2202802785343,
-  "ability_by_category": {
-    "Algebra: Equations & Polynomials": 1937.1101401392673,
-    "Algebra: Inequalities & Advanced Techniques": 1639.7283240198637,
-    "Algebra: Sequences, Series & Functions": 1474.5470269140167,
-    "Arithmetic & Number Sense": 1823.2110619701098,
-    "Combinatorics: Basic Counting": 1420.7602402387438,
-    "Geometry: Circles & Curves": 1335.6652102089008,
-    "Geometry: Solid (3D) Geometry": 1904.5321681671207,
-    "Geometry: Triangles & Polygons": 1610.008476170653,
-    "Logic & Problem-Solving Strategies": 1590.6652102089008,
-    "Number Theory: Divisibility, Modular & Bases": 1575.045954524458,
-    "Number Theory: Primes & Number Properties": 1270.6652102089008,
-    "Statistics & Data": 1440.6652109565978
-  },
-  "simulation_summary": {
-    "n_simulations": 50000,
-    "mean_score": 90.15987,
-    "median_score": 90.0,
-    "std_score": 9.95946467352036,
-    "percentiles": {
-      "p5": 73.5,
-      "p10": 78.0,
-      "p25": 84.0,
-      "p50": 90.0,
-      "p75": 97.5,
-      "p90": 103.5,
-      "p95": 106.5
-    },
-    "expected_correct": 13.30088,
-    "expected_wrong": 4.79606,
-    "expected_blank": 6.90306
-  },
-  "counterfactuals": [
+  "engine": "v2",
+  "inputs": [
     {
-      "category": "Number Theory: Primes & Number Properties",
-      "current_ability": 1270.6652102089008,
-      "improved_ability": 1420.6652102089008,
-      "delta_elo": 150,
-      "baseline_mean_score": 90.15987,
-      "improved_mean_score": 91.08477,
-      "score_gain": 0.924900000000008
+      "contest_id": "2021A",
+      "year": 2021,
+      "taken_on": null,
+      "correct": 14,
+      "wrong": 5,
+      "blank": 6,
+      "score_current_rules": 93.0,
+      "score_rules_of_the_year": 93.0,
+      "blank_points_that_year": 1.5
+    }
+  ],
+  "ability_global": 1533.548238469304,
+  "ability_global_sd": 136.19987918755467,
+  "topics": [
+    {
+      "category": "Geometry: Solid (3D) Geometry",
+      "ability": 1624.2723777485764,
+      "ability_sd": 254.25751325042688,
+      "ability_low": 1206.0187684516243,
+      "ability_high": 2042.5259870455286,
+      "n_answered": 2,
+      "n_correct": 2
     },
     {
-      "category": "Geometry: Circles & Curves",
-      "current_ability": 1335.6652102089008,
-      "improved_ability": 1485.6652102089008,
-      "delta_elo": 150,
-      "baseline_mean_score": 90.15987,
-      "improved_mean_score": 90.75564,
-      "score_gain": 0.5957700000000017
+      "category": "Algebra: Equations & Polynomials",
+      "ability": 1618.4291496533733,
+      "ability_sd": 245.6199932054079,
+      "ability_low": 1214.3842608304774,
+      "ability_high": 2022.4740384762692,
+      "n_answered": 6,
+      "n_correct": 6
+    },
+    {
+      "category": "Geometry: Triangles & Polygons",
+      "ability": 1610.1708825063806,
+      "ability_sd": 248.29962165854792,
+      "ability_low": 1201.7180048780692,
+      "ability_high": 2018.623760134692,
+      "n_answered": 4,
+      "n_correct": 2
+    },
+    {
+      "category": "Arithmetic & Number Sense",
+      "ability": 1603.5688595550432,
+      "ability_sd": 241.25979956911965,
+      "ability_low": 1206.6964892638414,
+      "ability_high": 2000.441229846245,
+      "n_answered": 5,
+      "n_correct": 5
+    },
+    {
+      "category": "Algebra: Inequalities & Advanced Techniques",
+      "ability": 1602.8964084480622,
+      "ability_sd": 249.5953295671106,
+      "ability_low": 1192.3120913101652,
+      "ability_high": 2013.4807255859591,
+      "n_answered": 3,
+      "n_correct": 2
+    },
+    {
+      "category": "Logic & Problem-Solving Strategies",
+      "ability": 1546.063668557483,
+      "ability_sd": 265.12799684193044,
+      "ability_low": 1109.9281137525074,
+      "ability_high": 1982.1992233624585,
+      "n_answered": 2,
+      "n_correct": 2
+    },
+    {
+      "category": "Number Theory: Divisibility, Modular & Bases",
+      "ability": 1540.1993762911163,
+      "ability_sd": 271.94957676239216,
+      "ability_low": 1092.8423225169813,
+      "ability_high": 1987.5564300652513,
+      "n_answered": 1,
+      "n_correct": 1
+    },
+    {
+      "category": "Combinatorics: Advanced Structures",
+      "ability": 1533.548238469304,
+      "ability_sd": 275.9536321389963,
+      "ability_low": 1079.604513600655,
+      "ability_high": 1987.4919633379527,
+      "n_answered": 0,
+      "n_correct": 0
+    },
+    {
+      "category": "Probability",
+      "ability": 1533.548238469304,
+      "ability_sd": 275.9536321389963,
+      "ability_low": 1079.604513600655,
+      "ability_high": 1987.4919633379527,
+      "n_answered": 0,
+      "n_correct": 0
+    },
+    {
+      "category": "Geometry: Coordinate, Transformations & Vectors",
+      "ability": 1533.548238469304,
+      "ability_sd": 275.9536321389963,
+      "ability_low": 1079.604513600655,
+      "ability_high": 1987.4919633379527,
+      "n_answered": 0,
+      "n_correct": 0
+    },
+    {
+      "category": "Algebra: Sequences, Series & Functions",
+      "ability": 1479.7770363945187,
+      "ability_sd": 235.5722184568038,
+      "ability_low": 1092.2607370330766,
+      "ability_high": 1867.293335755961,
+      "n_answered": 4,
+      "n_correct": 3
     },
     {
       "category": "Combinatorics: Basic Counting",
-      "current_ability": 1420.7602402387438,
-      "improved_ability": 1570.7602402387438,
-      "delta_elo": 150,
-      "baseline_mean_score": 90.15987,
-      "improved_mean_score": 90.99321,
-      "score_gain": 0.8333400000000069
+      "ability": 1467.9989682766782,
+      "ability_sd": 254.14202535394466,
+      "ability_low": 1049.9353365694392,
+      "ability_high": 1886.0625999839172,
+      "n_answered": 1,
+      "n_correct": 0
+    },
+    {
+      "category": "Geometry: Circles & Curves",
+      "ability": 1464.4333695746125,
+      "ability_sd": 252.64108430375668,
+      "ability_low": 1048.8387858949327,
+      "ability_high": 1880.0279532542922,
+      "n_answered": 2,
+      "n_correct": 0
+    },
+    {
+      "category": "Statistics & Data",
+      "ability": 1459.3021754573874,
+      "ability_sd": 252.02774963248237,
+      "ability_low": 1044.716527311954,
+      "ability_high": 1873.8878236028208,
+      "n_answered": 2,
+      "n_correct": 1
+    },
+    {
+      "category": "Number Theory: Primes & Number Properties",
+      "ability": 1342.444608715244,
+      "ability_sd": 237.89081919218455,
+      "ability_low": 951.1142111441004,
+      "ability_high": 1733.7750062863875,
+      "n_answered": 2,
+      "n_correct": 0
     }
   ],
-  "explanation": "This prediction is built from 1 historical contest attempt(s) (2021A), covering 19 attempted (non-blank) problems with 14 correct. We fit a per-topic ability rating for each of the 15 broad concept categories using an Elo-style item-response model (LIVE by Po-Shen Loh's own crowd-calibrated difficulty rating for each historical problem vs. your correct/incorrect outcome), with more recent contests weighted more heavily and small-sample categories smoothed toward your overall ability via hierarchical Bayesian shrinkage so a single lucky/unlucky problem in a rarely-tested topic doesn't swing that topic's estimate too far. Your strongest topics so far: Algebra: Equations & Polynomials, Geometry: Solid (3D) Geometry, Arithmetic & Number Sense. Your weakest topics so far: Number Theory: Primes & Number Properties, Geometry: Circles & Curves, Statistics & Data. To project a 2026 score, we ran 50,000 Monte Carlo simulations of a synthetic 2026 AMC 10: for each of the 25 problem slots, we bootstrap-sampled a difficulty rating and topic mix from the corresponding slot across all 18 historical contests we ingested (2018-2025 A/B, including the Fall 2021 makeup contests), applied your topic ability to get a probability of answering correctly, and used a model of your own blank-vs-guess tendency (fit from your history) to split misses into blanks (+1.5 pts) vs. wrong answers (+0 pts). Result: a median projected score of 90.0 (mean 90.2), with a 90% interval of [73.5, 106.5], averaging 13.3 correct, 4.8 wrong, and 6.9 blank."
+  "model_weights": {
+    "irt_hier": 0.3735315162164737,
+    "irt_guess": 0.15879487809430246,
+    "irt_flat": 0.12546413737442122,
+    "irt_global": 0.13607013074350233,
+    "logit_feat": 0.15701820216643989,
+    "isotonic": 0.04912113540486033
+  },
+  "self_check": {
+    "n_items": 19,
+    "stacked": true,
+    "members": {
+      "irt_hier": {
+        "log_loss": 0.34616554542439315,
+        "brier": 0.11714968305280916,
+        "accuracy": 0.7368421052631579
+      },
+      "irt_guess": {
+        "log_loss": 0.3578686736498355,
+        "brier": 0.11822707590437863,
+        "accuracy": 0.7894736842105263
+      },
+      "irt_flat": {
+        "log_loss": 0.37224108323792016,
+        "brier": 0.11893304256051239,
+        "accuracy": 0.7894736842105263
+      },
+      "irt_global": {
+        "log_loss": 0.368985067770831,
+        "brier": 0.1278460068514954,
+        "accuracy": 0.7368421052631579
+      },
+      "logit_feat": {
+        "log_loss": 0.3667965116685541,
+        "brier": 0.12121823021708222,
+        "accuracy": 0.7368421052631579
+      },
+      "isotonic": {
+        "log_loss": 0.5323666391034273,
+        "brier": 0.16241727561780303,
+        "accuracy": 0.7368421052631579
+      }
+    },
+    "n_folds": 5,
+    "fold_type": "random 5-fold",
+    "ensemble": {
+      "log_loss": 0.3601468021123233,
+      "brier": 0.12050092018937099,
+      "accuracy": 0.7368421052631579
+    },
+    "base_rate": {
+      "log_loss": 0.6027814635087785,
+      "brier": 0.20457718691191645,
+      "accuracy": 0.7368421052631579
+    },
+    "note": "Measured on the student's own answers, each predicted by models fitted without it. The ensemble row is slightly optimistic because its weights were tuned on these same predictions."
+  },
+  "contest_forecast": {
+    "target_year": 2026,
+    "target_date": "2026-11-05",
+    "level_mean": 1595.908041198088,
+    "level_sd": 76.45793548030579,
+    "n_contests": 51
+  },
+  "simulation_summary": {
+    "n_simulations": 50000,
+    "mean_score": 76.85745,
+    "median_score": 78.0,
+    "std_score": 15.824483388013018,
+    "percentiles": {
+      "p5": 49.5,
+      "p10": 55.5,
+      "p25": 66.0,
+      "p50": 78.0,
+      "p75": 88.5,
+      "p90": 97.5,
+      "p95": 102.0
+    },
+    "expected_correct": 10.8374,
+    "expected_wrong": 6.2739,
+    "expected_blank": 7.8887
+  },
+  "target_probabilities": [
+    {
+      "score": 90.0,
+      "probability": 0.22504
+    },
+    {
+      "score": 100.0,
+      "probability": 0.07036
+    },
+    {
+      "score": 110.0,
+      "probability": 0.01172
+    },
+    {
+      "score": 120.0,
+      "probability": 0.00116
+    }
+  ],
+  "counterfactuals": [
+    {
+      "category": "Number Theory: Primes & Number Properties",
+      "current_ability": 1342.444608715244,
+      "improved_ability": 1492.444608715244,
+      "delta_elo": 150.0,
+      "baseline_mean_score": 76.85745,
+      "improved_mean_score": 77.60139,
+      "score_gain": 0.7439399999999949
+    },
+    {
+      "category": "Statistics & Data",
+      "current_ability": 1459.3021754573874,
+      "improved_ability": 1609.3021754573874,
+      "delta_elo": 150.0,
+      "baseline_mean_score": 76.85745,
+      "improved_mean_score": 77.1255,
+      "score_gain": 0.26805000000000234
+    },
+    {
+      "category": "Geometry: Circles & Curves",
+      "current_ability": 1464.4333695746125,
+      "improved_ability": 1614.4333695746125,
+      "delta_elo": 150.0,
+      "baseline_mean_score": 76.85745,
+      "improved_mean_score": 77.17086,
+      "score_gain": 0.31341000000000463
+    }
+  ],
+  "explanation": "Based on 1 sitting(s) (2021A): 19 answered problems, 14 correct. Estimated overall ability is 1534 on LIVE's difficulty scale, give or take 136 (a problem rated at your ability is a coin flip for you). Strongest topics: Geometry: Solid (3D) Geometry, Algebra: Equations & Polynomials, Geometry: Triangles & Polygons. Weakest: Number Theory: Primes & Number Properties, Statistics & Data, Geometry: Circles & Curves. Model mix: irt_hier 37%, irt_guess 16%, logit_feat 16%, irt_global 14%, irt_flat 13%, isotonic 5%. The 2026 paper is simulated from all 51 contests since 2001, weighted toward recent years, with an expected mean problem rating of 1596 (give or take 76) following the upward trend in difficulty. Across 50,000 simulated sittings the median score is 78.0 (mean 76.9); 90% of them fall between 49.5 and 102.0, with on average 10.8 correct, 6.3 wrong and 7.9 blank.",
+  "v1_engine_for_comparison": {
+    "n_simulations": 50000,
+    "mean_score": 100.2003,
+    "median_score": 100.5,
+    "std_score": 10.075306938748815,
+    "percentiles": {
+      "p5": 84.0,
+      "p10": 87.0,
+      "p25": 93.0,
+      "p50": 100.5,
+      "p75": 106.5,
+      "p90": 112.5,
+      "p95": 117.0
+    },
+    "expected_correct": 15.36502,
+    "expected_wrong": 4.29486,
+    "expected_blank": 5.34012
+  }
 }

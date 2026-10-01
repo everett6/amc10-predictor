@@ -8,13 +8,13 @@
    "year": 2023,
    "label": "A",
    "position": 1,
-   "question": "Cities \\(A\\) and \\(B\\) are \\(45\\) miles apart. Alicia lives in \\(A\\) and Beth lives in \\(B.\\) Alicia bikes towards \\(B\\) at \\(18\\) miles per hour. Leaving at the same time, Beth bikes toward \\(A\\) at \\(12\\) miles per hour. How many miles from City \\(A\\) will they be when they meet?",
+   "question": "",
    "choices": {
-    "a": "\\(20\\)",
-    "b": "\\(24\\)",
-    "c": "\\(25\\)",
-    "d": "\\(26\\)",
-    "e": "\\(27\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "e",
    "concepts": [
@@ -23,7 +23,7 @@
    ],
    "seed_elo": 890.0,
    "solve_time_seconds": 40.0,
-   "solution_text": "They ride toward each other, so their speeds add. That closes the \\(45\\)-mile gap at \\(18 + 12 = 30\\) mph, and they meet after \\(\\frac{45}{30} = 1.5\\) hours. Alice starts at \\(A,\\) so by then she's gone \\(18 \\cdot 1.5 = 27\\) miles. Thus, E is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 1,
    "amc12_problem_number": 1,
    "amc8_problem_number": 8,
@@ -34,13 +34,13 @@
    "year": 2023,
    "label": "A",
    "position": 2,
-   "question": "The weight of \\(\\frac{1}{3}\\) of a large pizza together with \\(3\\frac{1}{2}\\) cups of orange slices is the same as the weight of \\(\\frac{3}{4}\\) of a large pizza together with \\(\\frac{1}{2}\\) cup of orange slices. A cup of orange slices weighs \\(\\frac{1}{4}\\) of a pound. What is the weight, in pounds, of a large pizza?",
+   "question": "",
    "choices": {
-    "a": "\\(1\\frac{4}{5}\\)",
-    "b": "\\(2\\)",
-    "c": "\\(2\\frac{2}{5}\\)",
-    "d": "\\(3\\)",
-    "e": "\\(3\\frac{3}{5}\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "a",
    "concepts": [
@@ -49,7 +49,7 @@
    ],
    "seed_elo": 1080.0,
    "solve_time_seconds": 75.0,
-   "solution_text": "Let \\(p\\) be the pizza's weight. A cup of orange slices is \\(\\frac14\\) pound, so the two sides balance as \\(\\frac13 p + \\frac72 \\cdot \\frac14 = \\frac34 p + \\frac12 \\cdot \\frac14,\\) that is \\(\\frac13 p + \\frac78 = \\frac34 p + \\frac18.\\) Collect the pizza terms: \\(\\frac68 = \\left(\\frac34 - \\frac13\\right)p = \\frac{5}{12}p.\\) So \\(p = \\frac34 \\cdot \\frac{12}{5} = \\frac95 = 1\\frac45.\\) Therefore, the answer is A.",
+   "solution_text": "",
    "amc10_problem_number": 3,
    "amc12_problem_number": 3,
    "amc8_problem_number": 11,
@@ -60,13 +60,13 @@
    "year": 2023,
    "label": "A",
    "position": 3,
-   "question": "How many positive perfect squares less than \\(2023\\) are divisible by \\(5?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(8\\)",
-    "b": "\\(9\\)",
-    "c": "\\(10\\)",
-    "d": "\\(11\\)",
-    "e": "\\(12\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "a",
    "concepts": [
@@ -75,7 +75,7 @@
    ],
    "seed_elo": 1050.0,
    "solve_time_seconds": 45.0,
-   "solution_text": "If a perfect square is divisible by \\(5,\\) it's divisible by \\(25,\\) so it looks like \\((5k)^2 = 25k^2.\\) We need \\(25k^2 \\lt 2023,\\) i.e. \\(k^2 \\lt 80.9.\\) That allows \\(k = 1, 2, \\ldots, 8,\\) which is \\(8\\) squares. Thus, A is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 3,
    "amc12_problem_number": 2,
    "amc8_problem_number": 11,
@@ -86,13 +86,13 @@
    "year": 2023,
    "label": "A",
    "position": 4,
-   "question": "A quadrilateral has all integer side lengths, a perimeter of \\(26,\\) and one side of length \\(4.\\) What is the greatest possible length of one side of this quadrilateral?",
+   "question": "",
    "choices": {
-    "a": "\\(9\\)",
-    "b": "\\(10\\)",
-    "c": "\\(11\\)",
-    "d": "\\(12\\)",
-    "e": "\\(13\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -101,7 +101,7 @@
    ],
    "seed_elo": 1130.0,
    "solve_time_seconds": 60.0,
-   "solution_text": "In any quadrilateral each side is shorter than the sum of the other three. Call the longest side \\(s.\\) The rest sum to \\(26 - s,\\) so \\(s \\lt 26 - s,\\) which gives \\(s \\lt 13\\) and hence \\(s \\le 12.\\) Can we hit \\(12?\\) The sides \\(4, 12, 9, 1\\) work, since \\(12 \\lt 4 + 9 + 1.\\) So the greatest length is \\(12.\\) Therefore, the answer is D.",
+   "solution_text": "",
    "amc10_problem_number": 4,
    "amc12_problem_number": 3,
    "amc8_problem_number": 12,
@@ -112,13 +112,13 @@
    "year": 2023,
    "label": "A",
    "position": 5,
-   "question": "How many digits are in the base-ten representation of \\(8^5 \\cdot 5^{10} \\cdot 15^5?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(14\\)",
-    "b": "\\(15\\)",
-    "c": "\\(16\\)",
-    "d": "\\(17\\)",
-    "e": "\\(18\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "e",
    "concepts": [
@@ -127,7 +127,7 @@
    ],
    "seed_elo": 1200.0,
    "solve_time_seconds": 50.0,
-   "solution_text": "Factor everything into primes. \\(8^5 \\cdot 5^{10} \\cdot 15^5\\) \\(= 2^{15} \\cdot 5^{10} \\cdot 3^5 \\cdot 5^5\\) \\(= 2^{15} \\cdot 5^{15} \\cdot 3^5\\) \\(= 10^{15} \\cdot 243.\\) That's \\(243\\) followed by \\(15\\) zeros, so it has \\(3 + 15 = 18\\) digits. Thus, E is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 5,
    "amc12_problem_number": 4,
    "amc8_problem_number": 13,
@@ -138,13 +138,13 @@
    "year": 2023,
    "label": "A",
    "position": 6,
-   "question": "An integer is assigned to each vertex of a cube. The value of an edge is defined to be the sum of the values of the two vertices it touches, and the value of a face is defined to be the sum of the values of the four edges surrounding it. The value of the cube is defined as the sum of the values of its six faces. Suppose the sum of the integers assigned to the vertices is \\(21.\\) What is the value of the cube?",
+   "question": "",
    "choices": {
-    "a": "\\(42\\)",
-    "b": "\\(63\\)",
-    "c": "\\(84\\)",
-    "d": "\\(126\\)",
-    "e": "\\(252\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -153,7 +153,7 @@
    ],
    "seed_elo": 1270.0,
    "solve_time_seconds": 75.0,
-   "solution_text": "Count by incidences. Each edge lies on \\(2\\) faces, so the six face values together are \\(2\\) times the total of all edge values. Each vertex lies on \\(3\\) edges, so the total edge value is \\(3\\) times the vertex sum. Chaining these, the cube's value is \\(2 \\cdot 3 \\cdot 21 = 126.\\) Therefore, the answer is D.",
+   "solution_text": "",
    "amc10_problem_number": 6,
    "amc12_problem_number": 5,
    "amc8_problem_number": 14,
@@ -164,13 +164,13 @@
    "year": 2023,
    "label": "A",
    "position": 7,
-   "question": "Janet rolls a standard \\(6\\)-sided die \\(4\\) times and keeps a running total of the numbers she rolls. What is the probability that at some point her running total will equal \\(3?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(\\dfrac{2}{9}\\)",
-    "b": "\\(\\dfrac{49}{216}\\)",
-    "c": "\\(\\dfrac{25}{108}\\)",
-    "d": "\\(\\dfrac{17}{72}\\)",
-    "e": "\\(\\dfrac{13}{54}\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "b",
    "concepts": [
@@ -179,7 +179,7 @@
    ],
    "seed_elo": 1340.0,
    "solve_time_seconds": 90.0,
-   "solution_text": "The total can only reach exactly \\(3\\) through the opening rolls, and these ways are disjoint: \\(3\\) alone (probability \\(\\frac16\\)), then \\(1,2\\) and \\(2,1\\) (each \\(\\frac1{36}\\)), and \\(1,1,1\\) (probability \\(\\frac1{216}\\)). Add them up: \\(\\frac{36}{216} + \\frac{6}{216} + \\frac{6}{216} + \\frac{1}{216} = \\frac{49}{216}.\\) Thus, B is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 7,
    "amc12_problem_number": 6,
    "amc8_problem_number": 15,
@@ -190,13 +190,13 @@
    "year": 2023,
    "label": "A",
    "position": 8,
-   "question": "Barb the baker creates a new temperature system for baking bread, Breadus, which is linearly based on Fahrenheit. Bread rises at \\(110\\text{ F}^{\\circ},\\) which is \\(0\\) on the Breadus scale. Bread bakes at \\(350\\text{ F}^{\\circ},\\) which is \\(100\\) on the Breadus scale. Bread is done when its internal temperature is \\(200\\text{ F}^{\\circ}.\\) What is this temperature on the Breadus scale?",
+   "question": "",
    "choices": {
-    "a": "\\(33\\)",
-    "b": "\\(34.5\\)",
-    "c": "\\(36\\)",
-    "d": "\\(37.5\\)",
-    "e": "\\(39\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -205,7 +205,7 @@
    ],
    "seed_elo": 1130.0,
    "solve_time_seconds": 50.0,
-   "solution_text": "The Breadus reading is linear in Fahrenheit through \\((110, 0)\\) and \\((350, 100),\\) so \\(B = \\frac{100}{350 - 110}(F - 110)\\) \\(= \\frac{5}{12}(F - 110).\\) Plug in \\(F = 200:\\) \\(B = \\frac{5}{12} \\cdot 90 = 37.5.\\) Therefore, the answer is D.",
+   "solution_text": "",
    "amc10_problem_number": 4,
    "amc12_problem_number": 3,
    "amc8_problem_number": 12,
@@ -216,13 +216,13 @@
    "year": 2023,
    "label": "A",
    "position": 9,
-   "question": "A digital display shows the current date as an \\(8\\)-digit integer consisting of a \\(4\\)-digit year, followed by a \\(2\\)-digit month, followed by a \\(2\\)-digit date within the month. For example, Arbor Day this year is displayed as \\(20230428.\\) For how many dates in \\(2023\\) will each digit appear an even number of times in the \\(8\\)-digit display for that date?",
+   "question": "",
    "choices": {
-    "a": "\\(5\\)",
-    "b": "\\(6\\)",
-    "c": "\\(7\\)",
-    "d": "\\(8\\)",
-    "e": "\\(9\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "e",
    "concepts": [
@@ -232,7 +232,7 @@
    ],
    "seed_elo": 1410.0,
    "solve_time_seconds": 120.0,
-   "solution_text": "The year \\(2023\\) already gives two \\(2\\)s (even), one \\(0\\), and one \\(3\\). So to make every digit occur an even number of times, the four digits of \\(MM\\) and \\(DD\\) must supply one more \\(0\\), one more \\(3\\), and two equal digits, while keeping the number of \\(2\\)s even. Checking the legal dates gives \\(01/13,\\) \\(01/31,\\) \\(02/23,\\) \\(03/11,\\) \\(03/22,\\) \\(10/13,\\) \\(10/31,\\) \\(11/03,\\) and \\(11/30,\\) exactly \\(9\\) dates. Thus, E is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 9,
    "amc12_problem_number": 7,
    "amc8_problem_number": 16,
@@ -243,13 +243,13 @@
    "year": 2023,
    "label": "A",
    "position": 10,
-   "question": "Maureen is keeping track of the mean of her quiz scores this semester. If Maureen scores an \\(11\\) on the next quiz, her mean will increase by \\(1.\\) If she scores an \\(11\\) on each of the next three quizzes, her mean will increase by \\(2.\\) What is the mean of her quiz scores currently?",
+   "question": "",
    "choices": {
-    "a": "\\(4\\)",
-    "b": "\\(5\\)",
-    "c": "\\(6\\)",
-    "d": "\\(7\\)",
-    "e": "\\(8\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -258,7 +258,7 @@
    ],
    "seed_elo": 1270.0,
    "solve_time_seconds": 70.0,
-   "solution_text": "Let \\(m\\) be the current mean over \\(n\\) quizzes. One more \\(11\\) makes the mean \\(m + 1:\\) \\(\\frac{mn + 11}{n + 1} = m + 1,\\) which tidies up to \\(m + n = 10.\\) Three more \\(11\\)s make it \\(m + 2:\\) \\(\\frac{mn + 33}{n + 3} = m + 2,\\) i.e. \\(3m + 2n = 27.\\) Solve the pair and \\(m = 7.\\) Therefore, the answer is D.",
+   "solution_text": "",
    "amc10_problem_number": 6,
    "amc12_problem_number": 5,
    "amc8_problem_number": 14,
@@ -269,13 +269,13 @@
    "year": 2023,
    "label": "A",
    "position": 11,
-   "question": "A square of area \\(2\\) is inscribed in a square of area \\(3,\\) creating four congruent triangles, as shown below. What is the ratio of the shorter leg to the longer leg in the shaded right triangle?",
+   "question": "",
    "choices": {
-    "a": "\\(\\dfrac{1}{5}\\)",
-    "b": "\\(\\dfrac{1}{4}\\)",
-    "c": "\\(2 - \\sqrt{3}\\)",
-    "d": "\\(\\sqrt{3} - \\sqrt{2}\\)",
-    "e": "\\(\\sqrt{2} - 1\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "c",
    "concepts": [
@@ -285,7 +285,7 @@
    ],
    "seed_elo": 1500.0,
    "solve_time_seconds": 90.0,
-   "solution_text": "Each corner right triangle has legs \\(a\\) and \\(b.\\) A side of the outer square gives \\(a+b=\\sqrt3,\\) and a side of the inscribed square gives \\(a^2+b^2=2.\\) Subtract to find the product: \\(2ab=(a+b)^2-(a^2+b^2)\\) \\(=3-2\\) \\(=1,\\) so \\(ab=\\tfrac12.\\) Then \\(a\\) and \\(b\\) are the roots of \\(t^2-\\sqrt3\\,t+\\tfrac12=0,\\) namely \\(\\tfrac{\\sqrt3\\pm1}{2}.\\) The ratio of the smaller leg to the larger is \\(\\dfrac{\\sqrt3-1}{\\sqrt3+1}\\) \\(=\\dfrac{(\\sqrt3-1)^2}{2}\\) \\(=2-\\sqrt3.\\) Thus, C is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 11,
    "amc12_problem_number": 9,
    "amc8_problem_number": 17,
@@ -296,13 +296,13 @@
    "year": 2023,
    "label": "A",
    "position": 12,
-   "question": "How many three-digit positive integers \\(N\\) satisfy the following properties?\n\n\u2022 The number \\(N\\) is divisible by \\(7.\\)\n\n\u2022 The number formed by reversing the digits of \\(N\\) is divisible by \\(5.\\)",
+   "question": "",
    "choices": {
-    "a": "\\(13\\)",
-    "b": "\\(14\\)",
-    "c": "\\(15\\)",
-    "d": "\\(16\\)",
-    "e": "\\(17\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "b",
    "concepts": [
@@ -312,7 +312,7 @@
    ],
    "seed_elo": 1440.0,
    "solve_time_seconds": 75.0,
-   "solution_text": "When we reverse \\(N,\\) its last digit is the first digit of \\(N.\\) For the reversal to be divisible by \\(5,\\) that digit is \\(0\\) or \\(5.\\) A three-digit number can't start with \\(0,\\) so \\(N\\) starts with \\(5,\\) meaning \\(500 \\le N \\le 599\\) (and the reversal ends in \\(5,\\) always fine). Now just count multiples of \\(7\\) here: from \\(7 \\cdot 72 = 504\\) to \\(7 \\cdot 85 = 595,\\) that's \\(14\\) numbers. Therefore, the answer is B.",
+   "solution_text": "",
    "amc10_problem_number": 10,
    "amc12_problem_number": 8,
    "amc8_problem_number": 16,
@@ -323,13 +323,13 @@
    "year": 2023,
    "label": "A",
    "position": 13,
-   "question": "Abdul and Chiang are standing \\(48\\) feet apart in a field. Bharat is standing in the same field as far from Abdul as possible so that the angle formed by his lines of sight to Abdul and Chiang measures \\(60^\\circ.\\) What is the square of the distance (in feet) between Abdul and Bharat?",
+   "question": "",
    "choices": {
-    "a": "\\(1728\\)",
-    "b": "\\(2601\\)",
-    "c": "\\(3072\\)",
-    "d": "\\(4608\\)",
-    "e": "\\(6912\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "c",
    "concepts": [
@@ -339,7 +339,7 @@
    ],
    "seed_elo": 1590.0,
    "solve_time_seconds": 100.0,
-   "solution_text": "Let \\(A\\) be Abdul, \\(C\\) be Chiang with \\(AC = 48,\\) and \\(B\\) be Bharat with \\(\\angle B = 60^\\circ.\\) Every point seeing \\(AC\\) at \\(60^\\circ\\) lies on one circular arc, so all valid \\(B\\) sit on a circle where chord \\(AC\\) subtends \\(60^\\circ.\\) The law of sines gives its diameter, \\(\\frac{AC}{\\sin 60^\\circ} = \\frac{48}{\\frac{\\sqrt3}{2}} = 32\\sqrt3.\\) Now \\(AB\\) is a chord, and a chord is longest when it's a diameter. So \\(AB = 32\\sqrt3\\) and \\(AB^2 = 1024 \\cdot 3 = 3072.\\) Thus, C is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 13,
    "amc12_problem_number": 11,
    "amc8_problem_number": 18,
@@ -350,13 +350,13 @@
    "year": 2023,
    "label": "A",
    "position": 14,
-   "question": "A number is chosen at random from among the first \\(100\\) positive integers, and a positive integer divisor of that number is then chosen at random. What is the probability that the chosen divisor is divisible by \\(11?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(\\dfrac{4}{100}\\)",
-    "b": "\\(\\dfrac{9}{200}\\)",
-    "c": "\\(\\dfrac{1}{20}\\)",
-    "d": "\\(\\dfrac{11}{200}\\)",
-    "e": "\\(\\dfrac{3}{50}\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "b",
    "concepts": [
@@ -365,7 +365,7 @@
    ],
    "seed_elo": 1630.0,
    "solve_time_seconds": 120.0,
-   "solution_text": "A number \\(n \\le 100\\) can only have a divisor divisible by \\(11\\) when \\(n\\) is divisible by \\(11,\\) so \\(n \\in \\{11, 22, \\ldots, 99\\}.\\) Write \\(n = 11m\\) with \\(m \\le 9.\\) Here \\(m\\) is not a multiple of \\(11,\\) so \\(d(11m) = 2\\,d(m),\\) and the divisors that are multiples of \\(11\\) are exactly the \\(d(m)\\) numbers \\(11d.\\) That makes the chance \\(\\frac{d(m)}{2\\,d(m)} = \\frac12\\) for each such \\(n.\\) Averaging over all \\(100\\) starting numbers, the probability is \\(\\frac{1}{100}\\sum_{m=1}^{9}\\frac12 = \\frac{9}{200}.\\) Therefore, the answer is B.",
+   "solution_text": "",
    "amc10_problem_number": 13,
    "amc12_problem_number": 12,
    "amc8_problem_number": 19,
@@ -376,13 +376,13 @@
    "year": 2023,
    "label": "A",
    "position": 15,
-   "question": "An even number of circles are nested, starting with a radius of \\(1\\) and increasing by \\(1\\) each time, all sharing a common point. The region between every other circle is shaded, starting with the region inside the circle of radius \\(2\\) but outside the circle of radius \\(1.\\) An example showing \\(8\\) circles is displayed below. What is the least number of circles needed to make the total shaded area at least \\(2023\\pi?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(46\\)",
-    "b": "\\(48\\)",
-    "c": "\\(56\\)",
-    "d": "\\(60\\)",
-    "e": "\\(64\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "e",
    "concepts": [
@@ -392,7 +392,7 @@
    ],
    "seed_elo": 1560.0,
    "solve_time_seconds": 90.0,
-   "solution_text": "A circle of radius \\(r\\) has area \\(\\pi r^2.\\) So the shaded ring between radius \\(2k\\) and \\(2k-1\\) has area \\(\\pi\\big((2k)^2 - (2k-1)^2\\big)\\) \\(= (4k-1)\\pi.\\) With \\(2n\\) circles the shaded total is \\(\\pi\\sum_{k=1}^{n}(4k-1) = \\pi(2n^2 + n).\\) We want \\(2n^2 + n \\ge 2023.\\) At \\(n = 31\\) it's \\(1953,\\) at \\(n = 32\\) it's \\(2080.\\) So \\(n = 32,\\) which means \\(2n = 64\\) circles. Thus, E is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 12,
    "amc12_problem_number": 10,
    "amc8_problem_number": 18,
@@ -403,13 +403,13 @@
    "year": 2023,
    "label": "A",
    "position": 16,
-   "question": "In a table tennis tournament every participant played every other participant exactly once. Although there were twice as many right-handed players as left-handed players, the number of games won by left-handed players was \\(40\\%\\) more than the number of games won by right-handed players. (There were no ties and no ambidextrous players.) What is the total number of games played?",
+   "question": "",
    "choices": {
-    "a": "\\(15\\)",
-    "b": "\\(36\\)",
-    "c": "\\(45\\)",
-    "d": "\\(48\\)",
-    "e": "\\(66\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "b",
    "concepts": [
@@ -418,7 +418,7 @@
    ],
    "seed_elo": 1730.0,
    "solve_time_seconds": 100.0,
-   "solution_text": "Say there are \\(L\\) left-handers and \\(2L\\) right-handers, so \\(3L\\) players and \\(\\binom{3L}{2}\\) games. Every game has one winner, and left wins are \\(1.4\\) times right wins, so the wins split \\(7 : 5\\) and the total must be a multiple of \\(12\\). Left-handers can win at most all games involving at least one left-hander, namely \\(\\binom{L}{2} + 2L^2\\). Hence \\[ \\frac{7}{12}\\binom{3L}{2} \\leq \\binom{L}{2} + 2L^2, \\] which gives \\(L \\leq 3\\). For \\(L = 1\\) and \\(L = 2\\), the total is not divisible by \\(12\\). For \\(L = 3\\), there are \\(\\binom{9}{2} = 36\\) games. This is attainable if the left-handers win all \\(18\\) cross-group games and all \\(3\\) games among themselves, while the right-handers win their \\(15\\) internal games. The win totals are \\(21\\) and \\(15\\), so the answer is \\(36\\). Therefore, the answer is B.",
+   "solution_text": "",
    "amc10_problem_number": 15,
    "amc12_problem_number": 14,
    "amc8_problem_number": 20,
@@ -429,13 +429,13 @@
    "year": 2023,
    "label": "A",
    "position": 17,
-   "question": "Let \\(ABCD\\) be a rectangle with \\(AB = 30\\) and \\(BC = 28.\\) Points \\(P\\) and \\(Q\\) lie on \\(BC\\) and \\(CD\\) respectively so that all sides of \\(\\triangle ABP,\\) \\(\\triangle PCQ,\\) and \\(\\triangle QDA\\) have integer lengths. What is the perimeter of \\(\\triangle APQ?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(84\\)",
-    "b": "\\(86\\)",
-    "c": "\\(88\\)",
-    "d": "\\(90\\)",
-    "e": "\\(92\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "a",
    "concepts": [
@@ -445,7 +445,7 @@
    ],
    "seed_elo": 1840.0,
    "solve_time_seconds": 150.0,
-   "solution_text": "Set \\(A = (0,0)\\), \\(B = (30,0)\\), \\(C = (30,28)\\), \\(D = (0,28)\\), with \\(P = (30, p)\\) on \\(BC\\) and \\(Q = (30 - q, 28)\\) on \\(CD\\). The three right triangles give \\(AP = \\sqrt{30^2 + p^2}\\), \\(QA = \\sqrt{28^2 + (30 - q)^2}\\), and \\(PQ = \\sqrt{(28 - p)^2 + q^2}\\). For \\(0 \\leq p \\leq 28\\), the equation \\((AP-p)(AP+p)=900\\) gives only \\(p=0\\) and \\(p=16\\), with \\(AP=30\\) and \\(AP=34\\). Similarly, setting \\(x=30-q\\), the equation \\((QA-x)(QA+x)=784\\) with \\(0 \\leq x \\leq 30\\) gives \\(x=0\\) or \\(x=21\\). Testing these four combinations in the formula for \\(PQ\\), only \\(p=16\\), \\(x=21\\) works. Thus \\(q=9\\), \\(QA=35\\), and \\(PQ=\\sqrt{12^2+9^2}=15\\). The perimeter of \\(\\triangle APQ\\) is \\(34+15+35=84\\). Thus, A is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 17,
    "amc12_problem_number": 16,
    "amc8_problem_number": 21,
@@ -456,13 +456,13 @@
    "year": 2023,
    "label": "A",
    "position": 18,
-   "question": "A rhombic dodecahedron is a solid with \\(12\\) congruent rhombus faces. At every vertex, \\(3\\) or \\(4\\) edges meet, depending on the vertex. How many vertices have exactly \\(3\\) edges meeting?",
+   "question": "",
    "choices": {
-    "a": "\\(5\\)",
-    "b": "\\(6\\)",
-    "c": "\\(7\\)",
-    "d": "\\(8\\)",
-    "e": "\\(9\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -473,7 +473,7 @@
    ],
    "seed_elo": 1660.0,
    "solve_time_seconds": 60.0,
-   "solution_text": "Each rhombus has \\(4\\) edges, and every edge is shared by \\(2\\) faces, so \\(E = \\frac{12 \\cdot 4}{2} = 24.\\) With \\(F = 12,\\) Euler's formula gives \\(V = 2 - F + E = 14.\\) Suppose \\(x\\) vertices have \\(3\\) edges and the other \\(14 - x\\) have \\(4.\\) The degrees sum to twice the edge count: \\(3x + 4(14 - x) = 2E = 48,\\) so \\(x = 8.\\) Therefore, the answer is D.",
+   "solution_text": "",
    "amc10_problem_number": 14,
    "amc12_problem_number": 13,
    "amc8_problem_number": 19,
@@ -484,13 +484,13 @@
    "year": 2023,
    "label": "A",
    "position": 19,
-   "question": "The line segment formed by \\(A(1, 2)\\) and \\(B(3, 3)\\) is rotated to the line segment formed by \\(A'(3, 1)\\) and \\(B'(4, 3)\\) about the point \\(P(r, s).\\) What is \\(|r - s|?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(\\dfrac{1}{4}\\)",
-    "b": "\\(\\dfrac{1}{2}\\)",
-    "c": "\\(\\dfrac{3}{4}\\)",
-    "d": "\\(\\dfrac{2}{3}\\)",
-    "e": "\\(1\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "e",
    "concepts": [
@@ -500,7 +500,7 @@
    ],
    "seed_elo": 1730.0,
    "solve_time_seconds": 90.0,
-   "solution_text": "A rotation keeps its center equidistant from each point and its image. So \\(P\\) is equidistant from \\(A\\) and \\(A',\\) and from \\(B\\) and \\(B',\\) which puts it at the intersection of two perpendicular bisectors. The bisector of \\(BB'\\) from \\((3,3)\\) to \\((4,3)\\) is \\(x = 3.5.\\) The bisector of \\(AA'\\) from \\((1,2)\\) to \\((3,1)\\) is \\(2x - y = 2.5.\\) Then \\(y = 2(3.5) - 2.5 = 4.5,\\) so \\(P = (3.5, 4.5)\\) and \\(|r - s| = |3.5 - 4.5| = 1.\\) Thus, E is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 15,
    "amc12_problem_number": 14,
    "amc8_problem_number": 20,
@@ -511,13 +511,13 @@
    "year": 2023,
    "label": "A",
    "position": 20,
-   "question": "Each square in a \\(3 \\times 3\\) grid of squares is colored red, white, blue, or green so that every \\(2 \\times 2\\) square contains one square of each color. One such coloring is shown on the right below. How many different colorings are possible?",
+   "question": "",
    "choices": {
-    "a": "\\(24\\)",
-    "b": "\\(48\\)",
-    "c": "\\(60\\)",
-    "d": "\\(72\\)",
-    "e": "\\(96\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -526,7 +526,7 @@
    ],
    "seed_elo": 2080.0,
    "solve_time_seconds": 150.0,
-   "solution_text": "Label the cells row by row as \\(a,\\) \\(b,\\) \\(c;\\) \\(d,\\) \\(e,\\) \\(f;\\) \\(g,\\) \\(h,\\) \\(i.\\) The top-left block \\(a, b, d, e\\) is a permutation of the four colors, so \\(4! = 24\\) ways. The block \\(\\{b, c, e, f\\}\\) is also all four colors, and \\(b, e\\) are fixed, so \\(\\{c, f\\}\\) is the remaining two in some order: \\(2\\) ways. Same story for \\(\\{g, h\\},\\) the two colors apart from \\(d, e,\\) another \\(2\\) ways. That leaves \\(i,\\) forced to whatever color is missing from \\(\\{e, f, h\\},\\) and that only works when \\(f \\ne h.\\) Of the \\(2 \\cdot 2 = 4\\) order combinations, exactly one has \\(f = h,\\) so \\(3\\) survive. The total is \\(24 \\cdot 3 = 72.\\) Therefore, the answer is D.",
+   "solution_text": "",
    "amc10_problem_number": 20,
    "amc12_problem_number": 19,
    "amc8_problem_number": 24,
@@ -537,13 +537,13 @@
    "year": 2023,
    "label": "A",
    "position": 21,
-   "question": "There is a unique polynomial \\(P(x)\\) of least degree with leading coefficient \\(1\\) satisfying all of the following:\n\n\\(1\\) is a root of \\(P(x) - 1,\\) \\(2\\) is a root of \\(P(x - 2),\\) \\(3\\) is a root of \\(P(3x),\\) and \\(4\\) is a root of \\(4P(x).\\)\n\nAll the roots of \\(P(x)\\) except one are integers. If the one non-integer root can be written as \\(\\frac{m}{n},\\) where \\(m\\) and \\(n\\) are relatively prime positive integers, what is \\(m + n?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(41\\)",
-    "b": "\\(43\\)",
-    "c": "\\(45\\)",
-    "d": "\\(47\\)",
-    "e": "\\(49\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -552,7 +552,7 @@
    ],
    "seed_elo": 2120.0,
    "solve_time_seconds": 120.0,
-   "solution_text": "Translate each condition into a value: \\(P(1) = 1,\\) \\(P(0) = 0,\\) \\(P(9) = 0,\\) and \\(P(4) = 0.\\) So \\(0, 4, 9\\) are roots. Could a cubic do it? A monic cubic with those roots has \\(P(1) = (1)(-3)(-8) = 24 \\ne 1,\\) so no. The least-degree monic polynomial is degree \\(4:\\) \\(P(x) = x(x - 4)(x - 9)(x - c).\\) Now \\(P(1) = (1)(-3)(-8)(1 - c)\\) \\(= 24(1 - c)\\) \\(= 1,\\) so \\(1 - c = \\frac{1}{24}\\) and \\(c = \\frac{23}{24}.\\) That's the lone non-integer root, so \\(m + n = 23 + 24 = 47.\\) Thus, D is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 21,
    "amc12_problem_number": 20,
    "amc8_problem_number": 24,
@@ -563,13 +563,13 @@
    "year": 2023,
    "label": "A",
    "position": 22,
-   "question": "Circle \\(C_1\\) and \\(C_2\\) each have radius \\(1,\\) and the distance between their centers is \\(\\frac{1}{2}.\\) Circle \\(C_3\\) is the largest circle internally tangent to both \\(C_1\\) and \\(C_2.\\) Circle \\(C_4\\) is internally tangent to both \\(C_1\\) and \\(C_2\\) and externally tangent to \\(C_3.\\) What is the radius of \\(C_4?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(\\dfrac{1}{14}\\)",
-    "b": "\\(\\dfrac{1}{12}\\)",
-    "c": "\\(\\dfrac{1}{10}\\)",
-    "d": "\\(\\dfrac{3}{28}\\)",
-    "e": "\\(\\dfrac{1}{9}\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -579,7 +579,7 @@
    ],
    "seed_elo": 2270.0,
    "solve_time_seconds": 150.0,
-   "solution_text": "Put the centers of \\(C_1, C_2\\) at \\(\\left(\\pm\\frac14, 0\\right).\\) By symmetry the largest circle inside both sits at the origin with radius \\(r_3,\\) where \\(1 - r_3 = \\frac14,\\) so \\(r_3 = \\frac34.\\) Let \\(C_4\\) be centered at \\((0, y)\\) with radius \\(r.\\) Internal tangency to \\(C_1\\) gives \\(\\sqrt{\\frac1{16} + y^2} = 1 - r,\\) and external tangency to \\(C_3\\) gives \\(y = \\frac34 + r.\\) Substitute the second into the first: \\(\\frac1{16} + \\left(\\frac34 + r\\right)^2 = (1 - r)^2.\\) This collapses to \\(\\frac72 r = \\frac38,\\) so \\(r = \\frac{3}{28}.\\) Therefore, the answer is D.",
+   "solution_text": "",
    "amc10_problem_number": 22,
    "amc12_problem_number": 22,
    "amc8_problem_number": 25,
@@ -590,13 +590,13 @@
    "year": 2023,
    "label": "A",
    "position": 23,
-   "question": "Positive integer divisors \\(a\\) and \\(b\\) of \\(N\\) are called complementary if \\(ab = N.\\) Given that \\(N\\) has a pair of complementary divisors that differ by \\(20\\) and a pair of complementary divisors that differ by \\(23,\\) find the sum of the digits of \\(N.\\)",
+   "question": "",
    "choices": {
-    "a": "\\(11\\)",
-    "b": "\\(13\\)",
-    "c": "\\(15\\)",
-    "d": "\\(17\\)",
-    "e": "\\(19\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "c",
    "concepts": [
@@ -606,7 +606,7 @@
    ],
    "seed_elo": 2380.0,
    "solve_time_seconds": 150.0,
-   "solution_text": "Complementary divisors differing by \\(20\\) are \\(b\\) and \\(b + 20\\) with product \\(N\\), so \\(N = b^2 + 20b\\) and \\(N + 100 = (b + 10)^2\\). A pair differing by \\(23\\) gives \\(4N + 529 = (2d + 23)^2\\). Set \\(N + 100 = k^2\\). Then \\(4k^2 + 129 = m^2\\), so \\((m - 2k)(m + 2k)\\) \\(= 129\\) \\(= 3 \\cdot 43\\). The positive factor pair \\(3,43\\) gives \\(k=10\\), hence the inadmissible value \\(N=0\\). The pair \\(1,129\\) gives \\(m = 65\\), \\(k = 32\\), hence \\(N = 32^2 - 100 = 924\\). Check it: \\(924 = 22 \\cdot 42 = 21 \\cdot 44\\), and the digit sum is \\(9 + 2 + 4 = 15\\). Thus, C is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 23,
    "amc12_problem_number": 23,
    "amc8_problem_number": 100,
@@ -617,13 +617,13 @@
    "year": 2023,
    "label": "A",
    "position": 24,
-   "question": "Six regular hexagonal blocks of side length \\(1\\) unit are arranged inside a regular hexagonal frame. Each block lies along an inside edge of the frame and is aligned with two other blocks, as shown in the figure below. The distance from any corner of the frame to the nearest vertex of a block is \\(\\frac{3}{7}\\) unit. What is the area of the region inside the frame not occupied by the blocks?",
+   "question": "",
    "choices": {
-    "a": "\\(\\dfrac{13\\sqrt{3}}{3}\\)",
-    "b": "\\(\\dfrac{216\\sqrt{3}}{49}\\)",
-    "c": "\\(\\dfrac{9\\sqrt{3}}{2}\\)",
-    "d": "\\(\\dfrac{14\\sqrt{3}}{3}\\)",
-    "e": "\\(\\dfrac{243\\sqrt{3}}{49}\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "c",
    "concepts": [
@@ -633,7 +633,7 @@
    ],
    "seed_elo": 2520.0,
    "solve_time_seconds": 180.0,
-   "solution_text": "Let \\(d=\\tfrac37.\\) Extend the slanted edges of the blocks that meet a fixed side of the frame. Because all the relevant angles are \\(60^\\circ,\\) the extensions form an equilateral triangle of side \\(1\\) at one end and an equilateral triangle of side \\(1-d\\) at the other. Thus that frame side is partitioned into lengths \\(d,1,1,\\) and \\(1-d,\\) so its length is \\(d+1+1+(1-d)=3.\\) A regular hexagon of side \\(t\\) has area \\(\\tfrac{3\\sqrt3}{2}t^2.\\) Therefore the uncovered area is the area of the side-\\(3\\) frame minus the areas of the six unit blocks: \\(\\tfrac{3\\sqrt3}{2}\\cdot 3^2\\) \\(- 6\\cdot\\tfrac{3\\sqrt3}{2}\\) \\(= \\tfrac{27\\sqrt3}{2} - 9\\sqrt3\\) \\(= \\tfrac{9\\sqrt3}{2}.\\) Therefore, the answer is C.",
+   "solution_text": "",
    "amc10_problem_number": 24,
    "amc12_problem_number": 24,
    "amc8_problem_number": 100,
@@ -644,13 +644,13 @@
    "year": 2023,
    "label": "A",
    "position": 25,
-   "question": "If \\(A\\) and \\(B\\) are vertices of a polyhedron, define the distance \\(d(A, B)\\) to be the minimum number of edges of the polyhedron one must traverse in order to connect \\(A\\) and \\(B.\\) For example, if \\(AB\\) is an edge of the polyhedron, then \\(d(A, B) = 1,\\) but if \\(AC\\) and \\(CB\\) are edges and \\(AB\\) is not an edge, then \\(d(A, B) = 2.\\) Let \\(Q,\\) \\(R,\\) and \\(S\\) be randomly chosen distinct vertices of a regular icosahedron (a regular polyhedron made up of \\(20\\) equilateral triangles). What is the probability that \\(d(Q, R) \\gt d(R, S)?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(\\dfrac{7}{22}\\)",
-    "b": "\\(\\dfrac{1}{3}\\)",
-    "c": "\\(\\dfrac{3}{8}\\)",
-    "d": "\\(\\dfrac{5}{12}\\)",
-    "e": "\\(\\dfrac{1}{2}\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "a",
    "concepts": [
@@ -660,7 +660,7 @@
    ],
    "seed_elo": 2600.0,
    "solve_time_seconds": 120.0,
-   "solution_text": "Fix \\(R.\\) Of the other \\(11\\) vertices, \\(5\\) sit at distance \\(1,\\) \\(5\\) at distance \\(2,\\) and \\(1\\) (the opposite vertex) at distance \\(3.\\) Pick ordered distinct \\(Q, S\\) from these \\(11:\\) that's \\(11 \\cdot 10 = 110\\) pairs. The ones with \\(d(R,Q) = d(R,S)\\) number \\(5\\cdot4 + 5\\cdot4 + 1\\cdot0 = 40,\\) so \\(P(\\text{equal}) = \\frac{40}{110} = \\frac{4}{11}.\\) By the symmetry between \\(Q\\) and \\(S,\\) the \\(\\gt\\) and \\(\\lt\\) cases split the rest evenly, so \\(P(d(Q,R) \\gt d(R,S))\\) \\(= \\frac{1 - \\frac4{11}}{2}\\) \\(= \\frac{7}{22}.\\) Thus, A is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 25,
    "amc12_problem_number": 24,
    "amc8_problem_number": 100,
