@@ -8,13 +8,13 @@
    "year": 2018,
    "label": "A",
    "position": 1,
-   "question": "What is the value of \\[\\left(\\left((2+1)^{-1}+1\\right)^{-1}+1\\right)^{-1}+1?\\]",
+   "question": "",
    "choices": {
-    "a": "\\(\\dfrac{5}{8}\\)",
-    "b": "\\(\\dfrac{11}{7}\\)",
-    "c": "\\(\\dfrac{8}{5}\\)",
-    "d": "\\(\\dfrac{18}{11}\\)",
-    "e": "\\(\\dfrac{15}{8}\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "b",
    "concepts": [
@@ -23,7 +23,7 @@
    ],
    "seed_elo": 560.0,
    "solve_time_seconds": 25.0,
-   "solution_text": "We can simplify this as follows. \\[ \\begin{aligned} &\\left(\\left((2+1)^{-1}+1\\right)^{-1}+1\\right)^{-1}+1 \\\\ &=\\left(\\left(\\dfrac{1}{3}+1\\right)^{-1}+1\\right)^{-1}+1 \\\\ &=\\left(\\dfrac{3}{4}+1\\right)^{-1}+1 \\\\ &=\\dfrac{4}{7} + 1 \\\\ &=\\dfrac{11}{7} \\end{aligned} \\]\n\nThus, B is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 0,
    "amc12_problem_number": 0,
    "amc8_problem_number": 3,
@@ -34,13 +34,13 @@
    "year": 2018,
    "label": "A",
    "position": 2,
-   "question": "Liliane has \\(50\\%\\) more soda than Jacqueline, and Alice has \\(25\\%\\) more soda than Jacqueline. What is the relationship between the amounts of soda that Liliane and Alice have?",
+   "question": "",
    "choices": {
-    "a": "Liliane has \\(20\\%\\) more soda than Alice.",
-    "b": "Liliane has \\(25\\%\\) more soda than Alice.",
-    "c": "Liliane has \\(45\\%\\) more soda than Alice.",
-    "d": "Liliane has \\(75\\%\\) more soda than Alice.",
-    "e": "Liliane has \\(100\\%\\) more soda than Alice."
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "a",
    "concepts": [
@@ -49,7 +49,7 @@
    ],
    "seed_elo": 770.0,
    "solve_time_seconds": 30.0,
-   "solution_text": "Let \\(x\\) be the number of gallons of soda that Jacqueline has. Then Alice has \\(1.25x\\) gallons, and Liliane has \\(1.5x\\) gallons.\n\nTherefore, the relationship can be found by dividing the amount of soda that each has to yield \\(\\dfrac{1.5x}{1.25x}=1.2,\\) which means Liliane has \\(20\\%\\) more soda than Alice.\n\nThus, A is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 1,
    "amc12_problem_number": 0,
    "amc8_problem_number": 5,
@@ -60,13 +60,13 @@
    "year": 2018,
    "label": "A",
    "position": 3,
-   "question": "A unit of blood expires after \\[10! = 10 \\cdot 9 \\cdot 8 \\cdots 1\\] seconds. Yasin donates a unit of blood at noon on January \\(1.\\) On what day does his unit of blood expire?",
+   "question": "",
    "choices": {
-    "a": "January \\(2\\)",
-    "b": "January \\(12\\)",
-    "c": "January \\(22\\)",
-    "d": "February \\(11\\)",
-    "e": "February \\(12\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "e",
    "concepts": [
@@ -76,7 +76,7 @@
    ],
    "seed_elo": 960.0,
    "solve_time_seconds": 45.0,
-   "solution_text": "We can divide \\(10!\\) by \\(60,\\) \\(60,\\) and \\(24\\) to get the number of days that it takes for a unit of blood to expire.\n\nThe first division cancels a \\(6\\) and \\(10.\\) The second division cancels \\(3, 4,\\) and \\(5.\\) The final division cancels \\(8\\) and turns the \\(9\\) into a \\(3.\\)\n\nThis leaves \\(2, 7,\\) and a \\(3,\\) which multiply to \\(42.\\) There are \\(31\\) days in January, so by February \\(1,\\) the blood only has \\(42 - 31 = 11\\) days left.\n\n\\(11\\) days from February \\(1\\) would make the blood expire on February \\(12.\\)\n\nThus, E is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 3,
    "amc12_problem_number": 1,
    "amc8_problem_number": 8,
@@ -87,13 +87,13 @@
    "year": 2018,
    "label": "A",
    "position": 4,
-   "question": "How many ways can a student schedule \\(3\\) mathematics courses -- algebra, geometry, and number theory -- in a \\(6\\)-period day if no two mathematics courses can be taken in consecutive periods?\n\n(What courses the student takes during the other \\(3\\) periods is of no concern here.)",
+   "question": "",
    "choices": {
-    "a": "\\(3\\)",
-    "b": "\\(6\\)",
-    "c": "\\(12\\)",
-    "d": "\\(18\\)",
-    "e": "\\(24\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "e",
    "concepts": [
@@ -103,7 +103,7 @@
    ],
    "seed_elo": 1220.0,
    "solve_time_seconds": 60.0,
-   "solution_text": "The \\(3\\) classes can occupy the following periods: \\[(1, 3, 5),\\]\\[(1, 3, 6),\\]\\[ (1, 4, 6),\\]\\[ (2, 4, 6).\\]\n\nThis means that there are \\(4\\) ways to choose which periods the mathematics courses occur.\n\nFor each configuration, there are \\(3!\\) ways to determine the order of the courses, for a total of \\(6 \\cdot 4 = 24\\) schedules.\n\nThus, E is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 7,
    "amc12_problem_number": 4,
    "amc8_problem_number": 12,
@@ -114,13 +114,13 @@
    "year": 2018,
    "label": "A",
    "position": 5,
-   "question": "Alice, Bob, and Charlie were on a hike and were wondering how far away the nearest town was. When Alice said, \"We are at least \\(6\\) miles away,\" Bob replied, \"We are at most \\(5\\) miles away.\" Charlie then remarked, \"Actually the nearest town is at most \\(4\\) miles away.\" It turned out that none of the three statements was true. Let \\(d\\) be the distance in miles to the nearest town. Which of the following intervals is the set of all possible values of \\(d?\\)",
+   "question": "",
    "choices": {
-    "a": "\\((0,4)\\)",
-    "b": "\\((4,5)\\)",
-    "c": "\\((4,6)\\)",
-    "d": "\\((5,6)\\)",
-    "e": "\\((5,\\infty)\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -129,7 +129,7 @@
    ],
    "seed_elo": 900.0,
    "solve_time_seconds": 40.0,
-   "solution_text": "Alice's statement tells us that \\(d \\lt 6.\\) Bob's statement tells us that \\(d \\gt 5.\\) Charlie's statement tells us that \\(d \\gt 4.\\)\n\nCombining all of these tells us that \\(5 \\lt d\\) and \\(d \\lt 6,\\) which means \\(d\\) is in the interval \\((5, 6).\\)\n\nThus, D is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 2,
    "amc12_problem_number": 0,
    "amc8_problem_number": 7,
@@ -140,13 +140,13 @@
    "year": 2018,
    "label": "A",
    "position": 6,
-   "question": "Sangho uploaded a video to a website where viewers can vote that they like or dislike a video. Each video begins with a score of \\(0,\\) and the score increases by \\(1\\) for each like vote and decreases by \\(1\\) for each dislike vote.\n\nAt one point Sangho saw that his video had a score of \\(90,\\) and that \\(65\\%\\) of the votes cast on his video were like votes. How many votes had been cast on Sangho's video at that point?",
+   "question": "",
    "choices": {
-    "a": "\\(200\\)",
-    "b": "\\(300\\)",
-    "c": "\\(400\\)",
-    "d": "\\(500\\)",
-    "e": "\\(600\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "b",
    "concepts": [
@@ -155,7 +155,7 @@
    ],
    "seed_elo": 900.0,
    "solve_time_seconds": 40.0,
-   "solution_text": "If \\(65\\%\\) of votes were like votes, then \\(35\\%\\) of votes are dislike votes. Then Sangho's score is \\(65\\% - 35\\% = 30\\%\\) the total number of votes.\n\nWe know that Sangho's score is \\(90,\\) so the total number of votes is \\(90 \\div 30\\% = 300.\\)\n\nThus, B is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 2,
    "amc12_problem_number": 0,
    "amc8_problem_number": 7,
@@ -166,13 +166,13 @@
    "year": 2018,
    "label": "A",
    "position": 7,
-   "question": "For how many (not necessarily positive) integer values of \\(n\\) is the following value an integer? \\[4000 \\cdot \\left(\\dfrac{2}{5}\\right)^n\\]",
+   "question": "",
    "choices": {
-    "a": "\\(3\\)",
-    "b": "\\(4\\)",
-    "c": "\\(6\\)",
-    "d": "\\(8\\)",
-    "e": "\\(9\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "e",
    "concepts": [
@@ -182,7 +182,7 @@
    ],
    "seed_elo": 1070.0,
    "solve_time_seconds": 55.0,
-   "solution_text": "We can rewrite the expression as \\[ (2^5 \\cdot 5^3) \\cdot \\left(\\dfrac{2}{5}\\right)^n = 2^{5 + n} \\cdot 5^{3 - n}. \\]\n\nFor this to be an integer, both exponents must be nonnegative. This means that \\[ \\begin{aligned} 5 + n \\geq 0 &\\Rightarrow n \\geq -5 \\\\ 3 - n \\geq 0 &\\Rightarrow n \\leq 3. \\end{aligned} \\]\n\nThis gives us \\(5 + 3 + 1 = 9\\) values for \\(n.\\)\n\nThus, E is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 5,
    "amc12_problem_number": 2,
    "amc8_problem_number": 10,
@@ -193,13 +193,13 @@
    "year": 2018,
    "label": "A",
    "position": 8,
-   "question": "Joe has a collection of \\(23\\) coins, consisting of \\(5\\)-cent coins, \\(10\\)-cent coins, and \\(25\\)-cent coins. He has \\(3\\) more \\(10\\)-cent coins than \\(5\\)-cent coins, and the total value of his collection is \\(320\\) cents. How many more \\(25\\)-cent coins does Joe have than \\(5\\)-cent coins?",
+   "question": "",
    "choices": {
-    "a": "\\(0\\)",
-    "b": "\\(1\\)",
-    "c": "\\(2\\)",
-    "d": "\\(3\\)",
-    "e": "\\(4\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "c",
    "concepts": [
@@ -208,7 +208,7 @@
    ],
    "seed_elo": 1220.0,
    "solve_time_seconds": 65.0,
-   "solution_text": "Let \\(x\\) be the number of \\(5\\)-cent coins that Joe has. Then the number of \\(10\\)-cent coins he has is \\(x + 3.\\)\n\nTherefore, Joe has \\[ 23 - x - (x + 3) = 20 - 2x \\] \\(25\\)-cent coins.\n\nThe total value of all these coins is \\[ 5x + 10(x + 3) + 25(20 - 2x) \\]\\[= 530 - 35x. \\]\n\nWe know that \\[ 530 - 35x = 320 \\Rightarrow x = 6. \\]\n\nThis means that Joe has \\(20 - 2 \\cdot 6 = 8\\) \\(25\\)-cent coins. Therefore, he has \\(8 - 6 = 2\\) more \\(25\\)-cent coins than \\(5\\)-cent coins.\n\nThus, C is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 7,
    "amc12_problem_number": 4,
    "amc8_problem_number": 12,
@@ -219,13 +219,13 @@
    "year": 2018,
    "label": "A",
    "position": 9,
-   "question": "All of the triangles in the diagram below are similar to isosceles triangle \\(ABC,\\) in which \\(AB=AC.\\) Each of the \\(7\\) smallest triangles has area \\(1,\\) and \\(\\triangle ABC\\) has area \\(40.\\) What is the area of trapezoid \\(DBCE?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(16\\)",
-    "b": "\\(18\\)",
-    "c": "\\(20\\)",
-    "d": "\\(22\\)",
-    "e": "\\(24\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "e",
    "concepts": [
@@ -234,7 +234,7 @@
    ],
    "seed_elo": 1420.0,
    "solve_time_seconds": 80.0,
-   "solution_text": "We know that the side length of the smaller triangles is \\(\\sqrt{\\frac{1}{40}}\\) times the length of the larger triangle from similar triangles.\n\nThen the side length of \\(\\triangle ADE\\) is \\(4\\sqrt{\\frac{1}{40}}\\) times the length of the side length of the larger triangle.\n\nThis makes the ratio of the areas \\[ \\left(4\\sqrt{\\dfrac{1}{40}}\\right)^2 = 16 \\cdot \\dfrac{1}{40} = \\dfrac{2}{5}. \\]\n\nTherefore, the area of \\(\\triangle ADE\\) is \\(\\frac{2}{5} \\cdot 40 = 16.\\) The area of the trapezoid is then \\(40 - 16 = 24.\\)\n\nThus, E is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 10,
    "amc12_problem_number": 7,
    "amc8_problem_number": 16,
@@ -245,13 +245,13 @@
    "year": 2018,
    "label": "A",
    "position": 10,
-   "question": "Suppose that real number \\(x\\) satisfies \\[\\sqrt{49-x^2}-\\sqrt{25-x^2}=3.\\] What is the value of \\[\\sqrt{49-x^2}+\\sqrt{25-x^2}?\\]",
+   "question": "",
    "choices": {
-    "a": "\\(8\\)",
-    "b": "\\(\\sqrt{33}+3\\)",
-    "c": "\\(9\\)",
-    "d": "\\(2\\sqrt{10}+4\\)",
-    "e": "\\(12\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "a",
    "concepts": [
@@ -261,7 +261,7 @@
    ],
    "seed_elo": 1310.0,
    "solve_time_seconds": 55.0,
-   "solution_text": "Note that the left hand side of the equation and the desired expression are conjugates. Multiplying them would remove the square roots.\n\nMultiplying them yields \\[ 49 - x^2 - 25 + x^2 = 24. \\]\n\nThis means that the product of the values of the expressions is equal to \\(24.\\) The desired value is therefore \\(24 \\div 3 = 8.\\)\n\nThus, A is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 8,
    "amc12_problem_number": 5,
    "amc8_problem_number": 14,
@@ -272,13 +272,13 @@
    "year": 2018,
    "label": "A",
    "position": 11,
-   "question": "When \\(7\\) fair standard \\(6\\)-sided dice are thrown, the probability that the sum of the numbers on the top faces is \\(10\\) can be written as \\[\\dfrac{n}{6^{7}},\\] where \\(n\\) is a positive integer. What is \\(n?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(42\\)",
-    "b": "\\(49\\)",
-    "c": "\\(56\\)",
-    "d": "\\(63\\)",
-    "e": "\\(84\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "e",
    "concepts": [
@@ -287,7 +287,7 @@
    ],
    "seed_elo": 1420.0,
    "solve_time_seconds": 65.0,
-   "solution_text": "We can use stars and bars to find \\(n.\\) It is the same as finding the number of ways to put \\(10\\) balls into \\(7\\) boxes, where each box has at least one ball.\n\nThe formula for such a scenario is \\[ \\binom{n - 1}{k - 1}, \\] where \\(n\\) is the number of balls and \\(k\\) is the number of boxes.\n\nNo die can exceed \\(4\\) in a sum of \\(10\\) from seven positive rolls, so the upper bound of \\(6\\) creates no additional restriction. The desired answer is therefore \\[ \\binom{9}{6} = \\binom{9}{3} = 84. \\]\n\nThus, E is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 10,
    "amc12_problem_number": 7,
    "amc8_problem_number": 16,
@@ -298,13 +298,13 @@
    "year": 2018,
    "label": "A",
    "position": 12,
-   "question": "How many ordered pairs of real numbers \\((x,y)\\) satisfy the following system of equations? \\[\\begin{cases} ~x+3y&=3 \\\\ ~\\big||x|-|y|\\big|&=1 \\end{cases}\\]",
+   "question": "",
    "choices": {
-    "a": "\\(1\\)",
-    "b": "\\(2\\)",
-    "c": "\\(3\\)",
-    "d": "\\(4\\)",
-    "e": "\\(8\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "c",
    "concepts": [
@@ -314,7 +314,7 @@
    ],
    "seed_elo": 1370.0,
    "solve_time_seconds": 75.0,
-   "solution_text": "The second equation says \\(|x|-|y|=1\\) or \\(|x|-|y|=-1\\), so it is enough to check the four linear possibilities \\(x=y\\pm1\\) and \\(x=-y\\pm1\\).\n\nCombining these with \\(x+3y=3\\) gives \\((x,y)=\\left(\\dfrac32,\\dfrac12\\right)\\), \\((0,1)\\), \\((0,1)\\) again, and \\((-3,2)\\).\n\nThese are three distinct ordered pairs, and each satisfies the original absolute-value equation. Thus, C is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 9,
    "amc12_problem_number": 6,
    "amc8_problem_number": 15,
@@ -325,13 +325,13 @@
    "year": 2018,
    "label": "A",
    "position": 13,
-   "question": "A paper triangle with sides of lengths \\(3,\\) \\(4,\\) and \\(5\\) inches, as shown, is folded so that point \\(A\\) falls on point \\(B.\\) What is the length in inches of the crease?",
+   "question": "",
    "choices": {
-    "a": "\\(1+\\dfrac{1}{2} \\sqrt{2}\\)",
-    "b": "\\(\\sqrt{3}\\)",
-    "c": "\\(\\dfrac{7}{4}\\)",
-    "d": "\\(\\dfrac{15}{8}\\)",
-    "e": "\\(2\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -341,7 +341,7 @@
    ],
    "seed_elo": 1420.0,
    "solve_time_seconds": 80.0,
-   "solution_text": "The crease is the perpendicular bisector of \\(\\overline{AB}.\\) Let \\(\\overline{DE}\\) be the crease.\n\nBy \\(AA\\) similarity, \\(\\triangle ADE\\sim\\triangle ACB.\\) Therefore, \\[\\dfrac{BC}{AC}=\\dfrac{DE}{AD}.\\] Plugging in the side lengths gives \\[\\dfrac34=\\dfrac{DE}{\\frac{5}{2}},\\] so \\(DE=\\dfrac{15}{8}.\\)\n\nThus, D is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 10,
    "amc12_problem_number": 7,
    "amc8_problem_number": 16,
@@ -352,13 +352,13 @@
    "year": 2018,
    "label": "A",
    "position": 14,
-   "question": "What is the greatest integer less than or equal to \\[\\dfrac{3^{100}+2^{100}}{3^{96}+2^{96}}?\\]",
+   "question": "",
    "choices": {
-    "a": "\\(80\\)",
-    "b": "\\(81\\)",
-    "c": "\\(96\\)",
-    "d": "\\(97\\)",
-    "e": "\\(625\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "a",
    "concepts": [
@@ -368,7 +368,7 @@
    ],
    "seed_elo": 1540.0,
    "solve_time_seconds": 90.0,
-   "solution_text": "Let \\(a=3^{96}\\) and \\(b=2^{96}\\). The expression is \\(\\dfrac{81a+16b}{a+b}=16+\\dfrac{65a}{a+b}\\), so it is less than \\(16+65=81\\).\n\nTo show the floor is \\(80\\), we also need the expression to be greater than \\(80\\). This is equivalent to \\(81a+16b>80a+80b\\), or \\(a>64b\\).\n\nBecause \\(\\left(\\dfrac32\\right)^2=\\dfrac94>2,\\) we have \\(\\dfrac{a}{b}=\\left(\\dfrac32\\right)^{96}>2^{48}>64.\\) Hence the expression is greater than \\(80\\) and less than \\(81.\\) Thus, A is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 12,
    "amc12_problem_number": 9,
    "amc8_problem_number": 18,
@@ -379,13 +379,13 @@
    "year": 2018,
    "label": "A",
    "position": 15,
-   "question": "Two circles of radius \\(5\\) are externally tangent to each other and are internally tangent to a circle of radius \\(13\\) at points \\(A\\) and \\(B,\\) as shown in the diagram. The distance \\(AB\\) can be written in the form \\(\\frac{m}{n},\\) where \\(m\\) and \\(n\\) are relatively prime positive integers. What is \\(m+n?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(21\\)",
-    "b": "\\(29\\)",
-    "c": "\\(58\\)",
-    "d": "\\(69\\)",
-    "e": "\\(93\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -394,7 +394,7 @@
    ],
    "seed_elo": 1820.0,
    "solve_time_seconds": 110.0,
-   "solution_text": "Let \\(X\\) be the center of the large circle and let \\(Y,Z\\) be the centers of the two smaller circles. Then \\(XY=XZ=13-5=8\\) and \\(YZ=10\\).\n\nThe radii to tangent points make \\(XA\\) collinear with \\(XY\\) and \\(XB\\) collinear with \\(XZ\\), so \\(\\triangle XAB\\sim \\triangle XYZ\\). Thus \\(\\dfrac{AB}{YZ}=\\dfrac{XA}{XY}=\\dfrac{13}{8}\\).\n\nHence \\(AB=10\\cdot\\dfrac{13}{8}=\\dfrac{65}{4}\\), so \\(m+n=65+4=69\\). Thus, D is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 16,
    "amc12_problem_number": 13,
    "amc8_problem_number": 22,
@@ -405,13 +405,13 @@
    "year": 2018,
    "label": "A",
    "position": 16,
-   "question": "Right triangle \\(ABC\\) has leg lengths \\(AB=20\\) and \\(BC=21.\\) Including \\(\\overline{AB}\\) and \\(\\overline{BC},\\) how many line segments with integer length can be drawn from vertex \\(B\\) to a point on hypotenuse \\(\\overline{AC}?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(5\\)",
-    "b": "\\(8\\)",
-    "c": "\\(12\\)",
-    "d": "\\(13\\)",
-    "e": "\\(15\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -421,7 +421,7 @@
    ],
    "seed_elo": 1540.0,
    "solve_time_seconds": 90.0,
-   "solution_text": "Let \\(P\\) be the foot of the altitude from \\(B\\) to \\(\\overline{AC}.\\) The Pythagorean Theorem gives \\(AC=29.\\) Computing the area in two ways gives \\[\\dfrac{29\\cdot PB}{2}=\\dfrac{20\\cdot21}{2},\\] so \\(PB=\\dfrac{420}{29},\\) which lies between \\(14\\) and \\(15.\\)\n\nAs the endpoint moves from \\(A\\) to \\(P,\\) its distance from \\(B\\) decreases continuously from \\(20\\) to \\(PB.\\) Thus there is one segment of each integer length \\(15,16,17,18,19,20.\\) As the endpoint moves from \\(P\\) to \\(C,\\) the distance increases continuously from \\(PB\\) to \\(21,\\) giving one segment of each integer length \\(15,16,17,18,19,20,21.\\) These are \\(6+7=13\\) distinct segments.\n\nThus, D is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 12,
    "amc12_problem_number": 9,
    "amc8_problem_number": 18,
@@ -432,13 +432,13 @@
    "year": 2018,
    "label": "A",
    "position": 17,
-   "question": "Let \\(S\\) be a set of \\(6\\) integers taken from \\(\\{1,2,\\dots,12\\}\\) with the property that if \\(a\\) and \\(b\\) are elements of \\(S\\) with \\(a < b,\\) then \\(b\\) is not a multiple of \\(a.\\) What is the least possible value of an element in \\(S?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(2\\)",
-    "b": "\\(3\\)",
-    "c": "\\(4\\)",
-    "d": "\\(5\\)",
-    "e": "\\(7\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "c",
    "concepts": [
@@ -448,7 +448,7 @@
    ],
    "seed_elo": 1970.0,
    "solve_time_seconds": 150.0,
-   "solution_text": "We proceed by casing on possible values for \\(S:\\)\n\n\\(1\\) cannot be the smallest element since that would mean that no other number can be in the set.\n\n\\(2\\) cannot be the smallest element since we would have to include every odd number except \\(1.\\) This would make \\(3\\) and \\(9\\) violate the rule.\n\nLet \\(3\\) be the smallest element. Then we can include \\(7\\) and \\(11.\\) We can finally include either \\(4\\) or \\(8\\) and \\(5\\) or \\(10.\\)\n\nEither way, the maximum number of elements that we can include is \\(5,\\) so \\(3\\) cannot be the smallest element.\n\nStarting with \\(4,\\) we can include \\(6, 7, 9\\) and \\(11.\\) Finally, we can add either \\(5\\) or \\(10,\\) creating a \\(6\\)-element set.\n\nThus, C is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 18,
    "amc12_problem_number": 15,
    "amc8_problem_number": 25,
@@ -459,13 +459,13 @@
    "year": 2018,
    "label": "A",
    "position": 18,
-   "question": "How many nonnegative integers can be written in the form \\[a_7\\cdot3^7+a_6\\cdot3^6+a_5\\cdot3^5\\]\\[+a_4\\cdot3^4+a_3\\cdot3^3+a_2\\cdot3^2\\]\\[+a_1\\cdot3^1+a_0\\cdot3^0,\\] where \\(a_i\\in \\{-1,0,1\\}\\) for \\(0\\le i \\le 7?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(512\\)",
-    "b": "\\(729\\)",
-    "c": "\\(1094\\)",
-    "d": "\\(3281\\)",
-    "e": "\\(59,048\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -475,7 +475,7 @@
    ],
    "seed_elo": 1770.0,
    "solve_time_seconds": 100.0,
-   "solution_text": "Note that every number formed by this sum is either positive, negative, or zero.\n\nThe number of positive numbers equals the number of negative numbers due to symmetry (flip the \\(1\\) s to \\(-1\\) s and \\(-1\\) s to \\(1\\) s).\n\nThe only way for the sum to be \\(0\\) is if all the coefficients are \\(0.\\)\n\nThe total number of numbers is \\(3^8 = 6561.\\) Because each power of \\(3\\) is larger than the sum of all previous powers of three, each combination of coefficients yields a different value. More explicitly, at the highest place where two combinations differ, the difference has magnitude at least \\(3^k,\\) while all lower places together can cancel at most \\(2(1+3+\\cdots+3^{k-1})=3^k-1.\\)\n\nTherefore, there are \\[ \\dfrac{6561 - 1}{2} + 1 = 3281 \\] distinct nonnegative integers.\n\nThus, D is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 15,
    "amc12_problem_number": 11,
    "amc8_problem_number": 23,
@@ -486,13 +486,13 @@
    "year": 2018,
    "label": "A",
    "position": 19,
-   "question": "A number \\(m\\) is randomly selected from the set \\[\\{11,13,15,17,19\\},\\] and a number \\(n\\) is randomly selected from \\[\\{1999,2000,2001,\\ldots,2018\\}.\\] What is the probability that \\(m^n\\) has a units digit of \\(1?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(\\dfrac{1}{5}\\)",
-    "b": "\\(\\dfrac{1}{4}\\)",
-    "c": "\\(\\dfrac{3}{10}\\)",
-    "d": "\\(\\dfrac{7}{20}\\)",
-    "e": "\\(\\dfrac{2}{5}\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "e",
    "concepts": [
@@ -503,7 +503,7 @@
    ],
    "seed_elo": 1540.0,
    "solve_time_seconds": 90.0,
-   "solution_text": "Only the units digit of \\(m\\) matters. Among the \\(20\\) consecutive possible exponents, each residue modulo \\(4\\) occurs \\(5\\) times, and \\(10\\) exponents are even. A base ending in \\(1\\) succeeds for all \\(20\\) exponents; bases ending in \\(3\\) or \\(7\\) succeed for the \\(5\\) exponents divisible by \\(4;\\) a base ending in \\(5\\) never succeeds; and a base ending in \\(9\\) succeeds for the \\(10\\) even exponents.\n\nThus \\(20+5+0+5+10=40\\) of the \\(5\\cdot20=100\\) equally likely pairs work, and the probability is \\(\\dfrac{40}{100}=\\dfrac25.\\)\n\nThus, E is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 12,
    "amc12_problem_number": 9,
    "amc8_problem_number": 18,
@@ -514,13 +514,13 @@
    "year": 2018,
    "label": "A",
    "position": 20,
-   "question": "A scanning code consists of a \\(7 \\times 7\\) grid of squares, with some of its squares colored black and the rest colored white. There must be at least one square of each color in this grid of \\(49\\) squares.\n\nA scanning code is called symmetric if its look does not change when the entire square is rotated by a multiple of \\(90^{\\circ}\\) counterclockwise around its center, nor when it is reflected across a line joining opposite corners or a line joining midpoints of opposite sides.\n\nWhat is the total number of possible symmetric scanning codes?",
+   "question": "",
    "choices": {
-    "a": "\\(510\\)",
-    "b": "\\(1022\\)",
-    "c": "\\(8190\\)",
-    "d": "\\(8192\\)",
-    "e": "\\(65,534\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "b",
    "concepts": [
@@ -529,7 +529,7 @@
    ],
    "seed_elo": 1970.0,
    "solve_time_seconds": 150.0,
-   "solution_text": "Number rows and columns from \\(-3\\) through \\(3,\\) with the center at \\((0,0).\\) Rotations and reflections can change signs and exchange coordinates, so the orbit of \\((x,y)\\) is determined by the ordered pair obtained by sorting \\((|x|,|y|).\\) These pairs are \\((u,v)\\) with \\(0\\le u\\le v\\le3,\\) of which there are \\(4+3+2+1=10.\\)\n\nOnce one square in each orbit is colored, symmetry forces the colors of all other squares in that orbit.\n\nThere are therefore \\(2^{10}\\) symmetric colorings before the condition about using both colors. The all-black and all-white colorings are not allowed.\n\nThe total number of valid symmetric scanning codes is \\(2^{10}-2=1022\\). Thus, B is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 18,
    "amc12_problem_number": 15,
    "amc8_problem_number": 25,
@@ -540,13 +540,13 @@
    "year": 2018,
    "label": "A",
    "position": 21,
-   "question": "Which of the following describes the set of values of \\(a\\) for which the curves \\(x^2+y^2=a^2\\) and \\(y=x^2-a\\) in the real \\(xy\\)-plane intersect at exactly \\(3\\) points?",
+   "question": "",
    "choices": {
-    "a": "\\(a = \\dfrac14\\)",
-    "b": "\\(\\dfrac14 \\lt a \\lt \\dfrac12\\)",
-    "c": "\\(a \\gt \\dfrac14\\)",
-    "d": "\\(a = \\dfrac12\\)",
-    "e": "\\(a \\gt \\dfrac12\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "e",
    "concepts": [
@@ -556,7 +556,7 @@
    ],
    "seed_elo": 1820.0,
    "solve_time_seconds": 110.0,
-   "solution_text": "Substitute \\(y=x^2-a\\) into \\(x^2+y^2=a^2\\). This gives \\(x^2+(x^2-a)^2=a^2\\), so \\(x^2(x^2-(2a-1))=0\\).\n\nThe factor \\(x^2=0\\) always gives the single point \\((0,-a)\\). The other factor gives two additional real points exactly when \\(2a-1>0\\).\n\nThere are exactly three intersection points when \\(a>\\dfrac12\\). Thus, E is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 16,
    "amc12_problem_number": 13,
    "amc8_problem_number": 23,
@@ -567,13 +567,13 @@
    "year": 2018,
    "label": "A",
    "position": 22,
-   "question": "Let \\(a,\\) \\(b,\\) \\(c,\\) and \\(d\\) be positive integers such that \\[\\gcd(a, b)=24,\\] \\[\\gcd(b, c)=36,\\] \\[\\gcd(c, d)=54,\\] and \\[70 < \\gcd(d, a) < 100.\\] Which of the following must be a divisor of \\(a?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(5\\)",
-    "b": "\\(7\\)",
-    "c": "\\(11\\)",
-    "d": "\\(13\\)",
-    "e": "\\(17\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -583,7 +583,7 @@
    ],
    "seed_elo": 2010.0,
    "solve_time_seconds": 140.0,
-   "solution_text": "From \\(\\gcd(a,b)=24=2^3\\cdot3\\) and \\(\\gcd(b,c)=36=2^2\\cdot3^2\\), the number \\(a\\) is divisible by \\(2^3\\cdot3\\) but not by \\(3^2\\).\n\nFrom \\(\\gcd(b,c)=36\\) and \\(\\gcd(c,d)=54=2\\cdot3^3\\), the number \\(d\\) is divisible by \\(2\\cdot3^3\\) but not by \\(2^2\\). Therefore \\(\\gcd(d,a)=2\\cdot3\\cdot n\\), where \\(n\\) has no factor \\(2\\) or \\(3\\).\n\nSince \\(70D is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 19,
    "amc12_problem_number": 16,
    "amc8_problem_number": 25,
@@ -594,13 +594,13 @@
    "year": 2018,
    "label": "A",
    "position": 23,
-   "question": "Farmer Pythagoras has a field in the shape of a right triangle. The right triangle's legs have lengths \\(3\\) and \\(4\\) units. In the corner where those sides meet at a right angle, he leaves a small unplanted square \\(S\\) so that from the air it looks like the right angle symbol. The rest of the field is planted. The shortest distance from \\(S\\) to the hypotenuse is \\(2\\) units. What fraction of the field is planted?",
+   "question": "",
    "choices": {
-    "a": "\\(\\dfrac{25}{27}\\)",
-    "b": "\\(\\dfrac{26}{27}\\)",
-    "c": "\\(\\dfrac{73}{75}\\)",
-    "d": "\\(\\dfrac{145}{147}\\)",
-    "e": "\\(\\dfrac{74}{75}\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -609,7 +609,7 @@
    ],
    "seed_elo": 2150.0,
    "solve_time_seconds": 130.0,
-   "solution_text": "Let \\(x\\) be the side length of \\(S.\\) Then we can split the field up into the following shapes.\n\n\n\nWe can express the area of the field in two ways: \\[ \\dfrac{3 \\cdot 4}{2} = x^2 + \\dfrac{x(3 - x)}{2}\\]\\[ + \\dfrac{x(4 - x)}{2} + \\dfrac{2 \\cdot 5}{2}. \\]\n\nSimplifying yields \\[ 6 = \\dfrac{7x}{2} + 5 \\]\\[ x = \\dfrac{2}{7}. \\]\n\nThe desired fraction is \\[ \\dfrac{6 - x^2}{6} = \\dfrac{6 - \\frac{4}{49}}{6} = \\dfrac{145}{147}. \\]\n\nThus, D is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 21,
    "amc12_problem_number": 18,
    "amc8_problem_number": 25,
@@ -620,13 +620,13 @@
    "year": 2018,
    "label": "A",
    "position": 24,
-   "question": "Triangle \\(ABC\\) with \\(AB=50\\) and \\(AC=10\\) has area \\(120.\\) Let \\(D\\) be the midpoint of \\(\\overline{AB},\\) and let \\(E\\) be the midpoint of \\(\\overline{AC}.\\) The angle bisector of \\(\\angle BAC\\) intersects \\(\\overline{DE}\\) and \\(\\overline{BC}\\) at \\(F\\) and \\(G,\\) respectively. What is the area of quadrilateral \\(FDBG?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(60\\)",
-    "b": "\\(65\\)",
-    "c": "\\(70\\)",
-    "d": "\\(75\\)",
-    "e": "\\(80\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -637,7 +637,7 @@
    ],
    "seed_elo": 2040.0,
    "solve_time_seconds": 140.0,
-   "solution_text": "Let \\(BC = a, BG = x, GC = y,\\) and \\(h\\) be the length of the altitude through \\(A.\\)\n\nBy the Angle Bisector Theorem, \\(BG:GC=AB:AC=5:1,\\) so \\(BG=\\dfrac{5a}{6}.\\) Because \\(DE\\) is a midsegment, \\(DE=\\dfrac a2.\\) Applying the same theorem in \\(\\triangle ADE\\) gives \\(DF:FE=AD:AE=5:1,\\) so \\(DF=\\dfrac56DE=\\dfrac{5a}{12}.\\)\n\nThe trapezoid's height is \\(\\frac{h}{2},\\) and \\(\\frac{ah}{2}=120.\\) Its average base length is \\(\\dfrac12\\left(\\dfrac{5a}{12}+\\dfrac{5a}{6}\\right)=\\dfrac{5a}{8}.\\) Therefore, its area is \\[\\dfrac{5a}{8}\\cdot\\dfrac h2=\\dfrac58\\cdot\\dfrac{ah}{2}=75.\\] Thus, D is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 20,
    "amc12_problem_number": 16,
    "amc8_problem_number": 25,
@@ -648,13 +648,13 @@
    "year": 2018,
    "label": "A",
    "position": 25,
-   "question": "For a positive integer \\(n\\) and nonzero digits \\(a,\\) \\(b,\\) and \\(c,\\) let \\(A_n\\) be the \\(n\\)-digit integer each of whose digits is equal to \\(a\\); let \\(B_n\\) be the \\(n\\)-digit integer each of whose digits is equal to \\(b\\); and let \\(C_n\\) be the \\(2n\\)-digit (not \\(n\\)-digit) integer each of whose digits is equal to \\(c.\\) What is the greatest possible value of \\(a + b + c\\) for which there are at least two values of \\(n\\) such that \\[C_n - B_n = A_n^2?\\]",
+   "question": "",
    "choices": {
-    "a": "\\(12\\)",
-    "b": "\\(14\\)",
-    "c": "\\(16\\)",
-    "d": "\\(18\\)",
-    "e": "\\(20\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -664,7 +664,7 @@
    ],
    "seed_elo": 2390.0,
    "solve_time_seconds": 150.0,
-   "solution_text": "The repeated-digit numbers can be written as \\[\\begin{aligned} A_n&=a\\dfrac{10^n-1}{9},\\\\ B_n&=b\\dfrac{10^n-1}{9},\\\\ C_n&=c\\dfrac{10^{2n}-1}{9}. \\end{aligned}\\]\n\nSubstituting these expressions into \\(C_n-B_n=A_n^2\\) and dividing by \\(\\frac{10^n-1}{9}\\) gives \\[c(10^n+1)-b=a^2\\dfrac{10^n-1}{9}.\\]\n\nRearranging yields \\[(9c-a^2)10^n=9b-9c-a^2.\\] If this holds for two different values of \\(n,\\) subtracting the two equations shows that \\(9c-a^2=0.\\) The displayed equation then also forces \\(9b-9c-a^2=0.\\)\n\nHence \\(c=\\frac{a^2}{9}\\) and \\(b=\\frac{2a^2}{9}.\\) Because \\(a,b,c\\) are nonzero digits, the candidates are \\((a,b,c)=(3,2,1),\\) \\((6,8,4),\\) and \\((9,18,9).\\) The last triple is invalid because \\(18\\) is not a digit. The greatest valid sum is \\(6+8+4=18.\\) Thus, D is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 24,
    "amc12_problem_number": 21,
    "amc8_problem_number": 100,

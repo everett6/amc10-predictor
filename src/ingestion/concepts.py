@@ -150,6 +150,7 @@ _GEO_CIRCLES_CURVES = [
     "ellipse", "hyperbola", "inscribed angle", "parabola",
     "power of a point", "radical axis", "sector", "tangent circles",
     "tangent line", "trigonometric identity", "trigonometry",
+    "triple-angle identity",
 ]
 
 # --- Geometry: Coordinate, Transformations & Vectors ------------------------

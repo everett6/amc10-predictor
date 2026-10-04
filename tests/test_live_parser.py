@@ -72,3 +72,25 @@ def test_concepts_split_and_cleaned():
     html = _fake_html(questions)
     contest = parse_contest_page(html, year=2021, label="A")
     assert contest.problems[0].concepts == ["ratio and proportion", "linear equation"]
+
+
+def test_image_only_choice_keeps_a_placeholder():
+    q = _valid_question()
+    q["a"] = '<img src="/amc10/2001/17a.svg" style="max-height: 8rem"/>'
+    html = _fake_html([q] + [_valid_question() for _ in range(24)])
+    contest = parse_contest_page(html, year=2001, label="")
+    assert contest.contest_id == "2001"
+    assert contest.problems[0].choices["a"] == "[image: /amc10/2001/17a.svg]"
+
+
+def test_stored_contest_carries_no_problem_text():
+    from ingestion.pipeline import IngestionError, strip_text
+
+    contest = strip_text(parse_contest_page(_fake_html([_valid_question() for _ in range(25)]), 2021, "A"))
+    p = contest.problems[0]
+    assert p.question == "" and p.solution_text == "" and set(p.choices.values()) == {""}
+    assert p.answer == "d" and p.seed_elo == 450 and p.concepts == ["order of operations"]
+
+    empty = _valid_question(); empty["question"] = ""
+    with pytest.raises(IngestionError):
+        strip_text(parse_contest_page(_fake_html([empty] + [_valid_question() for _ in range(24)]), 2021, "A"))

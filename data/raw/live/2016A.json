@@ -1,0 +1,662 @@
+{
+ "source_url": "https://live.poshenloh.com/past-contests/amc10/2016A",
+ "year": 2016,
+ "label": "A",
+ "problems": [
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 1,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "factorial",
+    "factoring"
+   ],
+   "seed_elo": 560.0,
+   "solve_time_seconds": 25.0,
+   "solution_text": "",
+   "amc10_problem_number": 0,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 3,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 2,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "exponent"
+   ],
+   "seed_elo": 770.0,
+   "solve_time_seconds": 30.0,
+   "solution_text": "",
+   "amc10_problem_number": 1,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 5,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 3,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "ratio and proportion",
+    "money"
+   ],
+   "seed_elo": 870.0,
+   "solve_time_seconds": 35.0,
+   "solution_text": "",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 6,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 4,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "floor and ceiling functions",
+    "fraction"
+   ],
+   "seed_elo": 1140.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 11,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 5,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "volume",
+    "ratio and proportion"
+   ],
+   "seed_elo": 900.0,
+   "solve_time_seconds": 40.0,
+   "solution_text": "",
+   "amc10_problem_number": 2,
+   "amc12_problem_number": 0,
+   "amc8_problem_number": 7,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 6,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "place value",
+    "digits"
+   ],
+   "seed_elo": 1020.0,
+   "solve_time_seconds": 50.0,
+   "solution_text": "",
+   "amc10_problem_number": 4,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 9,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 7,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "mean",
+    "median (data)",
+    "mode"
+   ],
+   "seed_elo": 960.0,
+   "solve_time_seconds": 45.0,
+   "solution_text": "",
+   "amc10_problem_number": 3,
+   "amc12_problem_number": 1,
+   "amc8_problem_number": 8,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 8,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "work backwards"
+   ],
+   "seed_elo": 1070.0,
+   "solve_time_seconds": 55.0,
+   "solution_text": "",
+   "amc10_problem_number": 5,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 10,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 9,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "triangular number",
+    "factoring",
+    "digits"
+   ],
+   "seed_elo": 1070.0,
+   "solve_time_seconds": 55.0,
+   "solution_text": "",
+   "amc10_problem_number": 5,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 10,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 10,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "area",
+    "arithmetic sequence"
+   ],
+   "seed_elo": 1370.0,
+   "solve_time_seconds": 75.0,
+   "solution_text": "",
+   "amc10_problem_number": 9,
+   "amc12_problem_number": 6,
+   "amc8_problem_number": 15,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 11,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "area decomposition",
+    "triangle area"
+   ],
+   "seed_elo": 1070.0,
+   "solve_time_seconds": 55.0,
+   "solution_text": "",
+   "amc10_problem_number": 5,
+   "amc12_problem_number": 2,
+   "amc8_problem_number": 10,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 12,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "a",
+   "concepts": [
+    "basic probability",
+    "parity",
+    "sampling without replacement"
+   ],
+   "seed_elo": 1140.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 11,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 13,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "logical deduction",
+    "invariant"
+   ],
+   "seed_elo": 1420.0,
+   "solve_time_seconds": 80.0,
+   "solution_text": "",
+   "amc10_problem_number": 10,
+   "amc12_problem_number": 7,
+   "amc8_problem_number": 16,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 14,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "Diophantine Equation",
+    "parity"
+   ],
+   "seed_elo": 1280.0,
+   "solve_time_seconds": 70.0,
+   "solution_text": "",
+   "amc10_problem_number": 8,
+   "amc12_problem_number": 5,
+   "amc8_problem_number": 13,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 15,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "a",
+   "concepts": [
+    "circle area",
+    "tangent circles"
+   ],
+   "seed_elo": 1140.0,
+   "solve_time_seconds": 60.0,
+   "solution_text": "",
+   "amc10_problem_number": 6,
+   "amc12_problem_number": 3,
+   "amc8_problem_number": 11,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 16,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "transformation",
+    "coordinate geometry"
+   ],
+   "seed_elo": 1220.0,
+   "solve_time_seconds": 65.0,
+   "solution_text": "",
+   "amc10_problem_number": 7,
+   "amc12_problem_number": 4,
+   "amc8_problem_number": 12,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 17,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "a",
+   "concepts": [
+    "basic probability",
+    "inequality"
+   ],
+   "seed_elo": 1790.0,
+   "solve_time_seconds": 110.0,
+   "solution_text": "",
+   "amc10_problem_number": 16,
+   "amc12_problem_number": 13,
+   "amc8_problem_number": 22,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 18,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "c",
+   "concepts": [
+    "cube geometry",
+    "casework",
+    "symmetry"
+   ],
+   "seed_elo": 2060.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "",
+   "amc10_problem_number": 20,
+   "amc12_problem_number": 17,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 19,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "e",
+   "concepts": [
+    "similarity",
+    "rectangle"
+   ],
+   "seed_elo": 1720.0,
+   "solve_time_seconds": 105.0,
+   "solution_text": "",
+   "amc10_problem_number": 15,
+   "amc12_problem_number": 12,
+   "amc8_problem_number": 21,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 20,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "b",
+   "concepts": [
+    "stars and bars",
+    "combinations"
+   ],
+   "seed_elo": 1660.0,
+   "solve_time_seconds": 100.0,
+   "solution_text": "",
+   "amc10_problem_number": 14,
+   "amc12_problem_number": 11,
+   "amc8_problem_number": 20,
+   "aime_problem_number": 0
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 21,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "tangent circles",
+    "Pythagorean Theorem",
+    "coordinate geometry"
+   ],
+   "seed_elo": 1970.0,
+   "solve_time_seconds": 130.0,
+   "solution_text": "",
+   "amc10_problem_number": 18,
+   "amc12_problem_number": 15,
+   "amc8_problem_number": 25,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 22,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "d",
+   "concepts": [
+    "factor counting",
+    "prime factorization"
+   ],
+   "seed_elo": 2110.0,
+   "solve_time_seconds": 135.0,
+   "solution_text": "",
+   "amc10_problem_number": 21,
+   "amc12_problem_number": 18,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 2
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 23,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "a",
+   "concepts": [
+    "custom operation",
+    "functional equation"
+   ],
+   "seed_elo": 1820.0,
+   "solve_time_seconds": 110.0,
+   "solution_text": "",
+   "amc10_problem_number": 16,
+   "amc12_problem_number": 13,
+   "amc8_problem_number": 22,
+   "aime_problem_number": 1
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 24,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "e",
+   "concepts": [
+    "cyclic quadrilateral",
+    "chord",
+    "triple-angle identity"
+   ],
+   "seed_elo": 2300.0,
+   "solve_time_seconds": 140.0,
+   "solution_text": "",
+   "amc10_problem_number": 23,
+   "amc12_problem_number": 20,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 3
+  },
+  {
+   "contest": "amc10",
+   "year": 2016,
+   "label": "A",
+   "position": 25,
+   "question": "",
+   "choices": {
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
+   },
+   "answer": "a",
+   "concepts": [
+    "least common multiple",
+    "prime factorization",
+    "casework"
+   ],
+   "seed_elo": 2390.0,
+   "solve_time_seconds": 150.0,
+   "solution_text": "",
+   "amc10_problem_number": 24,
+   "amc12_problem_number": 21,
+   "amc8_problem_number": 100,
+   "aime_problem_number": 4
+  }
+ ]
+}

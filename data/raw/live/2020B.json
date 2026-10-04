@@ -8,13 +8,13 @@
    "year": 2020,
    "label": "B",
    "position": 1,
-   "question": "What is the value of \\[ \\begin{aligned} &1 - (-2) - 3 - (-4) \\\\ &\\quad {}- 5 - (-6)? \\end{aligned} \\]",
+   "question": "",
    "choices": {
-    "a": "\\(-20\\)",
-    "b": "\\(-3\\)",
-    "c": "\\(3\\)",
-    "d": "\\(5\\)",
-    "e": "\\(21\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -22,7 +22,7 @@
    ],
    "seed_elo": 450.0,
    "solve_time_seconds": 20.0,
-   "solution_text": "Subtracting a negative is the same as adding the corresponding positive number, so \\[ \\begin{aligned} &1-(-2)-3-(-4) \\\\ &\\quad {}-5-(-6) \\\\ &\\quad = 1+2-3+4-5+6. \\end{aligned} \\] Now combine the terms: \\[ \\begin{aligned} &(1+2+4+6)-(3+5) \\\\ &\\quad = 13-8=5. \\end{aligned} \\]\n\nThus, D is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 0,
    "amc12_problem_number": 0,
    "amc8_problem_number": 2,
@@ -33,13 +33,13 @@
    "year": 2020,
    "label": "B",
    "position": 2,
-   "question": "Carl has \\(5\\) cubes each having side length \\(1,\\) and Kate has \\(5\\) cubes each having side length \\(2.\\) What is the total volume of these \\(10\\) cubes?",
+   "question": "",
    "choices": {
-    "a": "\\(24\\)",
-    "b": "\\(25\\)",
-    "c": "\\(28\\)",
-    "d": "\\(40\\)",
-    "e": "\\(45\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "e",
    "concepts": [
@@ -48,7 +48,7 @@
    ],
    "seed_elo": 560.0,
    "solve_time_seconds": 25.0,
-   "solution_text": "A cube with side length \\(s\\) has volume \\(s^3.\\) Carl's five cubes have total volume \\(5\\cdot 1^3=5,\\) and Kate's five cubes have total volume \\(5\\cdot 2^3=40.\\)\n\nThe total volume is \\(5+40=45.\\)\n\nThus, the correct answer is E .",
+   "solution_text": "",
    "amc10_problem_number": 0,
    "amc12_problem_number": 0,
    "amc8_problem_number": 3,
@@ -59,13 +59,13 @@
    "year": 2020,
    "label": "B",
    "position": 3,
-   "question": "The ratio of \\(w\\) to \\(x\\) is \\(4:3,\\) the ratio of \\(y\\) to \\(z\\) is \\(3:2,\\) and the ratio of \\(z\\) to \\(x\\) is \\(1:6.\\) What is the ratio of \\(w\\) to \\(y?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(4:3\\)",
-    "b": "\\(3:2\\)",
-    "c": "\\(8:3\\)",
-    "d": "\\(4:1\\)",
-    "e": "\\(16:3\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "e",
    "concepts": [
@@ -73,7 +73,7 @@
    ],
    "seed_elo": 870.0,
    "solve_time_seconds": 35.0,
-   "solution_text": "The ratios give \\[ \\begin{aligned} &\\frac wx=\\frac43,\\qquad \\frac yz=\\frac32, \\\\ &\\quad \\frac zx=\\frac16. \\end{aligned} \\] Then \\[ \\begin{aligned} &\\frac wy=\\frac wx\\cdot\\frac xz\\cdot\\frac zy \\\\ &\\quad =\\frac43\\cdot 6\\cdot\\frac23=\\frac{16}{3}. \\end{aligned} \\] Therefore \\(w:y=16:3.\\)\n\nThus, E is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 2,
    "amc12_problem_number": 0,
    "amc8_problem_number": 6,
@@ -84,13 +84,13 @@
    "year": 2020,
    "label": "B",
    "position": 4,
-   "question": "The acute angles of a right triangle are \\(a^{\\circ}\\) and \\(b^{\\circ},\\) where \\(a>b\\) and both \\(a\\) and \\(b\\) are prime numbers. What is the least possible value of \\(b?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(2\\)",
-    "b": "\\(3\\)",
-    "c": "\\(5\\)",
-    "d": "\\(7\\)",
-    "e": "\\(11\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -99,7 +99,7 @@
    ],
    "seed_elo": 870.0,
    "solve_time_seconds": 35.0,
-   "solution_text": "The acute angles satisfy \\(a+b=90.\\) Testing primes \\(b\\) from least to greatest, \\(b=2,3,5\\) would give \\(a=88,87,85,\\) none of which is prime. For \\(b=7,\\) however, \\(a=83\\) is prime and is greater than \\(b.\\)\n\nTherefore the least possible value of \\(b\\) is \\(7.\\) Thus, D is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 2,
    "amc12_problem_number": 0,
    "amc8_problem_number": 6,
@@ -110,13 +110,13 @@
    "year": 2020,
    "label": "B",
    "position": 5,
-   "question": "How many distinguishable arrangements are there of \\(1\\) brown tile, \\(1\\) purple tile, \\(2\\) green tiles, and \\(3\\) yellow tiles in a row from left to right? (Tiles of the same color are indistinguishable.)",
+   "question": "",
    "choices": {
-    "a": "\\(210\\)",
-    "b": "\\(420\\)",
-    "c": "\\(630\\)",
-    "d": "\\(840\\)",
-    "e": "\\(1050\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "b",
    "concepts": [
@@ -124,7 +124,7 @@
    ],
    "seed_elo": 900.0,
    "solve_time_seconds": 40.0,
-   "solution_text": "There are \\(1+1+2+3=7\\) total tiles. If all seven tiles were distinct, there would be \\(7!\\) arrangements. The two green tiles are indistinguishable, and the three yellow tiles are indistinguishable, so we divide by \\(2!\\) and \\(3!.\\)\n\nThus the number of arrangements is \\[\\frac{7!}{2!3!}=420.\\]\n\nThus, B is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 2,
    "amc12_problem_number": 0,
    "amc8_problem_number": 7,
@@ -135,13 +135,13 @@
    "year": 2020,
    "label": "B",
    "position": 6,
-   "question": "Driving along a highway, Megan noticed that her odometer showed \\(15951\\) (miles). This number is a palindrome--it reads the same forward and backward. Then \\(2\\) hours later, the odometer displayed the next higher palindrome. What was her average speed, in miles per hour, during this \\(2\\)-hour period?",
+   "question": "",
    "choices": {
-    "a": "\\(50\\)",
-    "b": "\\(55\\)",
-    "c": "\\(60\\)",
-    "d": "\\(65\\)",
-    "e": "\\(70\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "b",
    "concepts": [
@@ -150,7 +150,7 @@
    ],
    "seed_elo": 960.0,
    "solve_time_seconds": 45.0,
-   "solution_text": "A five-digit palindrome is determined by its first three digits. The first half of \\(15951\\) is \\(159\\); increasing this to \\(160\\) and reflecting the first two digits gives the next palindrome, \\(16061.\\)\n\nMegan traveled \\(16061-15951=110\\) miles in \\(2\\) hours, so her average speed was \\(\\frac{110}{2}=55\\) miles per hour. Thus, B is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 3,
    "amc12_problem_number": 1,
    "amc8_problem_number": 8,
@@ -161,13 +161,13 @@
    "year": 2020,
    "label": "B",
    "position": 7,
-   "question": "How many positive even multiples of \\(3\\) less than \\(2020\\) are perfect squares?",
+   "question": "",
    "choices": {
-    "a": "\\(7\\)",
-    "b": "\\(8\\)",
-    "c": "\\(9\\)",
-    "d": "\\(10\\)",
-    "e": "\\(12\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "a",
    "concepts": [
@@ -176,7 +176,7 @@
    ],
    "seed_elo": 960.0,
    "solve_time_seconds": 45.0,
-   "solution_text": "A number that is both even and a multiple of \\(3\\) is a multiple of \\(6.\\) If such a number is also a perfect square, its square root must be divisible by both \\(2\\) and \\(3,\\) hence by \\(6.\\) Therefore the numbers counted are exactly \\[(6k)^22020,\\) we have \\(k=1,2,\\ldots,7,\\) for a total of \\(7\\) numbers.\n\nThus, A is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 3,
    "amc12_problem_number": 1,
    "amc8_problem_number": 8,
@@ -187,13 +187,13 @@
    "year": 2020,
    "label": "B",
    "position": 8,
-   "question": "Points \\(P\\) and \\(Q\\) lie in a plane with \\(PQ=8.\\) How many locations for point \\(R\\) in this plane are there such that the triangle with vertices \\(P,\\) \\(Q,\\) and \\(R\\) is a right triangle with area \\(12\\) square units?",
+   "question": "",
    "choices": {
-    "a": "\\(2\\)",
-    "b": "\\(4\\)",
-    "c": "\\(6\\)",
-    "d": "\\(8\\)",
-    "e": "\\(12\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -204,7 +204,7 @@
    ],
    "seed_elo": 1420.0,
    "solve_time_seconds": 80.0,
-   "solution_text": "Place \\(P=(-4,0)\\) and \\(Q=(4,0).\\) Since the area is \\(12\\) and \\(PQ=8,\\) the distance from \\(R\\) to line \\(PQ\\) is \\(3,\\) so \\(R=(x,\\pm 3).\\)\n\nIf the right angle is at \\(P,\\) then \\(R=(-4,\\pm 3),\\) giving \\(2\\) points. If it is at \\(Q,\\) then \\(R=(4,\\pm 3),\\) giving \\(2\\) more points.\n\nIf the right angle is at \\(R,\\) then \\(PQ\\) is the hypotenuse, so \\[ \\begin{aligned} &64=PR^2+QR^2 \\\\ &\\quad =(x+4)^2+9 \\\\ &\\quad {}+(x-4)^2+9 \\\\ &\\quad =2x^2+50. \\end{aligned} \\] Thus \\(x^2=7,\\) giving \\(R=(\\pm\\sqrt7,\\pm 3),\\) another \\(4\\) points.\n\nThe total is \\(2+2+4=8.\\)\n\nThus, the correct answer is D .",
+   "solution_text": "",
    "amc10_problem_number": 10,
    "amc12_problem_number": 7,
    "amc8_problem_number": 16,
@@ -215,13 +215,13 @@
    "year": 2020,
    "label": "B",
    "position": 9,
-   "question": "How many ordered pairs of integers \\((x, y)\\) satisfy the equation \\[x^{2020}+y^2=2y?\\]",
+   "question": "",
    "choices": {
-    "a": "\\(1\\)",
-    "b": "\\(2\\)",
-    "c": "\\(3\\)",
-    "d": "\\(4\\)",
-    "e": "infinitely many"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -231,7 +231,7 @@
    ],
    "seed_elo": 1070.0,
    "solve_time_seconds": 55.0,
-   "solution_text": "Move all terms to one side and complete the square: \\[ \\begin{aligned} &x^{2020}+y^2=2y \\\\ &\\quad \\Longrightarrow x^{2020}+(y-1)^2=1. \\end{aligned} \\] Because \\((y-1)^2\\ge 0,\\) we must have \\(x^{2020}\\le 1.\\) Since \\(x\\) is an integer, \\(x=-1,0,1.\\)\n\nIf \\(x=\\pm1,\\) then \\((y-1)^2=0,\\) so \\(y=1.\\) If \\(x=0,\\) then \\((y-1)^2=1,\\) so \\(y=0\\) or \\(2.\\) This gives \\(4\\) ordered pairs.\n\nThus, D is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 5,
    "amc12_problem_number": 2,
    "amc8_problem_number": 10,
@@ -242,13 +242,13 @@
    "year": 2020,
    "label": "B",
    "position": 10,
-   "question": "A three-quarter sector of a circle of radius \\(4\\) inches together with its interior can be rolled up to form the lateral surface of a right circular cone by taping together along the two radii shown. What is the volume of the cone in cubic inches?",
+   "question": "",
    "choices": {
-    "a": "\\(3\\pi\\sqrt{5}\\)",
-    "b": "\\(4\\pi\\sqrt{3}\\)",
-    "c": "\\(3\\pi\\sqrt{7}\\)",
-    "d": "\\(6\\pi\\sqrt{3}\\)",
-    "e": "\\(6\\pi\\sqrt{7}\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "c",
    "concepts": [
@@ -258,7 +258,7 @@
    ],
    "seed_elo": 1140.0,
    "solve_time_seconds": 60.0,
-   "solution_text": "The sector's arc becomes the base circumference, so if the base radius is \\(r,\\) then \\[2\\pi r=\\frac34(2\\pi\\cdot4)=6\\pi,\\] giving \\(r=3.\\) The sector radius becomes the cone's slant height, so the cone's height is \\[h=\\sqrt{4^2-3^2}=\\sqrt7.\\]\n\nHence the volume is \\[\\frac13\\pi r^2h=\\frac13\\pi(3)^2\\sqrt7=3\\pi\\sqrt7.\\] Thus, C is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 6,
    "amc12_problem_number": 3,
    "amc8_problem_number": 11,
@@ -269,13 +269,13 @@
    "year": 2020,
    "label": "B",
    "position": 11,
-   "question": "Ms. Carr asks her students to read any \\(5\\) of the \\(10\\) books on a reading list. Harold randomly selects \\(5\\) books from this list, and Betty does the same. What is the probability that there are exactly \\(2\\) books that they both select?",
+   "question": "",
    "choices": {
-    "a": "\\(\\dfrac{1}{8}\\)",
-    "b": "\\(\\dfrac{5}{36}\\)",
-    "c": "\\(\\dfrac{14}{45}\\)",
-    "d": "\\(\\dfrac{25}{63}\\)",
-    "e": "\\(\\dfrac{1}{2}\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -284,7 +284,7 @@
    ],
    "seed_elo": 1140.0,
    "solve_time_seconds": 60.0,
-   "solution_text": "Assume that Harold has already picked his \\(5\\) books. Of these five books, there are \\(\\binom{5}{2}\\) ways that Betty can have picked exactly two of the same books as Harold, and \\(\\binom{5}{3}\\) ways that Betty can choose her other three books from the \\(5\\) books not on Harold's list.\n\nThus there are \\(\\binom{5}{2}\\binom{5}{3}=100\\) favorable choices for Betty out of \\(\\binom{10}{5}=252\\) equally likely choices. The probability is \\[\\frac{100}{252}=\\frac{25}{63}.\\] Thus, D is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 6,
    "amc12_problem_number": 3,
    "amc8_problem_number": 11,
@@ -295,13 +295,13 @@
    "year": 2020,
    "label": "B",
    "position": 12,
-   "question": "The decimal representation of \\[\\frac{1}{20^{20}}\\] consists of a string of zeros after the decimal point, followed by a \\(9\\) and then several more digits. How many zeros are in that initial string of zeros after the decimal point?",
+   "question": "",
    "choices": {
-    "a": "\\(23\\)",
-    "b": "\\(24\\)",
-    "c": "\\(25\\)",
-    "d": "\\(26\\)",
-    "e": "\\(27\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -311,7 +311,7 @@
    ],
    "seed_elo": 1280.0,
    "solve_time_seconds": 70.0,
-   "solution_text": "We can write \\[\\frac{1}{20^{20}}=\\frac{1}{(4\\cdot5)^{20}}=\\frac{5^{20}}{10^{40}}.\\] Now \\(5^{20}=95,367,431,640,625,\\) which has \\(14\\) digits and begins with \\(9.\\) Dividing by \\(10^{40}\\) places this \\(14\\)-digit number after the decimal point with \\(40-14=26\\) zeros before the first digit.\n\nThus, the correct answer is D .",
+   "solution_text": "",
    "amc10_problem_number": 8,
    "amc12_problem_number": 5,
    "amc8_problem_number": 13,
@@ -322,13 +322,13 @@
    "year": 2020,
    "label": "B",
    "position": 13,
-   "question": "Andy the Ant lives on a coordinate plane and is currently at \\((-20, 20)\\) facing east (that is, in the positive \\(x\\)-direction). Andy moves \\(1\\) unit and then turns \\(90^{\\circ}\\) left. From there, Andy moves \\(2\\) units (north) and then turns \\(90^{\\circ}\\) left. He then moves \\(3\\) units (west) and again turns \\(90^{\\circ}\\) left. Andy continues this process, increasing his distance each time by \\(1\\) unit and always turning left. What is the location of the point at which Andy makes the \\(2020\\text{th}\\) left turn?",
+   "question": "",
    "choices": {
-    "a": "\\((-1030,-994)\\)",
-    "b": "\\((-1030,-990)\\)",
-    "c": "\\((-1026,-994)\\)",
-    "d": "\\((-1026,-990)\\)",
-    "e": "\\((-1022,-994)\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "b",
    "concepts": [
@@ -337,7 +337,7 @@
    ],
    "seed_elo": 1480.0,
    "solve_time_seconds": 75.0,
-   "solution_text": "In the first four moves, Andy goes \\(1\\) east, \\(2\\) north, \\(3\\) west, and \\(4\\) south. The net change is \\[(1-3,2-4)=(-2,-2),\\] and he is again facing east.\n\nSince \\(2020=4\\cdot 505,\\) Andy completes \\(505\\) such cycles. Starting from \\((-20,20),\\) his final position is \\[ \\begin{aligned} &(-20,20)+505(-2,-2) \\\\ &\\quad =(-1030,-990). \\end{aligned} \\]\n\nThus, B is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 11,
    "amc12_problem_number": 8,
    "amc8_problem_number": 17,
@@ -348,13 +348,13 @@
    "year": 2020,
    "label": "B",
    "position": 14,
-   "question": "As shown in the figure below, six semicircles lie in the interior of a regular hexagon with side length \\(2\\) so that the diameters of the semicircles coincide with the sides of the hexagon. What is the area of the shaded region--inside the hexagon but outside all of the semicircles?",
+   "question": "",
    "choices": {
-    "a": "\\(6\\sqrt3-3\\pi\\)",
-    "b": "\\(\\dfrac{9\\sqrt3}{2}-2\\pi\\)",
-    "c": "\\(\\dfrac{3\\sqrt3}{2}-\\dfrac{\\pi}{3}\\)",
-    "d": "\\(3\\sqrt3-\\pi\\)",
-    "e": "\\(\\dfrac{9\\sqrt3}{2}-\\pi\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -364,7 +364,7 @@
    ],
    "seed_elo": 1530.0,
    "solve_time_seconds": 90.0,
-   "solution_text": "By symmetry, the shaded region is made of six congruent pieces. One such piece is the union of two equilateral triangles with side length \\(1,\\) minus a \\(60^\\circ\\) sector of a circle of radius \\(1.\\)\n\nThe two equilateral triangles have total area \\[2\\cdot\\frac{\\sqrt3}{4}=\\frac{\\sqrt3}{2}.\\] The sector has area \\[\\frac{60^\\circ}{360^\\circ}\\cdot\\pi(1)^2=\\frac{\\pi}{6}.\\] Thus one shaded piece has area \\(\\frac{\\sqrt3}{2}-\\frac{\\pi}{6},\\) and the total shaded area is \\[6\\left(\\frac{\\sqrt3}{2}-\\frac{\\pi}{6}\\right)=3\\sqrt3-\\pi.\\]\n\nThus, D is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 12,
    "amc12_problem_number": 8,
    "amc8_problem_number": 18,
@@ -375,13 +375,13 @@
    "year": 2020,
    "label": "B",
    "position": 15,
-   "question": "Steve wrote the digits \\(1,\\) \\(2,\\) \\(3,\\) \\(4,\\) and \\(5\\) in order repeatedly from left to right, forming a list of \\(10,000\\) digits, beginning \\(123451234512\\ldots\\) He then erased every third digit from his list (that is, the \\(3\\)rd, \\(6\\)th, \\(9\\)th, \\(\\ldots\\) digits from the left), then erased every fourth digit from the resulting list (that is, the \\(4\\)th, \\(8\\)th, \\(12\\)th, \\(\\ldots\\) digits from the left in what remained), and then erased every fifth digit from what remained at that point. What is the sum of the three digits that were then in positions \\(2019,\\) \\(2020,\\) and \\(2021?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(7\\)",
-    "b": "\\(9\\)",
-    "c": "\\(10\\)",
-    "d": "\\(11\\)",
-    "e": "\\(12\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -391,7 +391,7 @@
    ],
    "seed_elo": 1660.0,
    "solve_time_seconds": 100.0,
-   "solution_text": "Start with the repeating block \\(12345.\\) Deleting every third digit repeats over \\(\\operatorname{lcm}(3,5)=15\\) original positions: \\[ \\begin{aligned} &123451234512345 \\\\ &\\quad \\longrightarrow 1245235134, \\end{aligned} \\] so the new period has length \\(10.\\)\n\nDeleting every fourth digit from this period repeats over \\(\\operatorname{lcm}(4,10)=20\\) positions: \\[ \\begin{aligned} &12452351341245235134 \\\\ &\\quad \\longrightarrow 124235341452513, \\end{aligned} \\] so the new period has length \\(15.\\)\n\nDeleting every fifth digit from this period gives \\[ \\begin{aligned} &124235341452513 \\\\ &\\quad \\longrightarrow 124253415251, \\end{aligned} \\] which has period \\(12.\\) Since \\(2019\\equiv 3\\pmod{12},\\) the digits in positions \\(2019,\\) \\(2020,\\) and \\(2021\\) are the \\(3\\)rd, \\(4\\)th, and \\(5\\)th digits of this period: \\(4,2,5.\\) Their sum is \\(11.\\)\n\nThus, the correct answer is D .",
+   "solution_text": "",
    "amc10_problem_number": 14,
    "amc12_problem_number": 11,
    "amc8_problem_number": 20,
@@ -402,13 +402,13 @@
    "year": 2020,
    "label": "B",
    "position": 16,
-   "question": "Bela and Jenn play the following game on the closed interval \\([0, n]\\) of the real number line, where \\(n\\) is a fixed integer greater than \\(4.\\) They take turns playing, with Bela going first. At his first turn, Bela chooses any real number in the interval \\([0, n].\\) Thereafter, the player whose turn it is chooses a real number that is more than one unit away from all numbers previously chosen by either player. A player unable to choose such a number loses. Using optimal strategy, which player will win the game?",
+   "question": "",
    "choices": {
-    "a": "Bela will always win.",
-    "b": "Jenn will always win.",
-    "c": "Bela will win if and only if \\(n\\) is odd.",
-    "d": "Jenn will win if and only if \\(n\\) is odd.",
-    "e": "Jenn will win if and only if \\(n>8.\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "a",
    "concepts": [
@@ -417,7 +417,7 @@
    ],
    "seed_elo": 1480.0,
    "solve_time_seconds": 85.0,
-   "solution_text": "Bela can first choose the midpoint \\(\\frac{n}{2}.\\) After that, whenever Jenn chooses a number \\(x,\\) Bela chooses the reflected number \\(n-x.\\)\n\nThis reflected number is legal whenever Jenn's move is legal: distances from previously chosen numbers are preserved by the reflection about \\(\\frac{n}{2},\\) and Jenn cannot choose \\(\\frac{n}{2}\\) because it was Bela's first move. Therefore every Jenn move has a matching Bela response, so Jenn is the first player who can run out of legal moves.\n\nThus, A is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 11,
    "amc12_problem_number": 8,
    "amc8_problem_number": 17,
@@ -428,13 +428,13 @@
    "year": 2020,
    "label": "B",
    "position": 17,
-   "question": "There are \\(10\\) people standing equally spaced around a circle. Each person knows exactly \\(3\\) of the other \\(9\\) people: the \\(2\\) people standing next to her or him, as well as the person directly across the circle. How many ways are there for the \\(10\\) people to split up into \\(5\\) pairs so that the members of each pair know each other?",
+   "question": "",
    "choices": {
-    "a": "\\(11\\)",
-    "b": "\\(12\\)",
-    "c": "\\(13\\)",
-    "d": "\\(14\\)",
-    "e": "\\(15\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "c",
    "concepts": [
@@ -443,7 +443,7 @@
    ],
    "seed_elo": 1820.0,
    "solve_time_seconds": 110.0,
-   "solution_text": "Label the people around the circle. Count by the number of pairs of opposite people.\n\nWith no opposite pairs, everyone must be paired with a neighbor around the \\(10\\)-cycle. There are exactly \\(2\\) alternating neighbor matchings.\n\nWith one opposite pair, choose that pair in \\(5\\) ways. The remaining people form two paths of four vertices, and each path has only one perfect matching by neighbor pairs, so this gives \\(5\\) matchings.\n\nWith two or four opposite pairs, the remaining neighbor-pairing paths have odd length somewhere, so no perfect matching is possible.\n\nWith three opposite pairs, the two opposite pairs not chosen must be adjacent around the five opposite-pair positions; otherwise the remaining people cannot be matched by neighbor pairs. There are \\(5\\) adjacent choices for the two unchosen opposite pairs, so there are \\(5\\) matchings.\n\nWith all five opposite pairs, there is \\(1\\) matching. The total is \\[2+5+5+1=13.\\]\n\nThus, the correct answer is C .",
+   "solution_text": "",
    "amc10_problem_number": 16,
    "amc12_problem_number": 13,
    "amc8_problem_number": 22,
@@ -454,13 +454,13 @@
    "year": 2020,
    "label": "B",
    "position": 18,
-   "question": "An urn contains one red ball and one blue ball. A box of extra red and blue balls lies nearby. George performs the following operation four times: he draws a ball from the urn at random and then takes a ball of the same color from the box and returns those two matching balls to the urn. After the four iterations the urn contains six balls. What is the probability that the urn contains three balls of each color?",
+   "question": "",
    "choices": {
-    "a": "\\(\\dfrac16\\)",
-    "b": "\\(\\dfrac15\\)",
-    "c": "\\(\\dfrac14\\)",
-    "d": "\\(\\dfrac13\\)",
-    "e": "\\(\\dfrac12\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "b",
    "concepts": [
@@ -469,7 +469,7 @@
    ],
    "seed_elo": 1540.0,
    "solve_time_seconds": 90.0,
-   "solution_text": "The urn ends with three red and three blue balls exactly when the four draws contain two red draws and two blue draws. There are \\(\\binom42=6\\) possible color orders of this type.\n\nFor any fixed order with two red draws and two blue draws, the probability is \\[\\frac{1\\cdot 2\\cdot 1\\cdot 2}{2\\cdot 3\\cdot 4\\cdot 5}=\\frac{4}{120}=\\frac{1}{30},\\] because the first and second draws of each color have numerators \\(1\\) and \\(2,\\) while the total number of balls before the four draws is \\(2,3,4,5.\\)\n\nThus the desired probability is \\(6\\cdot\\frac{1}{30}=\\frac15.\\)\n\nThus, the correct answer is B .",
+   "solution_text": "",
    "amc10_problem_number": 12,
    "amc12_problem_number": 9,
    "amc8_problem_number": 18,
@@ -480,13 +480,13 @@
    "year": 2020,
    "label": "B",
    "position": 19,
-   "question": "In a certain card game, a player is dealt a hand of \\(10\\) cards from a deck of \\(52\\) distinct cards. The number of distinct (unordered) hands that can be dealt to the player can be written as \\(158A00A4AA0.\\) What is the digit \\(A?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(2\\)",
-    "b": "\\(3\\)",
-    "c": "\\(4\\)",
-    "d": "\\(6\\)",
-    "e": "\\(7\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "a",
    "concepts": [
@@ -496,7 +496,7 @@
    ],
    "seed_elo": 1620.0,
    "solve_time_seconds": 90.0,
-   "solution_text": "After canceling factors in the binomial coefficient, \\[ \\begin{aligned} \\binom{52}{10} &=10\\cdot17\\cdot13\\cdot7\\\\ &\\quad\\cdot47\\cdot46\\cdot11\\cdot43. \\end{aligned} \\] Dividing \\(158A00A4AA0\\) by the final factor \\(10,\\) the units digit of the remaining product is \\(A.\\)\n\nWorking modulo \\(10,\\) \\[ \\begin{aligned} A&\\equiv7\\cdot3\\cdot7\\cdot7\\cdot6\\cdot1\\cdot3\\\\ &\\equiv2\\pmod{10}. \\end{aligned} \\] Hence \\(A=2.\\) Thus, A is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 14,
    "amc12_problem_number": 10,
    "amc8_problem_number": 19,
@@ -507,13 +507,13 @@
    "year": 2020,
    "label": "B",
    "position": 20,
-   "question": "Let \\(B\\) be a right rectangular prism (box) with edge lengths \\(1,\\) \\(3,\\) and \\(4,\\) together with its interior. For real \\(r\\geq0,\\) let \\(S(r)\\) be the set of points in \\(3\\)-dimensional space that lie within a distance \\(r\\) of some point in \\(B.\\) The volume of \\(S(r)\\) can be expressed as \\[ar^{3} + br^{2} + cr +d,\\] where \\(a,\\) \\(b,\\) \\(c,\\) and \\(d\\) are positive real numbers. What is \\(\\dfrac{bc}{ad}?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(6\\)",
-    "b": "\\(19\\)",
-    "c": "\\(24\\)",
-    "d": "\\(26\\)",
-    "e": "\\(38\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "b",
    "concepts": [
@@ -523,7 +523,7 @@
    ],
    "seed_elo": 2150.0,
    "solve_time_seconds": 150.0,
-   "solution_text": "Decompose \\(S(r)\\) by where the added volume lies relative to the box.\n\nThe original box has volume \\(d=1\\cdot3\\cdot4=12.\\) The face slabs contribute surface area times \\(r,\\) so \\[c=2(1\\cdot3+1\\cdot4+3\\cdot4)=38.\\]\n\nAlong each edge is a quarter-cylinder of radius \\(r.\\) The sum of all edge lengths is \\(4(1+3+4)=32,\\) so \\[b=\\frac14\\pi\\cdot 32=8\\pi.\\] At the eight corners, the eighth-spheres combine to one full sphere, so \\[a=\\frac43\\pi.\\]\n\nTherefore \\[\\frac{bc}{ad}=\\frac{(8\\pi)(38)}{(\\frac43\\pi)(12)}=19.\\]\n\nThus, the correct answer is B .",
+   "solution_text": "",
    "amc10_problem_number": 21,
    "amc12_problem_number": 18,
    "amc8_problem_number": 25,
@@ -534,13 +534,13 @@
    "year": 2020,
    "label": "B",
    "position": 21,
-   "question": "In square \\(ABCD,\\) points \\(E\\) and \\(H\\) lie on \\(\\overline{AB}\\) and \\(\\overline{DA},\\) respectively, so that \\(AE=AH.\\) Points \\(F\\) and \\(G\\) lie on \\(\\overline{BC}\\) and \\(\\overline{CD},\\) respectively, and points \\(I\\) and \\(J\\) lie on \\(\\overline{EH}\\) so that \\(\\overline{FI} \\perp \\overline{EH}\\) and \\(\\overline{GJ} \\perp \\overline{EH}.\\) See the figure below. Triangle \\(AEH,\\) quadrilateral \\(BFIE,\\) quadrilateral \\(DHJG,\\) and pentagon \\(FCGJI\\) each has area \\(1.\\) What is \\(FI^2?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(\\dfrac73\\)",
-    "b": "\\(8-4\\sqrt2\\)",
-    "c": "\\(1+\\sqrt2\\)",
-    "d": "\\(\\dfrac74\\sqrt2\\)",
-    "e": "\\(2\\sqrt2\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "b",
    "concepts": [
@@ -550,7 +550,7 @@
    ],
    "seed_elo": 1950.0,
    "solve_time_seconds": 150.0,
-   "solution_text": "The four named regions fill the square and each has area \\(1,\\) so the square has area \\(4\\) and side length \\(2.\\) Since triangle \\(AEH\\) is right isosceles with area \\(1,\\) we have \\(AE=AH=\\sqrt2.\\)\n\nExtend \\(FI\\) to meet \\(AB\\) at \\(K,\\) and set \\(x=BF\\) and \\(t=BE=2-\\sqrt2.\\) Because \\(EH\\) has slope \\(-1,\\) line \\(FK\\) has slope \\(1,\\) so \\(BF=BK=x.\\) If \\(K\\) were on segment \\(EB,\\) then region \\(BFIE\\) would lie inside triangle \\(BFK,\\) whose area would be at most \\(\\frac{t^2}{2}B .",
+   "solution_text": "",
    "amc10_problem_number": 18,
    "amc12_problem_number": 15,
    "amc8_problem_number": 24,
@@ -561,13 +561,13 @@
    "year": 2020,
    "label": "B",
    "position": 22,
-   "question": "What is the remainder when \\(2^{202} +202\\) is divided by \\(2^{101}+2^{51}+1?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(100\\)",
-    "b": "\\(101\\)",
-    "c": "\\(200\\)",
-    "d": "\\(201\\)",
-    "e": "\\(202\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "d",
    "concepts": [
@@ -576,7 +576,7 @@
    ],
    "seed_elo": 1880.0,
    "solve_time_seconds": 110.0,
-   "solution_text": "Let \\(m=2^{101}+2^{51}+1.\\) We factor the numerator around this divisor: \\[ \\begin{aligned} &2^{202}+202 \\\\ &\\quad =(2^{101}+1)^2-(2^{51})^2+201. \\end{aligned} \\] By the difference of squares, \\[ \\begin{aligned} &(2^{101}+1)^2-(2^{51})^2 \\\\ &\\quad =(2^{101}+2^{51}+1) \\\\ &\\quad {}\\cdot(2^{101}-2^{51}+1), \\end{aligned} \\] which is a multiple of \\(m.\\) Therefore \\[2^{202}+202\\equiv 201\\pmod m.\\]\n\nThus, the correct answer is D .",
+   "solution_text": "",
    "amc10_problem_number": 17,
    "amc12_problem_number": 14,
    "amc8_problem_number": 23,
@@ -587,13 +587,13 @@
    "year": 2020,
    "label": "B",
    "position": 23,
-   "question": "Square \\(ABCD\\) in the coordinate plane has vertices at the points \\(A(1,1),\\) \\(B(-1,1),\\) \\(C(-1,-1),\\) and \\(D(1,-1).\\) Consider the following four transformations:\n\n\u2022 \\(L,\\) a rotation of \\(90^{\\circ}\\) counterclockwise around the origin;\n\n\u2022 \\(R,\\) a rotation of \\(90^{\\circ}\\) clockwise around the origin;\n\n\u2022 \\(H,\\) a reflection across the \\(x\\)-axis; and\n\n\u2022 \\(V,\\) a reflection across the \\(y\\)-axis.\n\nEach of these transformations maps the square onto itself, but the positions of the labeled vertices will change. For example, applying \\(R\\) and then \\(V\\) would send the vertex \\(A\\) at \\((1,1)\\) to \\((-1,-1)\\) and would send the vertex \\(B\\) at \\((-1,1)\\) to itself. How many sequences of \\(20\\) transformations chosen from \\(\\{L, R, H, V\\}\\) will send all of the labeled vertices back to their original positions? (For example, \\(R,\\) \\(R,\\) \\(V,\\) \\(H\\) is one sequence of \\(4\\) transformations that will send the vertices back to their original positions.)",
+   "question": "",
    "choices": {
-    "a": "\\(2^{37}\\)",
-    "b": "\\(3\\cdot 2^{36}\\)",
-    "c": "\\(2^{38}\\)",
-    "d": "\\(3\\cdot2^{37}\\)",
-    "e": "\\(2^{39}\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "c",
    "concepts": [
@@ -602,7 +602,7 @@
    ],
    "seed_elo": 2060.0,
    "solve_time_seconds": 110.0,
-   "solution_text": "Each of \\(L,R,H,V\\) moves every vertex to an adjacent corner of the square. Therefore after an odd number of transformations the labeling is in one of the four odd-parity states, and after an even number it is in one of the four even-parity states.\n\nAfter any first \\(19\\) transformations, the square is in an odd-parity state. From each odd-parity state, exactly one of \\(L,R,H,V\\) sends the labeled vertices back to their original positions. Thus every sequence of the first \\(19\\) transformations has exactly one valid final transformation.\n\nThere are \\(4^{19}=2^{38}\\) choices for the first \\(19\\) transformations, so there are \\(2^{38}\\) valid sequences.\n\nThus, C is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 20,
    "amc12_problem_number": 17,
    "amc8_problem_number": 25,
@@ -613,13 +613,13 @@
    "year": 2020,
    "label": "B",
    "position": 24,
-   "question": "How many positive integers \\(n\\) satisfy \\[\\dfrac{n+1000}{70} = \\lfloor \\sqrt{n} \\rfloor?\\]\n\n(Recall that \\(\\lfloor x\\rfloor\\) is the greatest integer not exceeding \\(x.\\))",
+   "question": "",
    "choices": {
-    "a": "\\(2\\)",
-    "b": "\\(4\\)",
-    "c": "\\(6\\)",
-    "d": "\\(30\\)",
-    "e": "\\(32\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "c",
    "concepts": [
@@ -629,7 +629,7 @@
    ],
    "seed_elo": 2250.0,
    "solve_time_seconds": 160.0,
-   "solution_text": "Let \\[k=\\left\\lfloor\\sqrt n\\right\\rfloor.\\] The equation gives \\(n=70k-1000.\\) Also, by the definition of the floor function, \\[k^2\\le n0. \\end{aligned} \\] The roots of \\(k^2-68k+1001\\) are \\(34\\pm\\sqrt{155},\\) which are approximately \\(21.55\\) and \\(46.45.\\) Thus, together with \\(20\\le k\\le50,\\) the possible integer values are \\[k=20,21,47,48,49,50.\\] There are \\(6\\) such values.\n\nThus, C is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 22,
    "amc12_problem_number": 19,
    "amc8_problem_number": 25,
@@ -640,13 +640,13 @@
    "year": 2020,
    "label": "B",
    "position": 25,
-   "question": "Let \\(D(n)\\) denote the number of ways of writing the positive integer \\(n\\) as a product \\[n = f_1\\cdot f_2\\cdots f_k,\\] where \\(k\\ge1,\\) the \\(f_i\\) are integers strictly greater than \\(1,\\) and the order in which the factors are listed matters (that is, two representations that differ only in the order of the factors are counted as distinct). For example, the number \\(6\\) can be written as \\(6,\\) \\(2\\cdot 3,\\) and \\(3\\cdot2,\\) so \\(D(6) = 3.\\) What is \\(D(96)?\\)",
+   "question": "",
    "choices": {
-    "a": "\\(112\\)",
-    "b": "\\(128\\)",
-    "c": "\\(144\\)",
-    "d": "\\(172\\)",
-    "e": "\\(184\\)"
+    "a": "",
+    "b": "",
+    "c": "",
+    "d": "",
+    "e": ""
    },
    "answer": "a",
    "concepts": [
@@ -655,7 +655,7 @@
    ],
    "seed_elo": 2150.0,
    "solve_time_seconds": 150.0,
-   "solution_text": "Write \\(96=2^5\\cdot3.\\) Suppose an ordered factorization has \\(k\\) factors. Exactly one factor contains the single prime factor \\(3\\); choose its position in \\(k\\) ways.\n\nThe other \\(k-1\\) factors must each contain at least one factor of \\(2,\\) while the factor containing \\(3\\) may contain any number of factors of \\(2.\\) Distributing the five factors of \\(2\\) under these conditions can be done in \\[\\binom{5}{k-1}\\] ways. Therefore the number of ordered factorizations with \\(k\\) factors is \\(k\\binom{5}{k-1},\\) where \\(1\\le k\\le6.\\)\n\nThus \\[D(96)=\\sum_{k=1}^6 k\\binom{5}{k-1}.\\] Letting \\(j=k-1,\\) this becomes \\[ \\begin{aligned} &\\sum_{j=0}^5 (j+1)\\binom5j \\\\ &\\quad =\\sum_{j=0}^5 j\\binom5j+\\sum_{j=0}^5\\binom5j \\\\ &\\quad =5\\cdot2^4+2^5 \\\\ &\\quad =80+32=112. \\end{aligned} \\]\n\nThus, A is the correct answer.",
+   "solution_text": "",
    "amc10_problem_number": 21,
    "amc12_problem_number": 18,
    "amc8_problem_number": 25,

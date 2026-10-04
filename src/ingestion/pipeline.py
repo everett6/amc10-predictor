@@ -25,18 +25,13 @@ from storage import schema
 
 logger = logging.getLogger(__name__)
 
-# The 18 target contests per the project spec: every AMC 10 A/B from
-# 2018-2025 plus the Fall 2021 A/B contests (labeled C/D in LIVE's
-# numbering to distinguish them from the Feb 2021 A/B contests).
-TARGET_CONTESTS: list[tuple[int, str]] = [
-    (2018, "A"), (2018, "B"),
-    (2019, "A"), (2019, "B"),
-    (2020, "A"), (2020, "B"),
-    (2021, "A"), (2021, "B"), (2021, "C"), (2021, "D"),
-    (2022, "A"), (2022, "B"),
-    (2023, "A"), (2023, "B"),
-    (2024, "A"), (2024, "B"),
-    (2025, "A"), (2025, "B"),
+# Every AMC 10 from 2001 through 2025 on LIVE: single contests in 2001,
+# A/B from 2002 on, plus the Fall 2021 A/B (labeled C/D in LIVE's
+# numbering to tell them apart from the February 2021 A/B). 51 contests.
+TARGET_CONTESTS: list[tuple[int, str]] = [(2001, "")] + [
+    (year, label)
+    for year in range(2002, 2026)
+    for label in (("A", "B", "C", "D") if year == 2021 else ("A", "B"))
 ]
 
 
@@ -51,7 +46,7 @@ def fetch_live_contest(
     result = client.get(url)
     if result.status != 200:
         raise IngestionError(f"GET {url} returned HTTP {result.status}")
-    parsed = parse_contest_page(result.text, year=year, label=label)
+    parsed = strip_text(parse_contest_page(result.text, year=year, label=label))
 
     raw_dir.mkdir(parents=True, exist_ok=True)
     raw_path = raw_dir / f"{year}{label}.json"
@@ -67,6 +62,28 @@ def fetch_live_contest(
         ),
         encoding="utf-8",
     )
+    return parsed
+
+
+def strip_text(parsed: ParsedContest) -> ParsedContest:
+    """Check the page really had a statement and five choices for every
+    problem, then drop that text.
+
+    The predictor only needs each problem's answer letter, difficulty
+    rating, solve time and concept tags. Problem statements belong to the
+    MAA and the worked solutions to LIVE, so neither is written to the
+    seed snapshots, the database or the repository; the app links to the
+    paper on LIVE instead.
+    """
+    for p in parsed.problems:
+        if not p.question.strip():
+            raise IngestionError(f"{parsed.contest_id} problem {p.position}: empty question text on page")
+        missing = [k for k, v in p.choices.items() if not v.strip()]
+        if missing:
+            raise IngestionError(f"{parsed.contest_id} problem {p.position}: empty choice(s) {missing} on page")
+        p.question = ""
+        p.solution_text = ""
+        p.choices = {k: "" for k in p.choices}
     return parsed
 
 
