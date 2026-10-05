@@ -14,6 +14,8 @@
   },
   "build": {
     "appId": "com.everett6.amc10predictor",
+    "artifactName": "AMC10-Predictor-${version}-${os}-${arch}.${ext}",
+    "publish": null,
     "files": [
       "main.js"
     ],
@@ -41,16 +43,25 @@
       "category": "Education",
       "icon": "build/icon.png"
     },
-    "win": {
-      "target": [
-        "nsis"
-      ]
-    },
     "mac": {
       "target": [
         "dmg"
       ],
-      "category": "public.app-category.education"
+      "category": "public.app-category.education",
+      "icon": "build/icon.png",
+      "identity": "-",
+      "hardenedRuntime": false
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "build/icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true
     },
     "directories": {
       "buildResources": "build"
