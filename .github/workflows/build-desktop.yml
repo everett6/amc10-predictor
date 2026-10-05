@@ -39,13 +39,13 @@ jobs:
             artifact: "desktop/dist/*.AppImage"
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: "22"
           cache: npm
@@ -69,6 +69,9 @@ jobs:
         working-directory: desktop
         env:
           CSC_IDENTITY_AUTO_DISCOVERY: "false"
+          # electron-builder skips all signing on PR builds; the mac ad-hoc
+          # signature is still needed or Apple Silicon reports the app as damaged.
+          CSC_FOR_PULL_REQUEST: "true"
         run: |
           npm ci
           npx electron-builder ${{ matrix.builder_flag }} --publish never
