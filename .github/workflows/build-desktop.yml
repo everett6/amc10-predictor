@@ -1,0 +1,99 @@
+# Builds the desktop installers on GitHub's runners:
+#   macOS -> .dmg (Apple Silicon), Windows -> NSIS .exe, Linux -> AppImage.
+# PyInstaller cannot cross-compile, so each OS freezes its own engine.
+# Builds are unsigned (macOS: ad-hoc only), so the OS will warn on first launch.
+# Pushing a tag like v0.2.0 also attaches the installers to a GitHub Release.
+name: Build desktop app
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+    paths:
+      - "desktop/**"
+      - "src/**"
+      - "frontend/**"
+      - "scripts/build_backend.py"
+      - "scripts/smoke_backend.py"
+      - ".github/workflows/build-desktop.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: macos-latest
+            builder_flag: --mac
+            artifact: "desktop/dist/*.dmg"
+          - os: windows-latest
+            builder_flag: --win
+            artifact: "desktop/dist/*.exe"
+          - os: ubuntu-latest
+            builder_flag: --linux
+            artifact: "desktop/dist/*.AppImage"
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: |
+            frontend/package-lock.json
+            desktop/package-lock.json
+
+      - name: Build UI
+        working-directory: frontend
+        run: |
+          npm ci
+          npm run build
+
+      - name: Freeze prediction engine
+        run: python scripts/build_backend.py --no-venv
+
+      - name: Smoke-test frozen engine
+        run: python scripts/smoke_backend.py
+
+      - name: Package installer
+        working-directory: desktop
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: "false"
+          # electron-builder skips all signing on PR builds; the mac ad-hoc
+          # signature is still needed or Apple Silicon reports the app as damaged.
+          CSC_FOR_PULL_REQUEST: "true"
+        run: |
+          npm ci
+          npx electron-builder ${{ matrix.builder_flag }} --publish never
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: amc10-predictor-${{ runner.os }}
+          path: ${{ matrix.artifact }}
+          if-no-files-found: error
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: installers
+          merge-multiple: true
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: installers/*
+          draft: true

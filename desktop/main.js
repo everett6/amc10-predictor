@@ -51,7 +51,12 @@ function startBackend(port) {
       throw new Error("frontend/dist is missing. Run `npm run build` in frontend/ first.");
     }
   }
-  backend = spawn(command, args, { cwd, env, stdio: ["ignore", "pipe", "pipe"] });
+  backend = spawn(command, args, {
+    cwd,
+    env,
+    stdio: ["ignore", "pipe", "pipe"],
+    windowsHide: true, // no stray console window for the engine on Windows
+  });
   const keep = (chunk) => { backendLog = (backendLog + chunk.toString()).slice(-4000); };
   backend.stdout.on("data", keep);
   backend.stderr.on("data", keep);

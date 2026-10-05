@@ -27,13 +27,34 @@ server. Nothing leaves your machine.
 
 ### Desktop app
 
-A Linux build is produced by the steps below (`desktop/dist/*.AppImage`,
-about 240 MB because it carries its own Python runtime). Windows and macOS
-builds use the same commands but must be run on those systems.
+Installers are built by GitHub Actions (`.github/workflows/build-desktop.yml`)
+on every push to `main`, on pull requests that touch the app, and on demand
+(Actions tab, "Build desktop app", "Run workflow"). Each run produces:
+
+| OS | File | Notes |
+|----|------|-------|
+| macOS (Apple Silicon) | `AMC10-Predictor-<version>-mac-arm64.dmg` | ad-hoc signed only |
+| Windows | `AMC10-Predictor-<version>-win-x64.exe` | NSIS installer, unsigned |
+| Linux | `AMC10-Predictor-<version>-linux-x86_64.AppImage` | |
+
+Download them from the run's "Artifacts" section. Pushing a tag such as
+`v0.2.0` also attaches them to a draft GitHub Release. Each is about 240 MB
+because it carries its own Python runtime; no Python install is needed.
+
+The builds are not code-signed or notarized, so the OS warns on first launch:
+
+- macOS: "cannot be opened" or "is damaged". Right-click the app, choose
+  Open, or run `xattr -cr "/Applications/AMC 10 Predictor.app"` once.
+- Windows: SmartScreen "Windows protected your PC". Click "More info", then
+  "Run anyway".
+
+To build locally (PyInstaller does not cross-compile, so this produces the
+installer for the OS you run it on):
 
 ```bash
 cd frontend && npm install && npm run build && cd ..
-./scripts/build_backend.sh            # freezes the Python engine (own virtualenv)
+python3 scripts/build_backend.py      # freezes the Python engine (own virtualenv)
+python3 scripts/smoke_backend.py      # optional: boots the frozen engine once
 cd desktop && npm install && npm run dist
 ```
 
